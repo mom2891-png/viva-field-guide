@@ -91,6 +91,7 @@ assert.equal(run("filtered()[0].latin"),'Porcellionides pruinosus','New color fo
 // Execute the complete startup script, including event binding and all three fetches.
 const requests=[];
 const startupContext=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],addEventListener(){},body:{style:{},classList:{toggle(){}}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,URL,window:{scrollTo(){}},fetch:async path=>{requests.push(path);return {ok:true,json:async()=>read(path.split('?')[0])}}});
+vm.runInContext(fs.readFileSync(new URL('../dist/shops.js',import.meta.url),'utf8'),startupContext);
 vm.runInContext(fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8'),startupContext);
 await new Promise(resolve=>setImmediate(resolve));
 assert.equal(requests.length,3,'Startup fetches every data file');

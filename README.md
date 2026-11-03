@@ -36,6 +36,7 @@ Codex는 AGENTS.md, Claude는 CLAUDE.md와 AGENTS.md를 읽고 작업합니다. 
 | dist/species.json | 동물 항목 |
 | dist/plants.json | 식물·이끼·우산이끼 항목 |
 | dist/morphs.json | 동물 종 아래 모프·패턴·지역형 |
+| dist/shops.json / shops.js | 국내 구매처 목록·검색·품목 필터·관련 도감 연결 |
 | scripts/validate.mjs | 데이터·검색·정렬 검증 |
 | .github/workflows/pages.yml | 검사와 자동 배포 |
 | HANDOFF.md | 공통 작업 현황 |
@@ -50,3 +51,7 @@ Codex는 AGENTS.md, Claude는 CLAUDE.md와 AGENTS.md를 읽고 작업합니다. 
 가격이 있는 항목의 `purchaseLinks`에는 실제 상품별 shop/title/url/price/unit/status/checkedAt을 저장합니다. 사용자가 요청한 공개 판매 상품 정보이며 인증·연락처·주문 정보는 넣지 않습니다. `listed`는 목록에서 확인했다는 뜻이며 재고 보장이 아닙니다. `soldOut`은 조사 시 품절 표시가 있었던 상품입니다. 상세 화면에서 구매처별 첫 상품과 펼칠 수 있는 나머지 상품 링크를 제공합니다. 같은 판매 단위의 링크 가격으로만 offers를 계산하며 동명 다른 종·장난감·도서·용품·사육 세트는 제외합니다. 최종 재고·옵션·배송비는 판매 페이지에서 확인합니다.
 
 다른 컴퓨터에서는 [CONTINUE_ON_NEW_PC.md](CONTINUE_ON_NEW_PC.md)부터 확인하세요.
+
+## 국내 구매처
+
+상단 구매처 탭에서 국내 업체 22곳을 이름·취급 품목으로 검색할 수 있습니다. 정글플랜트, 이끼·수초, 파충류·양서류, 무척추동물, 테라리움 완성품·주문제작, 자재·도구, DIY 키트를 구분합니다. 업체의 홈페이지·SNS·카카오톡 문의를 구별해 연결하며, 기존 상품 링크가 있는 업체는 중복을 제거한 관련 도감 항목으로 이동할 수 있습니다. 업체 이름순이며 인기·추천 순위가 아닙니다. 표시 품목은 확인 범위이며 전체 취급 품목과 현재 재고를 보장하지 않습니다. 카카오톡 문의처는 사용자가 제공한 공개 링크이며 채팅 내용·개인 연락처는 수집하지 않습니다.

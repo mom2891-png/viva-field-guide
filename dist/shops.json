@@ -1,0 +1,327 @@
+[
+  {
+    "id": "naturallpot",
+    "name": "내츄럴팟",
+    "url": "https://naturallpot.co.kr/",
+    "country": "KR",
+    "categories": [
+      "정글플랜트"
+    ],
+    "description": "피토니아·고사리·관엽식물",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "newrun",
+    "name": "뉴런렙타일",
+    "url": "https://newrunreptile.co.kr/",
+    "country": "KR",
+    "categories": [
+      "파충류·양서류"
+    ],
+    "description": "게코·도마뱀·뱀·거북·개구리",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "themonster",
+    "name": "더몬스터",
+    "url": "https://www.themonster.co.kr/",
+    "country": "KR",
+    "categories": [
+      "파충류·양서류",
+      "무척추동물"
+    ],
+    "description": "파충류·양서류·소라게·전갈",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "thesafari",
+    "name": "더사파리",
+    "url": "https://www.thesafari.kr/",
+    "country": "KR",
+    "categories": [
+      "파충류·양서류"
+    ],
+    "description": "게코·도마뱀·뱀·거북·양서류",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "thezoo",
+    "name": "더쥬",
+    "url": "https://xn--9m1b023b.com/",
+    "country": "KR",
+    "categories": [
+      "파충류·양서류",
+      "무척추동물"
+    ],
+    "description": "게코·도마뱀·뱀·양서류·등각류",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "raraaqua",
+    "name": "라라아쿠아",
+    "url": "https://raraaqua.com/",
+    "country": "KR",
+    "categories": [
+      "이끼·수초"
+    ],
+    "description": "수초·수생 모스",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "reptilia",
+    "name": "렙틸리아",
+    "url": "https://reptilia.co.kr/",
+    "country": "KR",
+    "categories": [
+      "무척추동물"
+    ],
+    "description": "타란튤라",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "myplant",
+    "name": "마이플랜트",
+    "url": "https://myplant.co.kr/",
+    "country": "KR",
+    "categories": [
+      "정글플랜트"
+    ],
+    "description": "관엽식물·고사리",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "seoulreptile",
+    "name": "서울렙타일",
+    "url": "https://m.seoulreptile.co.kr/",
+    "country": "KR",
+    "categories": [
+      "파충류·양서류"
+    ],
+    "description": "게코·도마뱀·뱀·거북·양서류",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "oqua",
+    "name": "오쿠아",
+    "url": "https://oqua.co.kr/",
+    "country": "KR",
+    "categories": [
+      "정글플랜트",
+      "이끼·수초"
+    ],
+    "description": "정글플랜트·이끼·수초",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "changsoo",
+    "name": "창수네 사육공간",
+    "url": "https://xn--s39awrm4hoou7ubb3mrsj.com/",
+    "country": "KR",
+    "categories": [
+      "파충류·양서류"
+    ],
+    "description": "게코·개구리·뉴트",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "tarancenter",
+    "name": "타란센터",
+    "url": "https://tarancenter.com/",
+    "country": "KR",
+    "categories": [
+      "파충류·양서류",
+      "무척추동물"
+    ],
+    "description": "파충류·양서류·거미·타란튤라·전갈",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "tistou",
+    "name": "티쭈 (티스투)",
+    "url": "https://tistou.co.kr/",
+    "country": "KR",
+    "categories": [
+      "정글플랜트"
+    ],
+    "description": "관엽식물·덩굴식물",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": [
+      "티스투"
+    ]
+  },
+  {
+    "id": "reptileahead",
+    "name": "파충류출몰구역",
+    "url": "https://reptileahead.com/",
+    "country": "KR",
+    "categories": [
+      "파충류·양서류"
+    ],
+    "description": "도마뱀·세일핀리자드·스킨크",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "plantimal",
+    "name": "플랜티멀",
+    "url": "https://plantimal.co.kr/",
+    "country": "KR",
+    "categories": [
+      "정글플랜트",
+      "무척추동물",
+      "파충류·양서류"
+    ],
+    "description": "정글플랜트·등각류·노래기·뱀",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "dreamnature",
+    "name": "꿈속의 자연",
+    "url": "https://www.xn--cw0b005ajgdetb9h.com/",
+    "country": "KR",
+    "categories": [
+      "정글플랜트",
+      "이끼·수초",
+      "테라리움 완성품·주문제작",
+      "자재·도구"
+    ],
+    "description": "테라리움·비바리움·팔루다리움, 정글플랜트·이끼·유목·조명",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": [
+      "꿈속의자연",
+      "DreamNature"
+    ]
+  },
+  {
+    "id": "firerium",
+    "name": "Firerium",
+    "url": "https://www.daangn.com/kr/local-profile/firerium-2q9mrmii51h7/",
+    "country": "KR",
+    "categories": [
+      "테라리움 완성품·주문제작"
+    ],
+    "description": "비바리움·팔루다리움 주문제작, 어항 세팅·관리",
+    "linkLabel": "업체 프로필",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "iammoss",
+    "name": "아이엠모스",
+    "url": "https://www.iammoss.kr/",
+    "country": "KR",
+    "categories": [
+      "테라리움 완성품·주문제작",
+      "DIY 키트"
+    ],
+    "description": "테라리움 작품·맞춤 주문제작·DIY 키트",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "moss-shop",
+    "name": "이끼상점",
+    "url": "https://open.kakao.com/o/smxDuN7h",
+    "country": "KR",
+    "categories": [
+      "테라리움 완성품·주문제작"
+    ],
+    "description": "비바리움 주문제작. 제작 범위·일정은 카카오톡에서 문의해 주세요.",
+    "linkLabel": "카카오톡 문의",
+    "verification": "user",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "dachaerium",
+    "name": "다채리움",
+    "url": "https://www.instagram.com/dachaerium/",
+    "country": "KR",
+    "categories": [
+      "테라리움 완성품·주문제작",
+      "파충류·양서류"
+    ],
+    "description": "비바리움 제작·세팅, 파충류 및 사육 키트 안내",
+    "linkLabel": "공식 SNS",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "nature-rail",
+    "name": "네이쳐레일",
+    "url": "https://open.kakao.com/o/sEVfZMAi",
+    "country": "KR",
+    "categories": [
+      "테라리움 완성품·주문제작"
+    ],
+    "description": "테라리움 관련 문의처. 취급 품목·제작 범위는 카카오톡에서 확인해 주세요.",
+    "linkLabel": "카카오톡 문의",
+    "verification": "user",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  },
+  {
+    "id": "purmmk",
+    "name": "이너푸름",
+    "url": "https://purmmk.co.kr/",
+    "country": "KR",
+    "categories": [
+      "자재·도구",
+      "DIY 키트"
+    ],
+    "description": "테라리움 DIY 키트·유리용기·조명·핀셋",
+    "linkLabel": "홈페이지",
+    "verification": "site",
+    "checkedAt": "2026-11-03",
+    "aliases": []
+  }
+]

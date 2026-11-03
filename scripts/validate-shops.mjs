@@ -1,0 +1,67 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const read=name=>JSON.parse(fs.readFileSync(new URL('../dist/'+name,import.meta.url),'utf8'));
+assert.ok(fs.existsSync(new URL('../dist/shops.json',import.meta.url)),'Domestic shop directory must exist');
+const shops=read('shops.json'),rows=[...read('species.json'),...read('plants.json')];
+const context=vm.createContext({URL});
+vm.runInContext(fs.readFileSync(new URL('../dist/shops.js',import.meta.url),'utf8'),context);
+const api=vm.runInContext('VivaShops',context);
+assert.equal(shops.length,22);
+assert.equal(new Set(shops.map(s=>s.id)).size,shops.length);
+assert.equal(new Set(shops.map(s=>s.url)).size,shops.length);
+for(const s of shops){
+ assert.ok(s.name&&s.description&&s.checkedAt&&s.linkLabel);
+ assert.equal(s.country,'KR');assert.equal(new URL(s.url).protocol,'https:');
+ assert.ok(s.categories.length&&s.categories.every(c=>api.categories.includes(c)));
+}
+for(const r of rows)for(const p of r.purchaseLinks||[])assert.ok(shops.some(s=>s.name===p.shop),'Every catalog shop has a directory card');
+assert.equal(shops.find(s=>s.name==='꿈속의 자연').url,'https://www.xn--cw0b005ajgdetb9h.com/');
+assert.equal(shops.find(s=>s.name==='네이쳐레일').url,'https://open.kakao.com/o/sEVfZMAi');
+assert.equal(shops.find(s=>s.name==='이끼상점').url,'https://open.kakao.com/o/smxDuN7h');
+assert.equal(api.filter(shops,'아이엠 모스','all').length,1);
+assert.equal(api.filter(shops,'FIRERIUM','all').length,1);
+assert.equal(api.filter(shops,'없는업체123','all').length,0);
+assert.ok(api.filter(shops,'','자재·도구').some(s=>s.name==='이너푸름'));
+assert.ok(api.filter(shops,'','테라리움 완성품·주문제작').some(s=>s.name==='아이엠모스'));
+const linked=api.linkedRows({name:'테스트'},[{id:'a',purchaseLinks:[{shop:'테스트'},{shop:'테스트'}]},{id:'b',purchaseLinks:[{shop:'다른업체'}]}]);
+assert.equal(linked.length,1,'Multiple products for one species count once');
+const html=api.cards([{...shops[0],name:'<script>',description:'<img onerror=1>',url:'javascript:alert(1)'}],[]);
+assert.ok(html.includes('&lt;script&gt;')&&html.includes('&lt;img'));
+assert.ok(!html.includes('href="javascript:'));
+const kakao=api.cards([shops.find(s=>s.name==='네이쳐레일')],rows);
+assert.ok(kakao.includes('카카오톡 문의')&&kakao.includes('rel="noopener noreferrer"'));
+assert.ok(!kakao.includes('data-shop-related'),'Unlinked shop has no empty related button');
+const index=fs.readFileSync(new URL('../dist/index.html',import.meta.url),'utf8');
+assert.ok(index.includes('data-page="shops"')&&index.includes('id="shopsPage"'));
+console.log('PASS: 22 domestic shops, verified/user-provided links, filters, search, related species deduplication and safe HTML.');
+
+// Mount the real UI controller; exercise loading, failure/retry and bound events.
+const controls=new Map();
+function control(selector){
+ if(!controls.has(selector))controls.set(selector,{value:'',hidden:false,innerHTML:'',textContent:'',listeners:{},querySelectorAll:()=>[],focus(){},addEventListener(type,fn){this.listeners[type]=fn;}});
+ return controls.get(selector);
+}
+let attempts=0,relatedShop;
+context.fetch=async path=>{assert.match(path,/^shops\.json\?v=/);attempts++;if(attempts===1)throw Error('offline');return {ok:true,json:async()=>shops};};
+const directory=api.mount({querySelector:control},{version:'test',onRelated:shop=>{relatedShop=shop;}});
+directory.setCatalog(rows);
+await directory.show();
+assert.equal(control('#shopRetry').hidden,false,'Failed directory load offers retry');
+assert.ok(control('#shopCount').textContent.includes('불러오지 못했어요'));
+await control('#shopRetry').listeners.click();
+assert.equal(control('#shopRetry').hidden,true);
+assert.ok(control('#shopCount').textContent.includes('22곳'));
+assert.equal((control('#shopGrid').innerHTML.match(/class="shop-card"/g)||[]).length,22);
+control('#shopFilters').listeners.click({target:{closest:()=>({dataset:{shopCategory:'자재·도구'}})}});
+assert.equal((control('#shopGrid').innerHTML.match(/class="shop-card"/g)||[]).length,2);
+control('#shopSearch').value='없는업체123';control('#shopSearch').listeners.input();
+assert.equal(control('#shopEmpty').hidden,false);
+control('#shopEmptyReset').listeners.click();assert.equal(control('#shopEmpty').hidden,true);
+control('#shopSearch').value='티스투';control('#shopSearch').listeners.input();
+assert.ok(control('#shopCount').textContent.includes('1곳'));
+control('#shopGrid').listeners.click({target:{closest:()=>({dataset:{shopRelated:'tistou'}})}});
+assert.equal(relatedShop.name,'티쭈 (티스투)');
+assert.ok(api.relatedHTML(relatedShop,rows).includes('data-shop-entry="plant-8"'));
+await directory.show();assert.equal(attempts,2,'Revisiting loaded page does not refetch');
+console.log('PASS: mounted shop UI loading/failure/retry, search/category/reset events and related-entry callbacks.');

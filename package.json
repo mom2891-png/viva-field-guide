@@ -6,6 +6,6 @@
   "engines": { "node": ">=22" },
   "scripts": {
     "start": "node scripts/serve.mjs",
-    "check": "node --check dist/app.js && node scripts/validate.mjs"
+    "check": "node --check dist/app.js && node --check dist/shops.js && node scripts/validate.mjs && node scripts/validate-shops.mjs"
   }
 }

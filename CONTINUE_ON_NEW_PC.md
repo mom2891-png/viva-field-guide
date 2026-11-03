@@ -40,7 +40,7 @@ node scripts/serve.mjs
 
 ## 다음 작업
 
-1. Actions에서 main 배포와 사이트 버전 확인. 로컬 후속 CATALOG_VERSION은 2026-11-03-purchase2, 인계 main 공개 버전은 purchase1.
+1. Actions에서 main 배포와 사이트 버전 확인. 로컬 후속 CATALOG_VERSION은 2026-11-03-shops1, 인계 main 공개 버전은 purchase1. 국내 구매처22곳의 새 탭과 관련 도감 연결은 후속 브랜치 기준이다.
 2. 최신 사용자 요청을 확인하고, 가격 없는 동물197/식물114항목의 국내 실제 상품 우선 조사. 모프/연령/성별/규격/품절/옵션을 대조하며 추정 가격을 만들지 않는다.
 3. purchaseLinks에 확인 상품 저장, 같은 판매 단위 가격만 priceInfo.offers에 집계. 도서·인조 식물·장난감·사육장/키트·동명 다른 종 제외. listed는 재고 보장이 아니다. 카테고리·모바일 주소 중복 제거.
 4. 가격 외 ID/사진/크기/인기를 보존. 주요 모프별 연결·부족한 분류/사진은 HANDOFF 참조.

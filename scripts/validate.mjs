@@ -18,7 +18,7 @@ for(const id of Object.keys(morphs))assert.ok(animals.some(r=>r.id===id),`Orphan
 // Exercise actual catalog logic with a small DOM stand-in, without browser dependencies.
 const elements=new Map();
 const element=key=>{if(!elements.has(key))elements.set(key,{value:'',textContent:'',innerHTML:'',hidden:false,checked:false,style:{},classList:{add(){},remove(){},toggle(){},contains(){return false}},setAttribute(){},addEventListener(){},closest(){return this},querySelectorAll(){return []},querySelector(){return null},showModal(){this.open=true}});return elements.get(key);};
-const ctx=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],body:{style:{}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,a:animals,p:plants,m:morphs});
+const ctx=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],body:{style:{}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,URL,a:animals,p:plants,m:morphs});
 const code=fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8').split("document.addEventListener('click'")[0];
 vm.runInContext(code,ctx);
 const run=s=>vm.runInContext(s,ctx);
@@ -145,3 +145,36 @@ const singleOffer={min:7000,max:7000};
 assert.equal(run('priceText({min:7000,max:7000})'),'7,000원','Single observed amount is not a fabricated range');
 assert.ok(animals.find(r=>r.id==='species-97').priceInfo.offers.some(o=>o.unit==='한 쌍'),'Paired animals not priced as individuals');
 console.log('PASS: size measurement basis, domestic price units, unknown values, filters and individual fact displays.');
+for(const row of all){
+  if(!row.priceInfo){assert.ok(!row.purchaseLinks?.length);continue;}
+  assert.ok(row.purchaseLinks?.length,`${row.id}: priced entry needs product links`);
+  const urls=new Set();
+  for(const item of row.purchaseLinks){
+    const u=new URL(item.url);
+    assert.equal(u.protocol,'https:');
+    assert.ok(u.pathname.includes('/product/')||u.pathname.includes('goods_view.php'),`${row.id}: direct product URL required`);
+    assert.ok(!urls.has(item.url),`${row.id}: duplicate purchase URL`);urls.add(item.url);
+    assert.ok(item.shop&&item.title&&item.unit&&item.checkedAt);
+    assert.ok(Number.isFinite(item.price)&&item.price>=100);
+    assert.ok(['listed','soldOut'].includes(item.status));
+    assert.ok(row.priceInfo.offers.some(o=>o.unit===item.unit&&o.min<=item.price&&item.price<=o.max));
+  }
+  for(const offer of row.priceInfo.offers){
+    const items=row.purchaseLinks.filter(item=>item.unit===offer.unit);
+    assert.equal(items.length,offer.sampleCount);
+    assert.equal(new Set(items.map(item=>item.shop)).size,offer.shopCount);
+    assert.equal(Math.min(...items.map(item=>item.price)),offer.min);
+    assert.equal(Math.max(...items.map(item=>item.price)),offer.max);
+  }
+}
+run("openDetail('species-1')");
+assert.ok(element('#detailContent').innerHTML.includes('구매처'));
+assert.ok(element('#detailContent').innerHTML.includes('target="_blank" rel="noopener noreferrer"'));
+assert.ok(element('#detailContent').innerHTML.includes('다른 상품'));
+assert.equal(run('purchaseSection({purchaseLinks:[{url:"javascript:alert(1)"}]})'),'');
+assert.ok(run('purchaseSection({purchaseLinks:[{shop:"<script>",title:"<img onerror=alert(1)>",url:"https://example.com/product/1",unit:"1개체",price:12000,status:"soldOut"}]})').includes('&lt;img'));
+assert.ok(run('purchaseSection({purchaseLinks:[{shop:"판매점",title:"상품",url:"https://example.com/product/1",unit:"1개체",price:12000,status:"soldOut"}]})').includes('품절 표시'));
+assert.ok(!animals.find(r=>r.id==='species-328').purchaseLinks.some(i=>i.title.includes('트리프록')));
+assert.ok(!animals.find(r=>r.id==='species-13').purchaseLinks.some(i=>i.title.includes('거북')));
+assert.ok(!animals.find(r=>r.id==='species-129').purchaseLinks.some(i=>i.title.includes('"책"')));
+console.log('PASS: purchase product URLs, unit/price consistency, shop deduplication, safe external links and unrelated product exclusions.');

@@ -1,5 +1,5 @@
 'use strict';
-const CATALOG_VERSION = '2026-11-03-photo-layout1';
+const CATALOG_VERSION = '2026-11-03-purchase1';
 const $ = (selector) => document.querySelector(selector);
 const envNames = {습:'습식',혼:'건습 혼합',건:'건조',수:'반수생·수생',냉:'냉량 관리',대:'대형 사육장',환:'충분한 환기',굴:'깊은 바닥재',해:'담수·해수'};
 const descriptions = {
@@ -47,7 +47,14 @@ function factsPreview(row){
 }
 function factsSection(row){
   const s=row.sizeInfo,p=row.priceInfo;
-  return `<section class="entry-facts"><h3>크기와 참고 가격</h3><dl class="facts-detail"><div><dt>${s?escapeHTML(s.basis):row.id.startsWith('plant-')?'성숙':'성체'} 크기</dt><dd>${escapeHTML(sizeText(row))}${s?`<small>${escapeHTML(s.measurement)}</small>`:''}</dd></div></dl>${s?.note?`<p class="facts-note">${escapeHTML(s.note)}</p>`:''}${p?`<dl class="price-offers">${p.offers.map(offer=>`<div><dt>${escapeHTML(offer.unit)}</dt><dd>${escapeHTML(priceText(offer))}</dd></div>`).join('')}</dl><p class="facts-note">${escapeHTML(p.basis)} · ${escapeHTML(p.checkedAt.replaceAll('-','.'))} 확인</p><p class="facts-note">${escapeHTML(p.note)}</p>`:'<p class="facts-pending">국내 가격 확인 중</p>'}</section>`;
+  return `<section class="entry-facts"><h3>크기와 참고 가격</h3><dl class="facts-detail"><div><dt>${s?escapeHTML(s.basis):row.id.startsWith('plant-')?'성숙':'성체'} 크기</dt><dd>${escapeHTML(sizeText(row))}${s?`<small>${escapeHTML(s.measurement)}</small>`:''}</dd></div></dl>${s?.note?`<p class="facts-note">${escapeHTML(s.note)}</p>`:''}${p?`<dl class="price-offers">${p.offers.map(offer=>`<div><dt>${escapeHTML(offer.unit)}</dt><dd>${escapeHTML(priceText(offer))}</dd></div>`).join('')}</dl><p class="facts-note">${escapeHTML(p.basis)} · ${escapeHTML(p.checkedAt.replaceAll('-','.'))} 확인</p><p class="facts-note">${escapeHTML(p.note)}</p>${purchaseSection(row)}`:'<p class="facts-pending">국내 가격 확인 중</p>'}</section>`;
+}
+function purchaseSection(row){
+  const groups=new Map();
+  for(const item of row.purchaseLinks||[]){if(!safeUrl(item.url))continue;if(!groups.has(item.shop))groups.set(item.shop,[]);groups.get(item.shop).push(item);}
+  if(!groups.size)return '';
+  const link=item=>`<a class="purchase-link" href="${escapeHTML(safeUrl(item.url))}" target="_blank" rel="noopener noreferrer"><span class="purchase-title">${escapeHTML(item.title)}</span><span class="purchase-meta">${escapeHTML(item.unit)} · ${escapeHTML(priceText({min:item.price,max:item.price}))}${item.status==='soldOut'?' · <strong>품절 표시</strong>':''}</span><span class="purchase-action">상품 보기 ↗</span></a>`;
+  return `<div class="purchase-section"><h4>구매처 <span>${groups.size}곳</span></h4><p class="facts-note">판매 페이지에서 현재 재고·옵션·최종 가격을 확인하세요.</p>${[...groups].map(([shop,items])=>{items.sort((a,b)=>Number(a.status==='soldOut')-Number(b.status==='soldOut')||a.price-b.price);return `<section class="purchase-shop"><h5>${escapeHTML(shop)} <span>${items.length}개 상품</span></h5>${link(items[0])}${items.length>1?`<details class="purchase-more"><summary>다른 상품 ${items.length-1}개</summary>${items.slice(1).map(link).join('')}</details>`:''}</section>`;}).join('')}</div>`;
 }
 function updateSaved(){ $('#savedCount').textContent=favorites.size; $('#savedButton').setAttribute('aria-pressed',String(state.savedOnly));}
 function saveFavorite(id){

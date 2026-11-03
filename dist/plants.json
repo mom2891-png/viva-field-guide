@@ -52,17 +52,64 @@
       "offers": [
         {
           "unit": "규격 미표기 상품",
-          "min": 6000,
+          "min": 4200,
           "max": 6000,
-          "sampleCount": 1,
-          "shopCount": 1,
-          "includesSoldOut": false
+          "sampleCount": 5,
+          "shopCount": 2,
+          "includesSoldOut": true
         }
       ],
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "내츄럴팟",
+        "title": "피토니아 그린스타 실내 인테리어 공기정화식물",
+        "url": "https://naturallpot.co.kr/product/피토니아-그린스타-실내-인테리어-공기정화식물/62/category/51/display/1/",
+        "price": 4200,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "내츄럴팟",
+        "title": "피토니아 레드스타 키우기 쉬운 실내 공기정화식물",
+        "url": "https://naturallpot.co.kr/product/피토니아-레드스타-키우기-쉬운-실내-공기정화식물/193/category/51/display/1/",
+        "price": 4200,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "내츄럴팟",
+        "title": "피토니아 오렌지스타 실내 공기정화식물",
+        "url": "https://naturallpot.co.kr/product/피토니아-오렌지스타-실내-공기정화식물/195/category/51/display/1/",
+        "price": 4200,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "내츄럴팟",
+        "title": "피토니아 화이트스타 실내 인테리어 공기정화식물",
+        "url": "https://naturallpot.co.kr/product/피토니아-화이트스타-실내-인테리어-공기정화식물/194/category/51/display/1/",
+        "price": 4200,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "플랜티멀",
+        "title": "피토니아 핑크스페셜 핑크엔젤 비바리움 테라리움 식물 정글플랜츠 정글플랜트 습계식물",
+        "url": "https://plantimal.co.kr/product/피토니아-핑크스페셜-핑크엔젤-비바리움-테라리움-식물-정글플랜츠-정글플랜트-습계식물/576/category/1/display/3/?icid=MAIN.product_listmain_2",
+        "price": 6000,
+        "unit": "규격 미표기 상품",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-2",
@@ -287,13 +334,24 @@
           "max": 16000,
           "sampleCount": 1,
           "shopCount": 1,
-          "includesSoldOut": false
+          "includesSoldOut": true
         }
       ],
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "루디시아 디스컬러 알바 정글플랜트 정글플랜츠 습계식물 식물 키우기 비바리움 테라리움",
+        "url": "https://plantimal.co.kr/product/루디시아-디스컬러-알바-정글플랜트-정글플랜츠-습계식물-식물-키우기-비바리움-테라리움/570/category/1/display/3/?icid=MAIN.product_listmain_2",
+        "price": 16000,
+        "unit": "규격 미표기 상품",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-8",
@@ -401,7 +459,35 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "컵 · 8×3.5cm",
+          "min": 5000,
+          "max": 5000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "주목이끼 컵(8x3.5cm) 천연생이끼 키우기 테라리움 재료 DIY 만들기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4536&cate_no=453&display_group=1",
+        "price": 5000,
+        "unit": "컵 · 8×3.5cm",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-11",
@@ -623,7 +709,18 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "셀라지넬라 운시나타",
+        "url": "https://plantimal.co.kr/product/셀라지넬라-운시나타/38/category/48/display/1/",
+        "price": 10000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-17",
@@ -738,7 +835,88 @@
       "kind": "range",
       "note": "종 전체의 성숙 잎 범위로, 소형 재배품종과 다를 수 있어요.",
       "checkedAt": "2026-11-03"
-    }
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "화분·포트 · 15×13cm",
+          "min": 9000,
+          "max": 9000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "규격 미표기 상품",
+          "min": 3600,
+          "max": 24000,
+          "sampleCount": 5,
+          "shopCount": 2,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "마이플랜트",
+        "title": "상품명 보스턴 고사리 (소형)",
+        "url": "https://myplant.co.kr/product/보스턴-고사리-소형/413/category/24/display/1/",
+        "price": 3600,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "마이플랜트",
+        "title": "상품명 보스턴 고사리 (행잉)",
+        "url": "https://myplant.co.kr/product/보스턴-고사리-행잉/3939/category/30/display/1/",
+        "price": 18000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "마이플랜트",
+        "title": "상품명 무늬 보스턴 고사리 (중형)",
+        "url": "https://myplant.co.kr/product/무늬-보스턴-고사리-중형/2674/category/265/display/1/",
+        "price": 24000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "내츄럴팟",
+        "title": "보스턴고사리 실내 반음지 테라리움 공기정화식물",
+        "url": "https://naturallpot.co.kr/product/보스턴고사리-실내-반음지-테라리움-공기정화식물/192/category/51/display/1/",
+        "price": 4200,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "보스턴 고사리 중화분(15x13cm)분갈이완료/실내공기정화 키우기쉬운 반려식물 보스톤 슬릿분",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4295&cate_no=494&display_group=1",
+        "price": 9000,
+        "unit": "화분·포트 · 15×13cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "마이플랜트",
+        "title": "상품명 무늬 보스턴 고사리 (소형)",
+        "url": "https://myplant.co.kr/product/무늬-보스턴-고사리-소형/2577/category/265/display/1/",
+        "price": 9600,
+        "unit": "규격 미표기 상품",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-20",
@@ -976,7 +1154,44 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 1100,
+          "max": 2400,
+          "sampleCount": 2,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "마이플랜트",
+        "title": "상품명 틸란드시아 이오난사 (미니/중형)",
+        "url": "https://myplant.co.kr/product/틸란드시아-이오난사-미니중형/1010/category/24/display/2/?icid=PRODUCT_LIST.product_listrecommend",
+        "price": 1100,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "마이플랜트",
+        "title": "상품명 틸란드시아 이오난사 (대형)",
+        "url": "https://myplant.co.kr/product/틸란드시아-이오난사-대형/3635/category/30/display/2/?icid=PRODUCT_LIST.product_listrecommend",
+        "price": 2400,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-28",
@@ -1656,7 +1871,44 @@
       "kind": "maximum",
       "note": "",
       "checkedAt": "2026-11-03"
-    }
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 2700,
+          "max": 4400,
+          "sampleCount": 2,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "마이플랜트",
+        "title": "수박페페 (소형)",
+        "url": "https://myplant.co.kr/product/수박페페-소형/758/category/24/display/1/",
+        "price": 2700,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "마이플랜트",
+        "title": "상품명 수박페페 (세척모종)",
+        "url": "https://myplant.co.kr/product/수박페페-세척모종/3338/category/265/display/1/",
+        "price": 4400,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-47",
@@ -1688,7 +1940,35 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 6000,
+          "max": 6000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "마이플랜트",
+        "title": "타이거 베고니아 (소형)",
+        "url": "https://myplant.co.kr/product/타이거-베고니아-소형/2662/category/24/display/1/",
+        "price": 6000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-48",
@@ -1951,7 +2231,35 @@
       "kind": "maximum",
       "note": "",
       "checkedAt": "2026-11-03"
-    }
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 6600,
+          "max": 6600,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "마이플랜트",
+        "title": "상품명 칼라데아 마코야나 (소형)",
+        "url": "https://myplant.co.kr/product/칼라데아-마코야나-소형/2816/category/265/display/1/",
+        "price": 6600,
+        "unit": "규격 미표기 상품",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-55",
@@ -2054,12 +2362,58 @@
           "sampleCount": 1,
           "shopCount": 1,
           "includesSoldOut": true
+        },
+        {
+          "unit": "규격 미표기 상품",
+          "min": 3300,
+          "max": 3300,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
         }
       ],
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "마이플랜트",
+        "title": "상품명 솔레이롤리아 천사의 눈물 (소형)",
+        "url": "https://myplant.co.kr/product/솔레이롤리아-천사의-눈물-소형/2285/category/24/display/1/",
+        "price": 3300,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "테라리움 식물 천사의눈물 컵(8x3.5cm) 솔레이롤리아 또래기 병아리 눈물 이끼테라리움",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4526&cate_no=443&display_group=1",
+        "price": 2000,
+        "unit": "컵 · 8×3.5cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "천사의눈물 슬릿화분(10x8cm) 분갈이완료 솔레이롤리아 또래기 병아리눈물 키우기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4529&cate_no=494&display_group=1",
+        "price": 2800,
+        "unit": "화분·포트 · 10×8cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "테라리움 식물 천사의눈물(19x15cm) 솔레이롤리아 또래기 병아리 눈물 이끼테라리움",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4618&cate_no=443&display_group=1",
+        "price": 8000,
+        "unit": "19×15cm 상품",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-57",
@@ -2171,6 +2525,22 @@
       "kind": "listed",
       "offers": [
         {
+          "unit": "1포트",
+          "min": 9000,
+          "max": 9000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "화분·포트 · 규격 확인",
+          "min": 12000,
+          "max": 12000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
           "unit": "컵 · 9×6cm",
           "min": 12000,
           "max": 15000,
@@ -2190,7 +2560,54 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "수초(조직배양) 아누비아스 나나 포트/음성수초키우기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=3744&cate_no=126&display_group=1",
+        "price": 12000,
+        "unit": "화분·포트 · 규격 확인",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "테라리움 식물 아누비아스 나나 컵(9x6cm) 테라리움 DIY 만들기 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4354&cate_no=443&display_group=1",
+        "price": 12000,
+        "unit": "컵 · 9×6cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "라라아쿠아",
+        "title": "[수초] 아누비아스 나나 (1포트)",
+        "url": "https://raraaqua.com/product/수초-아누비아스-나나-1포트/6528/category/1/display/25/?icid=MAIN.product_listmain_24",
+        "price": 9000,
+        "unit": "1포트",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "테라리움 식물 아누비아스 나나 커피폴리아 컵(9x6cm) DIY 만들기 키트 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4404&cate_no=443&display_group=1",
+        "price": 15000,
+        "unit": "컵 · 9×6cm",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "테라리움 식물 아누비아스 나나 화이트마블 컵(8x3.5cm) DIY 만들기 키트 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4405&cate_no=443&display_group=1",
+        "price": 18000,
+        "unit": "컵 · 8×3.5cm",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-60",
@@ -2222,7 +2639,35 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1뿌리",
+          "min": 5000,
+          "max": 5000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "라라아쿠아",
+        "title": "[수초] 크립토코리네 웬드티그린 1뿌리",
+        "url": "https://raraaqua.com/product/수초-크립토코리네-웬드티그린-1뿌리/6482/category/1/display/25/?icid=MAIN.product_listmain_24",
+        "price": 5000,
+        "unit": "1뿌리",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-61",
@@ -2388,6 +2833,14 @@
           "includesSoldOut": false
         },
         {
+          "unit": "19×15cm 상품",
+          "min": 19000,
+          "max": 19000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
           "unit": "30×20cm 상품",
           "min": 35000,
           "max": 35000,
@@ -2415,15 +2868,125 @@
           "unit": "규격 미표기 상품",
           "min": 8900,
           "max": 15000,
-          "sampleCount": 3,
-          "shopCount": 2,
+          "sampleCount": 4,
+          "shopCount": 3,
           "includesSoldOut": false
         }
       ],
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "내츄럴팟",
+        "title": "제주애기모람 테라리움 비바리움 덩굴 식물 키우기",
+        "url": "https://naturallpot.co.kr/product/제주애기모람-테라리움-비바리움-덩굴-식물-키우기/209/category/51/display/1/",
+        "price": 8900,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "제주애기모람 테라리움 식물 1컵 덩굴 넝쿨식물 이끼 테라리움 재료 비바리움",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4057&cate_no=443&display_group=1",
+        "price": 3800,
+        "unit": "1컵",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "제주애기모람 별 컵(8x3cm) 테라리움 식물 키우기 DIY 재료 비바리움 넝쿨식물",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4660&cate_no=443&display_group=1",
+        "price": 5000,
+        "unit": "컵 · 8×3cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "제주애기모람 화분(10x8cm) 실내 공기정화 반려식물 테라리움 슬릿분",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4289&cate_no=494&display_group=1",
+        "price": 6000,
+        "unit": "화분·포트 · 10×8cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "제주애기모람 키우기 키트 테라리움 넝쿨 덩굴 식물 이끼 DIY 만들기 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4256&cate_no=443&display_group=1",
+        "price": 8900,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "제주애기모람 4컵 테라리움 식물 넝쿨 덩굴 이끼 테라리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4111&cate_no=443&display_group=1",
+        "price": 15000,
+        "unit": "4컵",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "제주애기모람 생이끼 목부작(참나무) 넝쿨 덩굴 테라리움 식물",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4118&cate_no=493&display_group=1",
+        "price": 15000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "제주애기모람 (19x15cm) 테라리움 덩굴 넝쿨 식물 DIY 만들기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4104&cate_no=453&display_group=1",
+        "price": 19000,
+        "unit": "19×15cm 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "제주애기모람 풀통(30x20cm) 테라리움 식물 재료 비바리움 넝쿨식물",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4636&cate_no=443&display_group=1",
+        "price": 35000,
+        "unit": "30×20cm 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "제주애기모람 초대용량(60x30cm) 테라리움 식물 재료 비바리움 넝쿨식물",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4630&cate_no=494&display_group=1",
+        "price": 150000,
+        "unit": "60×30cm 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "제주애기모람 초대용량(60x30cm)5판 테라리움 식물 재료 비바리움 넝쿨식물",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4643&cate_no=494&display_group=1",
+        "price": 480000,
+        "unit": "5판 · 60×30cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "플랜티멀",
+        "title": "제주애기모람",
+        "url": "https://plantimal.co.kr/product/제주애기모람/49/category/48/display/1/",
+        "price": 10000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-65",
@@ -2515,7 +3078,18 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "셀라지넬라 윌데노위 바리에가타",
+        "url": "https://plantimal.co.kr/product/셀라지넬라-윌데노위-바리에가타/37/category/48/display/1/",
+        "price": 62000,
+        "unit": "규격 미표기 상품",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-67",
@@ -2837,7 +3411,35 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Begonia_soli-mutata_2zz.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-    }
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 6500,
+          "max": 6500,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "마이플랜트",
+        "title": "베고니아 솔리무타타 (소형)",
+        "url": "https://myplant.co.kr/product/베고니아-솔리무타타-소형/3923/category/24/display/1/",
+        "price": 6500,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-79",
@@ -2884,7 +3486,18 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "베고니아 델마이",
+        "url": "https://plantimal.co.kr/product/베고니아-델마이/56/category/48/display/1/",
+        "price": 10000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-80",
@@ -3020,7 +3633,70 @@
       "kind": "range",
       "note": "원종 기준. 더피 등 소형 품종과 다를 수 있어요.",
       "checkedAt": "2026-11-03"
-    }
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "화분·포트 · 15×13cm",
+          "min": 9000,
+          "max": 9000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "규격 미표기 상품",
+          "min": 3100,
+          "max": 12000,
+          "sampleCount": 3,
+          "shopCount": 2,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "마이플랜트",
+        "title": "상품명 더피고사리 (소형)",
+        "url": "https://myplant.co.kr/product/더피고사리-소형/1689/category/265/display/1/",
+        "price": 3100,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "마이플랜트",
+        "title": "상품명 더피고사리 (중형)",
+        "url": "https://myplant.co.kr/product/더피고사리-중형/4106/category/265/display/1/",
+        "price": 12000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "내츄럴팟",
+        "title": "더피고사리 실내 반음지 키우기 쉬운 공기정화식물",
+        "url": "https://naturallpot.co.kr/product/더피고사리-실내-반음지-키우기-쉬운-공기정화식물/191/category/51/display/1/",
+        "price": 4500,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "더피 고사리 중화분(15x13cm)분갈이완료/실내공기정화 키우기쉬운 반려식물 슬릿분",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4296&cate_no=494&display_group=1",
+        "price": 9000,
+        "unit": "화분·포트 · 15×13cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-84",
@@ -4135,12 +4811,40 @@
           "sampleCount": 1,
           "shopCount": 1,
           "includesSoldOut": false
+        },
+        {
+          "unit": "19×15cm 상품",
+          "min": 50000,
+          "max": 50000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
         }
       ],
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "봉황이끼(3x3cm) 이끼키우기 테라리움 재료 DIY만들기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4504&cate_no=453&display_group=1",
+        "price": 7000,
+        "unit": "3×3cm 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "봉황이끼(19x15cm) 이끼키우기 테라리움 재료 DIY만들기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4513&cate_no=453&display_group=1",
+        "price": 50000,
+        "unit": "19×15cm 상품",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-118",
@@ -4242,7 +4946,35 @@
       "license": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Marchantia_polymorpha_(b,_145318-481413)_3497.JPG",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
-    }
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "컵 · 8×3.5cm",
+          "min": 5000,
+          "max": 5000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "우산이끼 컵(8x3.5cm) 테라리움 DIY 만들기 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4090&cate_no=453&display_group=1",
+        "price": 5000,
+        "unit": "컵 · 8×3.5cm",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-121",
@@ -4289,7 +5021,18 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "꽃송이이끼 1촉 생이끼 키우기 테라리움 재료 DIY 만들기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4450&cate_no=453&display_group=1",
+        "price": 4500,
+        "unit": "1촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-122",
@@ -4319,7 +5062,35 @@
       "license": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Rhodobryum_giganteum_-_National_Museum_of_Nature_and_Science,_Tokyo_-_DSC06826.JPG",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
-    }
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "3촉",
+          "min": 25000,
+          "max": 25000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "큰꽃송이이끼 3촉 제주큰꽃송이 테라리움 재료 DIY 만들기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4451&cate_no=453&display_group=1",
+        "price": 25000,
+        "unit": "3촉",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-123",
@@ -4361,12 +5132,74 @@
           "sampleCount": 1,
           "shopCount": 1,
           "includesSoldOut": false
+        },
+        {
+          "unit": "15촉",
+          "min": 7900,
+          "max": 7900,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        },
+        {
+          "unit": "30촉",
+          "min": 13000,
+          "max": 13000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "50촉",
+          "min": 20000,
+          "max": 20000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
         }
       ],
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "너구리꼬리이끼(10촉내외) 제주 테라리움 DIY 만들기 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4699&cate_no=453&display_group=1",
+        "price": 4800,
+        "unit": "10촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "너구리꼬리이끼(30촉내외) 제주 테라리움 DIY 만들기 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4119&cate_no=453&display_group=1",
+        "price": 13000,
+        "unit": "30촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "너구리꼬리이끼(50촉내외) 제주 테라리움 DIY 만들기 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4120&cate_no=453&display_group=1",
+        "price": 20000,
+        "unit": "50촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "내츄럴팟",
+        "title": "너구리꼬리이끼 15촉 테라리움 희귀 이끼식물",
+        "url": "https://naturallpot.co.kr/product/너구리꼬리이끼-15촉-테라리움-희귀-이끼식물/212/category/50/display/1/",
+        "price": 7900,
+        "unit": "15촉",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-124",
@@ -4421,7 +5254,36 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "그늘대호꼬리이끼(1촉) 테라리움 식물 비바리움 재료 DIY",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4331&cate_no=453&display_group=1",
+        "price": 500,
+        "unit": "1촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "그늘대호꼬리이끼(10촉) 테라리움 식물 비바리움 재료 DIY 만들기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4332&cate_no=453&display_group=1",
+        "price": 4500,
+        "unit": "10촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "그늘대호꼬리이끼(19x15cm) 테라리움 식물 비바리움 재료 DIY",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4700&cate_no=453&display_group=1",
+        "price": 25000,
+        "unit": "19×15cm 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-125",
@@ -4492,7 +5354,45 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "나무이끼(1촉) 테라리움 식물 비바리움 팔루다리움 재료 DIY 만들기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4333&cate_no=453&display_group=1",
+        "price": 2000,
+        "unit": "1촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "나무이끼(5촉) 테라리움 DIY 만들기 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4187&cate_no=453&display_group=1",
+        "price": 9500,
+        "unit": "5촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "나무이끼 새순(10촉)키우기 나무이끼 테라리움 DIY 만들기 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4579&cate_no=453&display_group=1",
+        "price": 10000,
+        "unit": "10촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "플랜티멀",
+        "title": "나무이끼 4촉",
+        "url": "https://plantimal.co.kr/product/나무이끼-4촉/59/category/48/display/1/",
+        "price": 9000,
+        "unit": "4촉",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-126",
@@ -4539,7 +5439,18 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "납작맥초롱이끼 컵(8x3.5cm) 테라리움 DIY 만들기 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4414&cate_no=453&display_group=1",
+        "price": 7000,
+        "unit": "컵 · 8×3.5cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-127",
@@ -4569,6 +5480,38 @@
       "kind": "listed",
       "offers": [
         {
+          "unit": "컵 · 8×3.5cm",
+          "min": 1500,
+          "max": 1500,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "19×15cm 상품",
+          "min": 3000,
+          "max": 3000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "60×30cm 상품",
+          "min": 15000,
+          "max": 15000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "1판",
+          "min": 17000,
+          "max": 17000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
           "unit": "5판 · 60×30cm",
           "min": 65000,
           "max": 65000,
@@ -4579,16 +5522,81 @@
         {
           "unit": "규격 미표기 상품",
           "min": 3900,
-          "max": 3900,
-          "sampleCount": 1,
-          "shopCount": 1,
-          "includesSoldOut": false
+          "max": 4900,
+          "sampleCount": 2,
+          "shopCount": 2,
+          "includesSoldOut": true
         }
       ],
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "마이플랜트",
+        "title": "털깃털이끼 1판",
+        "url": "https://myplant.co.kr/product/털깃털이끼-1판/3440/category/24/display/1/",
+        "price": 17000,
+        "unit": "1판",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "털깃털이끼 컵(8x3.5cm) 생이끼 테라리움 재료 DIY만들기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4097&cate_no=453&display_group=1",
+        "price": 1500,
+        "unit": "컵 · 8×3.5cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "털깃털이끼(19x15cm) 생이끼 테라리움 재료 DIY만들기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4094&cate_no=453&display_group=1",
+        "price": 3000,
+        "unit": "19×15cm 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "털깃털이끼 (60x30cm) 생이끼 테라리움 재료 DIY만들기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4157&cate_no=453&display_group=1",
+        "price": 15000,
+        "unit": "60×30cm 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "털깃털이끼 (60x30cm) 5판 생이끼 테라리움 재료 DIY만들기",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4389&cate_no=453&display_group=1",
+        "price": 65000,
+        "unit": "5판 · 60×30cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "플랜티멀",
+        "title": "털깃털이끼",
+        "url": "https://plantimal.co.kr/product/털깃털이끼/46/category/48/display/1/",
+        "price": 3900,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "내츄럴팟",
+        "title": "털깃털이끼 테라리움 이끼테라리움 만들기 재료",
+        "url": "https://naturallpot.co.kr/product/털깃털이끼-테라리움-이끼테라리움-만들기-재료/41/category/50/display/1/",
+        "price": 4900,
+        "unit": "규격 미표기 상품",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-128",
@@ -4649,7 +5657,27 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "호마로메나 핑크벨벳",
+        "url": "https://plantimal.co.kr/product/호마로메나-핑크벨벳/131/category/48/display/1/",
+        "price": 9900,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "플랜티멀",
+        "title": "호마로메나 핑크벨벳 A타입",
+        "url": "https://plantimal.co.kr/product/호마로메나-핑크벨벳-a타입/1009/category/48/display/1/",
+        "price": 14000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-130",
@@ -4682,13 +5710,33 @@
           "max": 33000,
           "sampleCount": 2,
           "shopCount": 1,
-          "includesSoldOut": false
+          "includesSoldOut": true
         }
       ],
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "호마로메나 실버 핑크 네로우 리프",
+        "url": "https://plantimal.co.kr/product/호마로메나-실버-핑크-네로우-리프/98/category/48/display/1/",
+        "price": 33000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "플랜티멀",
+        "title": "호마로메나 실버핑크 네로우 리프 정글플랜트 정글플랜츠 식물 습계식물 테라리움 비바리움 팔루다리움",
+        "url": "https://plantimal.co.kr/product/호마로메나-실버핑크-네로우-리프-정글플랜트-정글플랜츠-식물-습계식물-테라리움-비바리움-팔루다리움/592/category/1/display/3/?icid=MAIN.product_listmain_2",
+        "price": 18000,
+        "unit": "규격 미표기 상품",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-131",
@@ -4727,7 +5775,18 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "호마로메나 다크레드 희귀식물 비바리움 테라리움 습계식물 공기정화",
+        "url": "https://plantimal.co.kr/product/호마로메나-다크레드-희귀식물-비바리움-테라리움-습계식물-공기정화/529/category/48/display/1/",
+        "price": 28000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-132",
@@ -4788,7 +5847,18 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "라비시아 플래티넘 핑크",
+        "url": "https://plantimal.co.kr/product/라비시아-플래티넘-핑크/512/category/48/display/1/",
+        "price": 34000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-134",
@@ -4816,9 +5886,25 @@
       "kind": "listed",
       "offers": [
         {
+          "unit": "1포트",
+          "min": 12000,
+          "max": 12000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
           "unit": "컵 · 8×3.5cm",
           "min": 12000,
           "max": 12000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "규격 미표기 상품",
+          "min": 15000,
+          "max": 15000,
           "sampleCount": 1,
           "shopCount": 1,
           "includesSoldOut": false
@@ -4827,7 +5913,36 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "테라리움 식물 부세파란드라 케다강 컵(8x3.5cm) 테라리움 DIY 만들기 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4349&cate_no=443&display_group=1",
+        "price": 12000,
+        "unit": "컵 · 8×3.5cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "오쿠아",
+        "title": "부세파란드라 케다강 활착 투톤유목/음성수초",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=3229&cate_no=73&display_group=1",
+        "price": 15000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "라라아쿠아",
+        "title": "[수초] 부세파란드라 케다강 (1포트)",
+        "url": "https://raraaqua.com/product/수초-부세파란드라-케다강-1포트/6879/category/1/display/25/?icid=MAIN.product_listmain_24",
+        "price": 12000,
+        "unit": "1포트",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-135",
@@ -4855,6 +5970,14 @@
       "kind": "listed",
       "offers": [
         {
+          "unit": "1포트",
+          "min": 12000,
+          "max": 12000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
           "unit": "컵 · 8×3.5cm",
           "min": 12000,
           "max": 12000,
@@ -4866,7 +5989,27 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "테라리움 식물 부세파란드라 미니캐서린 컵(8x3.5cm) DIY 만들기 키트 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4406&cate_no=443&display_group=1",
+        "price": 12000,
+        "unit": "컵 · 8×3.5cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "라라아쿠아",
+        "title": "[수초] 부세파란드라 미니캐서린 (1포트)",
+        "url": "https://raraaqua.com/product/수초-부세파란드라-미니캐서린-1포트/9148/category/594/display/1/",
+        "price": 12000,
+        "unit": "1포트",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-136",
@@ -4894,6 +6037,14 @@
       "kind": "listed",
       "offers": [
         {
+          "unit": "1포트",
+          "min": 12000,
+          "max": 12000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
           "unit": "컵 · 8×3.5cm",
           "min": 12000,
           "max": 12000,
@@ -4905,7 +6056,27 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "오쿠아",
+        "title": "테라리움 식물 부세파란드라 웨이비그린 컵(8x3.5cm) DIY 만들기 키트 비바리움 재료",
+        "url": "https://oqua.co.kr/product/detail.html?product_no=4407&cate_no=443&display_group=1",
+        "price": 12000,
+        "unit": "컵 · 8×3.5cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "라라아쿠아",
+        "title": "[수초] 부세파란드라 웨이비그린 1포트",
+        "url": "https://raraaqua.com/product/수초-부세파란드라-웨이비그린-1포트/6527/category/1/display/25/?icid=MAIN.product_listmain_24",
+        "price": 12000,
+        "unit": "1포트",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-137",
@@ -4946,7 +6117,27 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "소넬리아 그린스팟",
+        "url": "https://plantimal.co.kr/product/소넬리아-그린스팟/133/category/48/display/1/",
+        "price": 15000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "플랜티멀",
+        "title": "소넬리아 그린스팟",
+        "url": "https://plantimal.co.kr/product/소넬리아-그린스팟/45/category/48/display/1/",
+        "price": 15000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-138",
@@ -5015,7 +6206,18 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "지오제난투스 포에피기 정글플랜츠 비바리움 테라리움",
+        "url": "https://plantimal.co.kr/product/지오제난투스-포에피기-정글플랜츠-비바리움-테라리움/518/category/48/display/1/",
+        "price": 35000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-140",
@@ -5054,7 +6256,18 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "아르고스템마 후케리 Hookeri 정글플랜츠",
+        "url": "https://plantimal.co.kr/product/아르고스템마-후케리-hookeri-정글플랜츠/515/category/48/display/1/",
+        "price": 15000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-141",
@@ -5093,7 +6306,18 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "미카니아 테르나타 정글플랜츠",
+        "url": "https://plantimal.co.kr/product/미카니아-테르나타-정글플랜츠/514/category/48/display/1/",
+        "price": 15000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-142",
@@ -5209,7 +6433,18 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
-    }
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "아르디시아 자포니카 밀키웨이 정글플랜츠",
+        "url": "https://plantimal.co.kr/product/아르디시아-자포니카-밀키웨이-정글플랜츠/516/category/48/display/1/",
+        "price": 19000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-145",
@@ -5241,7 +6476,35 @@
       "license": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Pyrrosia_piloselloides_2.jpg",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
-    }
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 4100,
+          "max": 4100,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "내츄럴팟",
+        "title": "콩자개덩굴 석부작 이끼 테라리움 식물",
+        "url": "https://naturallpot.co.kr/product/콩자개덩굴-석부작-이끼-테라리움-식물/113/category/51/display/1/",
+        "price": 4100,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   },
   {
     "id": "plant-146",

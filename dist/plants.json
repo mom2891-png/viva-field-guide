@@ -307,7 +307,10 @@
     "environment": "수변·팔루다리움",
     "care": "수중과 물기 많은 수변에서 이용하는 이끼예요. 수상 재배는 항상 축축하고 습한 자리에 적응시켜야 하며 마르는 상부에는 맞지 않아요.",
     "aliases": [
-      "java moss"
+      "java moss",
+      "탁시필룸",
+      "주목이끼",
+      "자바모스류"
     ],
     "order": 10,
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Javamoos.jpg/960px-Javamoos.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -338,7 +341,10 @@
     "environment": "수변·팔루다리움",
     "care": "나뭇가지 같은 형태로 퍼지는 수생 이끼예요. 물이 닿는 수변이나 수중에 배치하고 수상 부분이 마르지 않게 해 주세요.",
     "aliases": [
-      "christmas moss"
+      "christmas moss",
+      "베시쿨라리아",
+      "소포털깃털이끼",
+      "크리스마스모스류"
     ],
     "order": 11,
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Christmas_moss_and_riccia_%2814441185564%29.jpg/960px-Christmas_moss_and_riccia_%2814441185564%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -360,7 +366,7 @@
   {
     "id": "plant-12",
     "n": 12,
-    "name": "리카디아",
+    "name": "산호우산대이끼",
     "latin": "Riccardia chamedryfolia",
     "category": "우산이끼류",
     "light": "중간",
@@ -370,7 +376,9 @@
     "care": "이끼처럼 유통되는 간류로 작은 가지 모양으로 자라요. 수중이나 물이 스미는 수변에 얇게 고정하고 마르는 배경 상부는 피해 주세요.",
     "aliases": [
       "미니펠리아",
-      "mini pellia"
+      "mini pellia",
+      "리카디아",
+      "코랄모스"
     ],
     "order": 12,
     "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Riccardia_chamedryfolia.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -392,7 +400,7 @@
   {
     "id": "plant-13",
     "n": 13,
-    "name": "쿠션모스 글라우쿰",
+    "name": "흰털이끼",
     "latin": "Leucobryum glaucum",
     "category": "이끼",
     "light": "중간",
@@ -402,7 +410,9 @@
     "care": "쿠션 같은 덩어리를 만드는 온대 이끼예요. 고온의 밀폐된 열대 환경보다 서늘하고 촉촉한 환경에 적합하며 침수는 피해 주세요.",
     "aliases": [
       "쿠션모스",
-      "pincushion moss"
+      "pincushion moss",
+      "쿠션모스 글라우쿰",
+      "레우코브리움"
     ],
     "order": 13,
     "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Leucobryum_glaucum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -424,7 +434,7 @@
   {
     "id": "plant-14",
     "n": 14,
-    "name": "깃털이끼",
+    "name": "숲털깃털이끼",
     "latin": "Hypnum cupressiforme",
     "category": "이끼",
     "light": "낮음",
@@ -434,7 +444,9 @@
     "care": "옆으로 퍼지는 온대 이끼예요. 서늘한 그늘과 적당한 공기 흐름을 제공하고 열대 고온 환경에서는 적응 여부를 먼저 확인해 주세요.",
     "aliases": [
       "시트모스",
-      "cypress-leaved plait-moss"
+      "cypress-leaved plait-moss",
+      "깃털이끼",
+      "히프눔"
     ],
     "order": 14,
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Hypnum_cupressiforme0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -456,7 +468,7 @@
   {
     "id": "plant-15",
     "n": 15,
-    "name": "물이끼 팔루스트레",
+    "name": "물이끼 (생수태)",
     "latin": "Sphagnum palustre",
     "category": "이끼",
     "light": "밝은 간접광",
@@ -466,7 +478,11 @@
     "care": "살아 있는 물이끼로 산성의 습한 자리를 좋아해요. 미네랄이 적은 물을 사용하고 일반 관엽식물과는 뿌리 환경을 구분해 주세요.",
     "aliases": [
       "살아있는수태",
-      "bog moss"
+      "bog moss",
+      "물이끼 팔루스트레",
+      "스파그눔",
+      "생수태",
+      "수태"
     ],
     "order": 15,
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Sphagnum.palustre.-.lindsey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -2959,7 +2975,7 @@
   {
     "id": "plant-99",
     "n": 99,
-    "name": "아트리쿰 운둘라툼",
+    "name": "주름솔이끼",
     "latin": "Atrichum undulatum",
     "category": "이끼",
     "environment": "냉량형",
@@ -2967,7 +2983,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "아트리쿰 운둘라툼",
+      "아트리쿰"
+    ],
     "varieties": [],
     "order": 99,
     "popularity": null,
@@ -2989,7 +3008,7 @@
   {
     "id": "plant-100",
     "n": 100,
-    "name": "아울라콤니움 팔루스트레",
+    "name": "큰긴몸초롱이끼",
     "latin": "Aulacomnium palustre",
     "category": "이끼",
     "environment": "냉량형",
@@ -2997,7 +3016,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "아울라콤니움 팔루스트레",
+      "아울라콤니움"
+    ],
     "varieties": [],
     "order": 100,
     "popularity": null,
@@ -3019,7 +3041,7 @@
   {
     "id": "plant-101",
     "n": 101,
-    "name": "칼리클라디움 할다니아눔",
+    "name": "풀이끼",
     "latin": "Callicladium haldanianum",
     "category": "이끼",
     "environment": "냉량형",
@@ -3027,7 +3049,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "칼리클라디움 할다니아눔",
+      "칼리클라디움"
+    ],
     "varieties": [],
     "order": 101,
     "popularity": null,
@@ -3049,7 +3074,7 @@
   {
     "id": "plant-102",
     "n": 102,
-    "name": "케라토돈 푸르푸레우스",
+    "name": "지붕빨간이끼",
     "latin": "Ceratodon purpureus",
     "category": "이끼",
     "environment": "냉량형",
@@ -3057,7 +3082,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "케라토돈 푸르푸레우스",
+      "케라토돈"
+    ],
     "varieties": [],
     "order": 102,
     "popularity": null,
@@ -3079,7 +3107,7 @@
   {
     "id": "plant-103",
     "n": 103,
-    "name": "클리마키움 아메리카눔",
+    "name": "미국나무이끼",
     "latin": "Climacium americanum",
     "category": "이끼",
     "environment": "냉량형",
@@ -3087,7 +3115,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "클리마키움 아메리카눔",
+      "클리마키움"
+    ],
     "varieties": [],
     "order": 103,
     "popularity": null,
@@ -3101,7 +3132,7 @@
   {
     "id": "plant-104",
     "n": 104,
-    "name": "클리마키움 덴드로이데스",
+    "name": "곧은나무이끼",
     "latin": "Climacium dendroides",
     "category": "이끼",
     "environment": "냉량형",
@@ -3109,7 +3140,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "클리마키움 덴드로이데스",
+      "클리마키움"
+    ],
     "varieties": [],
     "order": 104,
     "popularity": null,
@@ -3131,7 +3165,7 @@
   {
     "id": "plant-105",
     "n": 105,
-    "name": "디크라눔 스코파리움",
+    "name": "비꼬리이끼",
     "latin": "Dicranum scoparium",
     "category": "이끼",
     "environment": "냉량형",
@@ -3139,7 +3173,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "디크라눔 스코파리움",
+      "디크라눔"
+    ],
     "varieties": [],
     "order": 105,
     "popularity": null,
@@ -3161,7 +3198,7 @@
   {
     "id": "plant-106",
     "n": 106,
-    "name": "엔토돈 세둑트릭스",
+    "name": "윤이끼류 (세둑트릭스)",
     "latin": "Entodon seductrix",
     "category": "이끼",
     "environment": "냉량형",
@@ -3169,7 +3206,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "엔토돈 세둑트릭스",
+      "엔토돈"
+    ],
     "varieties": [],
     "order": 106,
     "popularity": null,
@@ -3191,7 +3231,7 @@
   {
     "id": "plant-107",
     "n": 107,
-    "name": "히프눔 임포넨스",
+    "name": "털깃털이끼류 (임포넨스)",
     "latin": "Hypnum imponens",
     "category": "이끼",
     "environment": "냉량형",
@@ -3199,7 +3239,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "히프눔 임포넨스",
+      "히프눔"
+    ],
     "varieties": [],
     "order": 107,
     "popularity": null,
@@ -3221,7 +3264,7 @@
   {
     "id": "plant-108",
     "n": 108,
-    "name": "히프눔 쿠르비폴리움",
+    "name": "털깃털이끼류 (쿠르비폴리움)",
     "latin": "Hypnum curvifolium",
     "category": "이끼",
     "environment": "냉량형",
@@ -3229,7 +3272,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "히프눔 쿠르비폴리움",
+      "히프눔"
+    ],
     "varieties": [],
     "order": 108,
     "popularity": null,
@@ -3243,7 +3289,7 @@
   {
     "id": "plant-109",
     "n": 109,
-    "name": "플라기옴니움 쿠스피다툼",
+    "name": "들덩굴초롱이끼",
     "latin": "Plagiomnium cuspidatum",
     "category": "이끼",
     "environment": "냉량형",
@@ -3251,7 +3297,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "플라기옴니움 쿠스피다툼",
+      "플라기옴니움"
+    ],
     "varieties": [],
     "order": 109,
     "popularity": null,
@@ -3273,7 +3322,7 @@
   {
     "id": "plant-110",
     "n": 110,
-    "name": "폴리트리쿰 코뮨",
+    "name": "솔이끼",
     "latin": "Polytrichum commune",
     "category": "이끼",
     "environment": "냉량형",
@@ -3281,7 +3330,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "폴리트리쿰 코뮨",
+      "폴리트리쿰"
+    ],
     "varieties": [],
     "order": 110,
     "popularity": null,
@@ -3303,7 +3355,7 @@
   {
     "id": "plant-111",
     "n": 111,
-    "name": "폴리트리쿰 주니페리눔",
+    "name": "향나무솔이끼",
     "latin": "Polytrichum juniperinum",
     "category": "이끼",
     "environment": "냉량형",
@@ -3311,7 +3363,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "폴리트리쿰 주니페리눔",
+      "폴리트리쿰"
+    ],
     "varieties": [],
     "order": 111,
     "popularity": null,
@@ -3333,7 +3388,7 @@
   {
     "id": "plant-112",
     "n": 112,
-    "name": "프틸리움 크리스타카스트렌시스",
+    "name": "타조이끼",
     "latin": "Ptilium crista-castrensis",
     "category": "이끼",
     "environment": "냉량형",
@@ -3341,7 +3396,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "프틸리움 크리스타카스트렌시스",
+      "프틸리움"
+    ],
     "varieties": [],
     "order": 112,
     "popularity": null,
@@ -3363,7 +3421,7 @@
   {
     "id": "plant-113",
     "n": 113,
-    "name": "리티디아델푸스 스콰로수스",
+    "name": "겉굵은이끼",
     "latin": "Rhytidiadelphus squarrosus",
     "category": "이끼",
     "environment": "냉량형",
@@ -3371,7 +3429,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "리티디아델푸스 스콰로수스",
+      "리티디아델푸스"
+    ],
     "varieties": [],
     "order": 113,
     "popularity": null,
@@ -3393,7 +3454,7 @@
   {
     "id": "plant-114",
     "n": 114,
-    "name": "리티디아델푸스 트리퀘트루스",
+    "name": "큰겉굵은이끼",
     "latin": "Rhytidiadelphus triquetrus",
     "category": "이끼",
     "environment": "냉량형",
@@ -3401,7 +3462,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "리티디아델푸스 트리퀘트루스",
+      "리티디아델푸스"
+    ],
     "varieties": [],
     "order": 114,
     "popularity": null,
@@ -3423,7 +3487,7 @@
   {
     "id": "plant-115",
     "n": 115,
-    "name": "투이디움 델리카툴룸",
+    "name": "작은잎깃털이끼",
     "latin": "Thuidium delicatulum",
     "category": "이끼",
     "environment": "냉량형",
@@ -3431,7 +3495,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "투이디움 델리카툴룸",
+      "투이디움"
+    ],
     "varieties": [],
     "order": 115,
     "popularity": null,
@@ -3453,7 +3520,7 @@
   {
     "id": "plant-116",
     "n": 116,
-    "name": "투이디움 타마리스키눔",
+    "name": "큰깃털이끼",
     "latin": "Thuidium tamariscinum",
     "category": "이끼",
     "environment": "냉량형",
@@ -3461,7 +3528,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "투이디움 타마리스키눔",
+      "투이디움"
+    ],
     "varieties": [],
     "order": 116,
     "popularity": null,
@@ -3483,7 +3553,7 @@
   {
     "id": "plant-117",
     "n": 117,
-    "name": "피시덴스 노빌리스",
+    "name": "봉황이끼",
     "latin": "Fissidens nobilis",
     "category": "이끼",
     "environment": "냉량형",
@@ -3491,7 +3561,10 @@
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
-    "aliases": [],
+    "aliases": [
+      "피시덴스 노빌리스",
+      "피시덴스"
+    ],
     "varieties": [],
     "order": 117,
     "popularity": null,
@@ -3505,7 +3578,7 @@
   {
     "id": "plant-118",
     "n": 118,
-    "name": "리치아 플루이탄스",
+    "name": "리치아 (물긴가지이끼)",
     "latin": "Riccia fluitans",
     "category": "우산이끼류",
     "environment": "수변·팔루다리움",
@@ -3513,7 +3586,12 @@
     "humidity": "높음",
     "placement": "수면·젖은 수변",
     "care": "수면과 젖은 수변을 구성할 때 검토하는 우산이끼류예요. 마른 바닥용 이끼와 구별해 수분 공급을 유지하고 물 밖 재배는 별도 적응을 확인해 주세요.",
-    "aliases": [],
+    "aliases": [
+      "리치아 플루이탄스",
+      "리치아",
+      "물긴가지이끼",
+      "리시아"
+    ],
     "varieties": [],
     "order": 118,
     "popularity": null,
@@ -3543,7 +3621,11 @@
     "humidity": "높음",
     "placement": "수변·유목",
     "care": "전문 테라리움 식재 목록에서 확인한 후보예요. 성숙 크기와 성장 속도에 맞춰 공간을 두고, 촉촉하되 물이 정체되지 않는 바닥과 통풍을 마련해 주세요.",
-    "aliases": [],
+    "aliases": [
+      "베시쿨라리아",
+      "소포털깃털이끼",
+      "크리스마스모스류"
+    ],
     "varieties": [],
     "order": 119,
     "popularity": null,
@@ -3565,7 +3647,7 @@
   {
     "id": "plant-120",
     "n": 120,
-    "name": "마르칸티아 폴리모르파",
+    "name": "우산이끼",
     "latin": "Marchantia polymorpha",
     "category": "우산이끼류",
     "environment": "냉량형",
@@ -3573,7 +3655,10 @@
     "humidity": "높음",
     "placement": "별도 재배·젖은 바닥",
     "care": "우산이끼류 관찰·재배 후보예요. 다른 식물의 공간을 빠르게 덮을 수 있어 별도 공간에서 관리하고 고온 습식 사육장용으로 일반화하지 마세요.",
-    "aliases": [],
+    "aliases": [
+      "마르칸티아 폴리모르파",
+      "마르칸티아"
+    ],
     "varieties": [],
     "order": 120,
     "popularity": null,

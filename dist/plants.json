@@ -196,6 +196,34 @@
       "kind": "range",
       "note": "자연 성숙 기준. 사육장에서는 지속적인 가지치기가 필요해요.",
       "checkedAt": "2026-11-03"
+    },
+    "purchaseLinks": [
+      {
+        "shop": "티쭈 (티스투)",
+        "title": "피커스 푸밀라 미니마 (랜덤상품) Ficus pumila 'Minima'",
+        "url": "https://tistou.co.kr/product/detail.html?product_no=2933",
+        "price": 6000,
+        "unit": "규격 미표기 상품",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 6000,
+          "max": 6000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
     }
   },
   {
@@ -382,8 +410,36 @@
     "varieties": [],
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
-    "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "domesticStatus": "국내 취급 기록",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "티쭈 (티스투)",
+        "title": "페페로미아 프로스트라타 (랜덤상품) Peperomia prostrata",
+        "url": "https://tistou.co.kr/product/detail.html?product_no=1469",
+        "price": 12000,
+        "unit": "규격 미표기 상품",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 12000,
+          "max": 12000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-9",

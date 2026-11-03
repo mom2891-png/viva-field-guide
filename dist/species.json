@@ -6911,8 +6911,36 @@
     "shopCoverage": 0,
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
-    "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "domesticStatus": "국내 취급 기록",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "파충류출몰구역",
+        "title": "미크로로푸스 세일핀 리자드",
+        "url": "https://reptileahead.com/product/detail.html?product_no=2012",
+        "price": 220000,
+        "unit": "개체 상품·옵션 확인",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 220000,
+          "max": 220000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 70,
@@ -6967,8 +6995,36 @@
     "shopCoverage": 0,
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
-    "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "domesticStatus": "국내 취급 기록",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "파충류출몰구역",
+        "title": "워버리 세일핀리자드",
+        "url": "https://reptileahead.com/product/detail.html?product_no=1720",
+        "price": 220000,
+        "unit": "개체 상품·옵션 확인",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 220000,
+          "max": 220000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 72,
@@ -8241,7 +8297,35 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "purchaseLinks": [
+      {
+        "shop": "파충류출몰구역",
+        "title": "이스턴 컬러드 리자드",
+        "url": "https://reptileahead.com/product/detail.html?product_no=2117",
+        "price": 600000,
+        "unit": "한 쌍",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "한 쌍",
+          "min": 600000,
+          "max": 600000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 88,
@@ -8263,7 +8347,7 @@
     "shopCoverage": 0,
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
-    "domesticStatus": "국내 유통 미확인",
+    "domesticStatus": "국내 취급 기록",
     "popularityKnown": false,
     "sizeInfo": {
       "min": null,
@@ -8274,6 +8358,34 @@
       "kind": "maximum",
       "note": "",
       "checkedAt": "2026-11-03"
+    },
+    "purchaseLinks": [
+      {
+        "shop": "파충류출몰구역",
+        "title": "수단 플레이트 리자드",
+        "url": "https://reptileahead.com/product/detail.html?product_no=1612",
+        "price": 120000,
+        "unit": "개체 상품·옵션 확인",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 120000,
+          "max": 120000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
     }
   },
   {

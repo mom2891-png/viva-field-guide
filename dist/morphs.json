@@ -1,0 +1,845 @@
+{
+  "species-1": [
+    {
+      "name": "릴리화이트",
+      "type": "유전 모프",
+      "description": "몸통과 옆구리에 넓은 흰색·크림색 무늬가 나타나는 대표 모프.",
+      "aliases": [
+        "릴리",
+        "Lilly White",
+        "Lily White"
+      ]
+    },
+    {
+      "name": "아잔틱",
+      "type": "유전 모프",
+      "description": "노랑·붉은 계열의 발색이 줄어 회색·검정·흰색 대비가 두드러지는 모프.",
+      "aliases": [
+        "Axanthic",
+        "아잔"
+      ]
+    },
+    {
+      "name": "카푸치노",
+      "type": "유전 모프",
+      "description": "카푸치노 계통의 특징을 보이는 모프. 어두운 체색만으로 확정하지 않고 혈통 기록을 함께 확인해요.",
+      "aliases": [
+        "Cappuccino",
+        "카푸"
+      ]
+    },
+    {
+      "name": "프라푸치노",
+      "type": "조합 모프",
+      "description": "카푸치노와 릴리화이트 특징을 함께 가진 조합명.",
+      "aliases": [
+        "Frappuccino",
+        "프라푸"
+      ]
+    },
+    {
+      "name": "팬텀",
+      "type": "유전 모프",
+      "description": "등·측면 무늬가 감소하거나 옅어지는 특징으로 구분하는 모프.",
+      "aliases": [
+        "Phantom"
+      ]
+    },
+    {
+      "name": "세이블",
+      "type": "유전 모프",
+      "description": "짙은 바탕과 발색 변화로 알려진 모프. 사진만으로 확정하기보다 혈통을 확인해요.",
+      "aliases": [
+        "Sable"
+      ]
+    },
+    {
+      "name": "할리퀸",
+      "type": "패턴",
+      "description": "옆구리와 다리까지 크림색 무늬가 발달하는 패턴.",
+      "aliases": [
+        "Harlequin",
+        "할리"
+      ]
+    },
+    {
+      "name": "익스트림 할리퀸",
+      "type": "패턴",
+      "description": "일반 할리퀸보다 측면·다리의 밝은 무늬 면적이 넓은 형태.",
+      "aliases": [
+        "Extreme Harlequin",
+        "익할"
+      ]
+    },
+    {
+      "name": "핀스트라이프",
+      "type": "패턴",
+      "description": "등 양옆의 솟은 비늘을 따라 밝은 선이 이어지는 패턴.",
+      "aliases": [
+        "Pinstripe",
+        "풀핀"
+      ]
+    },
+    {
+      "name": "달마시안",
+      "type": "패턴",
+      "description": "몸에 검정·붉은 점 등이 나타나는 점무늬 형태.",
+      "aliases": [
+        "Dalmatian",
+        "달마"
+      ]
+    },
+    {
+      "name": "슈퍼달마시안",
+      "type": "선별 계통",
+      "description": "큰 점 또는 많은 점을 선별한 달마시안 계통명. 단일 유전자의 슈퍼형이라는 뜻은 아니에요.",
+      "aliases": [
+        "Super Dalmatian",
+        "슈달"
+      ]
+    },
+    {
+      "name": "트라이컬러",
+      "type": "색상 유통명",
+      "description": "바탕색과 흰색·크림색 등 세 가지 색 대비를 강조하는 표현.",
+      "aliases": [
+        "Tricolor",
+        "트익",
+        "트라이"
+      ]
+    },
+    {
+      "name": "타이거·브린들",
+      "type": "패턴",
+      "description": "몸 옆으로 가로줄이나 불규칙한 짙은 줄무늬가 나타나는 형태.",
+      "aliases": [
+        "Tiger",
+        "Brindle",
+        "브린들"
+      ]
+    }
+  ],
+  "species-4": [
+    {
+      "name": "스트라이프",
+      "type": "패턴",
+      "description": "몸 길이 방향으로 줄무늬가 이어지는 형태.",
+      "aliases": [
+        "Stripe",
+        "Striped"
+      ]
+    },
+    {
+      "name": "레티큘레이트",
+      "type": "패턴",
+      "description": "그물처럼 불규칙하게 연결되는 무늬 형태.",
+      "aliases": [
+        "Reticulated",
+        "레티"
+      ]
+    },
+    {
+      "name": "레드스트라이프",
+      "type": "선별 계통",
+      "description": "붉은 줄무늬의 발색과 면적을 선별한 계통.",
+      "aliases": [
+        "Red Stripe",
+        "레드 스트라이프"
+      ]
+    },
+    {
+      "name": "오렌지스트라이프",
+      "type": "선별 계통",
+      "description": "주황색 줄무늬의 발색을 강조해 선별한 계통.",
+      "aliases": [
+        "Orange Stripe",
+        "오렌지 스트라이프"
+      ]
+    }
+  ],
+  "species-5": [
+    {
+      "name": "그랑테르",
+      "type": "지역형",
+      "description": "뉴칼레도니아 본섬 계통을 가리키는 지역형 명칭.",
+      "aliases": [
+        "Grande Terre",
+        "GT"
+      ]
+    },
+    {
+      "name": "누아나",
+      "type": "지역형",
+      "description": "Nuu Ana 섬 계통을 가리키는 지역형. 흰 반점이나 발색만으로 혈통을 판별하지 않아요.",
+      "aliases": [
+        "Nuu Ana",
+        "누우아나"
+      ]
+    },
+    {
+      "name": "누아미",
+      "type": "지역형",
+      "description": "Nuu Ami 섬 계통을 가리키는 지역형 명칭.",
+      "aliases": [
+        "Nuu Ami",
+        "누우아미"
+      ]
+    }
+  ],
+  "species-13": [
+    {
+      "name": "트렘퍼알비노",
+      "type": "유전 모프",
+      "description": "트렘퍼 계통의 알비노. 다른 알비노 계통과 구분해 기록해요.",
+      "aliases": [
+        "Tremper Albino",
+        "트램퍼"
+      ]
+    },
+    {
+      "name": "벨알비노",
+      "type": "유전 모프",
+      "description": "벨 계통의 알비노. 계통명은 외형만으로 단정하기 어려워요.",
+      "aliases": [
+        "Bell Albino"
+      ]
+    },
+    {
+      "name": "레인워터알비노",
+      "type": "유전 모프",
+      "description": "레인워터 계통의 알비노. 라스베가스 알비노라고도 불려요.",
+      "aliases": [
+        "Rainwater Albino",
+        "Las Vegas Albino"
+      ]
+    },
+    {
+      "name": "맥스노우",
+      "type": "유전 모프",
+      "description": "밝은 바탕과 검정 무늬 대비가 특징인 스노우 모프.",
+      "aliases": [
+        "Mack Snow",
+        "맥 스노우"
+      ]
+    },
+    {
+      "name": "슈퍼스노우",
+      "type": "유전 모프",
+      "description": "맥스노우의 두 사본 형태로 알려진 모프. 흰 바탕과 촘촘한 검정 무늬가 특징이에요.",
+      "aliases": [
+        "Super Snow",
+        "슈스노"
+      ]
+    },
+    {
+      "name": "이클립스",
+      "type": "유전 모프",
+      "description": "눈의 색소 발현에 영향을 주는 모프. 눈 외형만으로 유전형을 확정하지 않아요.",
+      "aliases": [
+        "Eclipse"
+      ]
+    },
+    {
+      "name": "블리자드",
+      "type": "유전 모프",
+      "description": "몸의 무늬가 크게 감소해 거의 단색으로 보이는 모프.",
+      "aliases": [
+        "Blizzard"
+      ]
+    },
+    {
+      "name": "머피패턴리스",
+      "type": "유전 모프",
+      "description": "성장하면서 몸 무늬가 줄어드는 패턴리스 모프. 블리자드와는 구분해요.",
+      "aliases": [
+        "Murphy Patternless",
+        "MP"
+      ]
+    },
+    {
+      "name": "탠저린",
+      "type": "선별 계통",
+      "description": "주황색 발색을 선별한 계통을 통칭하는 표현.",
+      "aliases": [
+        "Tangerine",
+        "텐저린"
+      ]
+    },
+    {
+      "name": "블랙나이트",
+      "type": "선별 계통",
+      "description": "어두운 체색을 선별해 발전시킨 계통명.",
+      "aliases": [
+        "Black Night",
+        "블나"
+      ]
+    },
+    {
+      "name": "랩터",
+      "type": "조합 모프",
+      "description": "트렘퍼알비노·이클립스 등을 조합한 명칭. 세부 패턴·계통은 별도로 확인해요.",
+      "aliases": [
+        "RAPTOR"
+      ]
+    },
+    {
+      "name": "선글로우",
+      "type": "조합 모프",
+      "description": "알비노와 슈퍼하이포·탠저린 계열 표현 등을 결합한 명칭.",
+      "aliases": [
+        "Sunglow"
+      ]
+    }
+  ],
+  "species-15": [
+    {
+      "name": "화이트아웃",
+      "type": "유전 모프",
+      "description": "밝은 바탕과 변화한 무늬가 나타나는 대표 모프.",
+      "aliases": [
+        "Whiteout",
+        "White Out",
+        "화아"
+      ]
+    },
+    {
+      "name": "오레오",
+      "type": "유전 모프",
+      "description": "검정·흰색 대비와 감소한 갈색 발색으로 알려진 모프.",
+      "aliases": [
+        "Oreo",
+        "Anery"
+      ]
+    },
+    {
+      "name": "줄루",
+      "type": "유전 모프",
+      "description": "몸통·꼬리의 무늬가 변화하는 모프. 화살표 같은 등무늬가 나타나기도 해요.",
+      "aliases": [
+        "Zulu"
+      ]
+    },
+    {
+      "name": "패턴리스",
+      "type": "유전 모프",
+      "description": "몸의 밴드 무늬가 크게 감소하는 모프.",
+      "aliases": [
+        "Patternless"
+      ]
+    },
+    {
+      "name": "아멜·알비노",
+      "type": "유전 모프",
+      "description": "검정 색소가 감소하는 알비노 계열 모프.",
+      "aliases": [
+        "Amel",
+        "Amelanistic",
+        "Albino"
+      ]
+    },
+    {
+      "name": "카라멜알비노",
+      "type": "유전 모프",
+      "description": "카라멜색 발색으로 알려진 별도의 알비노 계열.",
+      "aliases": [
+        "Caramel Albino"
+      ]
+    },
+    {
+      "name": "고스트",
+      "type": "유전 모프",
+      "description": "옅은 회색·갈색 톤으로 발색이 감소한 모프.",
+      "aliases": [
+        "Ghost"
+      ]
+    },
+    {
+      "name": "스트라이프",
+      "type": "패턴",
+      "description": "등 중앙에 밝은 세로선이 나타나는 패턴.",
+      "aliases": [
+        "Stripe",
+        "Striped"
+      ]
+    },
+    {
+      "name": "스노우",
+      "type": "조합 모프",
+      "description": "오레오와 카라멜알비노를 함께 가진 조합명.",
+      "aliases": [
+        "Snow",
+        "Caramel Oreo"
+      ]
+    }
+  ],
+  "species-18": [
+    {
+      "name": "아멜라니스틱",
+      "type": "유전 모프",
+      "description": "검정 색소가 감소해 밝은 주황·크림색으로 보이는 모프.",
+      "aliases": [
+        "Amelanistic",
+        "Amel",
+        "아멜"
+      ]
+    },
+    {
+      "name": "스트라이프",
+      "type": "패턴",
+      "description": "등의 밝은 세로줄을 강조해 부르는 패턴형.",
+      "aliases": [
+        "Stripe",
+        "Striped"
+      ]
+    }
+  ],
+  "species-22": [
+    {
+      "name": "알비노",
+      "type": "유전 모프",
+      "description": "검정 색소가 감소한 모프. 유통되는 아종·계통도 함께 확인해요.",
+      "aliases": [
+        "Albino",
+        "아멜"
+      ]
+    },
+    {
+      "name": "패턴리스",
+      "type": "유전 모프",
+      "description": "몸의 무늬가 감소하는 모프. 지역형 명칭과는 구분해요.",
+      "aliases": [
+        "Patternless",
+        "패턴"
+      ]
+    },
+    {
+      "name": "알비노패턴리스",
+      "type": "조합 모프",
+      "description": "알비노와 패턴리스 특징을 함께 가진 조합명.",
+      "aliases": [
+        "Albino Patternless"
+      ]
+    }
+  ],
+  "species-41": [
+    {
+      "name": "하이레드",
+      "type": "선별 계통",
+      "description": "몸에 붉은 무늬가 넓고 진하게 나타나도록 선별한 계통명.",
+      "aliases": [
+        "High Red",
+        "하레"
+      ]
+    },
+    {
+      "name": "크림슨",
+      "type": "선별 계통",
+      "description": "붉은 발색을 강화한 선별 계통명. 브리더에 따라 이름 사용 기준이 달라요.",
+      "aliases": [
+        "Crimson"
+      ]
+    }
+  ],
+  "species-75": [
+    {
+      "name": "하이포",
+      "type": "유전 모프",
+      "description": "어두운 색소가 감소하는 모프. 손발톱의 투명한 표현도 함께 확인해요.",
+      "aliases": [
+        "Hypo",
+        "Hypomelanistic"
+      ]
+    },
+    {
+      "name": "트랜슬루센트",
+      "type": "유전 모프",
+      "description": "피부와 눈의 표현에 영향을 주는 모프.",
+      "aliases": [
+        "Translucent",
+        "Trans",
+        "트랜스"
+      ]
+    },
+    {
+      "name": "레더백",
+      "type": "유전 모프",
+      "description": "등 비늘의 돌기가 줄어 매끈하게 보이는 모프.",
+      "aliases": [
+        "Leatherback",
+        "레더"
+      ]
+    },
+    {
+      "name": "제로",
+      "type": "유전 모프",
+      "description": "몸의 패턴과 발색이 크게 감소한 모프.",
+      "aliases": [
+        "Zero"
+      ]
+    },
+    {
+      "name": "윗블릿",
+      "type": "유전 모프",
+      "description": "패턴이 줄어 단색에 가깝게 보이는 모프. 제로와는 별개로 구분해요.",
+      "aliases": [
+        "Witblits",
+        "윗블리츠"
+      ]
+    },
+    {
+      "name": "레드·다크레드",
+      "type": "선별 계통",
+      "description": "붉은 발색의 강도를 선별한 계통·유통 표현.",
+      "aliases": [
+        "Red",
+        "Dark Red",
+        "다크레드"
+      ]
+    }
+  ],
+  "species-97": [
+    {
+      "name": "암빌로비",
+      "type": "지역형",
+      "description": "마다가스카르 Ambilobe 지역 계통. 블루바·레드바 같은 표현은 별도로 덧붙이기도 해요.",
+      "aliases": [
+        "Ambilobe",
+        "암빌로베"
+      ]
+    },
+    {
+      "name": "암반자",
+      "type": "지역형",
+      "description": "Ambanja 지역 계통을 가리키는 명칭.",
+      "aliases": [
+        "Ambanja"
+      ]
+    },
+    {
+      "name": "노시베",
+      "type": "지역형",
+      "description": "Nosy Be 섬 계통을 가리키는 명칭.",
+      "aliases": [
+        "Nosy Be",
+        "노지베"
+      ]
+    },
+    {
+      "name": "삼바바",
+      "type": "지역형",
+      "description": "Sambava 지역 계통을 가리키는 명칭.",
+      "aliases": [
+        "Sambava"
+      ]
+    },
+    {
+      "name": "노시미치오",
+      "type": "지역형",
+      "description": "Nosy Mitsio 섬 계통을 가리키는 명칭.",
+      "aliases": [
+        "Nosy Mitsio",
+        "노지미시오"
+      ]
+    }
+  ],
+  "species-120": [
+    {
+      "name": "알비노",
+      "type": "유전 모프",
+      "description": "검정 색소가 감소해 밝게 보이는 모프.",
+      "aliases": [
+        "Albino",
+        "Amelanistic"
+      ]
+    },
+    {
+      "name": "밴디드",
+      "type": "패턴",
+      "description": "몸을 가로지르는 띠무늬가 반복되는 패턴형.",
+      "aliases": [
+        "Banded"
+      ]
+    },
+    {
+      "name": "스트라이프",
+      "type": "패턴",
+      "description": "몸 길이 방향으로 선이 이어지는 패턴형.",
+      "aliases": [
+        "Striped",
+        "Stripe"
+      ]
+    },
+    {
+      "name": "하이화이트",
+      "type": "선별 계통",
+      "description": "밝은 무늬의 면적을 강조해 선별한 계통·유통 표현.",
+      "aliases": [
+        "High White",
+        "하화"
+      ]
+    }
+  ],
+  "species-129": [
+    {
+      "name": "아멜·알비노",
+      "type": "유전 모프",
+      "description": "검정 색소가 감소해 붉은색·주황색·밝은색 대비가 두드러지는 모프.",
+      "aliases": [
+        "Amel",
+        "Amelanistic",
+        "Albino"
+      ]
+    },
+    {
+      "name": "애너리",
+      "type": "유전 모프",
+      "description": "붉은 색소가 감소해 회색·검정 계열이 두드러지는 모프.",
+      "aliases": [
+        "Anery",
+        "Anerythristic",
+        "에너리"
+      ]
+    },
+    {
+      "name": "라벤더",
+      "type": "유전 모프",
+      "description": "옅은 보라·회색 계열의 발색으로 알려진 모프.",
+      "aliases": [
+        "Lavender"
+      ]
+    },
+    {
+      "name": "카라멜",
+      "type": "유전 모프",
+      "description": "노랑·갈색 계열의 발색이 두드러지는 모프.",
+      "aliases": [
+        "Caramel"
+      ]
+    },
+    {
+      "name": "모틀리",
+      "type": "유전 모프",
+      "description": "등과 배의 무늬 배열이 변화하는 패턴 모프.",
+      "aliases": [
+        "Motley"
+      ]
+    },
+    {
+      "name": "테세라",
+      "type": "유전 모프",
+      "description": "등의 세로줄과 측면의 망상 무늬가 특징인 모프.",
+      "aliases": [
+        "Tessera"
+      ]
+    },
+    {
+      "name": "팔메토",
+      "type": "유전 모프",
+      "description": "흰 바탕에 색깔 반점이 흩어지는 모프.",
+      "aliases": [
+        "Palmetto",
+        "팔메"
+      ]
+    },
+    {
+      "name": "스노우",
+      "type": "조합 모프",
+      "description": "아멜과 애너리 특징을 함께 가진 밝은 색의 조합.",
+      "aliases": [
+        "Snow"
+      ]
+    },
+    {
+      "name": "블리자드",
+      "type": "조합 모프",
+      "description": "아멜과 차콜을 조합한 밝은 단색 계열 명칭.",
+      "aliases": [
+        "Blizzard"
+      ]
+    },
+    {
+      "name": "버터",
+      "type": "조합 모프",
+      "description": "아멜과 카라멜을 조합한 노란색 계열 명칭.",
+      "aliases": [
+        "Butter"
+      ]
+    }
+  ],
+  "species-143": [
+    {
+      "name": "알비노",
+      "type": "유전 모프",
+      "description": "검정 색소가 감소한 밝은 색 모프.",
+      "aliases": [
+        "Albino"
+      ]
+    },
+    {
+      "name": "애너리",
+      "type": "유전 모프",
+      "description": "주황·붉은 발색이 감소해 회색·검정 대비가 나타나는 모프.",
+      "aliases": [
+        "Anery",
+        "Anerythristic",
+        "에너리"
+      ]
+    },
+    {
+      "name": "스노우",
+      "type": "조합 모프",
+      "description": "알비노와 애너리 특징을 조합한 밝은 색 모프.",
+      "aliases": [
+        "Snow"
+      ]
+    },
+    {
+      "name": "뉴클리어",
+      "type": "선별 계통",
+      "description": "주황색 발색을 강화해 선별한 계통명.",
+      "aliases": [
+        "Nuclear"
+      ]
+    },
+    {
+      "name": "패러독스",
+      "type": "패턴",
+      "description": "예상되는 색과 다른 색의 반점이 섞여 나타나는 표현. 단일 유전자로 단정하지 않아요.",
+      "aliases": [
+        "Paradox",
+        "파라독스"
+      ]
+    }
+  ],
+  "species-157": [
+    {
+      "name": "알비노",
+      "type": "유전 모프",
+      "description": "어두운 색소가 감소한 밝은 노랑·분홍 계열 모프.",
+      "aliases": [
+        "Albino"
+      ]
+    },
+    {
+      "name": "스트로베리",
+      "type": "색상 유통명",
+      "description": "분홍·붉은 발색을 강조한 유통명. 이름만으로 별도 유전형을 확정하지 않아요.",
+      "aliases": [
+        "Strawberry",
+        "딸기팩맨"
+      ]
+    },
+    {
+      "name": "애프리콧",
+      "type": "색상 유통명",
+      "description": "살구·주황 계열의 발색을 강조하는 유통명.",
+      "aliases": [
+        "Apricot",
+        "아프리콧"
+      ]
+    },
+    {
+      "name": "사무라이블루",
+      "type": "색상 유통명",
+      "description": "푸른빛·청록빛 발색을 강조하는 계통·유통명. 성장에 따라 발색이 변할 수 있어요.",
+      "aliases": [
+        "Samurai Blue",
+        "블루팩맨"
+      ]
+    }
+  ],
+  "species-167": [
+    {
+      "name": "스노우플레이크",
+      "type": "선별 계통",
+      "description": "몸의 흰 반점이 발달한 선별 계통.",
+      "aliases": [
+        "Snowflake",
+        "스노우 플레이크"
+      ]
+    },
+    {
+      "name": "블루아이",
+      "type": "색상 유통명",
+      "description": "밝은 푸른 눈의 표현을 가리키는 유통명.",
+      "aliases": [
+        "Blue-Eyed",
+        "Blue Eye",
+        "블루아이"
+      ]
+    },
+    {
+      "name": "허니",
+      "type": "선별 계통",
+      "description": "꿀색·노란빛 발색으로 알려진 선별 계통명.",
+      "aliases": [
+        "Honey"
+      ]
+    },
+    {
+      "name": "블루폼",
+      "type": "색상 유통명",
+      "description": "푸른빛 바탕을 강조하는 표현. 온도·상태에 따른 일시적인 색 변화와 구분해요.",
+      "aliases": [
+        "Blue Phase",
+        "Blue",
+        "블루페이즈"
+      ]
+    }
+  ],
+  "species-185": [
+    {
+      "name": "민트",
+      "type": "색상 계통",
+      "description": "옅은 민트색 계열로 알려진 사육 계통. 유전 모프와 동일한 뜻으로 보지 않아요.",
+      "aliases": [
+        "Mint"
+      ]
+    },
+    {
+      "name": "옐로우",
+      "type": "색상 계통",
+      "description": "노란색 계열로 알려진 사육 계통.",
+      "aliases": [
+        "Yellow"
+      ]
+    },
+    {
+      "name": "오렌지",
+      "type": "색상 계통",
+      "description": "주황색 계열로 알려진 사육 계통.",
+      "aliases": [
+        "Orange"
+      ]
+    },
+    {
+      "name": "오렌지블랙풋",
+      "type": "색상 계통",
+      "description": "주황색 몸과 어두운 발의 대비로 구분하는 사육 계통명.",
+      "aliases": [
+        "Orange Black Foot",
+        "Blackfoot"
+      ]
+    }
+  ],
+  "species-186": [
+    {
+      "name": "스탠더드",
+      "type": "패턴",
+      "description": "검정 바탕과 노란 띠·반점이 섞이는 일반적인 사육 형태.",
+      "aliases": [
+        "Standard",
+        "Standard Leucs"
+      ]
+    },
+    {
+      "name": "밴디드",
+      "type": "패턴",
+      "description": "노란 띠무늬가 비교적 연결되어 나타나는 사육 계통명.",
+      "aliases": [
+        "Banded",
+        "Banded Leucs"
+      ]
+    }
+  ]
+}

@@ -841,5 +841,75 @@
         "Banded Leucs"
       ]
     }
+  ],
+  "species-268": [
+    {
+      "name": "파우더블루",
+      "type": "색상·유통형",
+      "description": "푸른 회색 계열로 보이는 개체를 구분하는 유통명. 다른 색상형과 별도 종으로 세지 않아요.",
+      "aliases": [
+        "Powder Blue"
+      ]
+    },
+    {
+      "name": "파우더오렌지",
+      "type": "색상·유통형",
+      "description": "주황 계열 체색의 개체를 구분하는 유통명. 이름만으로 유전 방식이나 계통을 확정하지 않아요.",
+      "aliases": [
+        "Powder Orange"
+      ]
+    },
+    {
+      "name": "오레오크럼블",
+      "type": "색상·유통형",
+      "description": "밝은 바탕과 짙은 무늬가 섞이는 개체의 유통명. 사진의 종 참고 개체가 이 색상형을 뜻하지는 않아요.",
+      "aliases": [
+        "Oreo Crumble"
+      ]
+    }
+  ],
+  "species-270": [
+    {
+      "name": "달마시안",
+      "type": "색상·유통형",
+      "description": "밝은 바탕에 짙은 반점이 나타나는 유통형. 반점의 양과 분포는 개체마다 달라요.",
+      "aliases": [
+        "Dalmatian"
+      ]
+    },
+    {
+      "name": "스패니시오렌지",
+      "type": "색상·유통형",
+      "description": "주황 계열 개체가 유통되는 라인명. 별도 종으로 세지 않고 원래 종 아래에 연결해요.",
+      "aliases": [
+        "Spanish Orange"
+      ]
+    },
+    {
+      "name": "라바",
+      "type": "색상·유통형",
+      "description": "검정·주황 계열의 무늬로 유통되는 이름. 명칭만으로 아종이나 유전 방식을 확정하지 않아요.",
+      "aliases": [
+        "Lava"
+      ]
+    }
+  ],
+  "species-274": [
+    {
+      "name": "매직포션",
+      "type": "색상·유통형",
+      "description": "밝은 바탕에 검정·노랑 계열 반점이 보이는 유통형. 같은 이름이라도 계통과 표현 차이가 있어요.",
+      "aliases": [
+        "Magic Potion"
+      ]
+    },
+    {
+      "name": "오렌지비거",
+      "type": "색상·유통형",
+      "description": "주황 계열 개체가 유통되는 라인명. 실제 발색은 개체와 성장 상태에 따라 달라요.",
+      "aliases": [
+        "Orange Vigor"
+      ]
+    }
   ]
 }

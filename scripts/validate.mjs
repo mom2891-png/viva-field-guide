@@ -17,7 +17,7 @@ for(const r of all){
 for(const id of Object.keys(morphs))assert.ok(animals.some(r=>r.id===id),`Orphan morph ${id}`);
 // Exercise actual catalog logic with a small DOM stand-in, without browser dependencies.
 const elements=new Map();
-const element=key=>{if(!elements.has(key))elements.set(key,{value:'',textContent:'',innerHTML:'',hidden:false,checked:false,setAttribute(){},addEventListener(){},closest(){return this},querySelectorAll(){return []},querySelector(){return null},showModal(){this.open=true}});return elements.get(key);};
+const element=key=>{if(!elements.has(key))elements.set(key,{value:'',textContent:'',innerHTML:'',hidden:false,checked:false,style:{},classList:{add(){},remove(){},toggle(){},contains(){return false}},setAttribute(){},addEventListener(){},closest(){return this},querySelectorAll(){return []},querySelector(){return null},showModal(){this.open=true}});return elements.get(key);};
 const ctx=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],body:{style:{}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,a:animals,p:plants,m:morphs});
 const code=fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8').split("document.addEventListener('click'")[0];
 vm.runInContext(code,ctx);
@@ -63,3 +63,45 @@ assert.equal(run('plantGroups(filtered()).length'),1);
 assert.equal(run('plantGroups(filtered())[0].rows[0].id'),'plant-1','Favorites preserve species IDs');
 assert.equal((element('#detailContent').innerHTML.match(/class="genus-species"/g)||[]).length,1);
 console.log('PASS: full animal catalog; genus grouping, plant search/filter/popular/name sorting, species detail/back navigation, cultivars and favorites.');
+
+// Expansion must keep new taxa reachable and uncertain trade forms distinct.
+run("reset();state.page='animals';species=animals;state.category='turtle';render()");
+assert.ok(run("filtered().length>0&&filtered().every(r=>r.middle==='거북')"),'Turtles have their own category');
+assert.ok(run("animals.every(r=>animalCategories.some(([key])=>key===categoryOf(r)))"),'Every animal maps to a visible category');
+run("state.excludeSpecial=true;render()");
+assert.ok(run("filtered().every(r=>!r.env.includes('대')&&!r.env.includes('냉'))"),'Special-condition filter also covers new categories');
+run("reset();state.category='invert';state.search='러버더키';render()");
+assert.ok(run("filtered().length===1&&filtered()[0].catalogType==='유통명'&&!filtered()[0].popularityKnown"),'Unresolved isopod trade form stays unranked and searchable');
+run("reset();state.page='plants';species=plants;state.search='핑크벨벳';render()");
+assert.ok(run("plantGroups(filtered()).length===1&&plantGroups(filtered())[0].key==='Homalomena'"),'New plant genus searchable by trade form');
+assert.ok(run("filtered().every(r=>r.catalogType==='유통명')"),'Trade form not counted as verified species');
+run("state.search='더피';render()");
+assert.equal(run("filtered()[0].latin"),'Nephrolepis cordifolia','Cultivar attached to its existing species');
+assert.equal(plants.filter(r=>r.latin==='Nephrolepis cordifolia').length,1);
+run("reset();state.category='식충식물';render()");
+assert.ok(run("filtered().length>0&&filtered().every(r=>r.environment==='습지형')"),'Specialist plants retain a separate environment');
+run("reset();render()");
+assert.ok(run("plantGroups(filtered()).every(g=>genusName(g.key)!==g.key)"),'New genera have Korean display names');
+for(const r of all.filter(r=>r.catalogType==='유통명'))assert.ok(r.latin.includes('sp.')||r.verification,'Trade name uncertainty retained');
+console.log('PASS: expansion categories, trade-form identity, new genus search, cultivar deduplication and specialist environments.');
+
+run("reset();state.page='animals';species=animals;state.search='오레오크럼블';render()");
+assert.equal(run("filtered()[0].latin"),'Porcellionides pruinosus','New color form searchable under original species');
+
+// Execute the complete startup script, including event binding and all three fetches.
+const requests=[];
+const startupContext=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],addEventListener(){},body:{style:{},classList:{toggle(){}}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,URL,window:{scrollTo(){}},fetch:async path=>{requests.push(path);return {ok:true,json:async()=>read(path.split('?')[0])}}});
+vm.runInContext(fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8'),startupContext);
+await new Promise(resolve=>setImmediate(resolve));
+assert.equal(requests.length,3,'Startup fetches every data file');
+assert.ok(requests.every(path=>/^(species|plants|morphs)\.json\?v=/.test(path)),'Versioned relative paths work under GitHub Pages subdirectory');
+assert.equal(Number(element('#animalTotal').textContent),animals.length,'Live total refreshed after loading');
+assert.ok(element('#resultCount').textContent.includes(String(animals.length)),'Initial render succeeds');
+vm.runInContext("setPage('plants')",startupContext);
+assert.ok(element('#resultCount').textContent.includes(String(plants.length)),'Plant navigation succeeds after full initialization');
+console.log('PASS: complete app startup, versioned data fetch and page navigation.');
+
+run("reset();state.page='animals';species=animals;state.sort='recent';render()");
+assert.equal(run("filtered()[0].n"),Math.max(...animals.filter(r=>r.addedAt===animals.at(-1).addedAt).map(r=>r.n)),'Same-day additions ordered by insertion sequence');
+run("state.page='plants';species=plants;render()");
+assert.equal(run("plantGroups(filtered())[0].rows[0].n"),plants.at(-1).n,'Newest plant genus leads recent ordering');

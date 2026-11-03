@@ -1,4 +1,5 @@
 'use strict';
+const CATALOG_VERSION = '2026-11-03-expansion1';
 const $ = (selector) => document.querySelector(selector);
 const envNames = {습:'습식',혼:'건습 혼합',건:'건조',수:'반수생·수생',냉:'냉량 관리',대:'대형 사육장',환:'충분한 환기',굴:'깊은 바닥재',해:'담수·해수'};
 const descriptions = {
@@ -10,11 +11,12 @@ const descriptions = {
 let species = [], animals = [], plants = [], morphs = {}, state = {category:'all',environment:'all',search:'',sort:'popular',excludeSpecial:false,savedOnly:false,page:'animals',subgroup:'all',availability:'all'};
 let favorites = new Set();
 try { favorites = new Set(JSON.parse(localStorage.getItem('viva-favorites-v1') || '[]')); } catch {}
-const animalCategories = [ ['all','전체 생물'],['gecko','게코'],['lizard','도마뱀'],['snake','뱀'],['frog','개구리'],['newt','뉴트·도롱뇽'],['invert','무척추동물'] ];
+const animalCategories = [ ['all','전체 생물'],['gecko','게코'],['lizard','도마뱀'],['snake','뱀'],['frog','개구리'],['newt','뉴트·도롱뇽'],['turtle','거북'],['invert','무척추동물'] ];
 const animalEnvironments = [['all','모든 환경'],['습','습식'],['혼','건습 혼합'],['건','건조'],['수','반수생·수생'],['냉','냉량 관리'],['환','환기 중점']];
 function categoryOf(row) {
   if(row.id.startsWith('plant-')) return row.category;
   if(['절지동물','연체동물','무척추동물'].includes(row.major)) return 'invert';
+  if(row.middle==='거북') return 'turtle';
   if(row.middle==='게코') return 'gecko';
   if(row.middle.startsWith('뱀')) return 'snake';
   if(row.middle.startsWith('개구리')) return 'frog';
@@ -57,11 +59,12 @@ function filtered(){
     .sort(compareEntries);
 }
 const genusNames = {
+  Homalomena:'호마로메나',Labisia:'라비시아',Bucephalandra:'부세파란드라',Sonerila:'소네릴라',Bertolonia:'베르톨로니아',Geogenanthus:'지오제난투스',Argostemma:'아르고스템마',Mikania:'미카니아',Scindapsus:'스킨답서스',Biophytum:'비오피툼',Ardisia:'자금우',Pellaea:'펠레아 (버튼고사리)',Microsorum:'미크로소룸',Bulbophyllum:'벌보필룸',Phalaenopsis:'호접란',Dendrobium:'석곡·덴드로비움',Drosera:'끈끈이주걱',Utricularia:'통발류',Rhodobryum:'꽃송이이끼',Pyrrhobryum:'편백이끼·너구리꼬리이끼',Thamnobryum:'대호꼬리이끼',Mnium:'초롱이끼',
   Adiantum:'아디안텀',Anoectochilus:'아노엑토칠루스',Anubias:'아누비아스',Asplenium:'아스플레니움',Atrichum:'주름솔이끼',Aulacomnium:'긴몸초롱이끼',Begonia:'베고니아',Bolbitis:'볼비티스',Callicladium:'풀이끼',Callisia:'칼리시아',Ceratodon:'지붕빨간이끼',Cissus:'시서스',Climacium:'나무이끼',Cryptanthus:'크립탄서스',Cryptocoryne:'크립토코리네',Davallia:'다발리아',Dicranum:'꼬리이끼',Dischidia:'디스키디아',Dossinia:'도시니아',Entodon:'윤이끼',Epipremnum:'에피프레넘',Episcia:'에피스키아',Ficus:'피커스',Fissidens:'봉황이끼',Fittonia:'피토니아',Goeppertia:'고에페르티아',Guzmania:'구즈마니아',Hemionitis:'헤미오니티스',Hoya:'호야',Hydrocotyle:'하이드로코틸레',Hypnum:'털깃털이끼',Leptochilus:'렙토킬루스',Leucobryum:'흰털이끼',Ludisia:'루디시아',Macodes:'마코데스',Maranta:'마란타',Marcgravia:'마크그라비아',Marchantia:'우산이끼',Monstera:'몬스테라',Neoregelia:'네오레겔리아',Nephrolepis:'네프로레피스',Peperomia:'페페로미아',Philodendron:'필로덴드론',Pilea:'피레아',Plagiomnium:'덩굴초롱이끼',Polytrichum:'솔이끼',Procris:'프로크리스',Pteris:'프테리스',Ptilium:'타조이끼',Pyrrosia:'피로시아',Rhytidiadelphus:'겉굵은이끼',Riccardia:'산호우산대이끼',Riccia:'리치아',Selaginella:'셀라기넬라',Soleirolia:'솔레이롤리아',Sphagnum:'물이끼·수태',Taxiphyllum:'자바모스류',Thuidium:'깃털이끼',Tillandsia:'틸란드시아',Vesicularia:'크리스마스모스류'
 };
 function genusOf(row){return row.latin.match(/^[A-Z][a-z]+\b/)?.[0]||row.id;}
 function genusName(key){return genusNames[key]||key;}
-function comparePriority(a,b){return (state.sort==='popular'?(Number(b.popularityKnown)-Number(a.popularityKnown)||((a.popularity??1e9)-(b.popularity??1e9))):state.sort==='recent'?((b.addedAt||'').localeCompare(a.addedAt||'')):state.sort==='saved'?Number(favorites.has(b.id))-Number(favorites.has(a.id)):0);}
+function comparePriority(a,b){return (state.sort==='popular'?(Number(b.popularityKnown)-Number(a.popularityKnown)||((a.popularity??1e9)-(b.popularity??1e9))):state.sort==='recent'?((b.addedAt||'').localeCompare(a.addedAt||'')||(a.addedAt&&b.addedAt?b.n-a.n:0)):state.sort==='saved'?Number(favorites.has(b.id))-Number(favorites.has(a.id)):0);}
 function compareEntries(a,b){return comparePriority(a,b)||a.name.localeCompare(b.name,'ko');}
 function plantGroups(list){
   const groups=new Map();
@@ -160,9 +163,9 @@ $('#heroDetail').addEventListener('click',()=>openDetail('species-1'));
 $('#closeDialog').addEventListener('click',()=>$('#detailDialog').close());
 $('#detailDialog').addEventListener('close',()=>document.body.style.overflow='');
 $('#detailDialog').addEventListener('click',event=>{if(event.target===$('#detailDialog')){const rect=event.target.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)event.target.close();}});
-$('#aboutButton').addEventListener('click',()=>{$('#detailContent').innerHTML=`<div class="about"><div class="eyebrow">ABOUT THE FIELD GUIDE</div><h2>나만의 작은 세계를 위한 도감</h2><p>동물 ${animals.length}개와 식물·이끼 ${plants.length}개 항목을 분류·환경별로 탐색할 수 있어요. 동물 17종의 모프·패턴·지역형 92개는 해당 종 아래에 연결했으며 별도 종으로 세지 않았어요.</p><p>인기순은 국내 판매처의 취급 범위를 참고한 추정 순서이며 실제 판매량 순위는 아니에요. 확인된 인기 자료가 있는 항목을 먼저 정렬하고, 미집계 항목은 그 뒤에서 이름순으로 보여줘요. 미집계는 희귀하거나 인기가 없다는 뜻이 아니에요. 새 확장 후보의 국내 유통과 종별 조건은 계속 확인하고 있어요.</p><p>습식·건조·반수생 등 환경을 구별해 골라 주세요. 같은 환경 표시는 합사 가능을 뜻하지 않아요. 학명·유통명과 사진의 개체가 다를 수 있으며 사진 저작자와 라이선스는 각 항목의 ‘사진 정보’에서 확인할 수 있어요.</p><p>관심 목록은 현재 브라우저에 저장되며, 동물과 식물 도감 각각에서 볼 수 있어요. 식물은 속 카드에서 종 목록을 열고, 종 상세에서 품종·유통명을 살펴볼 수 있어요. 환경 필터와 검색은 해당 조건에 맞는 종만 속 안에 보여줘요.</p></div>`;if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';});
+$('#aboutButton').addEventListener('click',()=>{$('#detailContent').innerHTML=`<div class="about"><div class="eyebrow">ABOUT THE FIELD GUIDE</div><h2>나만의 작은 세계를 위한 도감</h2><p>동물 ${animals.length}개와 식물·이끼 ${plants.length}개 항목을 분류·환경별로 탐색할 수 있어요. 동물 ${Object.keys(morphs).length}개 항목의 모프·패턴·지역형 ${Object.values(morphs).flat().length}개는 해당 종 아래에 연결했으며 별도 종으로 세지 않았어요.</p><p>인기순은 국내 판매처의 취급 범위를 참고한 추정 순서이며 실제 판매량 순위는 아니에요. 확인된 인기 자료가 있는 항목을 먼저 정렬하고, 미집계 항목은 그 뒤에서 이름순으로 보여줘요. 미집계는 희귀하거나 인기가 없다는 뜻이 아니에요. 새 확장 후보의 국내 유통과 종별 조건은 계속 확인하고 있어요.</p><p>습식·건조·반수생 등 환경을 구별해 골라 주세요. 열대 습식뿐 아니라 건조형·냉량형·수역 전용 후보도 포함하므로 환경과 성체 크기를 먼저 확인해 주세요. 같은 환경 표시는 합사 가능을 뜻하지 않아요. 학명·유통명과 사진의 개체가 다를 수 있으며 사진 저작자와 라이선스는 각 항목의 ‘사진 정보’에서 확인할 수 있어요.</p><p>관심 목록은 현재 브라우저에 저장되며, 동물과 식물 도감 각각에서 볼 수 있어요. 식물은 속 카드에서 종 목록을 열고, 종 상세에서 품종·유통명을 살펴볼 수 있어요. 환경 필터와 검색은 해당 조건에 맞는 종만 속 안에 보여줘요.</p></div>`;if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';});
 document.addEventListener('keydown',event=>{if(event.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#detailDialog').open){event.preventDefault();setPage('animals');$('#search').focus();}});
-Promise.all(['species.json','plants.json','morphs.json'].map(path=>fetch(path).then(response=>{if(!response.ok)throw new Error(path);return response.json();}))).then(([a,p,m])=>{
+Promise.all(['species.json','plants.json','morphs.json'].map(path=>fetch(`${path}?v=${CATALOG_VERSION}`).then(response=>{if(!response.ok)throw new Error(path);return response.json();}))).then(([a,p,m])=>{
   animals=a;plants=p;morphs=m;species=animals;$('#animalTotal').textContent=animals.length;document.querySelectorAll('[data-plant-total]').forEach(e=>e.textContent=plants.length);$('#footerTotal').textContent=`동물 ${animals.length} · 식물·이끼 ${plants.length} 항목`;render();const hero=animals.find(r=>r.n===1);if(hero?.image)$('#heroPhoto').style.backgroundImage=`url("${safeUrl(hero.image)}")`;
 }).catch(()=>{$('#resultCount').textContent='도감을 불러오지 못했어요. 새로고침해 주세요.';});
 

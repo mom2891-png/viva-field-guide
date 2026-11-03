@@ -35,7 +35,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 15,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 6000,
+          "max": 6000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-2",
@@ -68,7 +95,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 5,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "옆으로 퍼져 자라요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-3",
@@ -102,7 +139,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 250,
+      "max": 1200,
+      "unit": "cm",
+      "measurement": "덩굴 길이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "자연 성숙 기준. 사육장에서는 지속적인 가지치기가 필요해요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-4",
@@ -229,7 +276,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 16000,
+          "max": 16000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-8",
@@ -293,7 +357,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 43,
+      "max": 48,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "성숙 잎이 늘어지는 공간을 고려하세요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-10",
@@ -532,7 +606,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 10000,
+          "max": 10000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-17",
@@ -564,7 +655,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 30,
+      "max": 40,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-18",
@@ -627,7 +728,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 50,
+      "max": 250,
+      "unit": "cm",
+      "measurement": "잎 길이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "종 전체의 성숙 잎 범위로, 소형 재배품종과 다를 수 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-20",
@@ -929,7 +1040,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 610,
+      "unit": "cm",
+      "measurement": "늘어진 줄기 길이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "자연 군락 기준. 짧게 나누어 재배할 수 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-30",
@@ -1207,7 +1328,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 250,
+      "max": 250,
+      "unit": "cm",
+      "measurement": "덩굴 길이",
+      "basis": "성숙",
+      "kind": "approximate",
+      "note": "성숙 덩굴 기준. 가지치기로 관리하세요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-39",
@@ -1240,7 +1371,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 15,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "포복 줄기는 약 60cm까지 퍼질 수 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-40",
@@ -1305,7 +1446,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 300,
+      "max": 600,
+      "unit": "cm",
+      "measurement": "덩굴 길이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "성숙 덩굴 기준. 가지치기가 필요해요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-42",
@@ -1338,7 +1489,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 2000,
+      "unit": "cm",
+      "measurement": "덩굴 길이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "야외 자연 성숙 기준. 작은 사육장에서는 가지치기와 유엽 상태 관리가 필요해요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-43",
@@ -1401,7 +1562,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 60,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-45",
@@ -1433,7 +1604,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 20,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-46",
@@ -1465,7 +1646,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 20,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-47",
@@ -1528,7 +1719,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 100,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-49",
@@ -1559,7 +1760,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 50,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-50",
@@ -1623,7 +1834,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 15,
+      "max": 20,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-52",
@@ -1720,7 +1941,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 45,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-55",
@@ -1753,7 +1984,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 60,
+      "max": 75,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-56",
@@ -1785,7 +2026,40 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "화분·포트 · 10×8cm",
+          "min": 2800,
+          "max": 2800,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "컵 · 8×3.5cm",
+          "min": 2000,
+          "max": 2000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "19×15cm 상품",
+          "min": 8000,
+          "max": 8000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-57",
@@ -1817,7 +2091,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 1,
+      "max": 3.5,
+      "unit": "cm",
+      "measurement": "잎 길이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "줄기 전체 길이와 달라요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-58",
@@ -1881,7 +2165,32 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "컵 · 9×6cm",
+          "min": 12000,
+          "max": 15000,
+          "sampleCount": 2,
+          "shopCount": 1,
+          "includesSoldOut": true
+        },
+        {
+          "unit": "컵 · 8×3.5cm",
+          "min": 18000,
+          "max": 18000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-60",
@@ -2041,7 +2350,80 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "화분·포트 · 10×8cm",
+          "min": 6000,
+          "max": 6000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "컵 · 8×3cm",
+          "min": 5000,
+          "max": 5000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "1컵",
+          "min": 3800,
+          "max": 3800,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "4컵",
+          "min": 15000,
+          "max": 15000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "30×20cm 상품",
+          "min": 35000,
+          "max": 35000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "60×30cm 상품",
+          "min": 150000,
+          "max": 150000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "5판 · 60×30cm",
+          "min": 480000,
+          "max": 480000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "규격 미표기 상품",
+          "min": 8900,
+          "max": 15000,
+          "sampleCount": 3,
+          "shopCount": 2,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-65",
@@ -2073,7 +2455,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 30,
+      "unit": "cm",
+      "measurement": "성숙 잎 길이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "어린 잎보다 성숙 잎이 훨씬 커질 수 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-66",
@@ -2106,7 +2498,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 62000,
+          "max": 62000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-67",
@@ -2270,6 +2679,16 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Begonia_masoniana-Auteuil_02.JPG",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sizeInfo": {
+      "min": null,
+      "max": 50,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -2448,7 +2867,24 @@
       "url": "https://commons.wikimedia.org/wiki/File:Begonia_thelmae_HabitusFlowers_BotGardBln0906.jpg",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 10000,
+          "max": 10000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-80",
@@ -2530,6 +2966,16 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Hemionites_arifolia-fren-yercaud-salem-India.JPG",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "sizeInfo": {
+      "min": 3,
+      "max": 6,
+      "unit": "cm",
+      "measurement": "잎몸 길이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "잎자루는 제외한 값이에요.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -2564,7 +3010,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Starr_070221-4863_Nephrolepis_cordifolia.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 40,
+      "max": 80,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "원종 기준. 더피 등 소형 품종과 다를 수 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-84",
@@ -2594,7 +3050,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Starr_030419-0010_Pteris_cretica.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 75,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "폭 약 60cm까지 고려하세요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-85",
@@ -2832,7 +3298,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Peperomia_quadrangularis_0zz.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 1.2,
+      "max": 3,
+      "unit": "cm",
+      "measurement": "잎 길이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "덩굴 전체 길이가 아니에요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-94",
@@ -3040,6 +3516,16 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Aulacomnium_palustre.jpeg",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "sizeInfo": {
+      "min": 2.5,
+      "max": 10,
+      "unit": "cm",
+      "measurement": "줄기 길이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -3073,7 +3559,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Callicladium_haldanianum.jpg",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 3,
+      "max": 8,
+      "unit": "cm",
+      "measurement": "줄기 길이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-102",
@@ -3106,6 +3602,16 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Ceratodon_purpureus.jpeg",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "sizeInfo": {
+      "min": 3,
+      "max": 3,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "approximate",
+      "note": "그늘에서는 줄기가 더 길어질 수 있어요.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -3197,7 +3703,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Broom_moss_(Orphan_Lk)_2.JPG",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 0.35,
+      "max": 0.8,
+      "unit": "cm",
+      "measurement": "잎 길이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "군락 높이가 아닌 개별 잎 기준이에요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-106",
@@ -3321,6 +3837,16 @@
       "license": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Plagiomnium_cuspidatum_118577124.jpg",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "sizeInfo": {
+      "min": 1.5,
+      "max": 4,
+      "unit": "cm",
+      "measurement": "식물체 높이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -3354,7 +3880,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Polytrichum_commune.jpeg",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 5,
+      "max": 10,
+      "unit": "cm",
+      "measurement": "줄기 길이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "통상적인 범위이며 환경에 따라 더 길어져요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-111",
@@ -3453,7 +3989,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Rhytidiadelphus_squarrosus_p8220006.jpg",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 15,
+      "unit": "cm",
+      "measurement": "높이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "plant-114",
@@ -3577,7 +4123,24 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "3×3cm 상품",
+          "min": 7000,
+          "max": 7000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-118",
@@ -3709,6 +4272,23 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Rhodobryum_roseum00.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 4500,
+          "max": 4500,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
     }
   },
   {
@@ -3769,6 +4349,23 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Pyrrhobryum_dozyanum_leaves.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "10촉",
+          "min": 4800,
+          "max": 4800,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
     }
   },
   {
@@ -3791,7 +4388,40 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 500,
+          "max": 500,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "10촉",
+          "min": 4500,
+          "max": 4500,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "19×15cm 상품",
+          "min": 25000,
+          "max": 25000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-125",
@@ -3821,6 +4451,47 @@
       "license": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Climacium_japonicum_-_National_Museum_of_Nature_and_Science,_Tokyo_-_DSC06827.JPG",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 2000,
+          "max": 2000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "4촉",
+          "min": 9000,
+          "max": 9000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        },
+        {
+          "unit": "5촉",
+          "min": 9500,
+          "max": 9500,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "10촉",
+          "min": 10000,
+          "max": 10000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
     }
   },
   {
@@ -3851,6 +4522,23 @@
       "license": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Mnium_lycopodioides_(a,_144805-474432)_7820.JPG",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "컵 · 8×3.5cm",
+          "min": 7000,
+          "max": 7000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
     }
   },
   {
@@ -3875,7 +4563,32 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "5판 · 60×30cm",
+          "min": 65000,
+          "max": 65000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "규격 미표기 상품",
+          "min": 3900,
+          "max": 3900,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-128",
@@ -3919,7 +4632,24 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "유통명",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 9900,
+          "max": 14000,
+          "sampleCount": 2,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-130",
@@ -3941,7 +4671,24 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "유통명",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 18000,
+          "max": 33000,
+          "sampleCount": 2,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-131",
@@ -3963,7 +4710,24 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "유통명",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 28000,
+          "max": 28000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-132",
@@ -4007,7 +4771,24 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "유통명",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 34000,
+          "max": 34000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-134",
@@ -4029,7 +4810,24 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "유통명",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "컵 · 8×3.5cm",
+          "min": 12000,
+          "max": 12000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-135",
@@ -4051,7 +4849,24 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "유통명",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "컵 · 8×3.5cm",
+          "min": 12000,
+          "max": 12000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-136",
@@ -4073,7 +4888,24 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "유통명",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "컵 · 8×3.5cm",
+          "min": 12000,
+          "max": 12000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-137",
@@ -4097,7 +4929,24 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "유통명",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 15000,
+          "max": 15000,
+          "sampleCount": 2,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-138",
@@ -4149,6 +4998,23 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Geogenanthus_poeppigii_kz3.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 35000,
+          "max": 35000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
     }
   },
   {
@@ -4171,7 +5037,24 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 15000,
+          "max": 15000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-141",
@@ -4193,7 +5076,24 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 15000,
+          "max": 15000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "plant-142",
@@ -4226,6 +5126,16 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Scindapsus_pictus_01.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sizeInfo": {
+      "min": null,
+      "max": 300,
+      "unit": "cm",
+      "measurement": "덩굴 길이",
+      "basis": "성숙",
+      "kind": "maximum",
+      "note": "지지물과 가지치기 방식에 따라 달라져요.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -4282,6 +5192,23 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Ardisia_japonica_01.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 19000,
+          "max": 19000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "품종·판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
     }
   },
   {
@@ -4559,6 +5486,16 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Drosera_spatulata_var._bakoensis.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sizeInfo": {
+      "min": 4,
+      "max": 4,
+      "unit": "cm",
+      "measurement": "로제트 지름",
+      "basis": "성숙",
+      "kind": "approximate",
+      "note": "꽃대 높이는 별도예요.",
+      "checkedAt": "2026-11-03"
     }
   },
   {

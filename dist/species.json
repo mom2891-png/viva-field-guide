@@ -20,7 +20,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 18,
+      "max": 23,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 40000,
+          "max": 700000,
+          "sampleCount": 22,
+          "shopCount": 3,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 2,
@@ -66,7 +93,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 25,
+      "max": 31,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 4,
@@ -89,7 +126,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 18,
+      "max": 23,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 150000,
+          "max": 150000,
+          "sampleCount": 2,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 5,
@@ -112,7 +176,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 23,
+      "max": 43,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "자료의 지역형별 범위를 함께 표시했어요. 그랑테르계는 약 36~43cm, 헨켈리계는 약 23~30cm예요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 6,
@@ -135,7 +209,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 6,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리 제외",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 7,
@@ -158,7 +242,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 5.3,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리 제외",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 8,
@@ -181,7 +275,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 6,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리 제외",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 9,
@@ -204,7 +308,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 6,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리 제외",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 10,
@@ -227,7 +341,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 7.6,
+      "max": 10.2,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 11,
@@ -273,7 +397,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 150000,
+          "max": 150000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 13,
@@ -296,7 +437,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 18,
+      "max": 25,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 50000,
+          "max": 700000,
+          "sampleCount": 6,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 14,
@@ -342,7 +510,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 50000,
+          "max": 250000,
+          "sampleCount": 9,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "sizeInfo": {
+      "min": 20,
+      "max": 25,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 16,
@@ -365,7 +560,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 3.8,
+      "max": 3.8,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리 제외",
+      "basis": "성체",
+      "kind": "approximate",
+      "note": "머리~항문 길이 기준이며 꼬리 포함 전체길이와 달라요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 17,
@@ -388,7 +593,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 11,
+      "max": 12,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 18,
@@ -411,7 +626,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 10,
+      "max": 15,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "큰 수컷은 이 범위를 초과할 수 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 19,
@@ -595,7 +820,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 80000,
+          "max": 600000,
+          "sampleCount": 4,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "sizeInfo": {
+      "min": 25,
+      "max": 30,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "큰 개체는 약 40cm까지 자랄 수 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 27,
@@ -618,7 +870,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 12,
+      "max": 14,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 28,
@@ -641,7 +903,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 7,
+      "max": 9,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리 제외",
+      "basis": "성체",
+      "kind": "range",
+      "note": "기록 최대가 아닌 평균적인 성체 범위예요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 29,
@@ -687,7 +959,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 15,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 31,
@@ -733,7 +1015,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 120000,
+          "max": 120000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 33,
@@ -940,7 +1239,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 23,
+      "max": 28,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "암컷은 일반적으로 더 작아요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 42,
@@ -963,7 +1272,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 10,
+      "max": 13,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 43,
@@ -986,7 +1305,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 8.3,
+      "max": 9.5,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 44,
@@ -1032,7 +1361,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 20,
+      "max": 25.4,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "이 범위를 초과하는 개체도 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 46,
@@ -1055,7 +1394,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 180000,
+          "max": 180000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 47,
@@ -1078,7 +1434,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 10,
+      "max": 13,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 48,
@@ -1146,7 +1512,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 45,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 51,
@@ -1192,7 +1568,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 80000,
+          "max": 80000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 53,
@@ -1215,7 +1608,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 90000,
+          "max": 90000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "sizeInfo": {
+      "min": 30,
+      "max": 38,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 54,
@@ -1261,7 +1681,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 30000,
+          "max": 30000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 56,
@@ -1284,7 +1721,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 46,
+      "max": 61,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "아종에 따라 더 크게 자랄 수 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 57,
@@ -1307,7 +1754,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 16,
+      "max": 20,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 58,
@@ -1353,7 +1810,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 180000,
+          "max": 180000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "sizeInfo": {
+      "min": 22,
+      "max": 25,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 60,
@@ -1399,7 +1883,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 15,
+      "max": 30,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 62,
@@ -1468,7 +1962,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 50,
+      "max": 65,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 65,
@@ -1514,7 +2018,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 90,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 700000,
+          "max": 700000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 67,
@@ -1537,7 +2068,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 100,
+      "max": 100,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "approximate",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 68,
@@ -1606,7 +2147,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 91,
+      "max": 120,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "성체 수컷 기준.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 71,
@@ -1652,7 +2203,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 100,
+      "max": 100,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "approximate",
+      "note": "수컷 기준 약 1m 또는 그 이상이며 암컷은 더 작아요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 73,
@@ -1675,7 +2236,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 380000,
+          "max": 380000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 74,
@@ -1698,7 +2276,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 200000,
+          "max": 200000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 75,
@@ -1721,7 +2316,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 46,
+      "max": 61,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 100000,
+          "max": 350000,
+          "sampleCount": 4,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 76,
@@ -1744,7 +2366,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 38,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 77,
@@ -1767,7 +2399,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 13,
+      "max": 30,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "암수 차이가 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 78,
@@ -1790,7 +2432,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 650000,
+          "max": 650000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 79,
@@ -1813,7 +2472,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 28,
+      "max": 36,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 80,
@@ -1836,7 +2505,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 18,
+      "max": 18,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리 제외",
+      "basis": "성체",
+      "kind": "approximate",
+      "note": "꼬리는 별도예요.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 300000,
+          "max": 300000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 81,
@@ -1859,7 +2555,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 7.5,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리 제외",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "수컷 기준.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 82,
@@ -1951,7 +2657,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 9,
+      "max": 12,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리 제외",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 86,
@@ -2020,7 +2736,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 61,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 89,
@@ -2089,7 +2815,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 10.6,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리 제외",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "꼬리는 별도로 약 16cm까지 길어질 수 있어요.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "한 쌍",
+          "min": 3500000,
+          "max": 3500000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 92,
@@ -2157,7 +2910,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 15,
+      "max": 20,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 180000,
+          "max": 180000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 95,
@@ -2203,7 +2983,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 43,
+      "max": 61,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "성체 수컷 기준. 암컷은 더 작아요.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 110000,
+          "max": 110000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 97,
@@ -2226,7 +3033,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "한 쌍",
+          "min": 900000,
+          "max": 1200000,
+          "sampleCount": 2,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 98,
@@ -2249,7 +3073,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 3000000,
+          "max": 3000000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 99,
@@ -2272,7 +3113,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 25,
+      "max": 35,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "최대 약 40cm까지 자랄 수 있어요.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 1800000,
+          "max": 1800000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 100,
@@ -2341,7 +3209,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 100,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "암컷 기준. 수컷은 대체로 더 작아요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 103,
@@ -2410,7 +3288,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 137,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 106,
@@ -2478,7 +3366,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 70,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "수컷 기준.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 109,
@@ -2524,7 +3422,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 110,
+      "max": 236,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "암수 범위를 함께 표시했어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 111,
@@ -2570,7 +3478,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 240,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 450000,
+          "max": 450000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 113,
@@ -2616,7 +3551,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 140,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 115,
@@ -2639,7 +3584,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 100,
+      "max": 160,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 116,
@@ -2706,7 +3661,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 240,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "암컷 기준.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 119,
@@ -2798,7 +3763,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 90,
+      "max": 122,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "큰 개체는 이 범위를 초과할 수 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 123,
@@ -2867,7 +3842,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 116,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 126,
@@ -2959,7 +3944,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 90,
+      "max": 150,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "대형 개체는 이 범위를 초과할 수 있어요.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 50000,
+          "max": 260000,
+          "sampleCount": 15,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 130,
@@ -3028,7 +4040,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 122,
+      "max": 229,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 133,
@@ -3051,7 +4073,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 180,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 134,
@@ -3074,7 +4106,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 150,
+      "max": 200,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "최대 약 270cm 기록도 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 135,
@@ -3097,7 +4139,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 55,
+      "max": 55,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "approximate",
+      "note": "평균적 참고값이며 큰 개체는 훨씬 길어질 수 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 136,
@@ -3120,7 +4172,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 90,
+      "max": 137,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 137,
@@ -3143,7 +4205,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 91,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 138,
@@ -3227,7 +4299,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 150,
+      "max": 195,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "큰 개체는 이 범위를 초과해요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 142,
@@ -3250,7 +4332,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 100,
+      "max": 100,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "approximate",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 143,
@@ -3273,7 +4365,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 300000,
+          "max": 300000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 144,
@@ -3296,7 +4405,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 91,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 145,
@@ -3342,7 +4461,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 150,
+      "max": 200,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 500000,
+          "max": 500000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 147,
@@ -3388,7 +4534,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 150,
+      "max": 180,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "큰 암컷은 약 200cm까지 자랄 수 있어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 149,
@@ -3472,7 +4628,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 3,
+      "max": 6,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "암컷이 더 커요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 153,
@@ -3518,7 +4684,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 10,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "이 크기까지 자라는 경우는 드물어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 155,
@@ -3564,7 +4740,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 100000,
+          "max": 120000,
+          "sampleCount": 2,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 157,
@@ -3587,7 +4780,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 8,
+      "max": 13,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 158,
@@ -3610,7 +4813,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 16.5,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "암컷 기준. 수컷은 더 작아요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 159,
@@ -3679,7 +4892,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 3.2,
+      "max": 6.4,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 162,
@@ -3702,7 +4925,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 3,
+      "max": 3.3,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "암컷 기준.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 35000,
+          "max": 35000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 163,
@@ -3748,7 +4998,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 5.4,
+      "max": 7.5,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "암수 범위를 함께 표시했어요.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 100000,
+          "max": 100000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 165,
@@ -3794,7 +5071,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 10,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "암컷 기준.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 80000,
+          "max": 80000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 167,
@@ -3817,7 +5121,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 11.5,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "암컷이 더 큰 편이에요.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 30000,
+          "max": 80000,
+          "sampleCount": 2,
+          "shopCount": 2,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 168,
@@ -3840,7 +5171,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 11,
+      "max": 14,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 169,
@@ -3886,7 +5227,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 9.1,
+      "max": 11.9,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "암수 범위를 함께 표시했어요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 171,
@@ -3955,7 +5306,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 24.5,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "큰 수컷 기준.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 50000,
+          "max": 50000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 174,
@@ -3978,7 +5356,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 13.8,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "예외적으로 큰 수컷 기준.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 175,
@@ -4001,7 +5389,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 15,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "수컷 기준.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 176,
@@ -4039,7 +5437,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 80000,
+          "max": 80000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 178,
@@ -4062,7 +5477,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 9,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "암컷 기준.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 179,
@@ -4131,7 +5556,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 50000,
+          "max": 50000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 182,
@@ -4154,7 +5596,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 6.5,
+      "max": 8.4,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 183,
@@ -4177,7 +5629,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 90000,
+          "max": 90000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 184,
@@ -4200,7 +5669,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 5,
+      "max": 7.6,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "암컷이 더 큰 편이에요.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 60000,
+          "max": 60000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 185,
@@ -4246,7 +5742,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 3.1,
+      "max": 5,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "평균적인 성체는 약 4cm 이하인 경우가 많아요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 187,
@@ -4269,7 +5775,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 1.9,
+      "max": 2.6,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 188,
@@ -4338,7 +5854,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 30000,
+          "max": 30000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 191,
@@ -4384,7 +5917,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 8,
+      "max": 15,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 193,
@@ -4407,7 +5950,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": 15,
+      "max": 25,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 30000,
+          "max": 150000,
+          "sampleCount": 3,
+          "shopCount": 2,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 194,
@@ -4430,7 +6000,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 15,
+      "max": 25,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 195,
@@ -4476,7 +6056,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 16,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "암컷 기준.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 197,
@@ -4499,7 +6089,34 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "sizeInfo": {
+      "min": null,
+      "max": 20.3,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 60000,
+          "max": 100000,
+          "sampleCount": 2,
+          "shopCount": 2,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 198,
@@ -4522,7 +6139,24 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
-    "popularityKnown": true
+    "popularityKnown": true,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 100000,
+          "max": 100000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "n": 199,
@@ -4560,7 +6194,17 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 33.5,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "n": 201,
@@ -4609,7 +6253,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Bavayia_robusta_33483955.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 15,
+      "max": 20,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "species-203",
@@ -4661,6 +6315,16 @@
       "license": "CC BY-SA 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Madagascariensis2.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "sizeInfo": {
+      "min": null,
+      "max": 30.5,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -4731,7 +6395,17 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": null,
+      "max": 19,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "species-208",
@@ -4757,6 +6431,16 @@
       "license": "CC BY 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Paroedura_bastardi.jpeg",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "sizeInfo": {
+      "min": 7,
+      "max": 7,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리 제외",
+      "basis": "성체",
+      "kind": "approximate",
+      "note": "약 7cm를 조금 넘을 수 있어요.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -4853,6 +6537,16 @@
       "license": "CC BY 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Anderson%27s_Short-fingered_Gecko_(Stenodactylus_petrii)_in_Morocco.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "sizeInfo": {
+      "min": 5.1,
+      "max": 7.6,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리 제외",
+      "basis": "성체",
+      "kind": "range",
+      "note": "꼬리 길이는 별도예요.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -5105,7 +6799,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Jackson%27s_Chameleon_2_edit1.jpg",
       "licenseUrl": ""
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 23,
+      "max": 33,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "species-223",
@@ -5157,7 +6861,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Carpet_Chameleon_(Furcifer_lateralis)_(10292845744).jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 17,
+      "max": 25,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "species-225",
@@ -5209,7 +6923,24 @@
       "url": "https://commons.wikimedia.org/wiki/File:2009-03-07Egernia_stokesii059.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 1000000,
+          "max": 1000000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "species-227",
@@ -5287,7 +7018,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Tropical_Girdled_Lizard_P9240103.JPG",
       "licenseUrl": ""
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 16,
+      "max": 19,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "species-230",
@@ -5417,7 +7158,34 @@
       "url": "https://commons.wikimedia.org/wiki/File:Ball_python_lucy.JPG",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 110,
+      "max": 137,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "암수에 따라 차이가 있어요.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 90000,
+          "max": 650000,
+          "sampleCount": 66,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "species-235",
@@ -5443,7 +7211,24 @@
       "url": "https://commons.wikimedia.org/wiki/File:Heterodon_nasicus.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 350000,
+          "max": 350000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    }
   },
   {
     "id": "species-236",
@@ -5487,6 +7272,16 @@
       "license": "CC BY-SA 2.5",
       "url": "https://commons.wikimedia.org/wiki/File:Dyscophus_guineti04.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "sizeInfo": {
+      "min": 6,
+      "max": 9.5,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "수컷 약 6~6.5cm, 암컷 약 9~9.5cm.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -5565,7 +7360,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Triturus_marmoratus1.JPG",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 12.7,
+      "max": 16.5,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "species-241",
@@ -5643,6 +7448,16 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Fantasticatruenominal.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "sizeInfo": {
+      "min": 2,
+      "max": 2.5,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -5869,7 +7684,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Dendrobates_tinctorius_-_Karlsruhe_Zoo_05.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 3.5,
+      "max": 7,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "지역형에 따라 차이가 크고 보통 약 5cm예요.",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "species-253",
@@ -5921,6 +7746,16 @@
       "license": "CC BY-SA 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Folsomia_candida_(8416640195).jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "sizeInfo": {
+      "min": null,
+      "max": 0.3,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "약 3mm예요.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -6231,7 +8066,17 @@
       "url": "https://commons.wikimedia.org/wiki/File:Porcellio_dilatatus.jpg",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 1.5,
+      "max": 1.5,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "approximate",
+      "note": "",
+      "checkedAt": "2026-11-03"
+    }
   },
   {
     "id": "species-270",
@@ -6257,6 +8102,16 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Porcellio_scaber_(AU)-left_01.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sizeInfo": {
+      "min": null,
+      "max": 2,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -6283,6 +8138,16 @@
       "license": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File:Porcellio_laevis_-_Bouxweerd20090527_897.jpg",
       "licenseUrl": ""
+    },
+    "sizeInfo": {
+      "min": null,
+      "max": 2,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -6535,6 +8400,16 @@
       "license": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Common_Shiny_Woodlouse_(30538333473).jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "sizeInfo": {
+      "min": null,
+      "max": 1.6,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -6587,6 +8462,16 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Scorpionidae_-_Heterometrus_longimanus.JPG",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sizeInfo": {
+      "min": 10,
+      "max": 12,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -6665,6 +8550,16 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Narceus_americanus2.JPG",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sizeInfo": {
+      "min": null,
+      "max": 10.2,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -6787,6 +8682,16 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Damon_diadema_003_L.D.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sizeInfo": {
+      "min": 20,
+      "max": 20,
+      "unit": "cm",
+      "measurement": "다리 포함 폭",
+      "basis": "성체",
+      "kind": "approximate",
+      "note": "몸통 길이가 아닌 다리폭 기준이에요.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -6917,6 +8822,16 @@
       "license": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File:Brachypelma_smithi_2009_G09.jpg",
       "licenseUrl": ""
+    },
+    "sizeInfo": {
+      "min": 4.6,
+      "max": 5.4,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "다리폭이 아닌 몸통 기준의 관찰 표본 범위예요.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -7130,6 +9045,16 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Australian_Walking_Stick.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sizeInfo": {
+      "min": null,
+      "max": 20,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "큰 암컷 기준.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -7208,6 +9133,16 @@
       "license": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File:Striped.love.beetle.arp.jpg",
       "licenseUrl": ""
+    },
+    "sizeInfo": {
+      "min": 2.5,
+      "max": 4,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -7270,6 +9205,16 @@
       "license": "CC BY 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Gestro%27s_Pill_Woodlouse%2C_Provincie_Savona%2C_It%C3%A1lie_imported_from_iNaturalist_photo_512468307.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "sizeInfo": {
+      "min": null,
+      "max": 2.2,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -7358,6 +9303,16 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Two_male_telodeinopus_aoutii_eating_appple_slice.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "sizeInfo": {
+      "min": 16,
+      "max": 18,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -7534,6 +9489,16 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Florida_Box_Turtle_Digon3.jpg",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "sizeInfo": {
+      "min": 11,
+      "max": 20,
+      "unit": "cm",
+      "measurement": "갑장·등갑 길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "대표 아종 자료를 기준으로 하며 아종에 따라 차이가 있어요.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -7560,6 +9525,16 @@
       "license": "CC BY-SA 2.5",
       "url": "https://commons.wikimedia.org/wiki/File:Ornate_and_desert.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "sizeInfo": {
+      "min": 10,
+      "max": 15,
+      "unit": "cm",
+      "measurement": "갑장·등갑 길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -7612,6 +9587,33 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Geochelone_carbonaria_IMG_4978.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 300000,
+          "max": 400000,
+          "sampleCount": 2,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "sizeInfo": {
+      "min": 30,
+      "max": 46,
+      "unit": "cm",
+      "measurement": "갑장·등갑 길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "큰 개체는 약 61cm 기록도 있어요.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -7638,6 +9640,23 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Tortue_d%27Hermann_2026.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 150000,
+          "max": 380000,
+          "sampleCount": 8,
+          "shopCount": 2,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
     }
   },
   {
@@ -7664,6 +9683,33 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Testudo_horsfieldii%3B_Baikonur_001.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 135000,
+          "max": 250000,
+          "sampleCount": 2,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "sizeInfo": {
+      "min": 13,
+      "max": 25,
+      "unit": "cm",
+      "measurement": "갑장·등갑 길이",
+      "basis": "성체",
+      "kind": "range",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -7693,6 +9739,16 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Jielbeaumadier_varan_a_queue_epineuse_mjp_paris_2014.jpeg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "sizeInfo": {
+      "min": null,
+      "max": 70,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -7771,6 +9827,16 @@
       "license": "CC BY 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Oophaga_histrionica_118831313.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "sizeInfo": {
+      "min": 3.29,
+      "max": 3.29,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "approximate",
+      "note": "성체 평균 참고값.",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -7849,6 +9915,16 @@
       "license": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Redspotted_newt.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "sizeInfo": {
+      "min": null,
+      "max": 12.7,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "",
+      "checkedAt": "2026-11-03"
     }
   },
   {
@@ -7875,6 +9951,33 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Australian-Carpet-Python.jpg",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "sizeInfo": {
+      "min": 200,
+      "max": 200,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "approximate",
+      "note": "아종별 차이가 커요.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "개체 상품·옵션 확인",
+          "min": 350000,
+          "max": 1600000,
+          "sampleCount": 5,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "모프·성별·연령이 섞인 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
     }
   },
   {
@@ -7903,6 +10006,16 @@
       "license": "CC BY-SA 2.5",
       "url": "https://commons.wikimedia.org/wiki/File:Boa_constrictor_imperator.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "sizeInfo": {
+      "min": 130,
+      "max": 250,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "큰 개체는 이 범위를 초과할 수 있어요.",
+      "checkedAt": "2026-11-03"
     }
   },
   {

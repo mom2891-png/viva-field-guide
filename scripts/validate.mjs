@@ -105,3 +105,43 @@ run("reset();state.page='animals';species=animals;state.sort='recent';render()")
 assert.equal(run("filtered()[0].n"),Math.max(...animals.filter(r=>r.addedAt===animals.at(-1).addedAt).map(r=>r.n)),'Same-day additions ordered by insertion sequence');
 run("state.page='plants';species=plants;render()");
 assert.equal(run("plantGroups(filtered())[0].rows[0].n"),plants.at(-1).n,'Newest plant genus leads recent ordering');
+
+// Size must say what was measured; price ranges cannot merge sale units.
+for(const row of all){
+ const size=row.sizeInfo,price=row.priceInfo;
+ if(size){
+  assert.ok(size.measurement&&size.basis&&size.checkedAt,`${row.id}: size basis missing`);
+  assert.ok(['cm','mm'].includes(size.unit));
+  assert.ok(['range','maximum','minimum','approximate'].includes(size.kind));
+  for(const v of [size.min,size.max])if(v!==null)assert.ok(Number.isFinite(v)&&v>0,`${row.id}: invalid size`);
+  if(size.min!==null&&size.max!==null)assert.ok(size.min<=size.max);
+  if(size.kind==='maximum')assert.equal(size.min,null);
+  assert.ok(!/[\u3040-\u30ff]/.test(size.note),'Size note must be Korean');
+ }
+ if(price){
+  assert.equal(price.currency,'KRW');assert.equal(price.kind,'listed');assert.ok(price.checkedAt&&price.basis&&price.note);
+  assert.ok(price.offers.length>0);
+  assert.equal(new Set(price.offers.map(o=>o.unit)).size,price.offers.length,'One offer range per sale unit');
+  for(const offer of price.offers){assert.ok(offer.unit);assert.ok(Number.isFinite(offer.min)&&offer.min>0&&offer.max>=offer.min);assert.ok(offer.sampleCount>=offer.shopCount&&offer.shopCount>0);}
+ }
+}
+run("reset();state.page='animals';species=animals;state.availability='priced';render()");
+assert.equal(run('filtered().length'),animals.filter(r=>r.priceInfo).length,'Price filter selects only observed listings');
+run("state.availability='size';render()");
+assert.equal(run('filtered().length'),animals.filter(r=>r.sizeInfo).length,'Size filter independent of popularity');
+assert.ok(run("sizeText(animals.find(r=>r.latin==='Folsomia candida'))").includes('3 mm'),'Tiny sizes rendered in millimetres');
+run("openDetail('species-1')");
+assert.ok(element('#detailContent').innerHTML.includes('크기와 참고 가격'));
+assert.ok(element('#detailContent').innerHTML.includes('전체길이·꼬리 포함'));
+assert.ok(element('#detailContent').innerHTML.includes('2026.11.03'));
+run("reset();state.page='plants';species=plants;openPlantGroup('Fittonia')");
+assert.ok(element('#detailContent').innerHTML.includes('facts-preview'),'Individual plant child shows its own size/price');
+assert.ok(!run('renderPlantGroups(plantGroups(plants))').includes('facts-preview'),'Genus card does not pretend to have a single species size');
+const moss=plants.find(r=>r.id==='plant-124');
+assert.ok(moss.priceInfo.offers.some(o=>o.unit==='1촉'&&o.min===o.max),'Single-shoot price not mixed with bulk pack');
+assert.ok(run('factsSection({id:"unverified"})').includes('국내 가격 확인 중'),'Missing prices remain unknown');
+assert.ok(!run('factsSection({id:"unverified"})').includes('0원'),'Unknown does not become free');
+const singleOffer={min:7000,max:7000};
+assert.equal(run('priceText({min:7000,max:7000})'),'7,000원','Single observed amount is not a fabricated range');
+assert.ok(animals.find(r=>r.id==='species-97').priceInfo.offers.some(o=>o.unit==='한 쌍'),'Paired animals not priced as individuals');
+console.log('PASS: size measurement basis, domestic price units, unknown values, filters and individual fact displays.');

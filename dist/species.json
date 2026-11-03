@@ -21609,5 +21609,67 @@
         "checkedAt": "2026-11-03"
       }
     ]
+  },
+  {
+    "id": "species-338",
+    "n": 338,
+    "name": "드워프화이트등각류",
+    "latin": "Trichorhina tomentosa",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "습·환",
+    "aliases": [
+      "드워프 화이트",
+      "드워프화이트",
+      "드화",
+      "dwarf white isopod",
+      "Alloniscus tomentosus"
+    ],
+    "careNote": "따뜻하고 촉촉한 낙엽·부후목이 있는 기질 속에서 생활하는 소형 등각류예요. 깊은 기질의 수분을 유지하되 침수와 정체된 공기를 피하고, 표면 일부는 덜 젖게 관리해요. 건조형 사육장의 일반 청소생물로 쓰지 말고 별도 군체에서 상태를 확인하세요. 작은 개체가 흙·식물과 함께 옮겨갈 수 있어 도구와 기질을 구분하고, 다른 동물과의 합사·먹이 적합성은 별도로 확인해요.",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "학명 자료 대조·국내 유통명 확인; 판매 군체 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": null,
+      "max": 0.5,
+      "unit": "cm",
+      "measurement": "몸길이",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "종 자료의 최대 약 5mm; 판매 군체의 크기·동정 보증이 아니에요.",
+      "checkedAt": "2026-11-03"
+    },
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "30마리",
+          "min": 4000,
+          "max": 4000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 수량별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "purchaseLinks": [
+      {
+        "shop": "플랜티멀",
+        "title": "드워프화이트 30마리 등각류 드화 분해생물 청소생물 톡토기",
+        "url": "https://plantimal.co.kr/product/드워프화이트-30마리-등각류-드화-분해생물-청소생물-톡토기/964/category/85/display/1/",
+        "price": 4000,
+        "unit": "30마리",
+        "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      }
+    ]
   }
 ]

@@ -18,7 +18,8 @@ for(const id of Object.keys(morphs))assert.ok(animals.some(r=>r.id===id),`Orphan
 // Exercise actual catalog logic with a small DOM stand-in, without browser dependencies.
 const elements=new Map();
 const element=key=>{if(!elements.has(key))elements.set(key,{value:'',textContent:'',innerHTML:'',hidden:false,checked:false,style:{},classList:{add(){},remove(){},toggle(){},contains(){return false}},setAttribute(){},addEventListener(){},closest(){return this},querySelectorAll(){return []},querySelector(){return null},showModal(){this.open=true}});return elements.get(key);};
-const ctx=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],body:{style:{}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,URL,a:animals,p:plants,m:morphs});
+const ctx=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],body:{style:{}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,URL,URLSearchParams,a:animals,p:plants,m:morphs});
+vm.runInContext(fs.readFileSync(new URL('../dist/catalog-navigation.js',import.meta.url),'utf8'),ctx);
 const code=fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8').split("document.addEventListener('click'")[0];
 vm.runInContext(code,ctx);
 const run=s=>vm.runInContext(s,ctx);
@@ -91,8 +92,9 @@ assert.equal(run("filtered()[0].latin"),'Porcellionides pruinosus','New color fo
 // Execute the complete startup script, including event binding and all three fetches.
 const requests=[];
 const startupEvents={};
-const startupContext=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],addEventListener(type,handler){startupEvents[type]=handler;},body:{style:{},classList:{toggle(){}}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,URL,window:{scrollTo(){}},fetch:async path=>{requests.push(path);return {ok:true,json:async()=>read(path.split('?')[0])}}});
+const startupContext=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],addEventListener(type,handler){startupEvents[type]=handler;},body:{style:{},classList:{toggle(){}}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,URL,URLSearchParams,window:{scrollTo(){}},fetch:async path=>{requests.push(path);return {ok:true,json:async()=>read(path.split('?')[0])}}});
 vm.runInContext(fs.readFileSync(new URL('../dist/shops.js',import.meta.url),'utf8'),startupContext);
+for(const file of ['catalog-navigation.js','catalog-browser.js','catalog-route.js']) vm.runInContext(fs.readFileSync(new URL('../dist/'+file,import.meta.url),'utf8'),startupContext);
 vm.runInContext(fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8'),startupContext);
 await new Promise(resolve=>setImmediate(resolve));
 assert.equal(requests.length,3,'Startup fetches every data file');
@@ -201,3 +203,20 @@ console.log('PASS: all 28 supplier plants, distinct units, uncertain identities,
 vm.runInContext('animals=[];plants=[]',startupContext);
 startupEvents.click({target:{closest:selector=>selector==='[data-shop-entry]'?{dataset:{shopEntry:'plant-1',shopOrigin:'moss-shop',shopReturn:'menu'}}:null}});
 assert.ok(element('#toast').textContent.includes('도감을 아직 불러오지 못했어요'),'Menu stays usable and explains unavailable catalog data instead of a silent no-op');
+run("catalogModel=VivaCatalog.createModel(animals,plants,morphs,genusNames);state.page='animals';species=animals;state.catalogNode='animals/reptiles/geckos';state.availability='all';state.environment='all';state.category='all';state.subgroup='all';state.search='';state.savedOnly=false;state.excludeSpecial=false");
+assert.equal(run('filtered().length'),animals.filter(r=>r.middle==='게코').length,'Selecting a table-of-contents branch filters its descendants');
+
+element('#detailDialog').open=false;
+run("state.search='게코';state.environment='습';state.savedOnly=true;browseCatalogNode('animals/reptiles',{scroll:false})");
+assert.equal(run('state.search'),'게코');assert.equal(run('state.environment'),'습');assert.equal(run('state.savedOnly'),true);
+console.log('PASS: branch navigation preserves current search, environment and favorites.');
+
+assert.equal(run('sizeClass({sizeInfo:{max:19.9,unit:"cm",kind:"range"}})'),'small');
+assert.equal(run('sizeClass({sizeInfo:{max:20,unit:"cm",kind:"range"}})'),'medium');
+assert.equal(run('sizeClass({sizeInfo:{max:50,unit:"cm",kind:"maximum"}})'),'large');
+assert.equal(run('sizeClass({sizeInfo:{max:200,unit:"mm",kind:"range"}})'),'medium');
+assert.equal(run('sizeClass({sizeInfo:{min:70,max:null,unit:"cm",kind:"minimum"}})'),'unknown');
+assert.equal(run('sizeClass({})'),'unknown');
+run("state.search='';state.environment='all';state.savedOnly=false;state.catalogNode='animals';state.sizeClass='small'");
+assert.equal(run('filtered().length'),animals.filter(r=>r.sizeInfo&&r.sizeInfo.kind!=='minimum'&&r.sizeInfo.max!=null&&r.sizeInfo.unit==='cm'&&r.sizeInfo.max<20).length);
+console.log('PASS: size thresholds, unit conversion, unknowns and actual catalog filtering.');

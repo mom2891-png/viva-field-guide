@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "start": "node scripts/serve.mjs",
-    "check": "node --check dist/app.js && node --check dist/shops.js && node scripts/validate.mjs && node scripts/validate-shops.mjs"
+    "check": "node --check dist/app.js && node --check dist/shops.js && node scripts/validate.mjs && node scripts/validate-shops.mjs && node scripts/validate-navigation.mjs && node scripts/validate-catalog-browser.mjs && node scripts/validate-catalog-route.mjs"
   }
 }

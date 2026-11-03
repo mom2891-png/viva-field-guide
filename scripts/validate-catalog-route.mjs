@@ -1,0 +1,22 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+assert.ok(fs.existsSync(new URL('../dist/catalog-route.js',import.meta.url)),'Stable catalog route module required');
+const context={URLSearchParams};
+vm.runInNewContext(fs.readFileSync(new URL('../dist/catalog-route.js',import.meta.url),'utf8'),context);
+const route=context.VivaCatalogRoute;
+const state={page:'plants',catalogNode:'plants/ferns/genus:crepidomanes',search:'부채 이끼',environment:'냉량형',category:'all',subgroup:'all',availability:'priced',sizeClass:'medium',sort:'name',savedOnly:true,excludeSpecial:false};
+const encoded=route.encode(state,'plant-177','variety:plant-177:0');
+assert.ok(encoded.startsWith('#guide?'));
+const decoded=route.decode(encoded);
+for(const [key,value] of Object.entries(state))assert.equal(decoded.state[key],value);
+assert.equal(decoded.entryId,'plant-177');assert.equal(decoded.selectionId,'variety:plant-177:0');
+assert.equal(route.decode('#collection'),null);
+assert.equal(route.decode('#guide?page=malicious').state.page,'animals');
+assert.equal(route.decode('#guide?page=shops').state.page,'shops');
+assert.equal(route.decode('#guide?entry=species-1').entryId,'species-1');
+assert.equal(route.decode('#guide?entry=unknown').entryId,null);
+assert.equal(route.decode('#guide?sort=evil').state.sort,'popular');
+console.log('PASS: stable catalog routes, Korean query/filters, detail/selection restoration and malformed-route defaults.');
+
+assert.equal(route.decode('#guide?sizeClass=bad').state.sizeClass,'all');

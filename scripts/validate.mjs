@@ -90,7 +90,8 @@ assert.equal(run("filtered()[0].latin"),'Porcellionides pruinosus','New color fo
 
 // Execute the complete startup script, including event binding and all three fetches.
 const requests=[];
-const startupContext=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],addEventListener(){},body:{style:{},classList:{toggle(){}}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,URL,window:{scrollTo(){}},fetch:async path=>{requests.push(path);return {ok:true,json:async()=>read(path.split('?')[0])}}});
+const startupEvents={};
+const startupContext=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],addEventListener(type,handler){startupEvents[type]=handler;},body:{style:{},classList:{toggle(){}}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,URL,window:{scrollTo(){}},fetch:async path=>{requests.push(path);return {ok:true,json:async()=>read(path.split('?')[0])}}});
 vm.runInContext(fs.readFileSync(new URL('../dist/shops.js',import.meta.url),'utf8'),startupContext);
 vm.runInContext(fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8'),startupContext);
 await new Promise(resolve=>setImmediate(resolve));
@@ -148,9 +149,9 @@ assert.ok(animals.find(r=>r.id==='species-97').priceInfo.offers.some(o=>o.unit==
 console.log('PASS: size measurement basis, domestic price units, unknown values, filters and individual fact displays.');
 for(const row of all){
   if(!row.priceInfo){assert.ok(!row.purchaseLinks?.length);continue;}
-  assert.ok(row.purchaseLinks?.length,`${row.id}: priced entry needs product links`);
+  assert.ok(row.purchaseLinks?.length||row.sellerOffers?.length,`${row.id}: priced entry needs product links or attributed inquiry offers`);
   const urls=new Set();
-  for(const item of row.purchaseLinks){
+  for(const item of row.purchaseLinks||[]){
     const u=new URL(item.url);
     assert.equal(u.protocol,'https:');
     assert.ok(u.pathname.includes('/product/')||u.pathname.includes('goods_view.php'),`${row.id}: direct product URL required`);
@@ -161,11 +162,17 @@ for(const row of all){
     assert.ok(row.priceInfo.offers.some(o=>o.unit===item.unit&&o.min<=item.price&&item.price<=o.max));
   }
   for(const offer of row.priceInfo.offers){
-    const items=row.purchaseLinks.filter(item=>item.unit===offer.unit);
+    const items=[...(row.purchaseLinks||[]),...(row.sellerOffers||[])].filter(item=>item.unit===offer.unit);
     assert.equal(items.length,offer.sampleCount);
     assert.equal(new Set(items.map(item=>item.shop)).size,offer.shopCount);
     assert.equal(Math.min(...items.map(item=>item.price)),offer.min);
     assert.equal(Math.max(...items.map(item=>item.price)),offer.max);
+  }
+  for(const item of row.sellerOffers||[]){
+    assert.equal(item.sourceType,'userMenu');assert.equal(item.url,'https://open.kakao.com/o/smxDuN7h');
+    assert.equal(item.sourceDate,null);assert.equal(item.status,'listed');
+    assert.ok(item.title&&item.unit&&item.checkedAt&&Number.isFinite(item.price)&&item.price>=100);
+    assert.ok(row.priceInfo.offers.some(o=>o.unit===item.unit&&o.min<=item.price&&item.price<=o.max));
   }
 }
 run("openDetail('species-1')");
@@ -179,3 +186,18 @@ assert.ok(!animals.find(r=>r.id==='species-328').purchaseLinks.some(i=>i.title.i
 assert.ok(!animals.find(r=>r.id==='species-13').purchaseLinks.some(i=>i.title.includes('거북')));
 assert.ok(!animals.find(r=>r.id==='species-129').purchaseLinks.some(i=>i.title.includes('"책"')));
 console.log('PASS: purchase product URLs, unit/price consistency, shop deduplication, safe external links and unrelated product exclusions.');
+assert.ok(run('purchaseSection({sellerOffers:[{shop:"이끼상점",title:"메뉴 가격",url:"https://open.kakao.com/o/smxDuN7h",price:10000,unit:"1촉",status:"listed",sourceType:"userMenu"}]})').includes('문의하기'),'User-provided menu price opens an inquiry rather than a fictitious product page');
+const dreamPlants=plants.filter(r=>r.purchaseLinks?.some(p=>p.shop==='꿈속의 자연'));
+const dreamProducts=dreamPlants.flatMap(r=>r.purchaseLinks.filter(p=>p.shop==='꿈속의 자연'));
+assert.equal(dreamPlants.length,28,'All 28 supplier plants mapped to catalog entries');
+assert.equal(new Set(dreamProducts.map(p=>p.url)).size,28);
+assert.ok(dreamPlants.every(p=>p.priceInfo&&p.domesticStatus==='국내 취급 기록'));
+assert.equal(dreamPlants.find(p=>p.aliases.includes('애기석위')).catalogType,'유통명','Conflicting trade name stays unconfirmed');
+assert.equal(dreamPlants.find(p=>p.latin==='Crepidomanes minutum').category,'고사리·석송류');
+assert.equal(dreamPlants.find(p=>p.latin==='Hymenophyllum coreanum').category,'고사리·석송류');
+assert.ok(plants.filter(p=>p.n>155).every(p=>!p.popularityKnown&&p.popularity===null),'New seller coverage cannot manufacture popularity');
+assert.ok(plants.find(p=>p.name==='탐라난').sellerOffers.some(p=>p.unit==='2촉'&&p.price===90000));
+console.log('PASS: all 28 supplier plants, distinct units, uncertain identities, fern classification and menu inquiries.');
+vm.runInContext('animals=[];plants=[]',startupContext);
+startupEvents.click({target:{closest:selector=>selector==='[data-shop-entry]'?{dataset:{shopEntry:'plant-1',shopOrigin:'moss-shop',shopReturn:'menu'}}:null}});
+assert.ok(element('#toast').textContent.includes('도감을 아직 불러오지 못했어요'),'Menu stays usable and explains unavailable catalog data instead of a silent no-op');

@@ -2857,9 +2857,17 @@
       "kind": "listed",
       "offers": [
         {
-          "unit": "화분·포트 · 10×8cm",
-          "min": 6000,
-          "max": 6000,
+          "unit": "규격 미표기 상품",
+          "min": 8900,
+          "max": 15000,
+          "sampleCount": 4,
+          "shopCount": 3,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "1컵",
+          "min": 3800,
+          "max": 3800,
           "sampleCount": 1,
           "shopCount": 1,
           "includesSoldOut": false
@@ -2873,9 +2881,9 @@
           "includesSoldOut": false
         },
         {
-          "unit": "1컵",
-          "min": 3800,
-          "max": 3800,
+          "unit": "화분·포트 · 10×8cm",
+          "min": 6000,
+          "max": 6000,
           "sampleCount": 1,
           "shopCount": 1,
           "includesSoldOut": false
@@ -2921,17 +2929,17 @@
           "includesSoldOut": false
         },
         {
-          "unit": "규격 미표기 상품",
-          "min": 8900,
-          "max": 15000,
-          "sampleCount": 4,
-          "shopCount": 3,
+          "unit": "20×10cm 상품",
+          "min": 14000,
+          "max": 14000,
+          "sampleCount": 1,
+          "shopCount": 1,
           "includesSoldOut": false
         }
       ],
       "checkedAt": "2026-11-03",
-      "basis": "품종·판매 규격별 공개 표시가",
-      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
     },
     "purchaseLinks": [
       {
@@ -3039,6 +3047,15 @@
         "url": "https://plantimal.co.kr/product/제주애기모람/49/category/48/display/1/",
         "price": 10000,
         "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "꿈속의 자연",
+        "title": "제주애기모람 (Ficus thunbergii Maxim) 20x10cm",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/제주애기모람-ficus-thunbergii-maxim-20x10cm/63/category/44/display/1/",
+        "price": 14000,
+        "unit": "20×10cm 상품",
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
@@ -4460,14 +4477,15 @@
     "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
     "aliases": [
       "엔토돈 세둑트릭스",
-      "엔토돈"
+      "엔토돈",
+      "윤이끼"
     ],
     "varieties": [],
     "order": 106,
     "popularity": null,
     "shopCoverage": null,
     "verification": "식재명 확인",
-    "domesticStatus": "해외 식재 자료",
+    "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",
     "popularityKnown": false,
@@ -4478,6 +4496,34 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Entodon_CRH.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "윤이끼 (Entodon seductrix) 30x60cm",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/윤이끼-entodon-seductrix-30x60cm/57/category/44/display/1/",
+        "price": 50000,
+        "unit": "30×60cm 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "30×60cm 상품",
+          "min": 50000,
+          "max": 50000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
     }
   },
   {
@@ -4852,7 +4898,7 @@
     "popularity": null,
     "shopCoverage": null,
     "verification": "식재명 확인",
-    "domesticStatus": "해외 식재 자료",
+    "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",
     "popularityKnown": false,
@@ -4875,11 +4921,19 @@
           "sampleCount": 1,
           "shopCount": 1,
           "includesSoldOut": true
+        },
+        {
+          "unit": "50촉",
+          "min": 20000,
+          "max": 20000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
         }
       ],
       "checkedAt": "2026-11-03",
-      "basis": "품종·판매 규격별 공개 표시가",
-      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
     },
     "purchaseLinks": [
       {
@@ -4898,6 +4952,15 @@
         "price": 50000,
         "unit": "19×15cm 상품",
         "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "꿈속의 자연",
+        "title": "봉황이끼 (Fissidens nobilis) 50촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/봉황이끼-fissidens-nobilis-50촉/60/category/44/display/1/",
+        "price": 20000,
+        "unit": "50촉",
+        "status": "listed",
         "checkedAt": "2026-11-03"
       }
     ]
@@ -5190,14 +5253,6 @@
           "includesSoldOut": false
         },
         {
-          "unit": "15촉",
-          "min": 7900,
-          "max": 7900,
-          "sampleCount": 1,
-          "shopCount": 1,
-          "includesSoldOut": true
-        },
-        {
           "unit": "30촉",
           "min": 13000,
           "max": 13000,
@@ -5207,16 +5262,24 @@
         },
         {
           "unit": "50촉",
-          "min": 20000,
+          "min": 18000,
           "max": 20000,
+          "sampleCount": 2,
+          "shopCount": 2,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "15촉",
+          "min": 7900,
+          "max": 7900,
           "sampleCount": 1,
           "shopCount": 1,
-          "includesSoldOut": false
+          "includesSoldOut": true
         }
       ],
       "checkedAt": "2026-11-03",
-      "basis": "품종·판매 규격별 공개 표시가",
-      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
     },
     "purchaseLinks": [
       {
@@ -5253,6 +5316,15 @@
         "price": 7900,
         "unit": "15촉",
         "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "꿈속의 자연",
+        "title": "너구리꼬리이끼 (Pyrrhobryum dozyanum) 50촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/너구리꼬리이끼-pyrrhobryum-dozyanum-50촉/61/category/44/display/1/",
+        "price": 18000,
+        "unit": "50촉",
+        "status": "listed",
         "checkedAt": "2026-11-03"
       }
     ]
@@ -5352,7 +5424,9 @@
     "humidity": "높음",
     "placement": "배수되는 바닥·그늘진 돌 주변",
     "care": "한국 국명과 학명을 대조한 이끼예요. 표면 수분과 배수를 함께 관리하고 여름 고온을 피하세요. 국내 판매명만으로 개체 동정을 보장할 수 없어 정확한 종을 확인한 뒤 식재하세요.",
-    "aliases": [],
+    "aliases": [
+      "제주나무이끼"
+    ],
     "varieties": [],
     "order": 125,
     "popularity": null,
@@ -5377,18 +5451,10 @@
         {
           "unit": "1촉",
           "min": 2000,
-          "max": 2000,
-          "sampleCount": 1,
-          "shopCount": 1,
+          "max": 2500,
+          "sampleCount": 2,
+          "shopCount": 2,
           "includesSoldOut": false
-        },
-        {
-          "unit": "4촉",
-          "min": 9000,
-          "max": 9000,
-          "sampleCount": 1,
-          "shopCount": 1,
-          "includesSoldOut": true
         },
         {
           "unit": "5촉",
@@ -5405,11 +5471,19 @@
           "sampleCount": 1,
           "shopCount": 1,
           "includesSoldOut": false
+        },
+        {
+          "unit": "4촉",
+          "min": 9000,
+          "max": 9000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": true
         }
       ],
       "checkedAt": "2026-11-03",
-      "basis": "품종·판매 규격별 공개 표시가",
-      "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
     },
     "purchaseLinks": [
       {
@@ -5446,6 +5520,15 @@
         "price": 9000,
         "unit": "4촉",
         "status": "soldOut",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "꿈속의 자연",
+        "title": "제주나무이끼 (Climacium japonicum) 1촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/제주나무이끼-climacium-japonicum-1촉/56/category/44/display/1/",
+        "price": 2500,
+        "unit": "1촉",
+        "status": "listed",
         "checkedAt": "2026-11-03"
       }
     ]
@@ -6847,6 +6930,1760 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Utricularia_sandersonii_flower.jpg",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  },
+  {
+    "id": "plant-156",
+    "n": 156,
+    "name": "스트로빌란테스 렙탄스",
+    "latin": "Strobilanthes reptans",
+    "category": "관엽식물",
+    "environment": "열대습식",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "직사광선을 피한 산란광에서 관리하고, 배수와 환기를 확보해 주세요. 촉촉함을 유지하되 뿌리가 계속 잠기지 않도록 하세요. 종별 성숙 크기와 적정 온도 범위는 확인 중이에요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 156,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "스트로빌란테스 렙탄스 (Strobilanthes reptans) 1포트",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/스트로빌란테스-렙탄스-strobilanthes-reptans-1포트/144/category/44/display/1/",
+        "price": 8000,
+        "unit": "1포트",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1포트",
+          "min": 8000,
+          "max": 8000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-157",
+    "n": 157,
+    "name": "라비시아 터틀백 유통형",
+    "latin": "Labisia sp. “Turtle Back”",
+    "category": "관엽식물",
+    "environment": "열대습식",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "직사광선을 피한 산란광에서 관리하고, 배수와 환기를 확보해 주세요. 촉촉함을 유지하되 뿌리가 계속 잠기지 않도록 하세요. 종별 성숙 크기와 적정 온도 범위는 확인 중이에요. 기존 터틀 유통형과 동일한 계통인지 확인되지 않아 별도로 표시해요.",
+    "aliases": [
+      "라비시아 터틀백"
+    ],
+    "varieties": [],
+    "order": 157,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 유통명·속 수준 · 종 미확정",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "유통명",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "라비시아 터틀백 (Labisia Turtle Back) 1촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/라비시아-터틀백-labisia-turtle-back-1촉/143/category/44/display/1/",
+        "price": 15000,
+        "unit": "1촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 15000,
+          "max": 15000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-158",
+    "n": 158,
+    "name": "돌담고사리",
+    "latin": "Asplenium sarelii",
+    "category": "고사리·석송류",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 158,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "돌담고사리 (Asplenium sarelii Hook) 4촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/돌담고사리-asplenium-sarelii-hook-4촉/131/category/44/display/1/",
+        "price": 20000,
+        "unit": "4촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "sellerOffers": [
+      {
+        "shop": "이끼상점",
+        "title": "돌담고사리",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 10000,
+        "unit": "2촉",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "4촉",
+          "min": 20000,
+          "max": 20000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "2촉",
+          "min": 10000,
+          "max": 10000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가·제공 가격표",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    }
+  },
+  {
+    "id": "plant-159",
+    "n": 159,
+    "name": "야쿠시마 바위취",
+    "latin": "Saxifraga yakushimensis",
+    "category": "지피식물",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "직사광선을 피한 산란광에서 관리하고, 배수와 환기를 확보해 주세요. 촉촉함을 유지하되 뿌리가 계속 잠기지 않도록 하세요. 종별 성숙 크기와 적정 온도 범위는 확인 중이에요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 159,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "야쿠시마 바위취 (Saxifraga yakushimensis) 1포트",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/야쿠시마-바위취-saxifraga-yakushimensis-1포트/129/category/44/display/1/",
+        "price": 6000,
+        "unit": "1포트",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1포트",
+          "min": 6000,
+          "max": 6000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-160",
+    "n": 160,
+    "name": "마르크그라비아 신테니시",
+    "latin": "Marcgravia sintenisii",
+    "category": "덩굴식물",
+    "environment": "열대습식",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "유목·벽면·늘어뜨리기",
+    "care": "직사광선을 피한 산란광에서 관리하고, 배수와 환기를 확보해 주세요. 촉촉함을 유지하되 뿌리가 계속 잠기지 않도록 하세요. 종별 성숙 크기와 적정 온도 범위는 확인 중이에요. 지지면을 따라 자라는 판매 식재형이에요.",
+    "aliases": [
+      "마크그라비아 신테니시"
+    ],
+    "varieties": [],
+    "order": 160,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "마르크그라비아 신테니시(Marcgravia sintenisii) 1촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/마르크그라비아-신테니시marcgravia-sintenisii-1촉/128/category/44/display/1/",
+        "price": 4500,
+        "unit": "1촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 4500,
+          "max": 4500,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-161",
+    "n": 161,
+    "name": "다발리아 앙구스타타",
+    "latin": "Davallia angustata",
+    "category": "고사리·석송류",
+    "environment": "열대습식",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 161,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "다발리아 앙구스타타 (Davallia angustata) 3잎",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/다발리아-앙구스타타-davallia-angustata-3잎/126/category/44/display/1/",
+        "price": 36000,
+        "unit": "3잎",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "3잎",
+          "min": 36000,
+          "max": 36000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-162",
+    "n": 162,
+    "name": "베트남 아르디시아 유통형",
+    "latin": "Ardisia sp. “Vietnam”",
+    "category": "관엽식물",
+    "environment": "열대습식",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "직사광선을 피한 산란광에서 관리하고, 배수와 환기를 확보해 주세요. 촉촉함을 유지하되 뿌리가 계속 잠기지 않도록 하세요. 종별 성숙 크기와 적정 온도 범위는 확인 중이에요. Vietnam은 판매 유통 표기이며 종명이 아니에요.",
+    "aliases": [
+      "아르디시아 베트남",
+      "베트남 아르디시아"
+    ],
+    "varieties": [],
+    "order": 162,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 유통명·속 수준 · 종 미확정",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "유통명",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "베트남 아르디시아 (Ardisia 'Vietnam') 2~3잎",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/베트남-아르디시아-ardisia-vietnam-23잎/125/category/44/display/1/",
+        "price": 35000,
+        "unit": "2~3잎",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "2~3잎",
+          "min": 35000,
+          "max": 35000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-163",
+    "n": 163,
+    "name": "태국고란초",
+    "latin": "Selliguea rhynchophylla",
+    "category": "고사리·석송류",
+    "environment": "환기형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요. 판매 페이지의 rynchophylla 표기를 rhynchophylla로 대조했어요. 고온다습형으로 일괄 취급하지 않아요.",
+    "aliases": [
+      "Selliguea rynchophylla"
+    ],
+    "varieties": [],
+    "order": 163,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "태국고란초 (selliguea rynchophylla) 1포트",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/태국고란초-selliguea-rynchophylla-1포트/121/category/44/display/1/",
+        "price": 40000,
+        "unit": "1포트",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1포트",
+          "min": 40000,
+          "max": 40000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-164",
+    "n": 164,
+    "name": "피커스 슈마트라 유통형",
+    "latin": "Ficus sp. “Sumatra”",
+    "category": "덩굴식물",
+    "environment": "열대습식",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "유목·벽면·늘어뜨리기",
+    "care": "직사광선을 피한 산란광에서 관리하고, 배수와 환기를 확보해 주세요. 촉촉함을 유지하되 뿌리가 계속 잠기지 않도록 하세요. 종별 성숙 크기와 적정 온도 범위는 확인 중이에요. Sumatra는 판매 유통 표기이며 종은 미확정이에요.",
+    "aliases": [
+      "피커스 수마트라",
+      "피커스 슈마트라"
+    ],
+    "varieties": [],
+    "order": 164,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 유통명·속 수준 · 종 미확정",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "유통명",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "피커스 슈마트라 (Ficus sp Sumatra) 1촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/피커스-슈마트라-ficus-sp-sumatra-1촉/120/category/44/display/1/",
+        "price": 80000,
+        "unit": "1촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 80000,
+          "max": 80000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-165",
+    "n": 165,
+    "name": "솔라넘 울레넘",
+    "latin": "Solanum uleanum",
+    "category": "덩굴식물",
+    "environment": "열대습식",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "유목·벽면·늘어뜨리기",
+    "care": "직사광선을 피한 산란광에서 관리하고, 배수와 환기를 확보해 주세요. 촉촉함을 유지하되 뿌리가 계속 잠기지 않도록 하세요. 종별 성숙 크기와 적정 온도 범위는 확인 중이에요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 165,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "솔라넘 울레넘 (Solanum uleanum) 1촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/솔라넘-울레넘-solanum-uleanum-1촉/119/category/44/display/1/",
+        "price": 12000,
+        "unit": "1촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 12000,
+          "max": 12000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-166",
+    "n": 166,
+    "name": "다발리아 파풀라",
+    "latin": "Davallia parvula",
+    "category": "고사리·석송류",
+    "environment": "열대습식",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요. 판매 규격 5~6cm는 성숙 크기 정보가 아니에요.",
+    "aliases": [
+      "다발리아 파풀라 고사리"
+    ],
+    "varieties": [],
+    "order": 166,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "다발리아 파풀라 고사리 (davallia parvula) 5~6cm",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/다발리아-파풀라-고사리-davallia-parvula-56cm/118/category/44/display/1/",
+        "price": 45000,
+        "unit": "판매 규격 5~6cm",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "판매 규격 5~6cm",
+          "min": 45000,
+          "max": 45000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-167",
+    "n": 167,
+    "name": "필름고사리 미확정 유통형",
+    "latin": "Crepidomanes sp. “필름고사리”",
+    "category": "고사리·석송류",
+    "environment": "습식",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요. 얇은 잎을 가진 고사리류이며 이끼가 아니에요. 속까지만 확인된 판매품이에요.",
+    "aliases": [
+      "필름 고사리"
+    ],
+    "varieties": [],
+    "order": 167,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 유통명·속 수준 · 종 미확정",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "속 수준",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "필름 고사리 (Crepidomanes sp.) 1촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/필름-고사리-crepidomanes-sp-1촉/117/category/44/display/1/",
+        "price": 90000,
+        "unit": "1촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 90000,
+          "max": 90000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-168",
+    "n": 168,
+    "name": "미니 필로덴드론 유통형",
+    "latin": "Philodendron sp. “Mini”",
+    "category": "관엽식물",
+    "environment": "열대습식",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "직사광선을 피한 산란광에서 관리하고, 배수와 환기를 확보해 주세요. 촉촉함을 유지하되 뿌리가 계속 잠기지 않도록 하세요. 종별 성숙 크기와 적정 온도 범위는 확인 중이에요. Mini는 판매명이며 성숙 크기와 정확한 종을 보장하지 않아요.",
+    "aliases": [
+      "미니필로덴드론",
+      "미니 필로덴드론"
+    ],
+    "varieties": [],
+    "order": 168,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 유통명·속 수준 · 종 미확정",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "유통명",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "미니 필로덴드론 (Mini Philodendron sp.) 1촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/미니-필로덴드론-mini-philodendron-sp-1촉/116/category/44/display/1/",
+        "price": 39000,
+        "unit": "1촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 39000,
+          "max": 39000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-169",
+    "n": 169,
+    "name": "셀레지넬라 미확정 판매형",
+    "latin": "Selaginella sp. “꿈속의 자연 판매형”",
+    "category": "고사리·석송류",
+    "environment": "습식",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요. 판매 페이지가 sp.로만 표시되어 기존 셀라기넬라 종에 임의로 연결하지 않았어요.",
+    "aliases": [
+      "셀레지넬라",
+      "셀라기넬라 미확정"
+    ],
+    "varieties": [],
+    "order": 169,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 유통명·속 수준 · 종 미확정",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "속 수준",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "셀레지넬라 (Selaginella sp.) 1촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/셀레지넬라-selaginella-sp-1촉/115/category/44/display/1/",
+        "price": 60000,
+        "unit": "1촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 60000,
+          "max": 60000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-170",
+    "n": 170,
+    "name": "테라토필럼 로툰디폴리아텀",
+    "latin": "Teratophyllum rotundifoliatum",
+    "category": "고사리·석송류",
+    "environment": "열대습식",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 170,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "테라토필럼 로툰디폴리아텀 (Teratophyllum rotundifoliatum)",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/테라토필럼-로툰디폴리아텀-teratophyllum-rotundifoliatum/114/category/44/display/1/",
+        "price": 90000,
+        "unit": "규격 미표기 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "규격 미표기 상품",
+          "min": 90000,
+          "max": 90000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-171",
+    "n": 171,
+    "name": "고란초",
+    "latin": "Crypsinus hastatus",
+    "category": "고사리·석송류",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요. 판매 학명 표기를 보존했어요. 바위·유목 위의 배수와 뿌리줄기 환기를 확보하세요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 171,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "고란초 (Crypsinus hastatus) 5촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/고란초-crypsinus-hastatus-5촉/68/category/44/display/1/",
+        "price": 12000,
+        "unit": "5촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "sellerOffers": [
+      {
+        "shop": "이끼상점",
+        "title": "고란초",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 20000,
+        "unit": "10잎+a",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "이끼상점",
+        "title": "고란초",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 10000,
+        "unit": "5잎",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "5촉",
+          "min": 12000,
+          "max": 12000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "10잎+a",
+          "min": 20000,
+          "max": 20000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "5잎",
+          "min": 10000,
+          "max": 10000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가·제공 가격표",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    }
+  },
+  {
+    "id": "plant-172",
+    "n": 172,
+    "name": "애기석위 유통형 (학명 확인 필요)",
+    "latin": "Pyrrosia sp. “애기석위 판매형”",
+    "category": "고사리·석송류",
+    "environment": "환기형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요. 판매명은 애기석위, 판매 학명은 Pyrrosia lingua이나 국명·학명 대응이 모호해 종을 확정하지 않았어요.",
+    "aliases": [
+      "애기석위",
+      "Pyrrosia lingua 판매표기"
+    ],
+    "varieties": [],
+    "order": 172,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 유통명·속 수준 · 종 미확정",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "유통명",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "애기석위 (Pyrrosia lingua) 20잎",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/애기석위-pyrrosia-lingua-20잎/67/category/44/display/1/",
+        "price": 17000,
+        "unit": "20잎",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "20잎",
+          "min": 17000,
+          "max": 17000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-173",
+    "n": 173,
+    "name": "개부처손",
+    "latin": "Selaginella stauntoniana",
+    "category": "고사리·석송류",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 173,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "개부처손 (Selaginella stauntoniana) 10촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/개부처손-selaginella-stauntoniana-10촉/66/category/44/display/1/",
+        "price": 17000,
+        "unit": "10촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "10촉",
+          "min": 17000,
+          "max": 17000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-174",
+    "n": 174,
+    "name": "애기일엽초",
+    "latin": "Lepisorus onoei",
+    "category": "고사리·석송류",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 174,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "애기일엽초 (Lepisorus onoei) 15촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/애기일엽초-lepisorus-onoei-15촉/65/category/44/display/1/",
+        "price": 15000,
+        "unit": "15촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "sellerOffers": [
+      {
+        "shop": "이끼상점",
+        "title": "애기일엽초",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 10000,
+        "unit": "15촉",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "15촉",
+          "min": 10000,
+          "max": 15000,
+          "sampleCount": 2,
+          "shopCount": 2,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가·제공 가격표",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    }
+  },
+  {
+    "id": "plant-175",
+    "n": 175,
+    "name": "버들일엽초",
+    "latin": "Loxogramme salicifolia",
+    "category": "고사리·석송류",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요. 버들참빗과는 별개의 식물이에요.",
+    "aliases": [
+      "버들일엽"
+    ],
+    "varieties": [],
+    "order": 175,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "버들일엽초 (Loxogramme salicifolia) 1촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/버들일엽초-loxogramme-salicifolia-1촉/64/category/44/display/1/",
+        "price": 3000,
+        "unit": "1촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 3000,
+          "max": 3000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-176",
+    "n": 176,
+    "name": "비단이끼 유통형 (준페로이데움)",
+    "latin": "Leucobryum juniperoideum",
+    "category": "이끼",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "배수되는 바닥·암석",
+    "care": "이 판매처가 표기한 학명 기준의 이끼 항목이에요. 산란광과 배수되는 촉촉한 기질을 사용하고 고온의 밀폐 환경을 피하세요. 환기·계절 변화와 종별 관리 조건을 확인해 주세요. 기존 흰털이끼 Leucobryum glaucum과 구분해요.",
+    "aliases": [
+      "비단이끼"
+    ],
+    "varieties": [],
+    "order": 176,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "비단이끼 (Leucobryum juniperoideum) 20X30cm",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/비단이끼-leucobryum-juniperoideum-20x30cm/62/category/44/display/1/",
+        "price": 20000,
+        "unit": "20×30cm 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "20×30cm 상품",
+          "min": 20000,
+          "max": 20000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-177",
+    "n": 177,
+    "name": "부채괴불이끼",
+    "latin": "Crepidomanes minutum",
+    "category": "고사리·석송류",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요. 이름에 이끼가 들어가지만 고사리류예요. 얇은 잎의 건조와 고온 정체를 피하세요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 177,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "부채괴불이끼 (Crepidomanes minutum) 15x20cm",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/부채괴불이끼-crepidomanes-minutum-15x20cm/59/category/44/display/1/",
+        "price": 17000,
+        "unit": "15×20cm 상품",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "sellerOffers": [
+      {
+        "shop": "이끼상점",
+        "title": "부채괴불이끼",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 10000,
+        "unit": "도시락사이즈",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "15×20cm 상품",
+          "min": 17000,
+          "max": 17000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "도시락사이즈",
+          "min": 10000,
+          "max": 10000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가·제공 가격표",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    }
+  },
+  {
+    "id": "plant-178",
+    "n": 178,
+    "name": "애기수염이끼",
+    "latin": "Hymenophyllum coreanum",
+    "category": "고사리·석송류",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요. 이끼가 아닌 고사리류예요. 판매명이 수염이끼인 다른 상품과 종을 확인하기 전 혼합하지 않아요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 178,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "purchaseLinks": [
+      {
+        "shop": "꿈속의 자연",
+        "title": "애기수염이끼 (Hymenophyllum coreanum) 20촉",
+        "url": "https://www.xn--cw0b005ajgdetb9h.com/product/애기수염이끼-hymenophyllum-coreanum-20촉/58/category/44/display/1/",
+        "price": 20000,
+        "unit": "20촉",
+        "status": "listed",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "20촉",
+          "min": 20000,
+          "max": 20000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    }
+  },
+  {
+    "id": "plant-179",
+    "n": 179,
+    "name": "뱀톱",
+    "latin": "Huperzia serrata",
+    "category": "고사리·석송류",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 179,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "sellerOffers": [
+      {
+        "shop": "이끼상점",
+        "title": "뱀톱",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 15000,
+        "unit": "1포트",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1포트",
+          "min": 15000,
+          "max": 15000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가·제공 가격표",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    }
+  },
+  {
+    "id": "plant-180",
+    "n": 180,
+    "name": "넉줄고사리",
+    "latin": "Davallia mariesii",
+    "category": "고사리·석송류",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 180,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "sellerOffers": [
+      {
+        "shop": "이끼상점",
+        "title": "넉줄고사리",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 10000,
+        "unit": "2촉",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "2촉",
+          "min": 10000,
+          "max": 10000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가·제공 가격표",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    }
+  },
+  {
+    "id": "plant-181",
+    "n": 181,
+    "name": "버들참빗",
+    "latin": "Deparia lancea",
+    "category": "고사리·석송류",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요. 버들일엽초와 구분해요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 181,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "sellerOffers": [
+      {
+        "shop": "이끼상점",
+        "title": "버들참빗",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 15000,
+        "unit": "10잎",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "10잎",
+          "min": 15000,
+          "max": 15000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가·제공 가격표",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    }
+  },
+  {
+    "id": "plant-182",
+    "n": 182,
+    "name": "거미고사리",
+    "latin": "Asplenium ruprechtii",
+    "category": "고사리·석송류",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 182,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "sellerOffers": [
+      {
+        "shop": "이끼상점",
+        "title": "거미고사리",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 10000,
+        "unit": "3촉",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "3촉",
+          "min": 10000,
+          "max": 10000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가·제공 가격표",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    }
+  },
+  {
+    "id": "plant-183",
+    "n": 183,
+    "name": "괴불이끼",
+    "latin": "Crepidomanes latealatum",
+    "category": "고사리·석송류",
+    "environment": "냉량형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "바닥·암석·착생판",
+    "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요. 이끼가 아닌 고사리류예요.",
+    "aliases": [],
+    "varieties": [],
+    "order": 183,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "sellerOffers": [
+      {
+        "shop": "이끼상점",
+        "title": "괴불이끼",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 20000,
+        "unit": "20잎",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "20잎",
+          "min": 20000,
+          "max": 20000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가·제공 가격표",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    }
+  },
+  {
+    "id": "plant-184",
+    "n": 184,
+    "name": "탐라난",
+    "latin": "Gastrochilus japonicus",
+    "category": "착생란",
+    "environment": "환기형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "가지·유목·착생판",
+    "care": "착생란 참고 항목이에요. 뿌리 주변에 공기가 통하도록 부착하거나 배수되는 재료를 쓰고 관수 뒤에는 물이 고이지 않게 해 주세요. 국내 자생형은 계절 변화를 고려하며 연중 고온다습한 환경에 자동으로 추천하지 않아요. 판매 개체의 증식·유래 및 상세 관리 조건을 확인하세요. 판매명 탐라난으로 연결한 참고 항목이며 판매 개체의 실제 동정·증식 유래를 확인하세요.",
+    "aliases": [
+      "탐라란",
+      "Saccolabium japonicum"
+    ],
+    "varieties": [],
+    "order": 184,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "sellerOffers": [
+      {
+        "shop": "이끼상점",
+        "title": "탐라난",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 50000,
+        "unit": "1촉",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "이끼상점",
+        "title": "탐라난",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 90000,
+        "unit": "2촉",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 50000,
+          "max": 50000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "2촉",
+          "min": 90000,
+          "max": 90000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가·제공 가격표",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    }
+  },
+  {
+    "id": "plant-185",
+    "n": 185,
+    "name": "차걸이란",
+    "latin": "Oberonia japonica",
+    "category": "착생란",
+    "environment": "환기형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "가지·유목·착생판",
+    "care": "착생란 참고 항목이에요. 뿌리 주변에 공기가 통하도록 부착하거나 배수되는 재료를 쓰고 관수 뒤에는 물이 고이지 않게 해 주세요. 국내 자생형은 계절 변화를 고려하며 연중 고온다습한 환경에 자동으로 추천하지 않아요. 판매 개체의 증식·유래 및 상세 관리 조건을 확인하세요. 판매명 차걸이난으로 표기된 참고 항목이에요.",
+    "aliases": [
+      "차걸이난"
+    ],
+    "varieties": [],
+    "order": 185,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "종",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "sellerOffers": [
+      {
+        "shop": "이끼상점",
+        "title": "차걸이난",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 10000,
+        "unit": "1촉",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "이끼상점",
+        "title": "차걸이난",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 25000,
+        "unit": "3촉",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "shop": "이끼상점",
+        "title": "차걸이난 모주급",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 20000,
+        "unit": "1촉·모주급",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "1촉",
+          "min": 10000,
+          "max": 10000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "3촉",
+          "min": 25000,
+          "max": 25000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        },
+        {
+          "unit": "1촉·모주급",
+          "min": 20000,
+          "max": 20000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가·제공 가격표",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    }
+  },
+  {
+    "id": "plant-186",
+    "n": 186,
+    "name": "덴드로비움 머릴아이 유통형",
+    "latin": "Dendrobium sp. “머릴아이”",
+    "category": "착생란",
+    "environment": "환기형",
+    "light": "중간·직사광선 피함",
+    "humidity": "종·환기 조건 확인",
+    "placement": "가지·유목·착생판",
+    "care": "착생란 참고 항목이에요. 뿌리 주변에 공기가 통하도록 부착하거나 배수되는 재료를 쓰고 관수 뒤에는 물이 고이지 않게 해 주세요. 국내 자생형은 계절 변화를 고려하며 연중 고온다습한 환경에 자동으로 추천하지 않아요. 판매 개체의 증식·유래 및 상세 관리 조건을 확인하세요. 제공 가격표의 유통명을 보존했으며 종·교잡 여부는 미확정이에요.",
+    "aliases": [
+      "덴드로비움 머릴아이"
+    ],
+    "varieties": [],
+    "order": 186,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "판매 유통명·속 수준 · 종 미확정",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "유통명",
+    "addedAt": "2026-11-03",
+    "popularityKnown": false,
+    "sellerOffers": [
+      {
+        "shop": "이끼상점",
+        "title": "덴드로비움 머릴아이",
+        "url": "https://open.kakao.com/o/smxDuN7h",
+        "price": 20000,
+        "unit": "5촉",
+        "status": "listed",
+        "sourceType": "userMenu",
+        "sourceDate": null,
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "priceInfo": {
+      "currency": "KRW",
+      "kind": "listed",
+      "offers": [
+        {
+          "unit": "5촉",
+          "min": 20000,
+          "max": 20000,
+          "sampleCount": 1,
+          "shopCount": 1,
+          "includesSoldOut": false
+        }
+      ],
+      "checkedAt": "2026-11-03",
+      "basis": "판매 규격별 공개 표시가·제공 가격표",
+      "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
     }
   }
 ]

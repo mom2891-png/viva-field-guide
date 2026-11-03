@@ -1,5 +1,5 @@
 'use strict';
-const CATALOG_VERSION = '2026-11-03-shops1';
+const CATALOG_VERSION = '2026-11-03-plants2';
 const $ = (selector) => document.querySelector(selector);
 const envNames = {습:'습식',혼:'건습 혼합',건:'건조',수:'반수생·수생',냉:'냉량 관리',대:'대형 사육장',환:'충분한 환기',굴:'깊은 바닥재',해:'담수·해수'};
 const descriptions = {
@@ -51,10 +51,10 @@ function factsSection(row){
 }
 function purchaseSection(row){
   const groups=new Map();
-  for(const item of row.purchaseLinks||[]){if(!safeUrl(item.url))continue;if(!groups.has(item.shop))groups.set(item.shop,[]);groups.get(item.shop).push(item);}
+  for(const item of [...(row.purchaseLinks||[]),...(row.sellerOffers||[])]){if(!safeUrl(item.url))continue;if(!groups.has(item.shop))groups.set(item.shop,[]);groups.get(item.shop).push(item);}
   if(!groups.size)return '';
-  const link=item=>`<a class="purchase-link" href="${escapeHTML(safeUrl(item.url))}" target="_blank" rel="noopener noreferrer"><span class="purchase-title">${escapeHTML(item.title)}</span><span class="purchase-meta">${escapeHTML(item.unit)} · ${escapeHTML(priceText({min:item.price,max:item.price}))}${item.status==='soldOut'?' · <strong>품절 표시</strong>':''}</span><span class="purchase-action">상품 보기 ↗</span></a>`;
-  return `<div class="purchase-section"><h4>구매처 <span>${groups.size}곳</span></h4><p class="facts-note">판매 페이지에서 현재 재고·옵션·최종 가격을 확인하세요.</p>${[...groups].map(([shop,items])=>{items.sort((a,b)=>Number(a.status==='soldOut')-Number(b.status==='soldOut')||a.price-b.price);return `<section class="purchase-shop"><h5>${escapeHTML(shop)} <span>${items.length}개 상품</span></h5>${link(items[0])}${items.length>1?`<details class="purchase-more"><summary>다른 상품 ${items.length-1}개</summary>${items.slice(1).map(link).join('')}</details>`:''}</section>`;}).join('')}</div>`;
+  const link=item=>`<a class="purchase-link" href="${escapeHTML(safeUrl(item.url))}" target="_blank" rel="noopener noreferrer"><span class="purchase-title">${escapeHTML(item.title)}</span><span class="purchase-meta">${escapeHTML(item.unit)} · ${escapeHTML(priceText({min:item.price,max:item.price}))}${item.status==='soldOut'?' · <strong>품절 표시</strong>':''}${item.sourceType==='userMenu'?' · 제공 가격표·게시일 미상':''}</span><span class="purchase-action">${item.sourceType==='userMenu'?'문의하기':'상품 보기'} ↗</span></a>`;
+  return `<div class="purchase-section"><h4>구매처 <span>${groups.size}곳</span></h4><p class="facts-note">판매처에서 현재 재고·옵션·최종 가격을 확인하세요.</p>${[...groups].map(([shop,items])=>{const label=items.some(item=>item.sourceType==='userMenu')?'판매 정보':'상품';items.sort((a,b)=>Number(a.status==='soldOut')-Number(b.status==='soldOut')||a.price-b.price);return `<section class="purchase-shop"><h5>${escapeHTML(shop)} <span>${items.length}개 ${label}</span></h5>${link(items[0])}${items.length>1?`<details class="purchase-more"><summary>다른 ${label} ${items.length-1}개</summary>${items.slice(1).map(link).join('')}</details>`:''}</section>`;}).join('')}</div>`;
 }
 function updateSaved(){ $('#savedCount').textContent=favorites.size; $('#savedButton').setAttribute('aria-pressed',String(state.savedOnly));}
 function saveFavorite(id){
@@ -84,6 +84,7 @@ function filtered(){
     .sort(compareEntries);
 }
 const genusNames = {
+  Strobilanthes:'스트로빌란테스',Saxifraga:'바위취류',Selliguea:'셀리구에아',Solanum:'솔라넘',Crepidomanes:'괴불이끼류 (고사리)',Teratophyllum:'테라토필럼',Crypsinus:'고란초류',Lepisorus:'일엽초류',Loxogramme:'주걱일엽류',Hymenophyllum:'수염이끼류 (고사리)',Huperzia:'뱀톱류',Deparia:'진고사리·버들참빗류',Gastrochilus:'탐라난류',Oberonia:'차걸이란류',
   Homalomena:'호마로메나',Labisia:'라비시아',Bucephalandra:'부세파란드라',Sonerila:'소네릴라',Bertolonia:'베르톨로니아',Geogenanthus:'지오제난투스',Argostemma:'아르고스템마',Mikania:'미카니아',Scindapsus:'스킨답서스',Biophytum:'비오피툼',Ardisia:'자금우',Pellaea:'펠레아 (버튼고사리)',Microsorum:'미크로소룸',Bulbophyllum:'벌보필룸',Phalaenopsis:'호접란',Dendrobium:'석곡·덴드로비움',Drosera:'끈끈이주걱',Utricularia:'통발류',Rhodobryum:'꽃송이이끼',Pyrrhobryum:'편백이끼·너구리꼬리이끼',Thamnobryum:'대호꼬리이끼',Mnium:'초롱이끼',
   Adiantum:'아디안텀',Anoectochilus:'아노엑토칠루스',Anubias:'아누비아스',Asplenium:'아스플레니움',Atrichum:'주름솔이끼',Aulacomnium:'긴몸초롱이끼',Begonia:'베고니아',Bolbitis:'볼비티스',Callicladium:'풀이끼',Callisia:'칼리시아',Ceratodon:'지붕빨간이끼',Cissus:'시서스',Climacium:'나무이끼',Cryptanthus:'크립탄서스',Cryptocoryne:'크립토코리네',Davallia:'다발리아',Dicranum:'꼬리이끼',Dischidia:'디스키디아',Dossinia:'도시니아',Entodon:'윤이끼',Epipremnum:'에피프레넘',Episcia:'에피스키아',Ficus:'피커스',Fissidens:'봉황이끼',Fittonia:'피토니아',Goeppertia:'고에페르티아',Guzmania:'구즈마니아',Hemionitis:'헤미오니티스',Hoya:'호야',Hydrocotyle:'하이드로코틸레',Hypnum:'털깃털이끼',Leptochilus:'렙토킬루스',Leucobryum:'흰털이끼',Ludisia:'루디시아',Macodes:'마코데스',Maranta:'마란타',Marcgravia:'마크그라비아',Marchantia:'우산이끼',Monstera:'몬스테라',Neoregelia:'네오레겔리아',Nephrolepis:'네프로레피스',Peperomia:'페페로미아',Philodendron:'필로덴드론',Pilea:'피레아',Plagiomnium:'덩굴초롱이끼',Polytrichum:'솔이끼',Procris:'프로크리스',Pteris:'프테리스',Ptilium:'타조이끼',Pyrrosia:'피로시아',Rhytidiadelphus:'겉굵은이끼',Riccardia:'산호우산대이끼',Riccia:'리치아',Selaginella:'셀라기넬라',Soleirolia:'솔레이롤리아',Sphagnum:'물이끼·수태',Taxiphyllum:'자바모스류',Thuidium:'깃털이끼',Tillandsia:'틸란드시아',Vesicularia:'크리스마스모스류'
 };
@@ -167,6 +168,10 @@ function openShopRelated(shop){
   $('#detailContent').innerHTML=VivaShops.relatedHTML(shop,[...animals,...plants]);
   if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';
 }
+function openShopMenu(shop){
+  if(!shop)return;$('#detailContent').innerHTML=VivaShops.assortmentHTML(shop);
+  if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';
+}
 function setPage(page){
   $('#animalPage').hidden=page==='shops';$('#shopsPage').hidden=page!=='shops';
   if(page==='shops'){
@@ -181,10 +186,12 @@ function setPage(page){
   reset();window.scrollTo({top:0,behavior:'smooth'});
 }
 document.addEventListener('click',event=>{
+  const menuBack=event.target.closest('[data-shop-back-menu]');if(menuBack){openShopMenu(shopDirectory?.getShop(menuBack.dataset.shopBackMenu));return;}
   const shopBack=event.target.closest('[data-shop-back]');if(shopBack){openShopRelated(shopDirectory?.getShop(shopBack.dataset.shopBack));return;}
   const shopEntry=event.target.closest('[data-shop-entry]');if(shopEntry){
+    if(![...animals,...plants].some(row=>row.id===shopEntry.dataset.shopEntry)){showToast('도감을 아직 불러오지 못했어요. 잠시 후 다시 시도하거나 새로고침해 주세요.');return;}
     openDetail(shopEntry.dataset.shopEntry);const info=$('#detailContent .detail-info');
-    if(info){info.querySelector('.genus-back')?.remove();info.insertAdjacentHTML('afterbegin',`<button class="genus-back" data-shop-back="${escapeHTML(shopEntry.dataset.shopOrigin)}">← 구매처의 도감 목록</button>`);}
+    if(info){const isMenu=shopEntry.dataset.shopReturn==='menu';info.querySelector('.genus-back')?.remove();info.insertAdjacentHTML('afterbegin',`<button class="genus-back" ${isMenu?'data-shop-back-menu':'data-shop-back'}="${escapeHTML(shopEntry.dataset.shopOrigin)}">← ${isMenu?'판매 품목·가격표':'구매처의 도감 목록'}</button>`);}
     return;
   }
   const favorite=event.target.closest('[data-favorite]');if(favorite){saveFavorite(favorite.dataset.favorite);return;}
@@ -206,7 +213,7 @@ $('#detailDialog').addEventListener('close',()=>document.body.style.overflow='')
 $('#detailDialog').addEventListener('click',event=>{if(event.target===$('#detailDialog')){const rect=event.target.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)event.target.close();}});
 $('#aboutButton').addEventListener('click',()=>{$('#detailContent').innerHTML=`<div class="about"><div class="eyebrow">ABOUT THE FIELD GUIDE</div><h2>나만의 작은 세계를 위한 도감</h2><p>동물 ${animals.length}개와 식물·이끼 ${plants.length}개 항목을 분류·환경별로 탐색할 수 있어요. 동물 ${Object.keys(morphs).length}개 항목의 모프·패턴·지역형 ${Object.values(morphs).flat().length}개는 해당 종 아래에 연결했으며 별도 종으로 세지 않았어요.</p><p>인기순은 국내 판매처의 취급 범위를 참고한 추정 순서이며 실제 판매량 순위는 아니에요. 확인된 인기 자료가 있는 항목을 먼저 정렬하고, 미집계 항목은 그 뒤에서 이름순으로 보여줘요. 미집계는 희귀하거나 인기가 없다는 뜻이 아니에요. 새 확장 후보의 국내 유통과 종별 조건은 계속 확인하고 있어요.</p><p>습식·건조·반수생 등 환경을 구별해 골라 주세요. 열대 습식뿐 아니라 건조형·냉량형·수역 전용 후보도 포함하므로 환경과 성체 크기를 먼저 확인해 주세요. 같은 환경 표시는 합사 가능을 뜻하지 않아요. 학명·유통명과 사진의 개체가 다를 수 있으며 사진 저작자와 라이선스는 각 항목의 ‘사진 정보’에서 확인할 수 있어요.</p><p>관심 목록은 현재 브라우저에 저장되며, 동물과 식물 도감 각각에서 볼 수 있어요. 식물은 속 카드에서 종 목록을 열고, 종 상세에서 품종·유통명을 살펴볼 수 있어요. 환경 필터와 검색은 해당 조건에 맞는 종만 속 안에 보여줘요.</p></div>`;if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';});
 document.addEventListener('keydown',event=>{if(event.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#detailDialog').open){event.preventDefault();if(state.page==='shops')$('#shopSearch').focus();else {setPage('animals');$('#search').focus();}}});
-const shopDirectory=VivaShops.mount($('#shopsPage'),{version:CATALOG_VERSION,onRelated:openShopRelated});
+const shopDirectory=VivaShops.mount($('#shopsPage'),{version:CATALOG_VERSION,onRelated:openShopRelated,onMenu:openShopMenu});
 Promise.all(['species.json','plants.json','morphs.json'].map(path=>fetch(`${path}?v=${CATALOG_VERSION}`).then(response=>{if(!response.ok)throw new Error(path);return response.json();}))).then(([a,p,m])=>{
   animals=a;plants=p;morphs=m;species=state.page==='plants'?plants:animals;shopDirectory?.setCatalog([...animals,...plants]);$('#animalTotal').textContent=animals.length;document.querySelectorAll('[data-plant-total]').forEach(e=>e.textContent=plants.length);$('#footerTotal').textContent=`동물 ${animals.length} · 식물·이끼 ${plants.length} 항목`;if(state.page!=='shops')render();const hero=animals.find(r=>r.n===1);if(hero?.image)$('#heroPhoto').style.backgroundImage=`url("${safeUrl(hero.image)}")`;
 }).catch(()=>{$('#resultCount').textContent='도감을 불러오지 못했어요. 새로고침해 주세요.';});

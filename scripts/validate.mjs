@@ -307,5 +307,24 @@ assert.equal(run("sizeClass(plants.find(r=>r.id==='plant-207'))"),'small');
 assert.equal(run("sizeClass(plants.find(r=>r.id==='plant-208'))"),'medium','Rare documented maximum stays visible to the size filter');
 assert.equal(run("sizeClass(plants.find(r=>r.id==='plant-212'))"),'unknown','Variable leaf sizes cannot classify whole fern size');
 run("state.search='미크로그램마';render()");
-assert.equal(run("plantGroups(filtered()).find(g=>g.key==='Microgramma').rows.length"),2);
+assert.equal(run("plantGroups(filtered()).find(g=>g.key==='Microgramma').rows.length"),plants.filter(r=>r.latin.startsWith('Microgramma ')).length);
 console.log('PASS: basic moss aliases, unresolved trade identity, documented size basis and new epiphytic fern genus.');
+
+// Queue expansion keeps species, unresolved names and hybrid cultivars distinct.
+run("reset();state.page='plants';state.catalogNode='plants';species=plants;state.search='대엽풍란';render()");
+assert.deepEqual(Array.from(run('filtered().map(r=>r.id)')),['plant-214']);
+assert.equal(run('filtered()[0].latin'),'Phalaenopsis japonica');
+run("state.search='피커스 미니마';render()");
+assert.deepEqual(Array.from(run('filtered().map(r=>r.id)')),['plant-3']);
+run("state.search='레몬버튼고사리';render()");
+assert.deepEqual(Array.from(run('filtered().map(r=>r.id)')),['plant-83']);
+run("state.search='Cissus amazonica';render()");
+assert.deepEqual(Array.from(run('filtered().map(r=>r.id)')),['plant-223']);
+assert.equal(run('filtered()[0].catalogType'),'유통명');
+assert.ok(run("filtered()[0].latin.includes('sp.')"));
+run("state.search='Frosty Kiss';render()");
+assert.deepEqual(Array.from(run('filtered().map(r=>r.id)')),['plant-226']);
+for(const id of ['plant-227','plant-228','plant-229'])assert.equal(plants.find(r=>r.id===id).catalogType,'품종·교잡종');
+assert.equal(plants.filter(r=>r.latin.startsWith('Microgramma ')).length,5);
+assert.ok(plants.slice(212).every(r=>r.popularityKnown===false&&r.popularity===null&&!r.priceInfo),'New research does not manufacture prices or popularity');
+console.log('PASS: orchid synonym search, subordinate names, unplaced Cissus, cultivar identity and unverified market fields.');

@@ -2,7 +2,37 @@
 
 초기 기록: 2026-11-03 (Asia/Seoul). 초기 배치는 등각류 공개 카테고리의 **목록 전 페이지 대조**와 드워프화이트 추가다. 전체 도감·업체 전 상품 조사 완료를 뜻하지 않는다. 목록 열람 완료와 후보 처리 완료를 구분한다. 미조사는 누락 0건이 아니며, 후보 미확정은 종 수에 넣지 않는다.
 
-최신 집계(2026-11-04): 동물362·식물212=574항목. 세부군·입력 누락은 node scripts/catalog-status.mjs로 집계한다. 사진437·크기186·가격214항목이 입력되어 있다. 아래 분류 표와 초기 배치95상품·74보류 수치는 당시 기록이며 이후 추가·동정 보류는 후속 배치별로 별도 기록한다. 항목에는 종·속·유통명이 섞여 있어 이 수치를 동정 완료 종 수로 쓰지 않는다.
+최신 집계(2026-11-04): 동물362·식물229=591항목. 세부군·입력 누락은 node scripts/catalog-status.mjs로 집계한다. 사진444·크기187·가격214항목이 입력되어 있다. 아래 분류 표와 초기 배치95상품·74보류 수치는 당시 기록이며 이후 추가·동정 보류는 후속 배치별로 별도 기록한다. 항목에는 종·속·유통명이 섞여 있어 이 수치를 동정 완료 종 수로 쓰지 않는다.
+
+## 2026-11-04 남은42건 대기열 판정·식물 다양성 확장
+
+- package.json 전체 check와 git diff --check 통과. 기존 동물 불변, 기존212식물 중 허용한10항목의 별칭/품종 연결/설명/검증 필드만 변경한 보존 검사 통과.
+- 현재 동물362·식물229=591항목, 목차885노드. 사진444·크기187·가격214. 이번 신규17(종13·유통명1·품종/교잡3), 기존10항목 보강, 사진7·크기 참고1 추가.
+- 신규: 풍란·나도풍란·보리혹란·사철란·붉은사철란, 텍타리아 힐로카르파·소네릴라 칸토넨시스, 미크로그램마 텍타/니티다/바키니폴리아, 시서스 아마조니카 유통형, 모노레나 프리뮬리플로라·글록시넬라 린데니아나·스키스마토글로티스 푸실라, 네오레겔리아 치키타 린다/푸니니/도미노.
+- Cissus amazonica는 Kew unplaced이므로 유통명으로 구분. Neoregelia3은 종이 아니라 품종/교잡. Frosty Kiss는 S. pusilla 아래, 풍란의 황금금/옥금강은 풍란 아래 연결. 잎 크기·품종별 지침을 종 전체 크기로 합치지 않음.
+- 기존10: plant-3 미니마 하위 판매형/검색, plant-83 레몬버튼/Duffii 이름·RHS 품종 관리, plant-151 석곡 품종 검색, plant-15 레드수태 미확정 설명, plant-106 윤이끼·plant-109/126 초롱 판매명 연결 한계, plant-124 종별 암석 서식 기록, plant-117/128 사진/동정 보류 근거. 기존 ID·사진·가격·인기는 보존.
+- 최초42건 모두 판정 기록: 신규 후보30 중22건 항목 반영·8신규 보류, 기존12건은 보강/부분 보강/연결 보류로 구분. 사진 미확보·실물 동정·에피스키아 부모종 연결 등을 완료로 세지 않는다. 상세는 moss-plant-expansion-queue.md. 원문/기계 장부는 저장소 밖 research/plant-queue-batch-2026-11-04/.
+- 이용허락과 실제 사진7장을 확인해 추가. 후반3종 Commons조회429는 반복하지 않아 사진 공란 유지. 브라우저 인벤토리는 읽혔으나 getTab은 browser.user is unavailable로 실패, 실제 화면 검수 미완료. 추가 업로드·main·배포 없음.
+
+|ID|항목|분류/관리 최소 근거|
+|---|---|---|
+|plant-213|풍란 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:661005-1) · [자료2](https://www.aos.org/explore-orchids/vanda-alliance/neofinetia-falcata) · [자료3](https://oqua.co.kr/category/테라리움-식물/443/)|
+|plant-214|나도풍란 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77138162-1) · [자료2](https://www.rhs.org.uk/plants/372546/phalaenopsis-japonica/details) · [자료3](https://oqua.co.kr/category/테라리움-식물/443/)|
+|plant-215|보리혹란 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:619166-1) · [자료2](https://www.nibr.go.kr/aiibook/catImage/26/Vascular%20Plants.pdf)|
+|plant-216|사철란 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:636203-1) · [자료2](https://forest.go.kr/kna/special/download/English_Names_for_Korean_Native_Plants.pdf) · [자료3](https://www.nibr.go.kr/aiibook/access/ecatalogt.jsp?Dir=65&start=342) · [자료4](https://plantimal.co.kr/product/detail.html?product_no=595)|
+|plant-217|붉은사철란 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1153030-2) · [자료2](https://species.nibr.go.kr/html/home/nibr_qr_code_plant.pdf) · [자료3](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003308528) · [자료4](https://plantimal.co.kr/product/detail.html?product_no=594)|
+|plant-218|텍타리아 힐로카르파 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17455740-1) · [자료2](https://www.jungle-leaves.de/en/products/tectaria-hilocarpa) · [자료3](https://plantimal.co.kr/product/detail.html?product_no=521)|
+|plant-219|소네릴라 칸토넨시스 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:575731-1) · [자료2](https://indoorecosystems.com/products/sonerila-cantonensis) · [자료3](https://plantimal.co.kr/product/detail.html?product_no=79)|
+|plant-220|미크로그램마 텍타 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30009312-2) · [자료2](https://glassboxtropicals.com/microgramma-tecta/)|
+|plant-221|미크로그램마 니티다 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30009312-2) · [자료2](https://glassboxtropicals.com/microgramma-nitida/)|
+|plant-222|미크로그램마 바키니폴리아 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30009312-2) · [자료2](https://glassboxtropicals.com/microgramma-vacciniifolia/)|
+|plant-223|시서스 아마조니카 유통형 (유통명)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:67500-1) · [자료2](https://glassboxtropicals.com/cissus-amazonica/)|
+|plant-224|모노레나 프리뮬리플로라 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:323262-2) · [자료2](https://glassboxtropicals.com/monolena-primuliflora/)|
+|plant-225|글록시넬라 린데니아나 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60441798-2) · [자료2](https://glassboxtropicals.com/gloxinella-lindeniana/)|
+|plant-226|스키스마토글로티스 푸실라 (종)|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:88808-1) · [자료2](https://glassboxtropicals.com/schismatoglottis-pusilla-frosty-kiss/)|
+|plant-227|네오레겔리아 치키타 린다 (품종·교잡종)|[자료1](https://glassboxtropicals.com/neoregelia-chiquita-linda/)|
+|plant-228|네오레겔리아 푸니니 (품종·교잡종)|[자료1](https://glassboxtropicals.com/neoregelia-punini/)|
+|plant-229|네오레겔리아 도미노 (품종·교잡종)|[자료1](https://glassboxtropicals.com/neoregelia-domino/)|
 
 ## 2026-11-04 기본 이끼·착생 고사리 반영
 

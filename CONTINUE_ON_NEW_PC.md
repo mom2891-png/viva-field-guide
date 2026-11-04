@@ -4,6 +4,24 @@
 검수·갱신일: 2026-11-04 (Asia/Seoul).
 복사해서 전달할 시작 프롬프트: [CONTINUE_PROMPT.md](CONTINUE_PROMPT.md).
 
+## 현재 인계 기준 — 2026-11-04
+
+이 절이 아래 과거 로컬 스냅샷보다 우선한다. 최신 데이터 커밋은2c3ad822c00664c133c3ed5621b679238614a16d이며 이후 인계 문서 커밋이 추가된다. 최종 응답의 인계 SHA도 포함되는지 확인한다.
+
+- 동물362·식물242=604항목. 사진498/공란106·크기190·가격214. 식물119속·목차1104. 기존600항목은31의 이름 연결 필드 외 보존. 전체 check 통과, 실제 도감 데스크톱/390px 최종 검수 미완료.
+- 최신4항목은239크립탄사/240테누이스 실버 유통형/241알소비아 디안티플로라/242보석란 히스피다. 골드바는 기존31 아래 유통명으로 연결. 블랙스완 부모종·알소비아 미니 동일성은 보류.
+- 카페9게시판 첫 페이지135고유 제목·본문25글 열람. 다음 페이지/전체 카페는 미조사. docs/cafe-plant-review.md 최신 후속이 최소 자료 원본이다.
+- 다음: Anoectochilus lobbianus, Sonerila hirsuta·Polka Dot·Tepuai, Aerangis punctata, Lepanthes calodictyon, Phalaenopsis schilleriana의 정명·기존 중복·종별 재배 조건부터 대조. 야마사키카즈라 속 배정/Corybas 휴면은 보류 유지. 정글·지피·덩굴·브로멜리아, 게코·개구리와 미확보 사진 우선.
+- 공개 main/홈페이지는9c4899d 기준591항목. 이번 인계는 작업 브랜치 업로드만이며 main 반영·배포는 포함하지 않는다. 정확한 업로드 결과는 최종 응답의 원격 SHA 확인을 따른다.
+- 원문·API 캐시·검수용 원본 사진·스크립트는 checkout 밖 research/에 있어 새 PC에 전달되지 않는다. 공개 장부 최소 URL로 필요한 부분만 재확인한다. 비밀·개인자료·vivarium-site 전체를 올리지 않는다.
+- 다른 PC의 도구·브라우저 연결·한도를 가정하지 않는다. 한도는 조회 가능할 때만 확인해10%를 남기며 수치를 추정하지 않는다. 동시 편집은 별도 브랜치/체크아웃을 쓴다.
+
+npm이 없는 Node 환경에서 전체 검사:
+
+```sh
+node --input-type=module -e "import{execSync}from'node:child_process';import fs from'node:fs';execSync(JSON.parse(fs.readFileSync('package.json')).scripts.check,{stdio:'inherit',shell:true});"
+```
+
 ## 받기
 
 저장소: https://github.com/mom2891-png/viva-field-guide.git
@@ -36,7 +54,7 @@ git pull --ff-only https://github.com/mom2891-png/viva-field-guide.git codex/pur
 
 배포 이후 로컬 보강: 미국나무이끼·쿠르비폴리움 사진2장과 서식 설명·별칭. 최신 사진447, 미입력144(이끼6). 591항목/목차1081 유지. HANDOFF 최상단 참조. 이 추가분은 아직 업로드하지 않았다.
 
-최신 작업: 2026-11-04 이명6항목 연결·게코 사진1장. 591항목, 식물112속·목차1081·사진445. docs/taxon-alias-review.md의 보류와 다음 작업을 확인한다. 아래 과거 분류 묶음 수치는 해당 시점 기록이다. 업로드 전이므로 원격에는 아직 없을 수 있다.
+과거 작업: 2026-11-04 이명6항목 연결·게코 사진1장. 591항목, 식물112속·목차1081·사진445. docs/taxon-alias-review.md의 보류와 다음 작업을 확인한다. 아래 과거 분류 묶음 수치는 해당 시점 기록이다. 업로드 전이므로 원격에는 아직 없을 수 있다.
 
 1. AGENTS.md → docs/agent-work-rules.md. Claude는 CLAUDE.md도 읽는다.
 2. README.md → HANDOFF.md의 최신 배치. 이전 스냅샷 전체를 매번 읽지 않는다.
@@ -44,7 +62,7 @@ git pull --ff-only https://github.com/mom2891-png/viva-field-guide.git codex/pur
 
 상세 규칙을 각 AI 파일에 복제하지 않는다. 공통 프롬프트만 갱신하고 시작 문서는 그 파일로 연결한다. 모델의 기억·구독 계정·이전 대화가 전달된다고 가정하지 않는다. 새 커밋을 받지 않은 PC에는 새 규칙이 없다. 현재 PC의 로컬 수정은 업로드 또는 파일 직접 전달 후에만 다른 PC에 전달된다.
 
-## 최신 로컬 상태
+## 과거 로컬 상태 기록
 
 - 최신 분류 묶음:591항목 유지, 동물208속/반복69속·식물111속. 목차1080. 아브로니아3종 전개·종/모프·필터·URL/뒤로가기 유지. 원본 동물3항목 middle만 통일. docs/catalog-grouping-review.md 참조. 실제 화면 검수는 연결 오류로 미완료.
 

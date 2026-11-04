@@ -1393,7 +1393,15 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/618849401/large.jpg",
+    "imageFile": "iNaturalist photo 618849401",
+    "credit": {
+      "author": "(c) Jason Alexander, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/618849401",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-32",
@@ -3621,7 +3629,15 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/698489168/large.jpg",
+    "imageFile": "iNaturalist photo 698489168",
+    "credit": {
+      "author": "(c) Richard Jacob, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/698489168",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-81",
@@ -3894,7 +3910,15 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/734145111/large.jpg",
+    "imageFile": "iNaturalist photo 734145111",
+    "credit": {
+      "author": "(c) 如此甚好, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/734145111",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-87",
@@ -3916,7 +3940,15 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/714522933/large.jpg",
+    "imageFile": "iNaturalist photo 714522933",
+    "credit": {
+      "author": "(c) Guillaume Delaitre, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/714522933",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-88",
@@ -3990,7 +4022,15 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/687704788/large.jpg",
+    "imageFile": "iNaturalist photo 687704788",
+    "credit": {
+      "author": "(c) 黃美滿, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/687704788",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-91",
@@ -6517,7 +6557,15 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/484266603/large.jpeg",
+    "imageFile": "iNaturalist photo 484266603",
+    "credit": {
+      "author": "(c) Fabrício Mil Homens Riella, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/484266603",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-142",
@@ -7270,6 +7318,14 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/619413854/large.jpg",
+    "imageFile": "iNaturalist photo 619413854",
+    "credit": {
+      "author": "(c) Cristian I. Ortega Ramos, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/619413854",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -7320,6 +7376,14 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/269565639/large.jpg",
+    "imageFile": "iNaturalist photo 269565639",
+    "credit": {
+      "author": "(c) Kiwi Shen, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/269565639",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -7985,6 +8049,14 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/583903829/large.jpg",
+    "imageFile": "iNaturalist photo 583903829",
+    "credit": {
+      "author": "(c) Yinling Chen, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/583903829",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -8048,6 +8120,14 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가·제공 가격표",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/731231009/large.jpg",
+    "imageFile": "iNaturalist photo 731231009",
+    "credit": {
+      "author": "Mason Brock",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/731231009",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
     }
   },
   {
@@ -8100,6 +8180,14 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/688400638/large.jpg",
+    "imageFile": "iNaturalist photo 688400638",
+    "credit": {
+      "author": "(c) 黃美滿, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/688400638",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -8329,6 +8417,14 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가·제공 가격표",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/732441740/large.jpg",
+    "imageFile": "iNaturalist photo 732441740",
+    "credit": {
+      "author": "(c) Young Jun Lee, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/732441740",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -8381,6 +8477,14 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가·제공 가격표",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/132110679/large.jpg",
+    "imageFile": "iNaturalist photo 132110679",
+    "credit": {
+      "author": "들꽃ㅅr랑",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/132110679",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
     }
   },
   {
@@ -8433,6 +8537,14 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가·제공 가격표",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/687027388/large.jpg",
+    "imageFile": "iNaturalist photo 687027388",
+    "credit": {
+      "author": "(c) Ben G., some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/687027388",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -8485,6 +8597,14 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가·제공 가격표",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/735199716/large.jpg",
+    "imageFile": "iNaturalist photo 735199716",
+    "credit": {
+      "author": "Étienne Lacroix-Carignan",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/735199716",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
     }
   },
   {
@@ -8537,6 +8657,14 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가·제공 가격표",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/174686499/large.jpeg",
+    "imageFile": "iNaturalist photo 174686499",
+    "credit": {
+      "author": "(c) Jacy Chen, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/174686499",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -8818,7 +8946,15 @@
     "popularity": null,
     "shopCoverage": null,
     "popularityKnown": false,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/754223953/large.jpg",
+    "imageFile": "iNaturalist photo 754223953",
+    "credit": {
+      "author": "(c) William G. Borges, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/754223953",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-189",
@@ -8844,7 +8980,15 @@
     "popularity": null,
     "shopCoverage": null,
     "popularityKnown": false,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/653790535/large.jpg",
+    "imageFile": "iNaturalist photo 653790535",
+    "credit": {
+      "author": "(c) Gabriel O. Keller, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/653790535",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-190",
@@ -8958,7 +9102,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/757952650/large.jpg",
+    "imageFile": "iNaturalist photo 757952650",
+    "credit": {
+      "author": "(c) Anne Parker, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/757952650",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-194",
@@ -8992,7 +9144,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/744315774/large.jpg",
+    "imageFile": "iNaturalist photo 744315774",
+    "credit": {
+      "author": "(c) florawhite, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/744315774",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-195",
@@ -9054,7 +9214,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/112007166/large.jpg",
+    "imageFile": "iNaturalist photo 112007166",
+    "credit": {
+      "author": "Richard Fuller",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/112007166",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
   },
   {
     "id": "plant-197",
@@ -9107,7 +9275,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/737293378/large.jpg",
+    "imageFile": "iNaturalist photo 737293378",
+    "credit": {
+      "author": "(c) Shelomi Doyle, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/737293378",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-199",
@@ -9136,7 +9312,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/669961183/large.jpg",
+    "imageFile": "iNaturalist photo 669961183",
+    "credit": {
+      "author": "(c) Brendan McIntyre, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/669961183",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-200",
@@ -9392,6 +9576,14 @@
       "kind": "range",
       "note": "군락의 가로 퍼짐이나 삭병 길이는 제외해요. FNA 형태 자료의 줄기 1~5cm 기준이에요.",
       "checkedAt": "2026-11-04"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/374050027/large.jpg",
+    "imageFile": "iNaturalist photo 374050027",
+    "credit": {
+      "author": "(c) りなべる, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/374050027",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -9821,7 +10013,15 @@
     "catalogType": "종",
     "domesticStatus": "해외 재배 자료",
     "addedAt": "2026-11-04",
-    "verification": "공식 분류·종별 재배 자료 대조(2026-11-04). 국내 취급·인기 미확인."
+    "verification": "공식 분류·종별 재배 자료 대조(2026-11-04). 국내 취급·인기 미확인.",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/598216413/large.jpg",
+    "imageFile": "iNaturalist photo 598216413",
+    "credit": {
+      "author": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/598216413",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "plant-221",

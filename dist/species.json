@@ -11442,7 +11442,15 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Orthriophis-taeniurus-sch%C3%B6nnatter.jpg/960px-Orthriophis-taeniurus-sch%C3%B6nnatter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Orthriophis-taeniurus-schönnatter.jpg",
+    "credit": {
+      "author": "Holger Krisp",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Orthriophis-taeniurus-sch%C3%B6nnatter.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
   },
   {
     "n": 141,
@@ -17776,7 +17784,15 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/340480358/large.jpg",
+    "imageFile": "iNaturalist photo 340480358",
+    "credit": {
+      "author": "(c) hr_dragonfly, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/340480358",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "species-245",
@@ -18092,7 +18108,15 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Yuukianura_Aphoruroides.jpg/960px-Yuukianura_Aphoruroides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Yuukianura Aphoruroides.jpg",
+    "credit": {
+      "author": "FRWByMath",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Yuukianura_Aphoruroides.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
   },
   {
     "id": "species-257",
@@ -18278,7 +18302,15 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/600855944/large.jpg",
+    "imageFile": "iNaturalist photo 600855944",
+    "credit": {
+      "author": "(c) Zakqary Roy, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/600855944",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "species-266",
@@ -18296,7 +18328,15 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/603046673/large.jpg",
+    "imageFile": "iNaturalist photo 603046673",
+    "credit": {
+      "author": "(c) Joss Carr, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/603046673",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "species-267",
@@ -19794,7 +19834,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/721349940/large.jpg",
+    "imageFile": "iNaturalist photo 721349940",
+    "credit": {
+      "author": "(c) Mathijs, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/721349940",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "species-310",
@@ -21698,7 +21746,15 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/603417436/large.jpg",
+    "imageFile": "iNaturalist photo 603417436",
+    "credit": {
+      "author": "(c) Fabien Piednoir, some rights reserved (CC BY-SA)",
+      "license": "CC BY-SA",
+      "url": "https://www.inaturalist.org/photos/603417436",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/"
+    }
   },
   {
     "id": "species-339",
@@ -21730,6 +21786,14 @@
       "kind": "range",
       "note": "사육 자료의 참고 범위. 긴 꼬리다리 포함 여부는 명확하지 않아 다른 종의 측정값과 직접 비교하지 마세요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/662144624/large.jpg",
+    "imageFile": "iNaturalist photo 662144624",
+    "credit": {
+      "author": "(c) Rohan Arthur, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/662144624",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -21794,6 +21858,14 @@
       "kind": "range",
       "note": "전문 사육 자료의 참고 범위이며 판매 당시 규격과 구분해요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/757845014/large.jpg",
+    "imageFile": "iNaturalist photo 757845014",
+    "credit": {
+      "author": "(c) Tim Johnson, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/757845014",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -21825,6 +21897,14 @@
       "kind": "range",
       "note": "전문 사육 자료의 참고 범위이며 판매 당시 규격과 구분해요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758413412/large.jpg",
+    "imageFile": "iNaturalist photo 758413412",
+    "credit": {
+      "author": "(c) Tim Johnson, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/758413412",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -21847,7 +21927,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/446028673/large.jpeg",
+    "imageFile": "iNaturalist photo 446028673",
+    "credit": {
+      "author": "(c) Ben Jobson, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/446028673",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "species-344",
@@ -21932,7 +22020,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/753676522/large.jpg",
+    "imageFile": "iNaturalist photo 753676522",
+    "credit": {
+      "author": "Andreas Manz",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/753676522",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
   },
   {
     "id": "species-347",
@@ -21963,6 +22059,14 @@
       "kind": "maximum",
       "note": "전문 사육 자료의 약1.5~2cm 참고 범위 상단. 판매 당시 규격과 구분해요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/653732225/large.jpg",
+    "imageFile": "iNaturalist photo 653732225",
+    "credit": {
+      "author": "(c) Diego González Dopico, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/653732225",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -21994,6 +22098,14 @@
       "kind": "maximum",
       "note": "분류 논문 표본의 최대값으로, 모든 개체의 성장 한계를 뜻하지 않아요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/427270858/large.jpeg",
+    "imageFile": "iNaturalist photo 427270858",
+    "credit": {
+      "author": "(c) Alejandro Rodríguez Zapata, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/427270858",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -22171,6 +22283,14 @@
       "kind": "maximum",
       "note": "분류 논문에서 측정한 표본 최대값이며, 모든 개체의 성장 한계를 뜻하지 않아요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/399168554/large.jpg",
+    "imageFile": "iNaturalist photo 399168554",
+    "credit": {
+      "author": "(c) Павлик Лисицын, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/399168554",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -22192,7 +22312,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/746910446/large.jpg",
+    "imageFile": "iNaturalist photo 746910446",
+    "credit": {
+      "author": "(c) Diego González Dopico, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/746910446",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "species-356",
@@ -22224,6 +22352,14 @@
       "kind": "maximum",
       "note": "전문 판매자의 성체 참고값. 분류 논문 측정과 구분하며 판매 당시 규격이 아니에요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/387778255/large.jpeg",
+    "imageFile": "iNaturalist photo 387778255",
+    "credit": {
+      "author": "(c) Felicia Seichter, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/387778255",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   },
   {
@@ -22268,7 +22404,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/754121960/large.jpg",
+    "imageFile": "iNaturalist photo 754121960",
+    "credit": {
+      "author": "(c) Paolo Co, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/754121960",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "species-359",
@@ -22289,7 +22433,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759377559/large.jpg",
+    "imageFile": "iNaturalist photo 759377559",
+    "credit": {
+      "author": "J Mark Earlam",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/759377559",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
   },
   {
     "id": "species-360",
@@ -22311,7 +22463,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/746401786/large.jpg",
+    "imageFile": "iNaturalist photo 746401786",
+    "credit": {
+      "author": "(c) Ali Rajabali, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/746401786",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
+    }
   },
   {
     "id": "species-361",
@@ -22368,6 +22528,14 @@
       "kind": "maximum",
       "note": "Beardsley Zoo의 최대 약4피트(약122cm) 참고값이며 대부분이 꼬리 길이예요. 일반 개체의 평균 크기나 사육장 규격이 아니에요.",
       "checkedAt": "2026-11-04"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/754605585/large.jpg",
+    "imageFile": "iNaturalist photo 754605585",
+    "credit": {
+      "author": "(c) Andrew Bazdyrev, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/754605585",
+      "licenseUrl": "https://creativecommons.org/licenses/by/"
     }
   }
 ]

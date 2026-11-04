@@ -26,6 +26,8 @@ git pull --ff-only https://github.com/mom2891-png/viva-field-guide.git codex/pur
 
 ## 모든 AI의 읽기 순서
 
+최신 작업: 2026-11-04 이명6항목 연결·게코 사진1장. 591항목, 식물112속·목차1081·사진445. docs/taxon-alias-review.md의 보류와 다음 작업을 확인한다. 아래 과거 분류 묶음 수치는 해당 시점 기록이다. 업로드 전이므로 원격에는 아직 없을 수 있다.
+
 1. AGENTS.md → docs/agent-work-rules.md. Claude는 CLAUDE.md도 읽는다.
 2. README.md → HANDOFF.md의 최신 배치. 이전 스냅샷 전체를 매번 읽지 않는다.
 3. 관련 계획 docs/superpowers/plans/2026-11-03-field-guide-completion.md, docs/catalog-coverage.md, docs/catalog-field-standards.md 중 이번 작업에 필요한 구간.

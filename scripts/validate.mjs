@@ -371,3 +371,24 @@ console.log('PASS: animal genus groups, Abronia drill-down, ranking, morph searc
 assert.equal(animals.find(r=>r.id==='species-97').middle,'카멜레온');
 assert.equal(animals.find(r=>r.id==='species-98').middle,'카멜레온');
 assert.equal(animals.find(r=>r.id==='species-231').middle,'기타 도마뱀');
+
+// Reviewed aliases must reach the existing entry, without creating another species.
+for(const [page,query,id] of [
+  ['animals','Rhynchophis boulengeri','species-115'],
+  ['animals','Bothrochilus albertisii','species-150'],
+  ['animals','Leiopython fredparkeri','species-151'],
+  ['plants','Pellionia pulchra','plant-39'],
+  ['plants','펠리오니아 풀크라','plant-39'],
+  ['plants','Hypnum plumiforme','plant-127'],
+  ['plants','Calohypnum plumiforme','plant-127'],
+  ['plants','Humata parvula','plant-166']
+]){
+  run(`state.page=${JSON.stringify(page)};species=state.page==='plants'?plants:animals;state.catalogNode=state.page;state.category='all';state.subgroup='all';state.environment='all';state.availability='all';state.search=${JSON.stringify(query)};render()`);
+  assert.equal(run('filtered().length'),1,query);
+  assert.equal(run('filtered()[0].id'),id,query);
+  assert.ok(run(`catalogModel.search(${JSON.stringify(query)},state.page).some(n=>n.entryId===${JSON.stringify(id)})`),'TOC alias: '+query);
+}
+assert.equal(plants.find(r=>r.id==='plant-127').latin,'Calohypnum plumiforme');
+assert.equal(run("genusName('Calohypnum')"),'털깃털이끼');
+assert.equal(animals.find(r=>r.id==='species-151').latin,'Leiopython meridionalis','Disputed classification retains the existing representative');
+console.log('PASS: reviewed taxon aliases reach stable IDs in cards and TOC; disputed name preserved.');

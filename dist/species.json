@@ -9696,7 +9696,7 @@
     },
     "shopCoverage": 0,
     "catalogType": "종",
-    "verification": "기존 도감 · 재검토 대상",
+    "verification": "The Reptile Database(2026-11-04)의 Gonyosoma boulengeri 및 이명 Rhynchophis boulengeri 대조. 학명 검색 연결이며 판매 개체 동정·관리 검증과 구별.",
     "domesticStatus": "국내 유통 미확인",
     "popularityKnown": false,
     "sizeInfo": {
@@ -9708,7 +9708,10 @@
       "kind": "range",
       "note": "",
       "checkedAt": "2026-11-03"
-    }
+    },
+    "aliases": [
+      "Rhynchophis boulengeri"
+    ]
   },
   {
     "n": 116,
@@ -11945,9 +11948,14 @@
     },
     "shopCoverage": 0,
     "catalogType": "종",
-    "verification": "기존 도감 · 재검토 대상",
+    "verification": "The Reptile Database(2026-11-04)는 Leiopython albertisii를 대표로 사용하고 Bothrochilus 등의 과거 조합을 기록. 대표 학명 유지·이명 검색 연결. 국내 판매 개체 동정 미검증.",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "aliases": [
+      "Bothrochilus albertisii",
+      "Morelia albertisii",
+      "Liasis albertisii"
+    ]
   },
   {
     "n": 151,
@@ -11960,9 +11968,14 @@
     "id": "species-151",
     "shopCoverage": 0,
     "catalogType": "종",
-    "verification": "기존 도감 · 재검토 대상",
+    "verification": "학명 처리 차이 검토(2026-11-04): The Reptile Database는 meridionalis를 fredparkeri 항목에 포함하지만 과거 원기재 자료는 별도 종으로 구분. 기존 Leiopython meridionalis 표기를 유지하고 관련 학명 검색을 연결. 판매 개체의 종·지역형 동정 또는 모든 분류 체계의 합의를 뜻하지 않음.",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "aliases": [
+      "Bothrochilus meridionalis",
+      "Leiopython fredparkeri",
+      "Bothrochilus fredparkeri"
+    ]
   },
   {
     "n": 152,
@@ -15290,7 +15303,15 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Pachydactylus_rugosus.jpg/960px-Pachydactylus_rugosus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Pachydactylus rugosus.jpg",
+    "credit": {
+      "author": "Marius Burger",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pachydactylus_rugosus.jpg",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
   },
   {
     "id": "species-216",

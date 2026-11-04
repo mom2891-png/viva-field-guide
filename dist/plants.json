@@ -1641,7 +1641,9 @@
     "aliases": [
       "Pellionia repens",
       "펠리오니아",
-      "watermelon begonia"
+      "watermelon begonia",
+      "Pellionia pulchra",
+      "펠리오니아 풀크라"
     ],
     "order": 39,
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Pellionia_repens_kz7.jpg/960px-Pellionia_repens_kz7.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -1656,7 +1658,7 @@
     "popularity": null,
     "varieties": [],
     "catalogType": "종",
-    "verification": "기존 도감 · 재검토 대상",
+    "verification": "Kew POWO(2026-11-04)는 Pellionia pulchra와 Pellionia repens를 Procris repens의 이명으로 처리. 기존 ID 아래 검색 연결하며 별도 종으로 추가하지 않음. 유통형·판매 개체 동정은 미검증.",
     "domesticStatus": "국내 유통 미확인",
     "popularityKnown": false,
     "sizeInfo": {
@@ -5626,7 +5628,7 @@
     "id": "plant-127",
     "n": 127,
     "name": "털깃털이끼",
-    "latin": "Hypnum plumiforme",
+    "latin": "Calohypnum plumiforme",
     "category": "이끼",
     "environment": "냉량형",
     "light": "낮음~중간",
@@ -5635,15 +5637,15 @@
     "care": "한국 국명과 학명을 대조한 이끼예요. 표면 수분과 배수를 함께 관리하고 여름 고온을 피하세요. 국내 판매명만으로 개체 동정을 보장할 수 없어 정확한 종을 확인한 뒤 식재하세요.",
     "aliases": [
       "Hypnum plumaeforme",
-      "Calohypnum plumiforme",
       "Insomniella plumiformis",
-      "Insomniella plumaeforme"
+      "Insomniella plumaeforme",
+      "Hypnum plumiforme"
     ],
     "varieties": [],
     "order": 127,
     "popularity": null,
     "shopCoverage": null,
-    "verification": "한국 국명·학명 대조. ITIS TSN1136446은 Calohypnum plumiforme를 정명, Hypnum plumiforme를 이명으로 처리(2026-11-04). 기존 학명 검색과 ID를 보존하고 최신 조합을 별칭으로 연결. 국내 판매 개체 동정 미검증.",
+    "verification": "한국 국명·학명 대조. ITIS TSN1136446(2026-11-04)의 정명 Calohypnum plumiforme로 대표 학명 갱신. Hypnum plumiforme 및 Insomniella 조합은 별칭으로 보존. 국내 판매 개체 동정 미검증.",
     "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",
@@ -7523,13 +7525,17 @@
     "placement": "바닥·암석·착생판",
     "care": "고사리류예요. 산란광과 배수되는 촉촉한 배지를 사용하고 잎과 뿌리가 계속 물에 잠기지 않게 해 주세요. 환기를 확보하고 고온·건조를 피하세요. 구체적인 온도 범위는 확인 중이에요. 판매 규격 5~6cm는 성숙 크기 정보가 아니에요.",
     "aliases": [
-      "다발리아 파풀라 고사리"
+      "다발리아 파풀라 고사리",
+      "Humata parvula",
+      "Leucostegia parvula",
+      "Pachypleuria parvula",
+      "Acrophorus parvulus"
     ],
     "varieties": [],
     "order": 166,
     "popularity": null,
     "shopCoverage": null,
-    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "verification": "Kew POWO(2026-11-04)의 정명 Davallia parvula·4개 이명 대조. 착생성 분포 기록 확인. 판매 개체 동정 미검증; 판매 규격을 성숙 크기로 사용하지 않음.",
     "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",

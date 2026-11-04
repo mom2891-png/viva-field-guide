@@ -2,7 +2,11 @@
 
 확인일: 2026-11-03 (Asia/Seoul). 이번 배치는 등각류 공개 카테고리의 **목록 전 페이지 대조**와 드워프화이트 추가다. 전체 도감·업체 전 상품 조사 완료를 뜻하지 않는다. 목록 열람 완료와 후보 처리 완료를 구분한다. 미조사는 누락 0건이 아니며, 후보 미확정은 종 수에 넣지 않는다.
 
-현재 동물 338, 식물 186, 합계 524항목. 기존 동물337항목의 ID·필드 보존, 신규 species-338만 추가. 등각류21·톡토기14. 항목에는 종·속·유통명이 섞여 있어 이 수치를 동정 완료 종 수로 쓰지 않는다.
+최신 집계: 동물360·식물196=556항목. 세부군·입력 누락은 node scripts/catalog-status.mjs로 집계한다. 사진427·크기182·가격214항목이 입력되어 있다. 기존338동물은 HEAD와 전체 필드 일치 확인. 아래 초기 배치95상품·74보류 수치는 당시 기록이며 이후 추가·동정 보류는 후속 배치별로 별도 기록한다. 항목에는 종·속·유통명이 섞여 있어 이 수치를 동정 완료 종 수로 쓰지 않는다.
+
+## 기준 목록 정리
+
+524항목의 ID·표시명·학명·별칭·종 구분·목차 경로·모프·품종과 사진/크기/가격 입력 여부를 checkout 밖 조사 기준 파일로 내보냈다. 고유 ID 524, 경로 누락 0, 사진 427, 크기 164, 가격 214항목이다. 입력 여부 집계이며 정보 검증 완료 수를 뜻하지 않는다. 후보를 대조할 때 이 기준과 기존 ID를 보존한다.
 
 ## 조사 상태와 판정
 
@@ -134,6 +138,10 @@
 
 WoRMS 직접 상세는403, BMIG 직접 열람은503. 이를 정상 열람으로 기록하지 않는다. 신규 항목의 이름과 해외 생물 자료는 대조했지만 유통명이 판매군체의 종 동정을 보장하지 않는다는 한계를 verification에 명시했다.
 
+### 익스판서스 후속 대조
+
+- 포셀리오 익스판서스는 [ITIS 종 기록](https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=596345)과 [GBIF](https://www.gbif.org/taxon/4LW72)에서 종명을 확인했다. [플랜티멀 상품](https://plantimal.co.kr/product/%ED%8F%AC%EC%85%80%EB%A6%AC%EC%98%A4-%EC%9D%B5%EC%8A%A4%ED%8C%90%EC%84%9C%EC%8A%A4-%EC%98%A4%EB%A0%8C%EC%A7%80-%EC%A5%90%EB%A9%B0%EB%8A%90%EB%A6%AC-%EA%B3%B5%EB%B2%8C%EB%A0%88-%EC%BD%A9%EB%B2%8C%EB%A0%88-%EB%B6%84%ED%95%B4%EC%83%9D%EB%AC%BC/848/category/85/display/1/)은 오렌지 유통형과 아성체 약 1cm를 표기한다. 이는 성체 크기 근거가 아니며 판매 군체 실물 동정도 확인되지 않았다. 종별 관리와 판매 단위·품절 상태를 확인할 때까지 추가 보류한다.
+
 ## 다음 배치
 
 1. 등각류 보류74상품(45+28+1)의 상세·동의어·모프 판정 및 노래기3상품 이관 처리. 같은 분류군의 중복 상품은 신규 종으로 세지 않음.
@@ -142,3 +150,70 @@ WoRMS 직접 상세는403, BMIG 직접 열람은503. 이를 정상 열람으로 
 4. 기존 항목의 사진 권리/실물 일치·성체 크기·종별 관리·단위별 가격을 각각 조사. 이번 신규1항목 추가로 기존 부족 정보의 전수 심화가 완료된 것은 아님.
 
 집계 재현: `node -e "const fs=require('fs'); for(const f of ['species','plants']) { const a=JSON.parse(fs.readFileSync('dist/'+f+'.json')); console.log(f,a.length); }"`. 화면 분기 집계는 `VivaCatalog.createModel(animals,plants,morphs).nodes`의 고유 하위 항목 수를 사용한다.
+
+## 후속 추가: 익스판서스
+
+기존 보류 후보에서 species-339 / Porcellio expansus를 추가했다. ITIS596345·GBIF taxon/4LW72로 종명, 플랜티멀848의 검색 색인으로 국내 유통을 대조했다. 상세 재접근은 cache miss여서 판매 단위·현재 재고·가격은 새로 입력하지 않았다. 성체 약3~4cm와 건조 표면/촉촉한 피난처/강한 환기는 https://academy.herpeton.net/en/caresheets/invertebrates/porcellio-expansus/ 자료를 참고했다. 사진·인기는 미확인으로 유지. 총 동물339·식물186=525항목이다. 기존 보류74상품 전체 처리 완료를 뜻하지 않는다.
+
+## 후속 정화생물 배치 — 종별 판정
+
+동물345·식물186=531항목. species-340 볼리바리(ITIS596293)는 국내 상품919의 Porcellio ornatus bolivari와 표기 충돌로 상품 연결을 보류했다. 그라눌라툼341, 오피시날리스342, 무리카툼343, 매그니피쿠스344, 워너리345를 추가했다. 사진·인기는 미확인 유지. 무리카툼 크기는 자료 상충으로 비웠다.
+
+|항목|학명 근거|국내 상품|관리·크기 근거|
+|---|---|---|---|
+|341 Armadillidium granulatum|https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=594342|플랜티멀829 나란지토|https://academy.herpeton.net/en/caresheets/invertebrates/armadillidium-granulatum/|
+|342 Armadillo officinalis|ITIS594523|플랜티멀854 달마시안|https://www.geckonia.eu/en/p/armadillo-officinalis|
+|343 Cristarmadillidium muricatum|NCBI2876739; FWS/ITIS594901|플랜티멀905|https://thespidershop.co.uk/product/cristarmadillidium-muricatum/ ; 크기 자료별0.5~1cm 차이, 수치 입력 보류|
+|344 Porcellio magnificus|ITIS596421|플랜티멀904: sp. 포함 불완전 표기, 종 연결 보류|https://www.porcellio.nl/_downloads/d2cdeb36a8bf6ca82ada2945ddb41dee ; https://scuttleandsqueak.com/care-guides/isopods/porcellio-magnificus|
+|345 Porcellio werneri|ITIS596545; GBIF4LWGW|플랜티멀880 실버백|https://academy.herpeton.net/en/caresheets/invertebrates/porcellio-werneri/|
+
+톡토기 후속: 렙틸리아 canonical /category/스프링테일톡톡이/716/ 공개 목록1상품·1페이지 확인. 상품1044는 학명 미표기로 기존14종 연결 보류. 워터테일 /insects 총수·페이지 비노출 유지. 플랜티멀 /category/먹이/50/는 표시87상품·3페이지 중1페이지40상품만 확인, 나머지47상품 및 생먹이102 접근 실패. 드워프화이트964는 등각류이며 톡토기로 중복 추가하지 않는다.
+
+플랜티멀 등각류 목록 캐시에서24건/56건이 다르게 나타나므로 이전95상품 대조 기록을 새 전수 완료로 덮어쓰지 않는다. 상품별 후속 판정과 원 조사 분모를 구분한다.
+
+## 후속 정화생물 배치2
+
+346바디움,347바에티센시스,348석신크투스,349플라보스쿠타툼,350하우세니,351넵튜너스공노래기를 추가했다. 학명·국내 판매명 충돌/상세 접근 실패 항목346·348·350은 종 일치 미확정으로 유지한다. 가격은 개체 수 미확인이라 추가하지 않았다.
+
+- 바디움: ITIS594285; 국내777은 Cubaris와 Armadillidium 혼재, 크기 사육자료1~1.5cm와15~20mm 상충으로 미입력. 관리 https://academy.herpeton.net/en/caresheets/invertebrates/armadillidium-badium/ .
+- 바에티센시스: https://graellsia.revistas.csic.es/index.php/graellsia/article/download/666/962 및 https://isopods.nhm.org/pdfs/27577/27577.pdf ; ITIS597977은 옛 아종명을 유지하므로 ITIS 종 지위 확인으로 쓰지 않는다. 국내910 판매학명 일치. 관리 https://academy.herpeton.net/en/caresheets/invertebrates/porcellio-baeticensis/ .
+- 석신크투스: ITIS596519; https://www.porcellio.nl/_downloads/54dab6333467771facbf2e693e71067a 몸길이 수컷25mm, 꼬리다리 포함35mm를 구별. 국내896 상세 접근 실패. 관리 https://academy.herpeton.net/ro/ingrijire/nevertebrate/porcellio-succinctus/ .
+- 플라보스쿠타툼: ITIS594328; https://exuvium.net/wp-content/uploads/2023/04/revision-of-the-armadillidium-klugii-group-stuttgarter-beitraege-naturkunde_ns_6_a_0001-0012.pdf 표본 최대15mm; 국내877 레드헤드 학명 확인. 커피메이트804는 상세 미확인으로 자동 연결하지 않았다. 관리 https://academy.herpeton.net/en/factsheets/invertebrates/armadillidium-flavoscutatum/ .
+- 하우세니: ITIS594344; https://www.porcellio.nl/_downloads/d66be956894341e0b6ec464a3bbff9d8 표본 최대14mm. 국내815 상세 실패. 일부 사육 기록15~20mm와 차이 보존. P.haasi로 연결하지 않았다. 관리 https://xoticbugs.com/pages/armadillidium-hauseni-triceratops-isopod-care 및 https://www.isopodsmania.fr/product-page/armadillidium-hauseni-lot-de-5 .
+- 넵튜너스: 국내 플랜티멀737 학명 Zoosphaerium neptunus; https://tb.plazi.org/GgServer/html/03FFBE1DFFFD735E32FAFEC1E69BFD9D/2 및 https://zoologicalbulletin.de/BzB_Volumes/BzM_63/BzM_63.pdf ; https://zoomuziejus.lt/en/cpt-news/new-exhibit-the-millipede-zoosphaerium-neptunus/ 암컷90mm·수컷45mm, 습윤 낙엽층·분해식물 먹이·사육 먹이 적응 문제.
+
+플랜티멀 절지류47는21상품·1페이지, 밀리패드84는8상품·1페이지를 확인했다. 동일8노래기 후보는 넵튜너스 외7유통명 보류. 등각류85에서 이관된826러버더키는 학명 없음,806쿠키앤크림/798타이화이트헤드는 상세 접근 실패. 해외 유사상품의 Hyleoglomeris/Zephronia 표기를 국내 상품의 학명으로 대체하지 않는다.
+
+## 후속 정화생물 배치3 — 이름 혼동 분리
+
+352알보마지나툼(Armadillidium albomarginatum),353트릴로바투스(Trachelipus trilobatus),354코카시우스(Trachelipus caucasius),355인카누스(Porcellio incanus),356프론테트리앙굴룸(Armadillidium frontetriangulum),357니클레시(Porcellio nicklesi)를 종 참고항목으로 추가했다. 국내 판매 상세 접근 실패·동정 문제로 모두 국내 종 일치 미확정이며 가격 연결을 만들지 않았다.
+
+- 알보마지나툼: Schmalfuss2003 https://www.porcellio.nl/_downloads/873745a24252c52b51ae0d0e98a78bcd ; 국내771의 Armadillidium과 별개 Armadillo albomarginatus(ITIS594477)를 합치지 않는다. 관리 https://xoticbugs.com/pages/armadillidium-albomarginatum-isopod-care ; 크기 미확인.
+- 트릴로바투스: GBIF57NNB; https://www.porcellio.nl/_downloads/c7092a7fc952a248e28721e3f0163b34 표본 수컷11~18mm·암컷12~19mm; https://studiabiologia.reviste.ubbcluj.ro/index.php/studiabio/issue/download/8/53 생태. 국내775. 관리 https://academy.herpeton.net/en/caresheets/invertebrates/trachelipus-trilobatus/ .
+- 코카시우스: https://www.zobodat.at/pdf/Stuttgarter-Beitraege-Naturkunde_NS_8_A_0009-0020.pdf 표본 최대20mm·습윤 숲; 국내더쥬12642. 관리 https://postpods.co.uk/blogs/isopods-useful-articles/trachelipus-isopod-care-guide . Porcellio로 연결하지 않는다.
+- 인카누스: ITIS596388; https://www.caib.es/sites/proteccioespecies/ca/d/porcellio_incanus_balears_bioatles_2013-75723/ ; 국내더쥬12649. 관리 https://insektenliebe.com/en/shop/product/porcellio-incanus/ ; 크기 단위 미확인 자료 제외.
+- 프론테트리앙굴룸: ITIS594331; 국내더쥬12660. https://www.podhausllc.com/product-page/armadillidium-frontetriangulum-orange-corfu 관리; https://www.ridgewayfrozen.co.uk/product/armadillidium-frontetriangulum-corfu-painted-isopod-tub-of-10/ 성체 참고1.8cm. Porcellio가 아닌 Armadillidium.
+- 니클레시: ITIS596441; 국내더쥬12661는 nicklessi(Tang) 철자. https://backoffice.biblio.ugent.be/download/01JK9H1A3DJCMXA1JGB8EQJADP/01JPMCDQNH67PPCEA6VB2W53MC 유통 오동정 문제; https://academy.herpeton.net/en/caresheets/invertebrates/porcellio-nicklesi/ 참고관리. 유통형 Tang을 종 동정 근거로 쓰지 않는다.
+
+## 우선순위 조정·식물 후속
+
+사용자 지시로 달팽이·육지소라게의 추가 심화는 낮은 우선순위로 미룬다. 정글플랜트·지피·덩굴 및 게코·개구리 등 주요 동물 보강을 우선한다. 기존 항목과 조사자료는 보존한다.
+
+식물187실버차미 아이비는 티쭈2524 판매학명·Kew90723-1·NC State 자료,188코도난테 그라실리스는 티쭈3143 공식목록·Kew378723-1·NParks6107,189그래미니폴리아 귀개는 오쿠아4672 판매명·Kew526792-1·Tropica4480을 대조했다. 189는 국내 종 일치 미확정, 포장컵 크기를 성숙 크기로 쓰지 않았다. 188의200cm는 줄기 길이이며 잎크기가 아니다.
+
+190에피스키아 핑크스모크는 품종·교잡 유통형으로 추가했다. https://hgic.clemson.edu/factsheet/flame-violets-episcia-spp-indoor-care-growing-tips-plant-guide/ 및 https://gesneriadsociety.org/wp-content/uploads/2014/03/Gesneriads2013Q4HD.pdf 로 품종명 확인. 국내 플랜티멀522는 목록 판매명 확인·상세 재접근 실패, 가격·사진·성숙 최대크기는 미확인 유지. E.cupreata로 학명을 추정하지 않는다.
+
+식물191 Marcgravia sp. Colombia와192 Pilea sp. 브론즈 실버트리는 국내 판매명 보존을 위한 미확정 유통형이다. 플랜티멀571/519 상세 접근 실패로 기존 종·품종과 합치지 않았고 가격·크기·사진은 미입력. 속/재배 참고: https://www.naturalhistory.si.edu/sites/default/files/media/file/marcgraviaceae.pdf , https://glassboxtropicals.com/marcgravia-sp-colombia/ , https://www.rhs.org.uk/plants/42765/pilea-silver-tree/details , https://www.rhs.org.uk/plants/pilea/how-to-grow-pilea . 해외 같은 유통형명 자료가 국내 동일 계통을 증명하지 않음을 care에 명시했다.
+크기 분류 국소 수정: 잎 길이만 확인된 식물은 전체 크기 소/중/대 분류에 사용하지 않고 미확인으로 남긴다. 원래 크기·측정 부위는 상세에 보존한다. 국소 회귀 검사 통과.
+
+식물193피막이(Hydrocotyle sibthorpioides),194호자덩굴(Mitchella undulata)은 공식 국명·학명과 원예/식물지 자료로 종 참고항목을 추가했다. 국내4306/4661 판매명은 확인했으나 종 일치는 미확정으로 유지하고 가격을 연결하지 않았다. 피막이: https://species.nibr.go.kr/html/home/nibr_qr_code_plant.pdf , https://powo.science.kew.org/taxon/843698-1 , https://www.rhs.org.uk/plants/143295/hydrocotyle-sibthorpioides/details . 호자덩굴: https://www.forest.go.kr/kna/special/download/English_Names_for_Korean_Native_Plants.pdf , https://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=242332827 . 측정 부위(높이/포복줄기)와 옆으로 퍼지는 범위를 구별했다. 이전192식물 전체 보존·새 ID중복·측정부위·미집계값 국소 검사 통과.
+
+195네오레겔리아 Fireball은 https://www.rhs.org.uk/plants/80504/neoregelia-fireball/details 의 accepted 품종·로제트 약30cm·밝은 여과광·배수/컵 급수 자료를 반영했다. 국내 판매 근거가 없어 해외 원예 자료로 유지, 구매처를 만들지 않았다. 196Dischidia ovata는 https://www.nparks.gov.sg/florafaunaweb/flora/5/2/5219 의 착생 덩굴·반그늘·적당한 급수, https://www.poetrygarden.co.kr/shop_view/?idx=174 국내 판매 학명 색인을 대조했다. 국내 상세403으로 규격·가격·현재 재고는 미확인. NParks 사진 재사용 권한은 확보하지 않아 사진 미입력. 기존194식물 보존·새 ID·인기/가격/사진 국소 검사 통과.
+
+## 기존 주요 동물 관리 설명 보강
+
+Correlophus ciliatus와 Eublepharis macularius의 careNote를 종별로 보강했다. 수목/지상 생활, 습윤 후 건조·환기 또는 건조 환경과 습윤 은신처, 급이·UVB/열 구역을 구분했다. 정밀 수치·보충제 용량은 추가하지 않았다. 근거 https://reptifiles.com/crested-gecko/care-guide , https://reptifiles.com/crested-gecko/care-guide/crested-gecko-temperatures-humidity , https://reptifiles.com/crested-gecko/care-guide/crested-gecko-food , https://reptifiles.com/leopard-gecko/care-guide , https://reptifiles.com/leopard-gecko/care-guide/leopard-gecko-lighting-heating-humidity , https://reptifiles.com/leopard-gecko/care-guide/leopard-gecko-food . careNote 외 모든 동물 필드·사진·인기·가격 보존 국소 비교 통과.
+
+화이트트리프로그(Litoria caerulea 기존 ID 유지)의 종별 careNote를 보강했다. https://treeoflifeexotics.vet/education-resource-center/for-clients/amphibians/white-s-tree-frog-care 의 수목 공간·분무 사이 건조·환기·얕은 물·다양한 먹이 설명을 참고했다. 서로 다른 사육자료의 습도 수치를 평균내지 않았고 수치·의약품·용량은 입력하지 않았다. 기존 학명은 이번 관리 설명 배치에서 변경하지 않았다. careNote 외 동물 데이터 보존 국소 비교 통과.
+
+가고일게코·리키에너스게코의 careNote를 종별 보강했다. 가고일: https://reptifiles.com/gargoyle-gecko/care-guide 및 https://reptifiles.com/gargoyle-gecko/care-guide/gargoyle-gecko-temperatures-humidity 의 수목·야간활동·습도 변동·환기, 요약/상세의 서로 다른 수치 범위를 합치지 않았다. 리키에너스: https://reptilesmagazine.com/the-care-and-breeding-of-rhacodactylus-leachianus/ (직접15년 사육자의 기록), 무거운 몸을 지탱할 구조·건습 은신처·식재/청소 부담을 반영했다. 저자의 특정 합사·유아식·핑키급이 관행을 일반 권고로 옮기지 않았고, 본문에 남아 있는 옛 분류표기도 기존 학명에 적용하지 않았다. careNote 외 동물 필드 보존 국소 검사 통과.

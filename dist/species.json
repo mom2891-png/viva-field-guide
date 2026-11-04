@@ -1444,7 +1444,8 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "careNote": "수목성·박명박모성 게코로 가지와 잎, 높은 곳의 은신 공간을 활용해요. 분무 뒤에는 환기와 건조 시간을 주어 사육장 전체가 계속 젖어 있지 않게 관리하세요. 따뜻한 곳과 서늘한 곳, 밝은 곳과 그늘을 선택할 수 있게 하고 조명·열원은 종별 기준과 실제 측정값으로 조절해요. 종에 맞는 완전배합 먹이를 기반으로 크기에 맞는 먹이곤충 등을 사용하며 영양·급이 방식은 제품과 성장 단계에 맞춰 확인하세요."
   },
   {
     "n": 2,
@@ -1940,7 +1941,8 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "careNote": "수목성으로 주로 해가 진 뒤 활동하며 가지·관목 형태의 지지물과 여러 은신처를 이용해요. 빛·열·그늘 구역을 나누고 밤에는 낮과 다른 주기를 유지하세요. 분무 뒤 습도가 내려갈 시간을 주고 환기해 계속 젖은 환경이 되지 않게 해요. 종에 맞는 완전배합 먹이와 적절한 먹이곤충을 사용하고, 조명과 영양 보충은 실제 사육 조건에 맞춰 확인하세요."
   },
   {
     "n": 5,
@@ -2208,7 +2210,8 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "careNote": "몸이 무거운 대형 수목성 게코로 넉넉한 공간과 체중을 지탱하는 굵은 가지·코르크 또는 나무 구멍 형태의 은신처가 필요해요. 무거운 구조물이 움직이지 않게 고정하고, 마른 은신처와 습윤 피난처를 구별해요. 과일·과즙 먹이 게코용 완전배합식을 기반으로 적절한 먹이곤충 등을 활용하고 먹이 잔여물과 배설물을 자주 제거하세요. 자연식 식재는 체중과 청소에 견디는 구조가 필요하며 합사를 자동으로 권하지 않아요."
   },
   {
     "n": 6,
@@ -3340,7 +3343,8 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "careNote": "지상성·박명박모성 게코로 따뜻한 구역과 서늘한 구역, 여러 은신처가 필요해요. 전반적인 바닥 환경은 건조하고 통기되게 유지하되 스스로 들어갈 수 있는 촉촉한 은신처를 별도로 마련하세요. 크기에 맞는 다양한 먹이곤충을 제공하고 칼슘·비타민 보충은 먹이 구성과 UVB 사용 조건에 맞춰 확인해요. UVB와 열원 아래에는 그늘·피난 공간을 두고 온도는 공기와 표면을 구분해 측정하세요."
   },
   {
     "n": 14,
@@ -12827,7 +12831,8 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "careNote": "수목성 개구리로 높이가 있는 공간과 몸을 받칠 수 있는 튼튼한 가지·식물, 여러 높이의 은신처를 마련해요. 분무 사이에 마르는 시간을 주고 환기해 사육장 전체가 계속 축축하게 정체되지 않게 관리하세요. 쉽게 드나들 수 있는 얕은 물그릇에 깨끗한 탈염수를 제공하고 자주 교체해요. 먹이곤충은 다양하게 제공하되 성장 단계와 체형에 맞춰 양을 조절하고 영양 보충은 종별 기준을 확인하세요."
   },
   {
     "n": 168,
@@ -21671,5 +21676,618 @@
         "checkedAt": "2026-11-03"
       }
     ]
+  },
+  {
+    "id": "species-339",
+    "n": 339,
+    "name": "익스판서스등각류",
+    "latin": "Porcellio expansus",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "포셀리오 익스판서스",
+      "익스판서스 오렌지",
+      "Porcellio expansus Orange"
+    ],
+    "careNote": "통풍이 충분한 별도 사육 환경에서 표면 대부분은 건조하게, 한쪽 깊은 기질은 촉촉하게 유지하는 등각류예요. 낙엽·부후 활엽수와 칼슘 공급원, 여러 은신처를 마련하고 과습·고온·밀집을 피하세요. 일반 열대 습식 비바리움의 청소생물로 일괄 추천하지 않아요. 오렌지는 판매 유통형이며 독립 종이 아니에요.",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "ITIS·GBIF 학명 대조 및 국내 판매명 확인; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": 3,
+      "max": 4,
+      "unit": "cm",
+      "measurement": "몸길이·자료의 측정 범위 기준",
+      "basis": "성체",
+      "kind": "range",
+      "note": "사육 자료의 참고 범위. 긴 꼬리다리 포함 여부는 명확하지 않아 다른 종의 측정값과 직접 비교하지 마세요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-340",
+    "n": 340,
+    "name": "볼리바리등각류",
+    "latin": "Porcellio bolivari",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "포셀리오 볼리바리",
+      "Porcellio bolivari Yellow Ghost",
+      "볼리바리 옐로우 고스트"
+    ],
+    "careNote": "표면 대부분을 건조하게 유지하면서 한쪽에 촉촉한 깊은 기질과 피난처를 두고, 넓은 통풍구와 여러 은신처를 마련해요. 낙엽과 부후 활엽수를 주 먹이 기반으로 하고 칼슘을 공급하세요. 과습·고온·피난처 건조와 잦은 교란을 피해야 하는 전시 사육 대상이며 일반 습식 비바리움의 청소생물로 일괄 추천하지 않아요. 옐로우 고스트는 유통 색상 계통명이며 별도 종이 아니에요.",
+    "domesticStatus": "국내 판매명 확인·종 일치 미확정",
+    "verification": "ITIS596293 종명 대조. 국내 상품의 Porcellio ornatus bolivari 표기와 충돌해 상품 연결·가격은 보류",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": 2,
+      "max": 3,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리다리 포함",
+      "basis": "성체",
+      "kind": "range",
+      "note": "전문 사육 자료의 참고 범위. 판매 개체의 동정·규격을 보증하지 않아요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-341",
+    "n": 341,
+    "name": "그라눌라툼공벌레",
+    "latin": "Armadillidium granulatum",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "그라눌라툼",
+      "나란지토",
+      "Naranjito"
+    ],
+    "careNote": "건조하고 통기되는 표면과 촉촉한 피난처를 함께 마련해요. 낙엽·부후목과 칼슘을 제공하고 기질 전체를 젖게 두지 마세요. 나란지토는 유통형 이름이며 별도 종이 아니에요.",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "ITIS594342·국내 상품829 학명 대조; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": 1.5,
+      "max": 2,
+      "unit": "cm",
+      "measurement": "몸길이·자료의 측정 기준",
+      "basis": "성체",
+      "kind": "range",
+      "note": "전문 사육 자료의 참고 범위이며 판매 당시 규격과 구분해요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-342",
+    "n": 342,
+    "name": "오피시날리스공벌레",
+    "latin": "Armadillo officinalis",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "아르마딜로 오피시날리스",
+      "오피시날리스 달마시안"
+    ],
+    "careNote": "낙엽과 부후목이 섞인 깊은 기질에 촉촉한 곳과 덜 젖은 곳을 마련해요. 칼슘 공급원을 두고 남은 보충 먹이를 제거하며 환기를 유지하세요. 달마시안 판매형을 독립 종으로 세지 않아요.",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "ITIS594523·국내 상품854 판매명 대조; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": 1.5,
+      "max": 2,
+      "unit": "cm",
+      "measurement": "몸길이·자료의 측정 기준",
+      "basis": "성체",
+      "kind": "range",
+      "note": "전문 사육 자료의 참고 범위이며 판매 당시 규격과 구분해요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-343",
+    "n": 343,
+    "name": "무리카툼공벌레",
+    "latin": "Cristarmadillidium muricatum",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "크리스타르마딜리디움 무리카툼",
+      "별사탕 가시공벌레",
+      "Armadillidium muricatum"
+    ],
+    "careNote": "습윤한 피난처와 더 건조한 표면이 공존하도록 작은 군체에서 기질 상태와 환기를 관찰하세요. 판매자별 성체 크기 자료가 달라 크기를 확정하지 않았어요. 일반 열대 습식 청소생물로 일괄 추천하지 않아요.",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "NCBI2876739·FWS/ITIS594901·국내 상품905 판매명 대조; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "species-344",
+    "n": 344,
+    "name": "매그니피쿠스등각류",
+    "latin": "Porcellio magnificus",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "포셀리오 매그니피쿠스",
+      "매그니피쿠스 화이트 안테나"
+    ],
+    "careNote": "넓은 바닥과 여러 은신처, 충분한 환기를 마련하고 과습을 피하세요. 촉촉한 피난처를 유지하되 표면 전체를 젖게 두지 않아요. 국내 판매 학명에 sp.가 섞여 있어 판매 군체의 종 일치 확인이 필요해요.",
+    "domesticStatus": "국내 판매명 확인·종 일치 미확정",
+    "verification": "ITIS596421·Schmalfuss1987; 국내 상품904 불완전 학명 표기; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": null,
+      "max": 2.9,
+      "unit": "cm",
+      "measurement": "몸길이·자료의 측정 기준",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "분류 논문에서 인용한 수컷 최대29mm. 꼬리다리 포함 여부가 다른 사육 자료와 직접 비교하지 마세요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-345",
+    "n": 345,
+    "name": "워너리등각류",
+    "latin": "Porcellio werneri",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "포셀리오 워너리",
+      "워너리 실버백",
+      "Silver back"
+    ],
+    "careNote": "넓고 낮은 은신처를 여러 곳에 두고 촉촉한 피난처와 더 건조한 표면을 구분해요. 환기를 충분히 유지하고 과습과 피난처 건조를 함께 피하세요. 실버백은 판매형 이름이며 별도 종이 아니에요.",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "ITIS596545·GBIF·국내 상품880 학명 대조; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": 1.5,
+      "max": 2.2,
+      "unit": "cm",
+      "measurement": "몸길이·자료의 측정 기준",
+      "basis": "성체",
+      "kind": "range",
+      "note": "전문 사육 자료의 참고 범위이며 판매 당시 규격과 구분해요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-346",
+    "n": 346,
+    "name": "바디움공벌레",
+    "latin": "Armadillidium badium",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "아르마딜리디움 바디움",
+      "바디움 하이옐로우",
+      "바디움 칼리코"
+    ],
+    "careNote": "낙엽과 부후목이 풍부한 기질에 촉촉한 피난처를 두고 반대쪽 표면은 더 건조하게 관리해요. 환기와 칼슘 공급을 유지하세요. 판매 학명에 Cubaris와 Armadillidium이 혼재해 실제 판매 군체의 종 일치 확인이 필요해요.",
+    "domesticStatus": "국내 판매명 확인·종 일치 미확정",
+    "verification": "ITIS594285; 국내777 속명 혼재; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "species-347",
+    "n": 347,
+    "name": "바에티센시스등각류",
+    "latin": "Porcellio baeticensis",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "포셀리오 바에티센시스",
+      "Porcellio incanus baeticensis"
+    ],
+    "careNote": "통기되는 낙엽·부후목 기질에 촉촉한 피난처와 건조한 표면을 함께 마련해요. 고온과 정체된 과습을 피하고 분양 이력을 보존하세요. 인카누스와 외형이 비슷해 색만으로 종을 판별하지 않아요.",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "Cifuentes2021·세계등각류목록; ITIS에는 옛 아종명 잔존; 국내910 학명 대조; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": null,
+      "max": 2,
+      "unit": "cm",
+      "measurement": "몸길이·자료의 측정 기준",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "전문 사육 자료의 약1.5~2cm 참고 범위 상단. 판매 당시 규격과 구분해요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-348",
+    "n": 348,
+    "name": "석신크투스등각류",
+    "latin": "Porcellio succinctus",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "포셀리오 석신크투스",
+      "석싱크투스"
+    ],
+    "careNote": "넓은 바닥과 여러 낮은 은신처를 제공하고 촉촉한 피난처를 남긴 채 나머지 표면은 건조하고 통기되게 관리해요. 과밀과 전체 과습을 피하세요. 국내 상품 상세에 접근하지 못해 판매명과 실제 종의 일치는 추가 확인이 필요해요.",
+    "domesticStatus": "국내 판매명 확인·종 일치 미확정",
+    "verification": "ITIS596519·Garcia등2017; 국내896 상세 접근 실패; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": null,
+      "max": 2.5,
+      "unit": "cm",
+      "measurement": "몸길이·꼬리다리 제외",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "분류 논문 표본의 최대값으로, 모든 개체의 성장 한계를 뜻하지 않아요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-349",
+    "n": 349,
+    "name": "플라보스쿠타툼공벌레",
+    "latin": "Armadillidium flavoscutatum",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "아르마딜리디움 플라보스쿠타툼",
+      "플라보스쿠타툼 레드헤드"
+    ],
+    "careNote": "낙엽과 부후목 기질에 촉촉한 은신처와 더 건조한 구역을 함께 만들고 환기와 칼슘 공급을 유지해요. 붉은 머리 색만으로 종을 판별하지 않아요. 레드헤드는 유통형 이름이며 별도 종이 아니에요.",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "ITIS594328·2013분류재검토; 국내877 학명 대조; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": null,
+      "max": 1.5,
+      "unit": "cm",
+      "measurement": "몸길이·자료의 측정 기준",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "분류 논문 표본의 최대값으로, 모든 개체의 성장 한계를 뜻하지 않아요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-350",
+    "n": 350,
+    "name": "하우세니공벌레",
+    "latin": "Armadillidium hauseni",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "아르마딜리디움 하우세니",
+      "Hauseni Triceratops"
+    ],
+    "careNote": "촉촉한 피난처와 건조해지는 표면을 구분하고 충분히 환기해요. 낙엽·부후목과 칼슘을 제공하고 분양 이력을 보존하세요. 이름이 비슷한 Porcellio haasi와 다른 종이에요. 국내 판매명만으로 종 일치를 확정하지 않았어요.",
+    "domesticStatus": "국내 판매명 확인·종 일치 미확정",
+    "verification": "ITIS594344·2011분류재검토; 국내815 상세 접근 실패; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": null,
+      "max": 1.4,
+      "unit": "cm",
+      "measurement": "몸길이·자료의 측정 기준",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "분류 논문 표본 최대14mm. 일부 사육 자료의15~20mm와 차이가 있어 측정 기준·군체 확인이 필요해요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-351",
+    "n": 351,
+    "name": "넵튜너스공노래기",
+    "latin": "Zoosphaerium neptunus",
+    "major": "절지동물",
+    "middle": "노래기",
+    "env": "습·환·굴",
+    "aliases": [
+      "마다가스카르 에메랄드 메가볼",
+      "넵튜너스 메가볼",
+      "Sphaerotherium neptunus"
+    ],
+    "careNote": "마다가스카르 습윤 숲의 낙엽층에서 생활하는 공노래기예요. 분해 중인 낙엽·나무·균류 등 먹이 기질과 적절한 수분·환기가 필요해요. 사육에서 먹이 적응 실패가 자주 보고되어 일반 비바리움 청소생물로 일괄 추천하지 않아요. 충분한 종별 사육 경험과 먹이 확보가 필요하며 정밀 온습도 수치는 추가 확인 중이에요.",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "Wesener2009분류논문·2016종목록·박물관 자료·국내737 판매학명 대조; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": null,
+      "max": 9,
+      "unit": "cm",
+      "measurement": "몸길이·암컷 기준",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "박물관 자료: 암컷 약90mm, 수컷 약45mm. 웅크린 공의 지름이나 판매 당시 크기와 구분해요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-352",
+    "n": 352,
+    "name": "알보마지나툼공벌레",
+    "latin": "Armadillidium albomarginatum",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "아르마딜리디움 알보마지나툼",
+      "Armadillidium versicolor albomarginatum"
+    ],
+    "careNote": "촉촉한 피난처와 덜 젖은 표면을 나누고 환기를 충분히 유지해요. 국내 판매 상세의 학명을 확인하지 못해 종 일치는 미확정이에요. 비슷한 이름의 Armadillo albomarginatus와 다른 종이며 크기 수치는 추가 확인 중이에요.",
+    "domesticStatus": "국내 판매명 확인·종 일치 미확정",
+    "verification": "Schmalfuss2003·국내771 판매명; 상세 접근 실패; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "species-353",
+    "n": 353,
+    "name": "트릴로바투스등각류",
+    "latin": "Trachelipus trilobatus",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "습·냉·환",
+    "aliases": [
+      "트라첼라푸스 트릴로바투스",
+      "트라켈리푸스 트릴로바투스"
+    ],
+    "careNote": "서늘하고 습윤한 숲 낙엽층·돌 아래·동굴 입구에서 기록된 등각류예요. 깊은 낙엽·부후목 기질의 수분과 신선한 공기를 유지하고 고온·기질 건조를 피하세요. 국내 판매명과 종명의 대응은 추가 확인이 필요해요.",
+    "domesticStatus": "국내 판매명 확인·종 일치 미확정",
+    "verification": "GBIF57NNB·Tomescu2015·루마니아 생태자료; 국내775 상세 접근 실패; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": null,
+      "max": 1.9,
+      "unit": "cm",
+      "measurement": "몸길이·자료의 측정 기준",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "분류 논문에서 측정한 표본 최대값이며, 모든 개체의 성장 한계를 뜻하지 않아요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-354",
+    "n": 354,
+    "name": "코카시우스등각류",
+    "latin": "Trachelipus caucasius",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "습·환",
+    "aliases": [
+      "트라첼리푸스 코카시우스",
+      "Tracheoniscus caucasius"
+    ],
+    "careNote": "습윤한 숲에서 기록된 등각류로 촉촉한 기질과 낙엽층, 덜 젖은 피난처 및 환기를 마련해요. 표면의 침수와 정체된 공기를 피하고 분양 계통 정보를 보존하세요. Porcellio 속으로 잘못 연결하지 않아요.",
+    "domesticStatus": "국내 판매명 확인·종 일치 미확정",
+    "verification": "Schmalfuss·Khisametdinova2015; 국내12642 상세 접근 실패; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": null,
+      "max": 2,
+      "unit": "cm",
+      "measurement": "몸길이·자료의 측정 기준",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "분류 논문에서 측정한 표본 최대값이며, 모든 개체의 성장 한계를 뜻하지 않아요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-355",
+    "n": 355,
+    "name": "인카누스등각류",
+    "latin": "Porcellio incanus",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "포르셀리오 인카누스",
+      "포셀리오 인카누스"
+    ],
+    "careNote": "숲과 동굴 입구의 미소서식처에서 기록된 종이에요. 촉촉한 피난처와 더 건조한 구역을 함께 마련하고 환기를 유지해요. 극단적인 건조와 전체 과습을 피하세요. 단위가 불명확한 크기 자료는 사용하지 않았어요.",
+    "domesticStatus": "국내 판매명 확인·종 일치 미확정",
+    "verification": "ITIS596388·발레아레스 생물자료; 국내12649 상세 접근 실패; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "species-356",
+    "n": 356,
+    "name": "프론테트리앙굴룸공벌레",
+    "latin": "Armadillidium frontetriangulum",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "아르마딜리디움 코르푸 오렌지",
+      "코르푸 오렌지",
+      "Armadillidium frontetriangulum Orange"
+    ],
+    "careNote": "촉촉한 곳과 건조한 곳이 공존하는 낙엽·부후목 기질에 칼슘을 공급하고 환기를 유지해요. 오렌지·코르푸는 판매형 이름이며 별도 종으로 세지 않아요. 판매 군체의 산지와 종 일치는 추가 확인이 필요해요.",
+    "domesticStatus": "국내 판매명 확인·종 일치 미확정",
+    "verification": "ITIS594331; 국내12660 판매학명 확인·상세 접근 실패; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03",
+    "sizeInfo": {
+      "min": null,
+      "max": 1.8,
+      "unit": "cm",
+      "measurement": "몸길이·자료의 측정 기준",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "전문 판매자의 성체 참고값. 분류 논문 측정과 구분하며 판매 당시 규격이 아니에요.",
+      "checkedAt": "2026-11-03"
+    }
+  },
+  {
+    "id": "species-357",
+    "n": 357,
+    "name": "니클레시등각류",
+    "latin": "Porcellio nicklesi",
+    "major": "절지동물",
+    "middle": "등각류",
+    "env": "혼·환",
+    "aliases": [
+      "포르셀리오 니클레시",
+      "니클레시 탱",
+      "Porcellio nicklessi Tang"
+    ],
+    "careNote": "표면 대부분을 건조하고 통기되게 유지하되 촉촉한 피난처를 항상 남기고 은신처를 여러 곳에 마련해요. 유통 군체의 오동정 문제가 보고되어 판매명 탱만으로 종과 산지를 확정하지 않아요. 국내 상품의 nicklessi는 accepted name nicklesi와 표기가 달라 연결을 보류했어요.",
+    "domesticStatus": "국내 판매명 확인·종 일치 미확정",
+    "verification": "ITIS596441·Robla등2025; 국내12661 철자·군체 동정 미확정; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "species-358",
+    "n": 358,
+    "name": "인도육지소라게",
+    "latin": "Coenobita brevimanus",
+    "major": "절지동물",
+    "middle": "육지소라게",
+    "env": "습·해",
+    "aliases": [
+      "브레비",
+      "인도소라게",
+      "브레비 인도소라게"
+    ],
+    "careNote": "해안 가까운 숲의 육상 서식처에서 생활하며 성장에 맞는 여분 고둥껍데기가 필요해요. 성체를 수중 전용 환경에 넣지 마세요. 몸과 껍데기의 측정값을 구분하고 종별 습윤 환경·급수·탈피 조건을 확인해야 해요. 연구의 두흉갑 길이는 전체 몸길이와 달라 성체 전체 크기로 옮기지 않았어요.",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "CSIRO CAAB28828003·대만 분류자료·인디크랩 학명 자료; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "species-359",
+    "n": 359,
+    "name": "러그육지소라게",
+    "latin": "Coenobita rugosus",
+    "major": "절지동물",
+    "middle": "육지소라게",
+    "env": "습·해",
+    "aliases": [
+      "러그소라게",
+      "러그"
+    ],
+    "careNote": "습윤한 해안 육상 환경과 적절한 여분 고둥껍데기가 필요한 육지소라게예요. 색만으로 비슷한 종을 구별하지 않으며 다리와 수컷 형질 등 동정 근거를 확인해야 해요. 성체를 완전 수생 동물처럼 관리하지 마세요. 정밀 사육 조건은 추가 확인이 필요해요. 연구의 두흉갑 길이는 전체 몸길이와 달라 성체 전체 크기로 옮기지 않았어요.",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "WoRMS·2023동정연구·인디크랩 학명 자료; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "species-360",
+    "n": 360,
+    "name": "바이오라센츠육지소라게",
+    "latin": "Coenobita violascens",
+    "major": "절지동물",
+    "middle": "육지소라게",
+    "env": "습·해",
+    "aliases": [
+      "바이오라센츠",
+      "바이오라센스",
+      "바이올라 소라게"
+    ],
+    "careNote": "해안의 습윤한 육상 구역에서 고둥껍데기를 이용하는 육지소라게예요. 성장하면서 체색이 달라질 수 있어 색상만으로 별도 종이나 모프로 나누지 않아요. 성체 육상 생활과 유생의 해양 발달을 구분하고 종별 급수·탈피 조건을 확인하세요. 연구의 두흉갑 길이는 전체 몸길이와 달라 성체 전체 크기로 옮기지 않았어요.",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "WoRMS246264·2023야외연구·유생발달논문·인디크랩 학명 자료; 판매 군체 실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-03"
   }
 ]

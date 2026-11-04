@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 const read=f=>JSON.parse(fs.readFileSync(new URL('../dist/'+f,import.meta.url),'utf8'));
 const animals=read('species.json'),plants=read('plants.json'),morphs=read('morphs.json');
 const all=[...animals,...plants];
+for(const r of animals)for(const token of r.env.split('·'))assert.ok(['습','혼','건','수','냉','대','환','굴','해'].includes(token),r.id+': unsupported environment code '+token);
 assert.equal(new Set(all.map(r=>r.id)).size,all.length,'Duplicate catalog ID');
 for(const list of [animals,plants])assert.equal(new Set(list.map(r=>r.latin.trim().toLowerCase())).size,list.length,'Duplicate taxon string');
 for(const r of all){
@@ -220,3 +221,19 @@ assert.equal(run('sizeClass({})'),'unknown');
 run("state.search='';state.environment='all';state.savedOnly=false;state.catalogNode='animals';state.sizeClass='small'");
 assert.equal(run('filtered().length'),animals.filter(r=>r.sizeInfo&&r.sizeInfo.kind!=='minimum'&&r.sizeInfo.max!=null&&r.sizeInfo.unit==='cm'&&r.sizeInfo.max<20).length);
 console.log('PASS: size thresholds, unit conversion, unknowns and actual catalog filtering.');
+
+// Exercise application history transitions, rather than serialization alone.
+vm.runInContext(fs.readFileSync(new URL('../dist/catalog-route.js',import.meta.url),'utf8'),ctx);
+const historyEntries=[];
+ctx.window={scrollY:640,location:{hash:''},history:{state:null,replaceState(data,_title,hash){this.state=data;ctx.window.location.hash=hash;if(historyEntries.length)historyEntries[historyEntries.length-1]={data,hash};else historyEntries.push({data,hash});},pushState(data,_title,hash){this.state=data;ctx.window.location.hash=hash;historyEntries.push({data,hash});},back(){}},scrollTo(){}};
+ctx.document.body.classList={toggle(){},remove(){}};
+element('#detailDialog').open=false;
+run("state={...state,page:'animals',catalogNode:'animals',search:'게코',environment:'습',savedOnly:false,sizeClass:'small'};currentCatalogEntry=null;currentCatalogSelection=null;saveCatalogRoute();browseCatalogNode('animals/reptiles/geckos',{scroll:false})");
+assert.equal(historyEntries.length,2);assert.equal(historyEntries[0].data.catalogScroll,640);
+assert.equal(run('state.search'),'게코');assert.equal(run('state.sizeClass'),'small');
+ctx.window.location.hash=historyEntries[0].hash;ctx.window.history.state=historyEntries[0].data;
+run('restoreCatalogRoute()');
+assert.equal(run('state.catalogNode'),'animals');assert.equal(run('state.search'),'게코');assert.equal(run('state.sizeClass'),'small');
+console.log('PASS: History transitions preserve departing scroll, search, size and branch restoration.');
+
+assert.equal(run('sizeClass({id:"plant-93",sizeInfo:{max:3,unit:"cm",kind:"range",measurement:"잎 길이"}})'),"unknown","Leaf length alone cannot classify whole plant size");

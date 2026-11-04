@@ -1,58 +1,52 @@
-# 다른 컴퓨터에서 이어가기
+# 다른 PC·다른 AI에서 이어가기
 
-인계 작성: 2026-11-04 (Asia/Seoul).
-저장소: https://github.com/mom2891-png/viva-field-guide.git (공개)
-업로드 브랜치: `codex/purchase-review-price-expansion`
-`main`과 공개 사이트는 이번 인계에서 변경하지 않는다. 이 문서가 포함된 브랜치를 받아야 최신 작업이 있다.
+공통 프롬프트 단일 원본: [docs/agent-work-rules.md](docs/agent-work-rules.md).
+검수·갱신일: 2026-11-04 (Asia/Seoul).
+복사해서 전달할 시작 프롬프트: [CONTINUE_PROMPT.md](CONTINUE_PROMPT.md).
 
-## 받기와 확인
+## 받기
 
-Git·Node.js22 이상이 필요하다. 공개 읽기는 로그인 없이 HTTPS clone 가능하다. GitHub CLI를 사용하면 `gh auth status`를 확인하고 필요한 경우 `gh auth login`한다. 토큰을 채팅이나 파일로 공유하지 않는다.
+저장소: https://github.com/mom2891-png/viva-field-guide.git
+작업 브랜치: codex/purchase-review-price-expansion
 
-처음 받기:
+Git과 Node22 이상을 확인한다. 공개 읽기에는 로그인이 필요 없다. gh를 쓸 때만 gh auth status 확인, 쓰기 인증이 필요하면 정상 로그인한다. 토큰을 요구하거나 문서에 넣지 않는다.
+
 ```sh
 git clone --branch codex/purchase-review-price-expansion https://github.com/mom2891-png/viva-field-guide.git viva-field-guide
 cd viva-field-guide
 ```
-GitHub CLI 대안:
-```sh
-gh repo clone mom2891-png/viva-field-guide -- --branch codex/purchase-review-price-expansion
-cd viva-field-guide
-```
-기존 폴더는 `git status --short --branch`, `git remote -v`를 먼저 확인한다. 같은 저장소·같은 브랜치이고 깨끗할 때만:
+
+기존 폴더가 있으면 origin·브랜치·status부터 확인하고 변경을 보존한다. 같은 저장소/브랜치이고 깨끗하며 fast-forward 가능할 때만:
+
 ```sh
 git pull --ff-only https://github.com/mom2891-png/viva-field-guide.git codex/purchase-review-price-expansion
 ```
-변경이 있거나 브랜치가 다르면 기존 작업을 보존한다. 강제 reset·clean·무조건 stash·덮어쓰기를 하지 않는다. 받은 HEAD가 최종 답변의 인계 SHA를 포함하는지 `git merge-base --is-ancestor 인계SHA HEAD`로 확인한다.
 
-## 2026-11-04 같은 브랜치 로컬 후속
+사용자가 전달한 인계 SHA가 포함되는지 git merge-base --is-ancestor 인계SHA HEAD로 확인한다. main은 공개 배포 원본이며 현재 작업 브랜치와 버전이 다를 수 있다. 자동 reset·clean·무조건 stash·강제 전환 금지.
 
-인계 d3a882d 이후 아직 업로드하지 않은 후속: 동물362·식물198=560, 목차835, 크기184/사진427/가격214. 대표1440px/390px 화면 검수와 구매처 탭 뒤로가기 필터 복원 수정. 상세는 HANDOFF.md 첫 배치 참조. 새 후보 두 도마뱀은 species-361/362로 근거·한계와 함께 반영했다. 아직 세부 사육조건·국내 실물 동정/가격 규격 검증이 남아 있다. 식물197/198 및 기존4항목 보강, 플랜티멀48의150상품 목록 감사(후보28/보류122)까지 진행. 원시 원장·검수 이미지는 checkout 밖이라 Git에 포함되지 않는다.
+## 모든 AI의 읽기 순서
 
-추가 업로드·main·공개 배포는 최종 보고 후 사용자 지시를 따른다. 아래는 받은 인계 시점의 스냅샷이며 최신 로컬 배치와 구분한다.
+1. AGENTS.md → docs/agent-work-rules.md. Claude는 CLAUDE.md도 읽는다.
+2. README.md → HANDOFF.md의 최신 배치. 이전 스냅샷 전체를 매번 읽지 않는다.
+3. 관련 계획 docs/superpowers/plans/2026-11-03-field-guide-completion.md, docs/catalog-coverage.md, docs/catalog-field-standards.md 중 이번 작업에 필요한 구간.
 
-## 현재 상태와 읽을 문서
+상세 규칙을 각 AI 파일에 복제하지 않는다. 공통 프롬프트만 갱신하고 시작 문서는 그 파일로 연결한다. 모델의 기억·구독 계정·이전 대화가 전달된다고 가정하지 않는다. 새 커밋을 받지 않은 PC에는 새 규칙이 없다. 현재 PC의 로컬 수정은 업로드 또는 파일 직접 전달 후에만 다른 PC에 전달된다.
 
-동물360·식물196=556항목. 목차830노드, 소/중/대·미확인 필터, 분류/전역 검색·URL/이전 목록 상태 복원을 구현했다. 잎 길이만 있는 식물은 전체 크기 분류에서 미확인으로 처리한다. 종·품종·유통명·동정 한계와 측정 부위는 보존한다. 사진427·크기182·가격214항목 입력은 정보 검증 완료 수가 아니다.
+## 최신 로컬 상태
 
-README.md → AGENTS.md → HANDOFF.md를 읽는다. 계획은 `docs/superpowers/plans/2026-11-03-field-guide-completion.md`, 조사 상태는 `docs/catalog-coverage.md`, 필드 기준은 `docs/catalog-field-standards.md`다. 과거 날짜의 수치는 당시 기록이며 실제 JSON과 `node scripts/catalog-status.mjs`를 우선한다.
+- 기준 원격 인계: d3a882d25c2e54fae315cdae6c40132d40d7ced1, 당시 동물360/식물196.
+- 후속 로컬: fd6313e에서 동물362/식물198=560, 목차835·사진427·크기184·가격214. 신규4항목과 기존4항목 보강, 구매처 왕복 필터 복원. 대표1440px/390px 검수.
+- 8a739a6에서 승인 지침과 구매 링크5회 해제 구현. 기본 링크/구매처 탭 숨김, 입력칸 밖에서5를5회 연속 누르면 현재 페이지에서 해제, 새로고침하면 잠금. 공개 데이터의 비밀 보관 기능은 아니다.
+- 구매 링크 해제의 새 UI는 브라우저 연결 오류로 실제 재검수 미완료. 자동 검사 통과와 구별한다.
+- 플랜티멀48의150상품 목록: 대조 후보28/보류122. 판매 규격·단위 미확인 신규 가격은 반영하지 않음. 국내 실물 동정·주요 관리·다른 업체 대조는 계속 진행 중.
 
-전체 자동 검사는556항목 기준 통과했다. 실제 화면 최종 검수는 이전 환경에서 브라우저 제어가 꺼져 있어 미완료다. 데이터는 dist/species.json·plants.json·morphs.json, 목차는 catalog-navigation.js·catalog-browser.js·catalog-route.js 및 전용 CSS. 패키지 설치·API키·Sites 연결 불필요.
+정확한 최신 커밋은 최종 작업 응답과 git log에서 확인한다. 추가 업로드·main 반영·공개 배포는 최종 보고 후 사용자의 지시를 따른다.
 
-## 다음 실제 작업
+## 실행과 후속
 
-1. 새 환경에서 브라우저 사용이 가능하면 데스크톱/390px 목차·크기 필터·상세 복귀·URL/뒤로가기·구매처 왕복을 검수한다. 불가능하면 미완료로 기록하고 독립 작업을 계속한다.
-2. 정글플랜트·지피·덩굴·브로멜리아와 게코·개구리를 우선 보강한다. 달팽이·육지소라게 추가 심화는 사용자 지시로 낮은 우선순위다. 국내 카테고리의 미검증 페이지·학명 충돌을 완료로 표시하지 않는다.
-3. 도마뱀 후보 Xenosaurus grandis·Pseudopus apodus는 후속 로컬 배치에서361/362로 추가했다. 파충류출몰구역2134·2788은 판매명만 확인했으므로 실제 종 일치·가격 단위·사육 세부 조건을 후속 검증한다. 기존 식물·동물도 근거별로 보강한다.
-
-저장소 밖 원시 조사 파일은 GitHub에 포함하지 않았다. 필요한 최소 근거 URL과 접근 한계는 공개 조사 장부에 있다. 이전 PC의 임시 경로·로그인·브라우저·프로세스가 새 PC에 있다고 가정하지 않는다.
-
-## 비용과 실행 규칙
-
-승인된9단계: 상태 정리 → 목차/크기 검수 → 조사 기준 목록 → 정화생물 → 식물 → 주 사육동물 → 기존 정보 심화 → 통합 검증 → 최종 결과 보고. 소규모 작업 뒤마다 멈추거나 계속할지 반복 질문하지 않는다. 중간 진행만 짧게 보고하며 이어간다.
-
-검색 결과를 짧게 읽고 자료를 재사용하며 하위 에이전트를 자제한다. 항목별 전체 검사를 반복하지 않고 국소 검사 후 주요 묶음 끝에 `npm run check`와 `git diff --check`를 실행한다. 시작 환경 확인으로 한 번 검사한 뒤 변경 없이 반복하지 않는다. 검증되지 않은 인기·사진·크기·학명을 만들지 않는다. 추가 업로드·main 반영·공개 배포는 최종 보고 뒤 사용자 지시에 따른다.
-
-## 새 AI 재시작 프롬프트
-
-이 컴퓨터에서 https://github.com/mom2891-png/viva-field-guide.git 의 codex/purchase-review-price-expansion 브랜치를 직접 받아 비바리움 도감 작업을 이어가. Git·Node22+·인증 상태를 확인하고, 폴더가 없으면 위 clone 명령을 실행해. 기존 폴더는 원격·브랜치·미커밋 변경을 확인하고 안전할 때만 위 pull --ff-only로 갱신해. CONTINUE_ON_NEW_PC.md와 연결된 문서를 읽고 다음 실제 작업과 비용/실행 규칙에 따라 계속해. main·배포는 임의로 변경하지 마. 터미널/파일 권한이 없다면 받은 척하지 말고 필요한 실행 환경을 알려줘.
+- 실행: npm start 또는 node scripts/serve.mjs. 기본 http://127.0.0.1:4190/ . 사용 불가 포트는 환경을 확인해 PORT로 변경한다.
+- 전체 검사: npm run check. npm이 없으면 HANDOFF.md의 Node 직접 실행 명령으로 package.json check와 동일한 명령을 수행한다.
+- 문서만 변경하면 링크·내용과 git diff --check만 검사한다. 코드/데이터 작업은 국소 검사 후 주요 묶음 끝에 전체 검사를 한다.
+- 다음 우선: 구매 링크 해제 실제 UI 검수 → 정글플랜트·지피·덩굴·브로멜리아와 게코·개구리 보강. 달팽이·육지소라게 심화는 후순위.
+- Xenosaurus grandis/Pseudopus apodus는361/362로 이미 추가했으므로 중복 생성하지 않는다. 실물 동정·가격 단위·세부 관리의 미확인만 후속 검증한다.
+- 원시 HTML·조사 스크립트·이미지 검수 자료는 checkout 밖이며 다른 PC에 자동 전달되지 않는다. 공개 장부의 최소 URL로 필요한 부분만 재조사한다. API 키·Sites 연결·패키지 설치는 실행에 필요 없다.

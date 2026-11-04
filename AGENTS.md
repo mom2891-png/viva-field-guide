@@ -4,6 +4,8 @@ This Git repository is the canonical editable source for all Codex and Claude se
 
 Read the user-approved [work rules](docs/agent-work-rules.md). Latest user instructions take priority. Local commits are allowed; additional uploads, main integration, and public deployment require the user's instruction after the final report. Purchase links and the shop directory must stay absent from the default UI until five separate, consecutive `5` key presses outside editable controls. This is a presentation preference, not authentication; never claim public JSON or repository URLs are private.
 
+The linked work rules are the single cross-PC, cross-AI prompt, including token-saving requirements. Read them on a new session; do not create model-specific copies or repeatedly reread unchanged documents. For document-only changes, inspect links/content and `git diff --check` instead of rerunning the catalog test suite.
+
 ## Editing workflow
 
 1. Inspect `git status`, current branch and remote. Fetch/pull only with a clean working tree; preserve unfinished edits. Never force-push, reset or overwrite another session's work.

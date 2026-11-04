@@ -14,13 +14,13 @@ npm이 없는 Node 단독 환경에서는 `node --check dist/app.js`, `node scri
 다른 PC나 AI 세션에서는 아래 주소를 복제하거나 이 폴더를 엽니다.
 
 ```sh
-git clone https://github.com/mom2891-png/viva-field-guide.git
+git clone --branch codex/purchase-review-price-expansion https://github.com/mom2891-png/viva-field-guide.git
 cd viva-field-guide
 npm run check
 npm start
 ```
 
-Codex는 AGENTS.md, Claude는 CLAUDE.md와 AGENTS.md를 읽고 작업합니다. 공통 작업 현황은 HANDOFF.md에 남깁니다. 다른 AI에 전달할 문구는 CONTINUE_PROMPT.md에 있습니다.
+모든 AI의 공통 프롬프트는 [docs/agent-work-rules.md](docs/agent-work-rules.md) 한 파일이며 토큰 절약 규칙도 포함합니다. Codex는 AGENTS.md, Claude는 CLAUDE.md와 AGENTS.md에서 같은 지침으로 연결됩니다. 다른 AI에는 CONTINUE_PROMPT.md를 전달해 같은 파일을 읽도록 합니다. 공통 작업 현황은 HANDOFF.md에 남깁니다. 다른 AI에 전달할 문구는 CONTINUE_PROMPT.md에 있습니다.
 
 ## 자동 배포
 

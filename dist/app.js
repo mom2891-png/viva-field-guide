@@ -1,5 +1,5 @@
 'use strict';
-const CATALOG_VERSION = '2026-11-04-review1';
+const CATALOG_VERSION = '2026-11-04-link-gate1';
 const $ = (selector) => document.querySelector(selector);
 const envNames = {습:'습식',혼:'건습 혼합',건:'건조',수:'반수생·수생',냉:'냉량 관리',대:'대형 사육장',환:'충분한 환기',굴:'깊은 바닥재',해:'담수·해수'};
 const descriptions = {
@@ -11,6 +11,7 @@ const descriptions = {
 let species = [], animals = [], plants = [], morphs = {}, state = {category:'all',environment:'all',search:'',sort:'popular',excludeSpecial:false,savedOnly:false,page:'animals',subgroup:'all',availability:'all',sizeClass:'all',catalogNode:'animals'};
 let catalogModel=null,catalogPanel=null,restoringCatalogRoute=false,currentCatalogEntry=null,currentCatalogSelection=null,catalogReturnView=null,lastCatalogHash=null;
 let favorites = new Set();
+let purchaseAccessUnlocked=false,purchaseUnlockCount=0;
 try { favorites = new Set(JSON.parse(localStorage.getItem('viva-favorites-v1') || '[]')); } catch {}
 const animalCategories = [ ['all','전체 생물'],['gecko','게코'],['lizard','도마뱀'],['snake','뱀'],['frog','개구리'],['newt','뉴트·도롱뇽'],['turtle','거북'],['invert','무척추동물'] ];
 const animalEnvironments = [['all','모든 환경'],['습','습식'],['혼','건습 혼합'],['건','건조'],['수','반수생·수생'],['냉','냉량 관리'],['환','환기 중점']];
@@ -48,14 +49,30 @@ function factsPreview(row){
 }
 function factsSection(row){
   const s=row.sizeInfo,p=row.priceInfo;
-  return `<section class="entry-facts"><h3>크기와 참고 가격</h3><dl class="facts-detail"><div><dt>${s?escapeHTML(s.basis):row.id.startsWith('plant-')?'성숙':'성체'} 크기</dt><dd>${escapeHTML(sizeText(row))}${s?`<small>${escapeHTML(s.measurement)}</small>`:''}</dd></div></dl>${s?.note?`<p class="facts-note">${escapeHTML(s.note)}</p>`:''}${p?`<dl class="price-offers">${p.offers.map(offer=>`<div><dt>${escapeHTML(offer.unit)}</dt><dd>${escapeHTML(priceText(offer))}</dd></div>`).join('')}</dl><p class="facts-note">${escapeHTML(p.basis)} · ${escapeHTML(p.checkedAt.replaceAll('-','.'))} 확인</p><p class="facts-note">${escapeHTML(p.note)}</p>${purchaseSection(row)}`:'<p class="facts-pending">국내 가격 확인 중</p>'}</section>`;
+  return `<section class="entry-facts" data-purchase-entry="${escapeHTML(row.id)}"><h3>크기와 참고 가격</h3><dl class="facts-detail"><div><dt>${s?escapeHTML(s.basis):row.id.startsWith('plant-')?'성숙':'성체'} 크기</dt><dd>${escapeHTML(sizeText(row))}${s?`<small>${escapeHTML(s.measurement)}</small>`:''}</dd></div></dl>${s?.note?`<p class="facts-note">${escapeHTML(s.note)}</p>`:''}${p?`<dl class="price-offers">${p.offers.map(offer=>`<div><dt>${escapeHTML(offer.unit)}</dt><dd>${escapeHTML(priceText(offer))}</dd></div>`).join('')}</dl><p class="facts-note">${escapeHTML(p.basis)} · ${escapeHTML(p.checkedAt.replaceAll('-','.'))} 확인</p><p class="facts-note">${escapeHTML(p.note)}</p>${purchaseSection(row)}`:'<p class="facts-pending">국내 가격 확인 중</p>'}</section>`;
 }
 function purchaseSection(row){
+  if(!purchaseAccessUnlocked)return '';
   const groups=new Map();
   for(const item of [...(row.purchaseLinks||[]),...(row.sellerOffers||[])]){if(!safeUrl(item.url))continue;if(!groups.has(item.shop))groups.set(item.shop,[]);groups.get(item.shop).push(item);}
   if(!groups.size)return '';
   const link=item=>`<a class="purchase-link" href="${escapeHTML(safeUrl(item.url))}" target="_blank" rel="noopener noreferrer"><span class="purchase-title">${escapeHTML(item.title)}</span><span class="purchase-meta">${escapeHTML(item.unit)} · ${escapeHTML(priceText({min:item.price,max:item.price}))}${item.status==='soldOut'?' · <strong>품절 표시</strong>':''}${item.sourceType==='userMenu'?' · 제공 가격표·게시일 미상':''}</span><span class="purchase-action">${item.sourceType==='userMenu'?'문의하기':'상품 보기'} ↗</span></a>`;
   return `<div class="purchase-section"><h4>구매처 <span>${groups.size}곳</span></h4><p class="facts-note">판매처에서 현재 재고·옵션·최종 가격을 확인하세요.</p>${[...groups].map(([shop,items])=>{const label=items.some(item=>item.sourceType==='userMenu')?'판매 정보':'상품';items.sort((a,b)=>Number(a.status==='soldOut')-Number(b.status==='soldOut')||a.price-b.price);return `<section class="purchase-shop"><h5>${escapeHTML(shop)} <span>${items.length}개 ${label}</span></h5>${link(items[0])}${items.length>1?`<details class="purchase-more"><summary>다른 ${label} ${items.length-1}개</summary>${items.slice(1).map(link).join('')}</details>`:''}</section>`;}).join('')}</div>`;
+}
+function handlePurchaseShortcut(event){
+  if(purchaseAccessUnlocked)return;
+  const target=event.target;
+  if(event.isComposing||target?.isContentEditable||['INPUT','TEXTAREA','SELECT'].includes(target?.tagName)) {purchaseUnlockCount=0;return;}
+  if(event.repeat)return;
+  if(event.ctrlKey||event.altKey||event.metaKey||event.shiftKey||event.key!=='5'){purchaseUnlockCount=0;return;}
+  if(++purchaseUnlockCount<5)return;
+  purchaseAccessUnlocked=true;purchaseUnlockCount=0;
+  document.querySelectorAll('[data-page="shops"]').forEach(button=>{button.hidden=false;});
+  document.querySelectorAll('[data-purchase-entry]').forEach(section=>{
+    const row=[...animals,...plants].find(item=>item.id===section.dataset.purchaseEntry);
+    if(row&&row.priceInfo)section.insertAdjacentHTML('beforeend',purchaseSection(row));
+  });
+  showToast('구매 링크를 표시합니다.');
 }
 function updateSaved(){ $('#savedCount').textContent=favorites.size; $('#savedButton').setAttribute('aria-pressed',String(state.savedOnly));}
 function saveFavorite(id){
@@ -160,6 +177,7 @@ function closeCatalogDetail(){
 function restoreCatalogRoute(){
   if(!catalogModel||!catalogCanRoute())return;
   const route=VivaCatalogRoute.decode(window.location.hash);if(!route||lastCatalogHash===window.location.hash)return;
+  if(route.state.page==='shops'&&!purchaseAccessUnlocked){route.state.page='animals';route.entryId=null;route.selectionId=null;}
   lastCatalogHash=window.location.hash;restoringCatalogRoute=true;
   currentCatalogEntry=null;currentCatalogSelection=null;if($('#detailDialog').open)$('#detailDialog').close();
   setPage(route.state.page);state={...state,...route.state};
@@ -261,6 +279,7 @@ function openShopMenu(shop){
   if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';
 }
 function setPage(page){
+  if(page==='shops'&&!purchaseAccessUnlocked)return;
   const wasRestoring=restoringCatalogRoute;
   const push=!wasRestoring&&page!==state.page&&catalogModel&&catalogCanRoute();
   if(push)saveCatalogRoute();
@@ -313,7 +332,7 @@ $('#closeDialog').addEventListener('click',()=>$('#detailDialog').close());
 $('#detailDialog').addEventListener('close',()=>{if($('#detailDialog').open)return;document.body.style.overflow='';if(!restoringCatalogRoute)closeCatalogDetail();});
 $('#detailDialog').addEventListener('click',event=>{if(event.target===$('#detailDialog')){const rect=event.target.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)event.target.close();}});
 $('#aboutButton').addEventListener('click',()=>{$('#detailContent').innerHTML=`<div class="about"><div class="eyebrow">ABOUT THE FIELD GUIDE</div><h2>나만의 작은 세계를 위한 도감</h2><p>동물 ${animals.length}개와 식물·이끼 ${plants.length}개 항목을 분류·환경별로 탐색할 수 있어요. 동물 ${Object.keys(morphs).length}개 항목의 모프·패턴·지역형 ${Object.values(morphs).flat().length}개는 해당 종 아래에 연결했으며 별도 종으로 세지 않았어요.</p><p>인기순은 국내 판매처의 취급 범위를 참고한 추정 순서이며 실제 판매량 순위는 아니에요. 확인된 인기 자료가 있는 항목을 먼저 정렬하고, 미집계 항목은 그 뒤에서 이름순으로 보여줘요. 미집계는 희귀하거나 인기가 없다는 뜻이 아니에요. 새 확장 후보의 국내 유통과 종별 조건은 계속 확인하고 있어요.</p><p>습식·건조·반수생 등 환경을 구별해 골라 주세요. 열대 습식뿐 아니라 건조형·냉량형·수역 전용 후보도 포함하므로 환경과 성체 크기를 먼저 확인해 주세요. 같은 환경 표시는 합사 가능을 뜻하지 않아요. 학명·유통명과 사진의 개체가 다를 수 있으며 사진 저작자와 라이선스는 각 항목의 ‘사진 정보’에서 확인할 수 있어요.</p><p>관심 목록은 현재 브라우저에 저장되며, 동물과 식물 도감 각각에서 볼 수 있어요. 식물은 속 카드에서 종 목록을 열고, 종 상세에서 품종·유통명을 살펴볼 수 있어요. 환경 필터와 검색은 해당 조건에 맞는 종만 속 안에 보여줘요.</p></div>`;if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';});
-document.addEventListener('keydown',event=>{if(event.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#detailDialog').open){event.preventDefault();if(state.page==='shops')$('#shopSearch').focus();else {setPage('animals');$('#search').focus();}}});
+document.addEventListener('keydown',event=>{handlePurchaseShortcut(event);if(event.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#detailDialog').open){event.preventDefault();if(state.page==='shops')$('#shopSearch').focus();else {setPage('animals');$('#search').focus();}}});
 const shopDirectory=VivaShops.mount($('#shopsPage'),{version:CATALOG_VERSION,onRelated:openShopRelated,onMenu:openShopMenu});
 if($('#catalogMenu').querySelector('#catalogNavSearch'))catalogPanel=VivaCatalogBrowser.mount($('#catalogMenu'),{onBrowse:browseCatalogNode,onOpen:openCatalogNode});
 if(typeof window.addEventListener==='function'){window.addEventListener('popstate',restoreCatalogRoute);window.addEventListener('hashchange',restoreCatalogRoute);}

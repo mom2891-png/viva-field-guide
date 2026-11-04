@@ -2,6 +2,8 @@
 
 This Git repository is the canonical editable source for all Codex and Claude sessions. Hosting is GitHub Pages. Do not create a new Sites project or overwrite this with an older chat artifact. Read README.md and HANDOFF.md first. Claude sessions must also read this file (CLAUDE.md points here).
 
+Read the user-approved [work rules](docs/agent-work-rules.md). Latest user instructions take priority. Local commits are allowed; additional uploads, main integration, and public deployment require the user's instruction after the final report. Purchase links and the shop directory must stay absent from the default UI until five separate, consecutive `5` key presses outside editable controls. This is a presentation preference, not authentication; never claim public JSON or repository URLs are private.
+
 ## Editing workflow
 
 1. Inspect `git status`, current branch and remote. Fetch/pull only with a clean working tree; preserve unfinished edits. Never force-push, reset or overwrite another session's work.

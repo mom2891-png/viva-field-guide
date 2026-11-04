@@ -406,3 +406,18 @@ assert.equal(run('filtered()[0].id'),'plant-230');
 assert.equal(run("genusName('Pothos')"),'포토스');
 assert.equal(run("catalogModel.nodes.find(n=>n.id===catalogModel.entryNode('plant-230').parentId).label"),'포토스');
 console.log('PASS: cafe candidates keep trade identity, unknown market fields and new genus navigation.');
+
+assert.equal(plants.find(r=>r.id==='plant-233').latin,'Entodon challengeri');
+assert.notEqual(plants.find(r=>r.id==='plant-233').latin,plants.find(r=>r.id==='plant-106').latin,'Distinct Entodon species stay distinct');
+for(const [query,id] of [['넓은잎윤이끼','plant-233'],['Oceaniopteris obtusata','plant-235'],['Hymenoglossum cruentum','plant-236'],['트리초산데스 와레','plant-238']]){
+  run(`state.page='plants';species=plants;state.catalogNode='plants';state.search=${JSON.stringify(query)};state.category='all';state.subgroup='all';state.environment='all';state.sizeClass='all';render()`);
+  assert.ok(run(`filtered().some(r=>r.id===${JSON.stringify(id)})`),query);
+}
+assert.equal(plants.find(r=>r.id==='plant-238').sizeInfo.max,1000,'10m climbing height remains a large plant measurement');
+run("state.search='트리초산데스 와레';state.sizeClass='large';render()");
+assert.equal(run('filtered()[0].id'),'plant-238','The large-size filter includes the documented climbing plant');
+for(const id of ['plant-233','plant-234','plant-235','plant-236','plant-237','plant-238']){
+  const r=plants.find(r=>r.id===id);assert.equal(r.popularity,null);assert.equal(r.popularityKnown,false);
+  assert.ok(!r.priceInfo&&!r.purchaseLinks,'Wish prices and unverified sale units are excluded');
+}
+console.log('PASS: distinct moss identities, fern synonyms, climbing-size basis and unknown market fields.');

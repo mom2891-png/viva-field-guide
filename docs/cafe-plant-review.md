@@ -23,7 +23,52 @@
 - Selaginella: [Kew 정명](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77186721-1), [직접 재배업체의 광량·수분](https://glassboxtropicals.com/selaginella-siamensis/), [휴면 경험](https://zephyr-terra.com/selaginella-siamensis/). 업체 설명을 종의 생리적 한계로 해석하지 않는다.
 - Argostemma: [유통형 재배 설명](https://item.rakuten.co.jp/chanet/432671/), [Kew의1927 bifolium 처리](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:743647-1), [Ridley1925/1927 구분 관련 원자료](https://www.nparks.gov.sg/sbg/research/publications/the-gardens%27-bulletin-singapore/-/media/sbg/gardens-bulletin/gbs_70_02_y2018_v70_02/70_02_307_y2018_v70p2_gbs_pg307.pdf). 원자료 검색 대조는 판매 식물 표본 동정을 대신하지 않는다.
 
-## 다음 검토 대기열
+## 2026-11-04 후속19건 판정
+
+6종을 추가하고13건은 보류 사유를 구체화했다. 새로운 별도 카페 목록은 수집하지 않았으며, 기존 후보 중 제목만 읽었던8글(143725/139094/138543/128466/141239/143689/137322/141415)의 본문을 추가로 열었다. 누적 본문20글. 빈 본문·사진 위주 글은 본문에 확정 학명이 있다고 처리하지 않는다.
+
+|ID|추가|분류·관리 근거|
+|---|---|---|
+|plant-233|넓은잎윤이끼 / Entodon challengeri|국립생물자원관2019 목록p.227·내츄럴팟210의 유목/오픈형 활용. seductrix와 분리|
+|plant-234|나무연지이끼 / Venturiella sinensis|국립생물자원관2019 p.214·Arctoa2016의 종별 수피 생태. 선태식물, 지의류와 구별. 카페의 건조 대상은 생체 재배 증명 아님|
+|plant-235|블레크넘 옵투사툼 / Blechnum obtusatum|Kew 정명·Oceaniopteris 이명·국내 장기 재배명·일본 직접 포자 증식 기록. 특정 변종 경험을 종 전체 수치로 복사하지 않음|
+|plant-236|히메노필룸 크루엔툼 / Hymenophyllum cruentum|Kew·칠레 SIMBIO/UdeC의 온대 습윤 숲/착생·막질 잎 대조. 냉량형으로 분리, 실험 온습도를 재배 권장값으로 사용하지 않음|
+|plant-237|브리세아 라시나에 / Vriesea racinae|Kew·Farnwerk 직접 재배의 착생·광량·잎 통 구조 대조. 출고5cm/포트5.5cm를 성숙 크기로 전환하지 않음|
+|plant-238|트리코산테스 와우라에 / Trichosanthes wawrae|NParks의 학명·형태·등반형·최대높이10m·광량·관수 대조.10m=1000cm 등반 높이로 입력, 잎/열매/삽목 크기와 구분|
+
+이끼2종과 H. cruentum의 이용 가능한 생체 사진3장을 원본 시각 검수 후 추가했다. iNaturalist 정확한 종명·research 관찰·사진별CC 이용허락·공개 저자·원본 링크를 대조했다. 사진과 카페 판매 실물 동정은 별개다. Vriesea 후보는 종 일치/대표 형태를 추가 대조할 필요가 있어 보류, Blechnum/Trichosanthes는 해당 조회의 재사용 가능 사진 미확보. 카페 사진과 펌 사진은 쓰지 않았다.
+
+최소 근거:
+
+- [국립생물자원관 국가생물종목록](https://www.nibr.go.kr/aiibook/catImage/20/National%20Species%201.pdf)에서227·214쪽 국명과 학명 직접 확인. 서울시2024 목록은 검색 색인에 보였으나 원문404여서 주 근거로 사용하지 않음.
+- [넓은잎윤이끼 판매·활용](https://naturallpot.co.kr/product/넓은잎윤이끼-테라리움-비바리움-이끼-식물-키우기/210/). 학명 chllaengeri는 오기 검색용 별칭. 상품 수량1개가 생물 단위라는 뜻이 아니므로7900원 가격과 링크 입력 보류. 재고도 템플릿 혼재로 확정하지 않음.
+- [Venturiella 종별 원논문](https://kmkjournals.com/upload/PDF/Arctoa/25/Arctoa25_364_368.pdf). 과 전체의 열대 설명을 종의 고온 밀폐 적합성으로 옮기지 않음.
+- [Blechnum 정명](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17059850-1) · [직접 포자 증식·수분 관리 경험](https://kokeshino.exblog.jp/23237720/). 요약 페이지의1m/온습도 수치는 미채택.
+- [Hymenophyllum 정명](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17122350-1) · [칠레 SIMBIO 형태·서식](https://simbio.mma.gob.cl/Especies/Details/9607) · [UdeC 대학 목록](https://catalogoplantas.udec.cl/?q=node/303) · [생리 연구의 서식·실험 조건 구분](https://repositorio.udec.cl/server/api/core/bitstreams/f5ea55ff-1a77-46c3-8b60-9a5bc706dbfd/content). 개체/잎 측정 부위가 확실하지 않은 길이는 미입력.
+- [Vriesea Kew 정명 기록](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:267487-2) · [직접 재배업체](https://www.farnwerk.ch/produkt/vriesea-racinae/). 업체의10~20cm 높이/폭은 종 최대값이 아니므로 크기 필드 보류. 카페 희망가와 해외 가격은 국내 판매가에서 제외.
+- [Trichosanthes NParks 종별 자료](https://www.nparks.gov.sg/florafaunaweb/flora/1/5/1524). 양지~반그늘 안내는 밀폐 용기 직사광선 허용을 의미하지 않음.
+
+### 보류13건
+
+|후보|이번 판정·다음 조건|
+|---|---|
+|Corybas ecarinatus|입고명 확인 상태 유지. 계절성·휴면·직접 재배 근거 부족. 속 전체 조건 또는 Reddit 경험으로 확정하지 않음|
+|야마사키 카즈라|본문에도 확정 학명 없음. 추가 사진 동정/유통명 대조 필요|
+|테누이스 실버|국내 다른 제목은 라피도포라로 표기. Piper로 추정 연결 금지. 부모종·실버형/품종 관리 근거 대조 필요|
+|알소비아 미니|본문은 개화 소식. Alsobia 종·품종·유통형 구분 부족|
+|침엽수림 닮은 이끼|본문도 이름 질문. 생김새 비유로 신규 종 생성 금지|
+|Vandenboschia sp.|종 미확정. 본문에서 새 확정 학명 확보 못함. 기존 필름고사리와 종 단위 대응 보류|
+|Abrodictyum sp.|본문은 큰 처녀이끼류/줄기 특징. 종을 특정하지 않음|
+|Cephalomans sp. Papua|본문에서 Cephalomanes javanicum과 다르다고 설명. 철자/종/지역형 미해결로 javanicum 등록·합치기 금지|
+|Marcgravia el Coca|사진 위주로 추가 종명 없음. 유통 지역명/기존 종 대응 확인 필요|
+|페페로미아 에콰도르 레드|본문도 추정 상태. 느린 성장과 잎 색만으로 종을 만들지 않음|
+|제주 변이 모람|일반형보다 큰 잎이라는 본문만 있음. Ficus 기존 항목 아래 확정 품종으로 연결하지 않음|
+|크립탄싸 오리진|본문은 봉·러너·뚜껑에 활착하는 등반 식물. 브로멜리아 Cryptanthus로 자동 분류하지 않음. Rhaphidophora 등 유통명·학명부터 대조|
+|Carex sp?|본문에서 확정 학명·재배 조건 못 찾음. 동정 및 수분 조건 확보 전 등록 보류|
+
+기존594항목 불변. 동물362·식물238=600항목, 사진496·크기188·가격214. 이번 신규6종 중 사진 미확보3으로 전체 사진 공란104. 항목 수 자체는 완성도 기준이 아니다. 추가 업로드·main·배포 없음.
+
+## 최초19후보와 당시 검토 조건 (이전 기록)
 
 아래는 종 추가 확정 수가 아니다. 제목만 확인한 항목은 본문 확인과 구별한다. 이명·국명·품종 연결은 검토 후 반영한다.
 

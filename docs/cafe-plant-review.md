@@ -2,6 +2,34 @@
 
 2026-11-04. 사용자 지정 [카페](https://cafe.naver.com/vivariummania)는 현재 ‘비바리움 파크’로 표시되며 clubid는28867385다. 다른 카페12440585와 섞지 않는다. 앱 재시작 뒤 내장 브라우저 연결·공개 목록·본문 열람에 성공했다. 앞선 접근 실패는 과거 상태다.
 
+## 최신 후속 — 2026-11-04 덩굴·초화·보석란
+
+추가 보석란57/소넬리아146/난153 첫 페이지 각15개 고유 글, 합계45제목. 원시 링크48개는 고정글 중복 포함 수다. 본문5글을 더 읽어 누적9게시판135제목·본문25글이다. 아래90제목/20본문은 이전 범위다. 카페 사진은 가져오지 않았다.
+
+|ID|반영|판단·한계|
+|---|---|---|
+|plant-239|Rhaphidophora cryptantha|NParks 종별 형태·반그늘/관수·최대 덩굴 길이3m. 크립탄싸 오리진 개체와 동일성은 미확정. 종 사진만 추가|
+|plant-240|Rhaphidophora sp. “Tenuis Silver”|직접 판매명과 국내 유통명 대조. 정식 tenuis 종/등록 품종으로 확정하지 않음. 일반 tenuis 사진·수치 미대입|
+|plant-241|Alsobia dianthiflora|Kew 정명·RHS 재배. 성숙 높이10~50cm, 폭50~100cm 구분. 종 사진 추가. 카페 미니 판매형과 연결 보류|
+|plant-242|Goodyera hispida|Kew 정명·재배업체2곳 안내·카페 도입명 대조. 4~12인치 꽃대와 포트 지름은 성숙 크기 제외. 사진 미확보|
+|기존plant-31|록스버기 골드바 하위 유통명|카페 설명 자체가 록스버기 종류로 알려진 품종이라는 조건부 표현. 정식 등록/부모종 실물 동정 완료 아님. 종 대표 사진을 골드바 사진으로 표시하지 않음|
+
+최소 재개 자료(확인2026-11-04):
+
+- [NParks cryptantha](https://www.nparks.gov.sg/florafaunaweb/flora/6/3/6305) · [Borneo Aquatic Silver 판매명](https://borneoaquatic.com/product/rhaphidopora-tenuis-silver/) · [GrowTropicals cf-tenuis/tenuis](https://growtropicals.com/products/rhaphidophora-cf-tenuis): 마지막 자료는 Silver 동일성 근거가 아님.
+- [Kew Alsobia](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:378028-1) · [RHS Alsobia 종별 관리/높이/폭](https://www.rhs.org.uk/plants/1009/alsobia-dianthiflora/details).
+- [Kew Goodyera hispida](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:636131-1) · [Glass Box Tropicals](https://glassboxtropicals.com/goodyera-hispida/) · [Black Jungle](https://www.blackjungleterrariumsupply.com/Goodyera-hispida-JEWEL-ORCHID_p_474.html).
+- 공개 카페 본문: [히스피다143649](https://cafe.naver.com/f-e/cafes/28867385/articles/143649) · [골드바/블랙스완141955](https://cafe.naver.com/f-e/cafes/28867385/articles/141955) · [히르슈타119095](https://cafe.naver.com/f-e/cafes/28867385/articles/119095) · [Aerangis punctata142822](https://cafe.naver.com/f-e/cafes/28867385/articles/142822) · [Lepanthes calodictyon142025](https://cafe.naver.com/f-e/cafes/28867385/articles/142025).
+- 사진: [cryptantha](https://commons.wikimedia.org/wiki/File:Rhaphidophora_cryptantha_kz01.jpg), [Alsobia](https://commons.wikimedia.org/wiki/File:Alsobia_dianthiflora.jpg). 원본 육안 확인, 저자/CC BY-SA4·CC0 정보는 도감 credit 보존. 사진2장 추가·기존 사진 교체 없음.
+
+보류와 다음 조사:
+
+- 블랙스완은 Anoectochilus 속만 확인되어 roxburghii 아래 붙이지 않음. Gold Bar 등록 품종 여부와 부모종 실물 동정, 미니 알소비아 동일성은 미완료.
+- 야마사키카즈라는 [ADA 직접 안내](https://www.adana.co.jp/jp/contents/products/wabikusa/lineup/057.html)에서 수상 재배·물 밖 유목 부착 활용은 확인했지만 학명이 없어 속 배정 보류. 서로 다른 외부 학명을 골라 확정하지 않음.
+- Corybas ecarinatus는 저지대 석회암 생태 기록을 확인했으나 지속 재배/휴면 관리 연결 부족. 다른 Corybas의 휴면을 종 전체에 복사하지 않음. [NParks Gardenwise2012](https://www.nparks.gov.sg/sbg/research/publications/-/media/sbg/gardenwise/2012-jan-gardenwise-vol-38.pdf).
+- 새 제목 후보: Anoectochilus lobbianus, Sonerila hirsuta·Polka Dot·Tepuai, Aerangis punctata, Lepanthes calodictyon, Phalaenopsis schilleriana. 뒤의 두 난과 Aerangis는 카페 도입/재배 언급을 읽었지만 정명·종별 온도/환기·소형 용기 적합성 대조는 아직 남음. 미확정 제목을 신규 종으로 세지 않음.
+- 신규 가격/인기 없음. 해외 가격·포트 규격·구매 희망가는 전환하지 않음. 실제 도감 데스크톱/390px 검수와 새 페이지 조사는 미완료. 이번 반영분은 로컬이며 추가 업로드/배포 없음.
+
 ## 이번 열람 범위
 
 습계 식물 메뉴25개를 확인했다. 추천식물93/이끼85/덩굴147/양치77/브로멜리아40/기타 정글58의 첫 페이지 각15글, 합계90개 제목을 확인했다. 본문은12글(아래 근거의140727 포함)을 열었다. 전체 게시판·과거 모든 페이지·시장 전수 조사가 아니며 조회·좋아요·단일 회원 경험을 인기 순위로 바꾸지 않는다. 원문·회원 이름·사진은 공개 저장소로 복제하지 않는다.

@@ -421,3 +421,25 @@ for(const id of ['plant-233','plant-234','plant-235','plant-236','plant-237','pl
   assert.ok(!r.priceInfo&&!r.purchaseLinks,'Wish prices and unverified sale units are excluded');
 }
 console.log('PASS: distinct moss identities, fern synonyms, climbing-size basis and unknown market fields.');
+
+// Trade forms remain separate from species; maturity measurements retain their basis.
+const silver=plants.find(r=>r.id==='plant-240');
+assert.equal(silver.catalogType,'유통명');
+assert.equal(silver.latin,'Rhaphidophora sp. “Tenuis Silver”');
+assert.ok(!silver.image&&!silver.sizeInfo,'Unidentified Silver form must not inherit the generic species photo or size');
+assert.equal(plants.find(r=>r.id==='plant-239').sizeInfo.max,300);
+assert.equal(plants.find(r=>r.id==='plant-241').sizeInfo.max,50);
+assert.ok(!plants.find(r=>r.id==='plant-241').varieties.includes('미니'));
+assert.ok(!plants.find(r=>r.id==='plant-242').sizeInfo,'Flower stalk and pot dimensions are not mature plant height');
+for(const [query,id] of [['테누이스 실버','plant-240'],['Episcia dianthiflora','plant-241'],['사철란 히스피다','plant-242'],['록스버기 골드바','plant-31']]){
+  run(`state.page='plants';species=plants;state.catalogNode='plants';state.search=${JSON.stringify(query)};state.category='all';state.subgroup='all';state.environment='all';state.sizeClass='all';render()`);
+  assert.ok(run(`filtered().some(r=>r.id===${JSON.stringify(id)})`),query);
+  assert.ok(run(`catalogModel.search(${JSON.stringify(query)},'plants').some(n=>n.entryId===${JSON.stringify(id)})`),'TOC: '+query);
+}
+for(const id of ['plant-239','plant-240','plant-241','plant-242']){
+  const r=plants.find(r=>r.id===id);assert.equal(r.popularity,null);assert.equal(r.popularityKnown,false);
+  assert.ok(!r.priceInfo&&!r.purchaseLinks,'Foreign prices and unverified Korean sale units stay excluded');
+}
+assert.equal(run("genusName('Rhaphidophora')"),'라피도포라');
+assert.equal(run("genusName('Alsobia')"),'알소비아');
+console.log('PASS: vine and orchid trade distinctions, species aliases, mature-size basis and genus navigation.');

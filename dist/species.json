@@ -8799,7 +8799,7 @@
   {
     "n": 97,
     "major": "파충류",
-    "middle": "기타 도마뱀",
+    "middle": "카멜레온",
     "name": "팬서카멜레온",
     "latin": "Furcifer pardalis",
     "env": "습·환",
@@ -8983,7 +8983,7 @@
   {
     "n": 98,
     "major": "파충류",
-    "middle": "기타 도마뱀",
+    "middle": "카멜레온",
     "name": "파슨카멜레온",
     "latin": "Calumma parsonii",
     "env": "습·냉·환",
@@ -16047,7 +16047,7 @@
     "name": "마다가스카르 사이클루러스",
     "latin": "Oplurus cyclurus",
     "major": "파충류",
-    "middle": "도마뱀",
+    "middle": "기타 도마뱀",
     "env": "건",
     "aliases": [],
     "careNote": "전문 사육 목록에서 확인한 확장 후보예요. 입양 전 성체 크기와 종별 사육 조건을 추가로 확인해 주세요.",

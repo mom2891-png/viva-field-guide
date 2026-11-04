@@ -62,3 +62,13 @@ assert.equal(varietyModel.search('night-leaf', 'animals').length, 0);
 assert.equal(sample.search('alias', 'invalid').length, 0);
 assert.equal(JSON.stringify([animals, plants, morphs]), original);
 console.log(`Navigation validated: ${all.length} entries, ${model.nodes.length} nodes; paths, partitions, morphs, taxonomy, search and immutability.`);
+
+for(const row of animals){
+ const entry=model.entryNode(row.id),parent=model.nodes.find(n=>n.id===entry.parentId);
+ assert.equal(parent.kind,'genus',row.id+': animal must appear under a genus');
+}
+assert.equal(model.entryNode('species-91').parentId,model.entryNode('species-92').parentId);
+assert.equal(model.entryNode('species-91').parentId,model.entryNode('species-93').parentId);
+assert.equal(model.descendantEntryIds(model.entryNode('species-91').parentId).length,3);
+assert.equal(model.path(firstMorph.id).at(-3).kind,'genus','Morph remains beneath species within genus');
+console.log('PASS: every animal has a genus parent; Abronia and species/morph paths stay distinct.');

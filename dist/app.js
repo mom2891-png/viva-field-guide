@@ -1,5 +1,5 @@
 'use strict';
-const CATALOG_VERSION = '2026-11-04-queue1';
+const CATALOG_VERSION = '2026-11-04-groups1';
 const $ = (selector) => document.querySelector(selector);
 const envNames = {습:'습식',혼:'건습 혼합',건:'건조',수:'반수생·수생',냉:'냉량 관리',대:'대형 사육장',환:'충분한 환기',굴:'깊은 바닥재',해:'담수·해수'};
 const descriptions = {
@@ -101,10 +101,11 @@ function filtered(){
     &&(state.environment==='all'||(row.id.startsWith('plant-')?row.environment===state.environment:row.env.split('·').includes(state.environment)))
     &&(!state.excludeSpecial||(!row.env?.includes('대')&&!row.env?.includes('냉')))
     &&(!state.savedOnly||favorites.has(row.id))
-    &&(!search||normalized(`${row.name} ${row.latin} ${row.id.startsWith('plant-')?genusName(genusOf(row)):''} ${row.major||row.category} ${row.middle||''} ${(row.aliases||[]).join(' ')} ${(row.varieties||[]).join(' ')} ${(morphs[row.id]||[]).map(m=>[m.name,...m.aliases].join(' ')).join(' ')}`).includes(search)))
+    &&(!search||normalized(`${row.name} ${row.latin} ${genusName(genusOf(row))} ${row.major||row.category} ${row.middle||''} ${(row.aliases||[]).join(' ')} ${(row.varieties||[]).join(' ')} ${(morphs[row.id]||[]).map(m=>[m.name,...m.aliases].join(' ')).join(' ')}`).includes(search)))
     .sort(compareEntries);
 }
 const genusNames = {
+  Correlophus:"크레스티드·사라시노룸게코",Rhacodactylus:"라코닥틸루스 게코",Eurydactylodes:"카멜레온게코",Eublepharis:"레오파드게코류",Paroedura:"파로에두라 게코",Nephrurus:"납테일게코",Oedura:"벨벳게코",Goniurosaurus:"케이브게코",Teratoscincus:"프로그아이게코",Uroplatus:"리프테일게코",Phelsuma:"데이게코",Geckolepis:"피시스케일게코",Egernia:"에게르니아 스킨크",Tiliqua:"블루텅스킨크",Tribolonotus:"크로커다일스킨크",Chalcides:"찰키데스 스킨크",Acanthosaura:"마운틴혼드래곤",Hydrosaurus:"세일핀리자드",Pogona:"비어디드래곤",Anolis:"아놀",Corytophanes:"헬멧리자드",Abronia:"아브로니아",Oplurus:"오플루루스",Furcifer:"퍼시퍼 카멜레온",Calumma:"칼룸마 카멜레온",Boaedon:"하우스스네이크",Coelognathus:"코엘로그나투스 뱀",Dasypeltis:"에그이터",Drymarchon:"인디고스네이크",Elaphe:"엘라페 뱀",Gonyosoma:"고니오소마 뱀",Lampropeltis:"킹스네이크·밀크스네이크",Pantherophis:"콘스네이크·랫스네이크",Pituophis:"파인·불·고퍼스네이크",Eryx:"샌드보아",Morelia:"모렐리아 파이톤",Leiopython:"화이트립파이톤",Bufotes:"그린토드류",Ceratophrys:"팩맨프로그",Dendropsophus:"덴드롭소푸스 트리프로그",Heterixalus:"헤테릭살루스 트리프로그",Litoria:"리토리아 트리프로그",Pyxicephalus:"아프리칸불프로그류",Theloderma:"모시프로그류",Zhangixalus:"장시살루스 트리프로그",Dendrobates:"덴드로바테스 다트프로그",Epipedobates:"에피페도바테스 다트프로그",Ambystoma:"앰비스토마 도롱뇽",Cynops:"파이어벨리뉴트류",Triturus:"크레스티드뉴트류",Tylototriton:"틸로토트리톤 뉴트",Coenobita:"육지소라게",Strophurus:"스트로푸루스 게코",Trioceros:"트리오케로스 카멜레온",Ranitomeya:"라니토메야 다트프로그",Pseudosinella:"슈도시넬라 톡토기",Entomobrya:"엔토모브리아 톡토기",Porcellionides:"포르셀리오니데스 등각류",Porcellio:"포르셀리오 등각류",Cubaris:"쿠바리스 등각류",Armadillidium:"아르마딜리디움 등각류",Phidippus:"피디푸스 점핑스파이더",Geosesarma:"뱀파이어크랩류",Grammostola:"그람모스톨라 타란튤라",Terrapene:"상자거북",Testudo:"테스투도 육지거북",Varanus:"모니터",Oophaga:"오오파가 다트프로그",Trachelipus:"트라켈리푸스 등각류",
   Vanda:'풍란류',Goodyera:'사철란',Tectaria:'텍타리아',Monolena:'모노레나',Gloxinella:'글록시넬라',Schismatoglottis:'스키스마토글로티스',Anthurium:'안스리움',Ruellia:'루엘리아',Myuroclada:'쥐꼬리이끼',Racomitrium:'서리이끼류',Brachythecium:'양털이끼류',Microgramma:'미크로그램마',
   Strobilanthes:'스트로빌란테스',Saxifraga:'바위취류',Selliguea:'셀리구에아',Solanum:'솔라넘',Crepidomanes:'괴불이끼류 (고사리)',Teratophyllum:'테라토필럼',Crypsinus:'고란초류',Lepisorus:'일엽초류',Loxogramme:'주걱일엽류',Hymenophyllum:'수염이끼류 (고사리)',Huperzia:'뱀톱류',Deparia:'진고사리·버들참빗류',Gastrochilus:'탐라난류',Oberonia:'차걸이란류',
   Homalomena:'호마로메나',Labisia:'라비시아',Bucephalandra:'부세파란드라',Sonerila:'소네릴라',Bertolonia:'베르톨로니아',Geogenanthus:'지오제난투스',Argostemma:'아르고스템마',Mikania:'미카니아',Scindapsus:'스킨답서스',Biophytum:'비오피툼',Ardisia:'자금우',Pellaea:'펠레아 (버튼고사리)',Microsorum:'미크로소룸',Bulbophyllum:'벌보필룸',Phalaenopsis:'호접란',Dendrobium:'석곡·덴드로비움',Drosera:'끈끈이주걱',Utricularia:'통발류',Rhodobryum:'꽃송이이끼',Pyrrhobryum:'편백이끼·너구리꼬리이끼',Thamnobryum:'대호꼬리이끼',Mnium:'초롱이끼',
@@ -199,6 +200,20 @@ function plantGroups(list){
   for(const row of list){const key=genusOf(row);if(!groups.has(key))groups.set(key,{key,name:genusName(key),rows:[]});groups.get(key).rows.push(row);}
   return [...groups.values()].map(g=>({...g,rows:g.rows.sort(compareEntries),total:plants.filter(r=>genusOf(r)===g.key).length})).sort((a,b)=>(state.sort==='name'?a.name.localeCompare(b.name,'ko'):comparePriority(a.rows[0],b.rows[0]))||a.name.localeCompare(b.name,'ko'));
 }
+function animalGroups(list){
+  const groups=new Map();
+  for(const row of list){const key=genusOf(row);if(!groups.has(key))groups.set(key,{key,name:genusName(key),rows:[]});groups.get(key).rows.push(row);}
+  return [...groups.values()].map(g=>({...g,rows:g.rows.sort(compareEntries),total:animals.filter(r=>genusOf(r)===g.key).length})).sort((a,b)=>(state.sort==='name'?a.name.localeCompare(b.name,'ko'):comparePriority(a.rows[0],b.rows[0]))||a.name.localeCompare(b.name,'ko'));
+}
+function renderAnimalGroups(list){return animalGroups(list).map(group=>{
+  if(group.rows.length===1)return renderAnimalCards(group.rows);
+  const representative=group.rows.find(r=>r.image)||group.rows[0];
+  return `<article class="species-card genus-card"><div class="card-image"><button class="open-detail" data-animal-genus="${escapeHTML(group.key)}" aria-label="${escapeHTML(group.name)} 종 목록 보기">${photo(representative)}</button><span class="ranking">GENUS · 속</span><span class="genus-count">${group.rows.length}개 항목</span></div><div class="card-info"><p class="card-meta">${escapeHTML(group.rows[0].major)} / ${escapeHTML(group.rows[0].middle)}</p><button class="species-title" data-animal-genus="${escapeHTML(group.key)}">${escapeHTML(group.name)}</button><span class="latin">${escapeHTML(group.key)}</span><p class="genus-description">${group.rows.slice(0,3).map(r=>escapeHTML(r.name)).join(' · ')}${group.rows.length>3?' 외':''}</p><div class="card-env"><span class="env-tag">종별 환경 확인</span></div><button class="genus-cta" data-animal-genus="${escapeHTML(group.key)}">종·모프 살펴보기 <span>↗</span></button><p class="genus-photo-note">사진: ${escapeHTML(representative.name)}</p></div></article>`;
+}).join('');}
+function browseAnimalGenus(key){
+  const row=animals.find(r=>genusOf(r)===key),node=row&&catalogModel?.entryNode(row.id),parent=node&&catalogNode(node.parentId);
+  if(parent?.kind==='genus')browseCatalogNode(parent.id);
+}
 function renderAnimalCards(list){
   return list.map(row=>`<article class="species-card"><div class="card-image"><button class="open-detail" data-detail="${row.id}" aria-label="${escapeHTML(row.name)} 자세히 보기">${photo(row)}</button><span class="ranking">${row.id.startsWith('plant-')?'BOTANICAL':'FIELD GUIDE'}</span><button class="favorite ${favorites.has(row.id)?'active':''}" data-favorite="${row.id}" aria-pressed="${favorites.has(row.id)}" aria-label="${favorites.has(row.id)?'관심 생물에서 삭제':'관심 생물에 저장'}">${favorites.has(row.id)?'♥':'♡'}</button></div><div class="card-info"><p class="card-meta">${escapeHTML(row.major||'식물')} / ${escapeHTML(animalCategories.find(c=>c[0]===categoryOf(row))[1])}</p><button class="species-title" data-detail="${row.id}">${escapeHTML(row.name)}</button><span class="latin">${escapeHTML(row.latin)}</span>${factsPreview(row)}<div class="card-env">${tags(row)}</div>${morphs[row.id]?.length?`<div class="morph-preview">${morphs[row.id].slice(0,3).map(m=>escapeHTML(m.name)).join(' · ')} <button data-detail="${row.id}">${morphs[row.id].length}개 모프·패턴 보기</button></div>`:''}${!row.popularityKnown?'<span class="catalog-status">확장 후보 · 인기 미집계</span>':''}${row.catalogType!=='종'?`<span class="catalog-status">${escapeHTML(row.catalogType)}</span>`:''}${row.placement?`<p class="plant-placement">${escapeHTML(row.placement)}</p>`:''}</div></article>`).join('');
 }
@@ -213,19 +228,20 @@ function render(){
   const categories=isPlant?[['all','전체 식물'],...[...new Set(plants.map(r=>r.category))].map(c=>[c,c])]:animalCategories;
   const environments=isPlant?[['all','모든 환경'],...[...new Set(plants.map(r=>r.environment))].map(c=>[c,c])]:animalEnvironments;
   const list=filtered(),plantList=isPlant?plantGroups(list):[];
+  const inAnimalGenus=!isPlant&&catalogNode(state.catalogNode)?.kind==='genus',animalList=isPlant?[]:animalGroups(list);
   const subgroups=[...new Set(species.filter(r=>state.category==='all'||categoryOf(r)===state.category).map(r=>r.middle||r.category))].sort((a,b)=>a.localeCompare(b,'ko'));
   $('#subgroup').innerHTML='<option value="all">모든 세부 분류</option>'+subgroups.map(g=>`<option value="${escapeHTML(g)}">${escapeHTML(g)}</option>`).join('');$('#subgroup').value=state.subgroup;$('#availability').value=state.availability;$('#sizeClass').value=state.sizeClass;
   $('#sort').innerHTML='<option value="popular">인기순</option><option value="name">이름순</option><option value="recent">최근 추가순</option><option value="saved">관심 생물 먼저</option>';$('#sort').value=state.sort;
   $('#categories').innerHTML=categories.map(([id,name])=>`<button class="category-tab ${state.category===id?'active':''}" data-category="${id}" aria-pressed="${state.category===id}">${name}<span>${id==='all'?species.length:species.filter(r=>categoryOf(r)===id).length}</span></button>`).join('');
   $('#environments').innerHTML=environments.map(([id,name])=>`<button class="env-chip ${state.environment===id?'active':''}" data-environment="${id}" aria-pressed="${state.environment===id}">${name}</button>`).join('');
-  $('#grid').innerHTML=isPlant?renderPlantGroups(plantList):renderAnimalCards(list);
-  $('#grid').querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{const button=img.closest('button');const row=button.dataset.genus?plantList.find(g=>g.key===button.dataset.genus)?.rows.find(r=>r.image):species.find(r=>r.id===button.dataset.detail);if(row)img.replaceWith(document.createRange().createContextualFragment(placeholder(row)));},{once:true}));
-  $('#resultCount').textContent=`${state.savedOnly?'관심 목록 · ':''}${isPlant?`${plantList.length}개 속 · ${list.length}개 식물 항목`:`${list.length}개 동물 항목`}`;
+  $('#grid').innerHTML=isPlant?renderPlantGroups(plantList):inAnimalGenus?renderAnimalCards(list):renderAnimalGroups(list);
+  $('#grid').querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{const button=img.closest('button');const row=button.dataset.genus?plantList.find(g=>g.key===button.dataset.genus)?.rows.find(r=>r.image):button.dataset.animalGenus?animalList.find(g=>g.key===button.dataset.animalGenus)?.rows.find(r=>r.image):species.find(r=>r.id===button.dataset.detail);if(row)img.replaceWith(document.createRange().createContextualFragment(placeholder(row)));},{once:true}));
+  $('#resultCount').textContent=`${state.savedOnly?'관심 목록 · ':''}${isPlant?`${plantList.length}개 속 · ${list.length}개 식물 항목`:`${inAnimalGenus?'':`${animalList.length}개 묶음 · `}${list.length}개 동물 항목`}`;
   $('#empty').hidden=list.length!==0;
   $('#empty h3').textContent=state.savedOnly&&!favorites.size?'마음에 드는 생물을 담아보세요':'조건에 맞는 생물이 없어요';
   $('#empty p').textContent=state.savedOnly&&!favorites.size?'상세 화면의 하트를 누르면 이곳에서 다시 만날 수 있어요.':'검색어나 환경 조건을 조금 바꿔보세요.';
   $('#resetFilters').hidden=state.category==='all'&&state.environment==='all'&&!state.search&&!state.excludeSpecial&&!state.savedOnly&&state.subgroup==='all'&&state.availability==='all'&&state.sizeClass==='all';
-  $('#sortNote').hidden=!isPlant;$('#sortNote').textContent='속 → 종 → 품종·유통명 순으로 살펴보세요';$('#excludeSpecial').closest('label').hidden=isPlant;
+  $('#sortNote').hidden=false;$('#sortNote').textContent=isPlant?'속 → 종 → 품종·유통명 순으로 살펴보세요':'같은 속은 함께 묶었어요 · 종을 선택하면 모프·패턴을 볼 수 있어요';$('#excludeSpecial').closest('label').hidden=isPlant;
   $('#collectionTitle').textContent=state.savedOnly?'마음에 담아둔 생물들':(isPlant?'어떤 식물 속을 만나볼까요?':'어떤 생물과 함께할까요?');
   updateSaved();
   updateCatalogBreadcrumb();saveCatalogRoute();
@@ -304,6 +320,7 @@ function setPage(page){
   }
 }
 document.addEventListener('click',event=>{
+  const animalGenus=event.target.closest('[data-animal-genus]');if(animalGenus){browseAnimalGenus(animalGenus.dataset.animalGenus);return;}
   const toc=event.target.closest('[data-catalog-open-menu]');if(toc){catalogPanel?.open(toc.dataset.catalogOpenMenu);return;}
   const tocBrowse=event.target.closest('[data-catalog-browse]');if(tocBrowse){browseCatalogNode(tocBrowse.dataset.catalogBrowse);return;}
   const tocReturn=event.target.closest('[data-catalog-return]');if(tocReturn){$('#detailDialog').close();return;}

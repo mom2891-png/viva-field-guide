@@ -87,7 +87,7 @@ var VivaCatalog = (function () {
       });
       text.set(n.id, normalize(searchText));
     }
-    (animals || []).forEach(function (r) { addEntry(r, animalParent(r)); });
+    (animals || []).forEach(function (r) { var p = animalParent(r), g = (r.latin || '').match(/^[A-Z][a-z]+\b/); if (p.kind !== 'genus' && g) p = genus(p, g[0]); addEntry(r, p); });
     (plants || []).forEach(function (r) { addEntry(r, plantParent(r)); });
     function children(id) { return (childMap.get(id) || []).slice(); }
     function path(id) { var result = [], n = byId.get(id); while (n) { result.unshift(n); n = byId.get(n.parentId); } return result; }

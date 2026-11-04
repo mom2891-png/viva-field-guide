@@ -2,6 +2,12 @@
 
 Updated: 2026-11-04 (Asia/Seoul)
 
+## 2026-11-04 사용자 승인 업로드·공개 배포 완료
+
+- 사용자의 “이제 깃헙에 올려서 홈페이지 적용해줘” 지시에 따라 작업 브랜치와 main을 9c4899d123701c7e694c802d5650be7968099103으로 fast-forward 업로드. 원격 main의 별도 변경 없음·깨끗한 작업 트리·전체 check·diff 검사 확인 후 실행.
+- [GitHub Actions 41789518811](https://github.com/mom2891-png/viva-field-guide/actions/runs/41789518811)의 check/deploy 모두 성공. 공개 사이트 index.html/app.js/species.json/plants.json을 실제 HTTPS로 받아 해당 커밋 원본과 일치 확인. 동물362+식물229=591항목 제공 확인.
+- 화면을 조작하는 데스크톱/390px 검수는 이번 파일 응답 검증과 별개로 미완료. 이 배포 기록은 배포 후 로컬에 저장했으며 사이트 코드는 위 커밋 기준이다.
+
 ## 2026-11-04 이명 연결·분류 충돌 보류·게코 사진
 
 - 기존6항목의 학명/이명 검색 연결: 라이노렛, 북부/남부화이트립파이톤, 펠리오니아 레펜스, 털깃털이끼, 다발리아 파풀라. 털깃털이끼 대표 학명은 ITIS의 Calohypnum으로 갱신, Hypnum 검색 보존. 남부화이트립은 자료별 종 경계 차이가 있어 대표 meridionalis 유지. [검토·근거·보류](docs/taxon-alias-review.md).

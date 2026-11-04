@@ -109,7 +109,41 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "varietyPhotos": {
+      "화이트스타": {
+        "image": "images/review-plant-1-100.jpg",
+        "credit": {
+          "author": "naturallpot.co.kr",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://naturallpot.co.kr/product/detail.html?product_no=194"
+        }
+      },
+      "레드스타": {
+        "image": "images/review-plant-1-101.jpg",
+        "credit": {
+          "author": "sproutsofbristol.co.uk",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://sproutsofbristol.co.uk/products/fittonia-verschaffeltii-red-star"
+        }
+      },
+      "오렌지스타": {
+        "image": "images/review-plant-1-102.jpg",
+        "credit": {
+          "author": "naturallpot.co.kr",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://naturallpot.co.kr/product/detail.html?product_no=195"
+        }
+      },
+      "그린스타": {
+        "image": "images/review-plant-1-103.jpg",
+        "credit": {
+          "author": "naturallpot.co.kr",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://naturallpot.co.kr/product/detail.html?product_no=62"
+        }
+      }
+    }
   },
   {
     "id": "plant-2",
@@ -154,6 +188,16 @@
       "kind": "maximum",
       "note": "옆으로 퍼져 자라요.",
       "checkedAt": "2026-11-03"
+    },
+    "varietyPhotos": {
+      "Aurea (아우레아)": {
+        "image": "images/review-plant-2-800.jpg",
+        "credit": {
+          "author": "moss-wholesale.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://moss-wholesale.com/products/selaginella-kraussiana-aurea-golden-clubmoss-spikemoss-terrarium-plant-carpeting-plant"
+        }
+      }
     }
   },
   {
@@ -230,6 +274,24 @@
       "checkedAt": "2026-11-03",
       "basis": "품종·판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니며, 품절·할인·옵션 상품이 포함될 수 있어요. 배송비와 사육장·용품 비용은 제외해요."
+    },
+    "varietyPhotos": {
+      "무늬 푸밀라": {
+        "image": "images/review-plant-3-300.jpg",
+        "credit": {
+          "author": "veliyathgarden.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://veliyathgarden.com/products/ficus-pumila-variegata-live-plant"
+        }
+      },
+      "미니마 (소엽 판매 유통형)": {
+        "image": "images/review-plant-3-603.jpg",
+        "credit": {
+          "author": "www.aquasabi.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://www.aquasabi.com/Ficus-pumila-Minuta"
+        }
+      }
     }
   },
   {
@@ -1459,6 +1521,16 @@
       "license": "CC BY",
       "url": "https://www.inaturalist.org/photos/618849401",
       "licenseUrl": "https://creativecommons.org/licenses/by/"
+    },
+    "varietyPhotos": {
+      "골드바 (록스버기 하위 유통명·품종 등록 미확인)": {
+        "image": "images/review-plant-31-316.jpg",
+        "credit": {
+          "author": "orchid22.ru",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://orchid22.ru/1657-1-1-2-1-1-1-1-1/"
+        }
+      }
     }
   },
   {
@@ -1817,6 +1889,16 @@
       "kind": "range",
       "note": "성숙 덩굴 기준. 가지치기가 필요해요.",
       "checkedAt": "2026-11-03"
+    },
+    "varietyPhotos": {
+      "미칸 (벨벳잎 유통형)": {
+        "image": "images/review-plant-41-200.jpg",
+        "credit": {
+          "author": "foliagedreams.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://foliagedreams.com/products/philodendron-scandens-micans"
+        }
+      }
     }
   },
   {
@@ -1863,6 +1945,24 @@
       "kind": "maximum",
       "note": "야외 자연 성숙 기준. 작은 사육장에서는 가지치기와 유엽 상태 관리가 필요해요.",
       "checkedAt": "2026-11-03"
+    },
+    "varietyPhotos": {
+      "Marble Queen (마블퀸)": {
+        "image": "images/review-plant-42-506.jpg",
+        "credit": {
+          "author": "www.bunnings.com.au",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://www.bunnings.com.au/180mm-marble-queen-pothos-epipremnum-auruem_p0146446"
+        }
+      },
+      "Neon (네온)": {
+        "image": "images/review-plant-42-510.jpg",
+        "credit": {
+          "author": "houseplant101.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://houseplant101.com/plants/neon-pothos/"
+        }
+      }
     }
   },
   {
@@ -2275,6 +2375,16 @@
       "kind": "range",
       "note": "",
       "checkedAt": "2026-11-03"
+    },
+    "varietyPhotos": {
+      "Pink Starlite": {
+        "image": "images/review-plant-51-204.jpg",
+        "credit": {
+          "author": "www.airplantdecor.com.au",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://www.airplantdecor.com.au/products/cryptanthus-pink-starlite"
+        }
+      }
     }
   },
   {
@@ -2760,7 +2870,17 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "varietyPhotos": {
+      "var. nana (나나)": {
+        "image": "images/review-plant-59-803.jpg",
+        "credit": {
+          "author": "www.aquariumcoop.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://www.aquariumcoop.com/products/anubias-nana"
+        }
+      }
+    }
   },
   {
     "id": "plant-60",
@@ -3263,7 +3383,17 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "varietyPhotos": {
+      "바리에가타 (판매 유통형)": {
+        "image": "images/review-plant-66-320.jpg",
+        "credit": {
+          "author": "www.etsy.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://www.etsy.com/listing/1476242123/selaginella-willdenowii-variegated"
+        }
+      }
+    }
   },
   {
     "id": "plant-67",
@@ -3376,13 +3506,12 @@
     "catalogType": "종",
     "addedAt": "2026-11-03",
     "popularityKnown": false,
-    "image": "images/begonia-lichenora-fig13.jpg",
+    "image": "images/review-plant-70.jpg",
     "credit": {
-      "author": "Che-Wei Lin, Shin-Wen Chung, Ching-I Peng",
-      "license": "CC BY-NC-ND",
-      "url": "https://taiwania.ntu.edu.tw/abstract/1506",
-      "licenseUrl": "https://taiwania.ntu.edu.tw/author_guidelines",
-      "note": "비영리 이용 · 원저 그림13 전체 사진판, 변형 없음. 상업화 전 권리 재검토."
+      "author": "www.blacktoetropicals.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://www.blacktoetropicals.com/products/begonia-lichenora",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
     }
   },
   {
@@ -3923,7 +4052,17 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "varietyPhotos": {
+      "더피 (Duffii)": {
+        "image": "images/review-plant-83-304.jpg",
+        "credit": {
+          "author": "allegro.pl",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://allegro.pl/oferta/nephrolepis-cordifolia-duffii-nefrolepis-sercolistny-paprotka-17381995299"
+        }
+      }
+    }
   },
   {
     "id": "plant-84",
@@ -4075,7 +4214,16 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "images/review-plant-88.jpg",
+    "credit": {
+      "author": "www.glassjungles.net",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://www.glassjungles.net/plants",
+      "note": "Peperomia fagerlindii로 소개된 재배 사진입니다. 잎·꽃차례 참고용이며 판매명만으로 정확한 종 동정을 보장하지 않습니다."
+    },
+    "photoContext": "Peperomia fagerlindii로 소개된 재배 사진입니다. 잎·꽃차례 참고용이며 판매명만으로 정확한 종 동정을 보장하지 않습니다.",
+    "imageVerification": "reference-unconfirmed-trade"
   },
   {
     "id": "plant-89",
@@ -6234,7 +6382,14 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "images/review-plant-129.jpg",
+    "credit": {
+      "author": "miniaroid.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://miniaroid.com/?p=382",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-130",
@@ -6293,7 +6448,14 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "images/review-plant-130.jpg",
+    "credit": {
+      "author": "plantimal.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://plantimal.co.kr/product/호마로메나-실버-핑크-네로우-리프/98/category/48/display/1/",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-131",
@@ -6343,7 +6505,14 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "images/review-plant-131.jpg",
+    "credit": {
+      "author": "plantimal.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://plantimal.co.kr/product/호마로메나-다크레드-희귀식물-비바리움-테라리움-습계식물-공기정화/529/category/48/display/1/",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-132",
@@ -6365,7 +6534,14 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "유통명",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "images/review-plant-132.jpg",
+    "credit": {
+      "author": "labijo.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://labijo.com/shop/labisia-turtle/",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-133",
@@ -6415,7 +6591,14 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "images/review-plant-133.jpg",
+    "credit": {
+      "author": "plantimal.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://plantimal.co.kr/product/라비시아-플래티넘-핑크/512/category/48/display/1/",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-134",
@@ -6499,7 +6682,14 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "images/review-plant-134.jpg",
+    "credit": {
+      "author": "oqua.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://oqua.co.kr/product/detail.html?product_no=4349&cate_no=443&display_group=1",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-135",
@@ -6566,7 +6756,14 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "images/review-plant-135.jpg",
+    "credit": {
+      "author": "oqua.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://oqua.co.kr/product/detail.html?product_no=4406&cate_no=443&display_group=1",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-136",
@@ -6633,7 +6830,14 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "images/review-plant-136.jpg",
+    "credit": {
+      "author": "oqua.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://oqua.co.kr/product/detail.html?product_no=4407&cate_no=443&display_group=1",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-137",
@@ -6694,7 +6898,14 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "images/review-plant-137.jpg",
+    "credit": {
+      "author": "borneoaquatic.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://borneoaquatic.com/product/sonerila-green-spot/",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-138",
@@ -6938,6 +7149,24 @@
       "kind": "maximum",
       "note": "지지물과 가지치기 방식에 따라 달라져요.",
       "checkedAt": "2026-11-03"
+    },
+    "varietyPhotos": {
+      "아르기레우스": {
+        "image": "images/review-plant-142-201.jpg",
+        "credit": {
+          "author": "www.hojuen-ec.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://www.hojuen-ec.com/view/item/000000003548"
+        }
+      },
+      "실버리안": {
+        "image": "images/review-plant-142-306.jpg",
+        "credit": {
+          "author": "www.plantstudio.ae",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://www.plantstudio.ae/products/scindapsus-pictus-silvery-ann-in-hanging-pot"
+        }
+      }
     }
   },
   {
@@ -6960,7 +7189,14 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "유통명",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "images/review-plant-143.jpg",
+    "credit": {
+      "author": "plantly.io",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://plantly.io/shop/rare-plants/biophytum-species-ex-ecuador/",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-144",
@@ -7022,7 +7258,17 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "varietyPhotos": {
+      "밀키웨이": {
+        "image": "images/review-plant-144-400.jpg",
+        "credit": {
+          "author": "www.engei.net",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://www.engei.net/products/detail?id=54627"
+        }
+      }
+    }
   },
   {
     "id": "plant-145",
@@ -7142,6 +7388,16 @@
       "author": "no rights reserved",
       "license": "CC0",
       "url": "https://www.inaturalist.org/photos/611678759"
+    },
+    "varietyPhotos": {
+      "크로코딜루스 (Crocodyllus)": {
+        "image": "images/review-plant-147-311.jpg",
+        "credit": {
+          "author": "tropicalhome.hu",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://tropicalhome.hu/products/microsorum-musifolium-crocodyllus-krokodil-pafrany-crocodile-fern"
+        }
+      }
     }
   },
   {
@@ -7265,6 +7521,24 @@
       "license": "CC BY-SA 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Dendrobium_moniliforme_%2826603118095%29_-_cropped.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "varietyPhotos": {
+      "서설": {
+        "image": "images/review-plant-151-702.jpg",
+        "credit": {
+          "author": "oqua.co.kr",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://oqua.co.kr/product/detail.html?product_no=4701"
+        }
+      },
+      "가쿠야히메": {
+        "image": "images/review-plant-151-710.jpg",
+        "credit": {
+          "author": "oqua.co.kr",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://oqua.co.kr/product/detail.html?product_no=4697"
+        }
+      }
     }
   },
   {
@@ -7643,7 +7917,14 @@
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
     },
-    "photoContext": "야쿠시마 바위취로 판매되는 실물 사진입니다. 정식 종 동정은 미확정이며 판매형으로 구분합니다."
+    "photoContext": "야쿠시마 바위취로 판매되는 실물 사진입니다. 정식 종 동정은 미확정이며 판매형으로 구분합니다.",
+    "image": "images/review-plant-159.jpg",
+    "credit": {
+      "author": "미미네아쿠아",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://mimineaqua.co.kr/product/detail.html?product_no=17149",
+      "note": "야쿠시마 바위취 판매형의 실물 사진 · 종 동정 미확정"
+    }
   },
   {
     "id": "plant-160",
@@ -7814,6 +8095,12 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "images/review-plant-162.jpg",
+    "credit": {
+      "author": "www.xn--cw0b005ajgdetb9h.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://www.xn--cw0b005ajgdetb9h.com/product/베트남-아르디시아-ardisia-vietnam-23잎/125/category/44/display/1/"
     }
   },
   {
@@ -7925,6 +8212,12 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "images/review-plant-164.jpg",
+    "credit": {
+      "author": "www.xn--cw0b005ajgdetb9h.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://www.xn--cw0b005ajgdetb9h.com/product/피커스-슈마트라-ficus-sp-sumatra-1촉/120/category/44/display/1/"
     }
   },
   {
@@ -8095,7 +8388,16 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
-    }
+    },
+    "image": "images/review-plant-167.jpg",
+    "credit": {
+      "author": "item.rakuten.co.jp",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://item.rakuten.co.jp/chanet/440596/",
+      "note": "동명 유통품 참고 사진·동일 종/클론 미확인. 실제 판매명: Crepidomanes sp. Calicut. 국내 필름고사리 판매형과 같은 개체군인지 확인되지 않았습니다."
+    },
+    "photoContext": "동명 유통품 참고 사진·동일 종/클론 미확인. 실제 판매명: Crepidomanes sp. Calicut. 국내 필름고사리 판매형과 같은 개체군인지 확인되지 않았습니다.",
+    "imageVerification": "reference-unconfirmed-trade"
   },
   {
     "id": "plant-168",
@@ -8148,7 +8450,16 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
-    }
+    },
+    "image": "images/review-plant-168.jpg",
+    "credit": {
+      "author": "glassboxtropicals.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://glassboxtropicals.com/philodendron-sp-a-mini-santiago/",
+      "note": "미니 필로덴드론 유통품 참고 사진·동일 종/클론 미확인. 실제 판매명: Philodendron sp. Mini Santiago. 국내 Mini 판매형과 동일하다고 보장하지 않습니다."
+    },
+    "photoContext": "미니 필로덴드론 유통품 참고 사진·동일 종/클론 미확인. 실제 판매명: Philodendron sp. Mini Santiago. 국내 Mini 판매형과 동일하다고 보장하지 않습니다.",
+    "imageVerification": "reference-unconfirmed-trade"
   },
   {
     "id": "plant-169",
@@ -8201,7 +8512,16 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
-    }
+    },
+    "image": "images/review-plant-169.jpg",
+    "credit": {
+      "author": "frogdaddy.net",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://frogdaddy.net/products/selaginella-sp-south-sumatra",
+      "note": "Selaginella sp. 유통품 참고 사진·동일 종/클론 미확인. 실제 판매명: Selaginella sp. South Sumatra. 꿈속의 자연 판매형과 동일하다고 보장하지 않습니다."
+    },
+    "photoContext": "Selaginella sp. 유통품 참고 사진·동일 종/클론 미확인. 실제 판매명: Selaginella sp. South Sumatra. 꿈속의 자연 판매형과 동일하다고 보장하지 않습니다.",
+    "imageVerification": "reference-unconfirmed-trade"
   },
   {
     "id": "plant-170",
@@ -8408,7 +8728,16 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
-    }
+    },
+    "image": "images/review-plant-172.jpg",
+    "credit": {
+      "author": "oqua.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://oqua.co.kr/product/detail.html?product_no=4115",
+      "note": "동명 유통품 참고 사진·동일 종/클론 미확인. 오쿠아 애기석위 판매 사진이며 국내 판매명만으로 학명을 확정하지 않습니다."
+    },
+    "photoContext": "동명 유통품 참고 사진·동일 종/클론 미확인. 오쿠아 애기석위 판매 사진이며 국내 판매명만으로 학명을 확정하지 않습니다.",
+    "imageVerification": "reference-unconfirmed-trade"
   },
   {
     "id": "plant-173",
@@ -9343,7 +9672,16 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가·제공 가격표",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
-    }
+    },
+    "image": "images/review-plant-186.jpg",
+    "credit": {
+      "author": "Art Vogel",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://www.orchidspecies.com/denmerrillii.htm",
+      "note": "꽃·줄기 참고 사진: Dendrobium merrillii (Art Vogel). 머릴아이 유통명과의 동일 종/클론 여부 미확인. 식물 전체 수형을 보여 주는 사진은 아닙니다."
+    },
+    "photoContext": "꽃·줄기 참고 사진: Dendrobium merrillii (Art Vogel). 머릴아이 유통명과의 동일 종/클론 여부 미확인. 식물 전체 수형을 보여 주는 사진은 아닙니다.",
+    "imageVerification": "reference-unconfirmed-trade"
   },
   {
     "id": "plant-187",
@@ -9369,7 +9707,14 @@
     "popularity": null,
     "shopCoverage": null,
     "popularityKnown": false,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "images/review-plant-187.jpg",
+    "credit": {
+      "author": "tistou.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://tistou.co.kr/product/detail.html?product_no=2524",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-188",
@@ -9472,7 +9817,14 @@
     "verification": "Clemson Extension 품종명·Gesneriad Society 전시 기록 대조; 플랜티멀522 판매명 확인·상세 재접근 실패",
     "domesticStatus": "국내 취급 기록",
     "catalogType": "품종·교잡종",
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "images/review-plant-190.jpg",
+    "credit": {
+      "author": "plantimal.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://plantimal.co.kr/product/detail.html?product_no=522",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-191",
@@ -9498,7 +9850,14 @@
     "popularity": null,
     "shopCoverage": null,
     "domesticStatus": "국내 판매명 확인·종 일치 미확정",
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "images/review-plant-191.jpg",
+    "credit": {
+      "author": "glassboxtropicals.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://glassboxtropicals.com/marcgravia-sp-colombia/",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-192",
@@ -9524,7 +9883,14 @@
     "popularity": null,
     "shopCoverage": null,
     "domesticStatus": "국내 판매명 확인·종 일치 미확정",
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "images/review-plant-192.jpg",
+    "credit": {
+      "author": "plantimal.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://plantimal.co.kr/product/detail.html?product_no=519",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-193",
@@ -9794,6 +10160,16 @@
       "license": "CC BY",
       "url": "https://www.inaturalist.org/photos/669961183",
       "licenseUrl": "https://creativecommons.org/licenses/by/"
+    },
+    "varietyPhotos": {
+      "Moonlight": {
+        "image": "images/review-plant-199-202.jpg",
+        "credit": {
+          "author": "secretgarden.ro",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://secretgarden.ro/en/products/scindapsus-treubii-moonlight"
+        }
+      }
     }
   },
   {
@@ -9888,7 +10264,14 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "images/review-plant-202.jpg",
+    "credit": {
+      "author": "plantimal.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://plantimal.co.kr/product/detail.html?product_no=84",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-203",
@@ -10153,7 +10536,14 @@
     ],
     "mossForms": [
       "cushion"
-    ]
+    ],
+    "image": "images/review-plant-209.jpg",
+    "credit": {
+      "author": "oqua.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://oqua.co.kr/product/detail.html?product_no=4528",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-210",
@@ -10297,6 +10687,24 @@
       "license": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Vanda_falcata_(Kitagou_Miyazaki,_Japan)_(Thunb.)_Beer,_Prakt._Stud._Orchid.-_317_(1854)_(35218309882).jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "varietyPhotos": {
+      "옥금강 (판매 품종명)": {
+        "image": "images/review-plant-213-600.jpg",
+        "credit": {
+          "author": "springfieldorchids.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://springfieldorchids.com/products/vanda-falcata-tamakongou-1"
+        }
+      },
+      "황금금 (판매 품종명)": {
+        "image": "images/review-plant-213-610.jpg",
+        "credit": {
+          "author": "www.simpol.co.kr",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://www.simpol.co.kr/front/productdetail.php?productcode=007003000000010824"
+        }
+      }
     }
   },
   {
@@ -10631,7 +11039,14 @@
     "catalogType": "유통명",
     "domesticStatus": "해외 재배 자료",
     "addedAt": "2026-11-04",
-    "verification": "Kew taxon67500-1은 unplaced. Glass Box Tropicals 유통형의 종별 재배 사례만 사용(2026-11-04). accepted species나 국내 인기종으로 확정하지 않음."
+    "verification": "Kew taxon67500-1은 unplaced. Glass Box Tropicals 유통형의 종별 재배 사례만 사용(2026-11-04). accepted species나 국내 인기종으로 확정하지 않음.",
+    "image": "images/review-plant-223.jpg",
+    "credit": {
+      "author": "stevesleaves.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://stevesleaves.com/products/cissus-amazonica",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-224",
@@ -10729,6 +11144,16 @@
       "license": "CC BY-NC",
       "url": "https://www.inaturalist.org/photos/421769728",
       "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
+    },
+    "varietyPhotos": {
+      "Frosty Kiss (프로스티 키스 유통형)": {
+        "image": "images/review-plant-226-203.jpg",
+        "credit": {
+          "author": "glassboxtropicals.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://glassboxtropicals.com/schismatoglottis-pusilla-frosty-kiss/"
+        }
+      }
     }
   },
   {
@@ -10787,7 +11212,14 @@
     "catalogType": "품종·교잡종",
     "domesticStatus": "해외 재배 자료",
     "addedAt": "2026-11-04",
-    "verification": "Glass Box Tropicals의 해당 이름 품종 페이지·관리 설명 확인(2026-11-04). 종으로 세지 않음. 품종 등록/교배 계보·국내 취급·성숙 로제트 크기는 미확인."
+    "verification": "Glass Box Tropicals의 해당 이름 품종 페이지·관리 설명 확인(2026-11-04). 종으로 세지 않음. 품종 등록/교배 계보·국내 취급·성숙 로제트 크기는 미확인.",
+    "image": "images/review-plant-228.jpg",
+    "credit": {
+      "author": "glassboxtropicals.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://glassboxtropicals.com/neoregelia-punini/",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-229",
@@ -10812,7 +11244,14 @@
     "catalogType": "품종·교잡종",
     "domesticStatus": "해외 재배 자료",
     "addedAt": "2026-11-04",
-    "verification": "Glass Box Tropicals의 해당 이름 품종 페이지·관리 설명 확인(2026-11-04). 종으로 세지 않음. 품종 등록/교배 계보·국내 취급·성숙 로제트 크기는 미확인."
+    "verification": "Glass Box Tropicals의 해당 이름 품종 페이지·관리 설명 확인(2026-11-04). 종으로 세지 않음. 품종 등록/교배 계보·국내 취급·성숙 로제트 크기는 미확인.",
+    "image": "images/review-plant-229.jpg",
+    "credit": {
+      "author": "glassboxtropicals.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://glassboxtropicals.com/neoregelia-domino/",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "varieties": [],
@@ -10901,7 +11340,14 @@
     ],
     "catalogType": "유통명",
     "domesticStatus": "국내 커뮤니티 재배명 확인·종 일치 미확정",
-    "verification": "2026-11-04 카페 공개 재배 글140727 및 charm 상품432671 명칭·관리 대조. Argostemma bifolium은 Ridley1925/1927 동명 기재 구분이 필요하고 Kew의1927명은 A. pictum 이명으로 처리. 판매 개체를 어느 종으로도 단정하지 않고 속 아래 유통형으로 보존. 지역명은 유통 표기이며 원산지·지역형 실증 아님."
+    "verification": "2026-11-04 카페 공개 재배 글140727 및 charm 상품432671 명칭·관리 대조. Argostemma bifolium은 Ridley1925/1927 동명 기재 구분이 필요하고 Kew의1927명은 A. pictum 이명으로 처리. 판매 개체를 어느 종으로도 단정하지 않고 속 아래 유통형으로 보존. 지역명은 유통 표기이며 원산지·지역형 실증 아님.",
+    "image": "images/review-plant-232.jpg",
+    "credit": {
+      "author": "www.kztplants.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://www.kztplants.com/product/argostemma-bifolium-bukit-larut/",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-233",
@@ -11188,7 +11634,14 @@
     "popularity": null,
     "shopCoverage": null,
     "popularityKnown": false,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "images/review-plant-240.jpg",
+    "credit": {
+      "author": "borneoaquatic.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://borneoaquatic.com/product/rhaphidopora-tenuis-silver/",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "plant-241",
@@ -11634,7 +12087,12 @@
     "mossForms": [
       "cushion"
     ],
-    "image": null
+    "image": "images/review-plant-253.jpg",
+    "credit": {
+      "author": "Mosswholesale",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://moss-wholesale.com/products/cushion-terrarium-moss-tortella-mediterranea-with-phytosanitary-certification-and-passport-grown-by-moss-supplier"
+    }
   },
   {
     "id": "plant-254",
@@ -12434,7 +12892,12 @@
     "mossForms": [
       "cushion"
     ],
-    "image": null
+    "image": "images/review-plant-276.jpg",
+    "credit": {
+      "author": "Mosswholesale",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://moss-wholesale.com/products/terrarium-red-moss-andreaea-alpina-with-phytosanitary-certification-and-passport-grown-by-moss-supplier"
+    }
   },
   {
     "id": "plant-277",
@@ -12903,7 +13366,7 @@
     "mossForms": [
       "hanging"
     ],
-    "image": null,
+    "image": "images/review-plant-289.jpg",
     "domesticEvidence": [
       {
         "title": "위핑모스",
@@ -12912,7 +13375,13 @@
         "checkedAt": "2026-11-05",
         "basis": "국내 상품명 위핑모스와 해외 재배 명칭 대조 · 실물 종 동정 보장 아님"
       }
-    ]
+    ],
+    "credit": {
+      "author": "microaquaticshop.com.au",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://microaquaticshop.com.au/products/weeping-moss-vesicularia-ferrieri",
+      "note": "실제 판매 표기와 대조한 참고 사진 · 종 동정 보장 아님"
+    }
   },
   {
     "id": "plant-290",
@@ -13114,7 +13583,7 @@
     "mossForms": [
       "upright"
     ],
-    "image": null,
+    "image": "images/review-plant-294.jpg",
     "domesticEvidence": [
       {
         "title": "불꽃모스",
@@ -13123,7 +13592,13 @@
         "checkedAt": "2026-11-05",
         "basis": "국내 불꽃모스 상품과 해외 Flame 유통명 대조 · 정식 종 미확정"
       }
-    ]
+    ],
+    "credit": {
+      "author": "buceplant.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://buceplant.com/products/flame-moss",
+      "note": "실제 판매 표기와 대조한 참고 사진 · 종 동정 보장 아님"
+    }
   },
   {
     "id": "plant-295",
@@ -13156,7 +13631,13 @@
     "mossForms": [
       "mat"
     ],
-    "image": null
+    "image": "images/review-plant-295.jpg",
+    "credit": {
+      "author": "pro-shrimp.co.uk",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://pro-shrimp.co.uk/products/tropica-taxiphyllum-spiky-portion",
+      "note": "실제 판매 표기와 대조한 참고 사진 · 종 동정 보장 아님"
+    }
   },
   {
     "id": "plant-296",
@@ -13188,7 +13669,13 @@
     "mossForms": [
       "upright"
     ],
-    "image": null
+    "image": "images/review-plant-296.jpg",
+    "credit": {
+      "author": "siamgreenculture.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://siamgreenculture.com/store/p317/Tropicalmossapolytrichummoss.html",
+      "note": "실제 판매 표기와 대조한 참고 사진 · 종 동정 보장 아님"
+    }
   },
   {
     "id": "plant-297",
@@ -13226,7 +13713,39 @@
     "mossForms": [
       "leafy"
     ],
-    "image": null
+    "image": "images/review-plant-297.jpg",
+    "credit": {
+      "author": "siamgreenculture.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://siamgreenculture.com/store/p381/Tropicalmossbfissidens.html",
+      "note": "실제 판매 표기와 대조한 참고 사진 · 종 동정 보장 아님"
+    },
+    "varietyPhotos": {
+      "Tropical B (판매형)": {
+        "image": "images/review-plant-297-915.jpg",
+        "credit": {
+          "author": "siamgreenculture.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://siamgreenculture.com/store/p381/Tropicalmossbfissidens.html"
+        }
+      },
+      "Tropical C (판매형)": {
+        "image": "images/review-plant-297-920.jpg",
+        "credit": {
+          "author": "siamgreenculture.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://siamgreenculture.com/store/p380/Tropicalmosscfissidens.html"
+        }
+      },
+      "Tropical D (판매형)": {
+        "image": "images/review-plant-297-925.jpg",
+        "credit": {
+          "author": "siamgreenculture.com",
+          "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+          "url": "https://siamgreenculture.com/store/p382/TropicalmossDFissidens.html"
+        }
+      }
+    }
   },
   {
     "id": "plant-298",
@@ -13259,6 +13778,12 @@
     "mossForms": [
       "leafy"
     ],
-    "image": null
+    "image": "images/review-plant-298.jpg",
+    "credit": {
+      "author": "siamgreenculture.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://siamgreenculture.com/store/p658/LiverwortmarchantiaspA.html",
+      "note": "실제 판매 표기와 대조한 참고 사진 · 종 동정 보장 아님"
+    }
   }
 ]

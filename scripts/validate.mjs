@@ -426,7 +426,8 @@ console.log('PASS: distinct moss identities, fern synonyms, climbing-size basis 
 const silver=plants.find(r=>r.id==='plant-240');
 assert.equal(silver.catalogType,'유통명');
 assert.equal(silver.latin,'Rhaphidophora sp. “Tenuis Silver”');
-assert.ok(!silver.image&&!silver.sizeInfo,'Unidentified Silver form must not inherit the generic species photo or size');
+assert.ok(!silver.sizeInfo,'Unidentified Silver form must not inherit generic species size');
+if(silver.image){assert.notEqual(silver.image,plants.find(r=>r.latin==='Rhaphidophora tenuis')?.image,'Silver form must not borrow the generic species photo');assert.match(silver.credit?.url||'',/rhaphidopora-tenuis-silver/,'Silver photo must retain its actual trade-form source');}
 assert.equal(plants.find(r=>r.id==='plant-239').sizeInfo.max,300);
 assert.equal(plants.find(r=>r.id==='plant-241').sizeInfo.max,50);
 assert.ok(!plants.find(r=>r.id==='plant-241').varieties.includes('미니'));
@@ -472,7 +473,7 @@ assert.equal(run('selectedPhoto(animals.find(r=>r.id==="species-1")).image'),nul
 ctx.originalMorph=beforeMorph;run('morphs["species-1"][0]=originalMorph;currentCatalogSelection=null');
 console.log('PASS: morph image selection, explicit missing-form placeholder, and source attribution.');
 
-for(const [parent,items]of Object.entries(morphs))for(const item of items)if(item.image){assert.match(item.image,/^https:\/\//);assert.ok(item.credit?.author&&item.credit?.license&&item.credit?.url,parent+': morph photo credit');assert.match(item.credit.url,/^https:\/\//);}
+for(const [parent,items]of Object.entries(morphs))for(const item of items)if(item.image){assert.match(item.image,/^(?:https:\/\/|images\/[a-z0-9-]+\.(?:jpg|png|webp)$)/);if(item.image.startsWith('images/'))assert.ok(fs.existsSync(new URL('../dist/'+item.image,import.meta.url)),parent+': local morph photo missing');assert.ok(item.credit?.author&&item.credit?.license&&item.credit?.url,parent+': morph photo credit');assert.match(item.credit.url,/^https:\/\//);}
 assert.ok(run('photoCredit({image:"https://example.org/photo.jpg",credit:{author:"Photo author",license:"CC BY 4.0",licenseUrl:"javascript:bad",url:"https://example.org/source"}})').includes('Photo author'));
 assert.ok(!run('photoCredit({image:"https://example.org/photo.jpg",credit:{licenseUrl:"javascript:bad"}})').includes('javascript:'));
 console.log('PASS: every morph photo has HTTPS attribution and unsafe license links are excluded.');

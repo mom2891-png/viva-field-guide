@@ -25,7 +25,13 @@
       "aliases": [
         "Axanthic",
         "아잔"
-      ]
+      ],
+      "image": "images/review-species-1-1.jpg",
+      "credit": {
+        "author": "www.ibexotic.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.ibexotic.com/forum-1/general-reptile-discussion/axanthic-crested-gecko"
+      }
     },
     {
       "name": "카푸치노",
@@ -34,7 +40,14 @@
       "aliases": [
         "Cappuccino",
         "카푸"
-      ]
+      ],
+      "image": "images/review-species-1-2.jpg",
+      "credit": {
+        "author": "www.morphmarket.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/us/c/reptiles/lizards/crested-geckos/1728160",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "프라푸치노",
@@ -43,7 +56,14 @@
       "aliases": [
         "Frappuccino",
         "프라푸"
-      ]
+      ],
+      "image": "images/review-species-1-3.jpg",
+      "credit": {
+        "author": "www.fringemorphs.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.fringemorphs.com/product-page/hleo-turbo-251001",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "팬텀",
@@ -51,7 +71,14 @@
       "description": "등·측면 무늬가 감소하거나 옅어지는 특징으로 구분하는 모프.",
       "aliases": [
         "Phantom"
-      ]
+      ],
+      "image": "images/review-species-1-4.jpg",
+      "credit": {
+        "author": "TikisGeckos",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://tikisgeckos.com/products/wildtype-f3-crested-gecko",
+        "note": "F3 wildtype Phantom · 브리더 원본의 두 각도"
+      }
     },
     {
       "name": "세이블",
@@ -59,7 +86,14 @@
       "description": "짙은 바탕과 발색 변화로 알려진 모프. 사진만으로 확정하기보다 혈통을 확인해요.",
       "aliases": [
         "Sable"
-      ]
+      ],
+      "image": "images/review-species-1-5.jpg",
+      "credit": {
+        "author": "www.northerngecko.net",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.northerngecko.net/products/sable-female-sb-0130-4",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "할리퀸",
@@ -138,7 +172,14 @@
       "aliases": [
         "Super Dalmatian",
         "슈달"
-      ]
+      ],
+      "image": "images/review-species-1-10.jpg",
+      "credit": {
+        "author": "www.morphmarket.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/morphpedia/crested-geckos/super-dalmatian/",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "트라이컬러",
@@ -148,7 +189,14 @@
         "Tricolor",
         "트익",
         "트라이"
-      ]
+      ],
+      "image": "images/review-species-1-11.jpg",
+      "credit": {
+        "author": "TikisGeckos",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://tikisgeckos.com/products/tricolor-female-crested-gecko-for-sale",
+        "note": "동일 개체의 여러 각도를 보여주는 원본 합성 사진"
+      }
     },
     {
       "name": "타이거·브린들",
@@ -158,7 +206,13 @@
         "Tiger",
         "Brindle",
         "브린들"
-      ]
+      ],
+      "image": "images/review-species-1-12.jpg",
+      "credit": {
+        "author": "www.fringemorphs.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.fringemorphs.com/product-page/tiger-brindle-crested-gecko"
+      }
     }
   ],
   "species-4": [
@@ -169,7 +223,14 @@
       "aliases": [
         "Stripe",
         "Striped"
-      ]
+      ],
+      "image": "images/review-species-4-0.jpg",
+      "credit": {
+        "author": "GwenGecko",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://gwengecko.com/gargmorphs",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "레티큘레이트",
@@ -178,7 +239,14 @@
       "aliases": [
         "Reticulated",
         "레티"
-      ]
+      ],
+      "image": "images/review-species-4-1.jpg",
+      "credit": {
+        "author": "GwenGecko",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://gwengecko.com/gargmorphs",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "레드스트라이프",
@@ -204,7 +272,14 @@
       "aliases": [
         "Orange Stripe",
         "오렌지 스트라이프"
-      ]
+      ],
+      "image": "images/review-species-4-3.jpg",
+      "credit": {
+        "author": "ussi-osaka.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://ussi-osaka.com/category/%E3%82%AC%E3%83%BC%E3%82%B4%E3%82%A4%E3%83%AB%E3%82%B2%E3%83%83%E3%82%B3%E3%83%BC/53/",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     }
   ],
   "species-5": [
@@ -215,7 +290,14 @@
       "aliases": [
         "Grande Terre",
         "GT"
-      ]
+      ],
+      "image": "images/review-species-5-0.jpg",
+      "credit": {
+        "author": "junglereptiles.squarespace.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://junglereptiles.squarespace.com/reptiles/p/jh1gn1qglsbxq3u8f28q49cdfmiqlo",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "누아나",
@@ -224,7 +306,14 @@
       "aliases": [
         "Nuu Ana",
         "누우아나"
-      ]
+      ],
+      "image": "images/review-species-5-1.jpg",
+      "credit": {
+        "author": "reptilerapture.net",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://reptilerapture.net/Leachianus-Gecko-Pure-Nuu-Ana-CB-Baby-_p_10241.html",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "누아미",
@@ -233,7 +322,14 @@
       "aliases": [
         "Nuu Ami",
         "누우아미"
-      ]
+      ],
+      "image": "images/review-species-5-2.jpg",
+      "credit": {
+        "author": "bluemilkcreatures.be",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://bluemilkcreatures.be/reptielen/rhacodactylus-leachianus/rhacodactylus-leachianus-nuu-ami/",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     }
   ],
   "species-13": [
@@ -367,7 +463,14 @@
       "description": "눈의 색소 발현에 영향을 주는 모프. 눈 외형만으로 유전형을 확정하지 않아요.",
       "aliases": [
         "Eclipse"
-      ]
+      ],
+      "image": "images/review-species-13-5.jpg",
+      "credit": {
+        "author": "Morphpedia 원본 기여자",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/morphpedia/leopard-geckos/eclipse/",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "블리자드",
@@ -392,7 +495,14 @@
       "aliases": [
         "Murphy Patternless",
         "MP"
-      ]
+      ],
+      "image": "images/review-species-13-7.jpg",
+      "credit": {
+        "author": "원본 판매자 · MorphMarket",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/us/c/reptiles/lizards/leopard-geckos/gene/murphy%20patternless",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "탠저린",
@@ -401,7 +511,14 @@
       "aliases": [
         "Tangerine",
         "텐저린"
-      ]
+      ],
+      "image": "images/review-species-13-8.jpg",
+      "credit": {
+        "author": "원본 판매자 · MorphMarket",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/us/c/reptiles/lizards/leopard-geckos/1170882",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "블랙나이트",
@@ -410,7 +527,14 @@
       "aliases": [
         "Black Night",
         "블나"
-      ]
+      ],
+      "image": "images/review-species-13-9.jpg",
+      "credit": {
+        "author": "The Monster",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://themonster.co.kr/product/%EB%A0%88%EC%98%A4%ED%8C%8C%EB%93%9C%EA%B2%8C%EC%BD%94-%EB%B8%94%EB%9E%99%EB%82%98%EC%9D%B4%ED%8A%B8-%EC%95%94%EC%84%B1%EC%B2%B4-241025/1175/",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "랩터",
@@ -418,7 +542,14 @@
       "description": "트렘퍼알비노·이클립스 등을 조합한 명칭. 세부 패턴·계통은 별도로 확인해요.",
       "aliases": [
         "RAPTOR"
-      ]
+      ],
+      "image": "images/review-species-13-10.jpg",
+      "credit": {
+        "author": "원본 판매자 · MorphMarket",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/us/c/reptiles/lizards/leopard-geckos/1376061",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "선글로우",
@@ -426,7 +557,14 @@
       "description": "알비노와 슈퍼하이포·탠저린 계열 표현 등을 결합한 명칭.",
       "aliases": [
         "Sunglow"
-      ]
+      ],
+      "image": "images/review-species-13-11.jpg",
+      "credit": {
+        "author": "www.backwaterreptiles.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.backwaterreptiles.com/leopard-geckos-for-sale.html",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     }
   ],
   "species-15": [
@@ -438,7 +576,14 @@
         "Whiteout",
         "White Out",
         "화아"
-      ]
+      ],
+      "image": "images/review-species-15-0.jpg",
+      "credit": {
+        "author": "Shin Reptiles",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://morphyuukafarm.amebaownd.com/pages/2873571/page_201807122030",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "오레오",
@@ -447,7 +592,13 @@
       "aliases": [
         "Oreo",
         "Anery"
-      ]
+      ],
+      "image": "images/review-species-15-1.jpg",
+      "credit": {
+        "author": "www.morphmarket.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/us/c/reptiles/lizards/african-fat-tailed-geckos/1050572"
+      }
     },
     {
       "name": "줄루",
@@ -455,7 +606,13 @@
       "description": "몸통·꼬리의 무늬가 변화하는 모프. 화살표 같은 등무늬가 나타나기도 해요.",
       "aliases": [
         "Zulu"
-      ]
+      ],
+      "image": "images/review-species-15-2.jpg",
+      "credit": {
+        "author": "www.morphmarket.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/us/c/reptiles/lizards/african-fat-tailed-geckos/739572"
+      }
     },
     {
       "name": "패턴리스",
@@ -463,7 +620,13 @@
       "description": "몸의 밴드 무늬가 크게 감소하는 모프.",
       "aliases": [
         "Patternless"
-      ]
+      ],
+      "image": "images/review-species-15-3.jpg",
+      "credit": {
+        "author": "www.morphmarket.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/morphpedia/african-fat-tailed-geckos/patternless/"
+      }
     },
     {
       "name": "아멜·알비노",
@@ -473,7 +636,14 @@
         "Amel",
         "Amelanistic",
         "Albino"
-      ]
+      ],
+      "image": "images/review-species-15-4.jpg",
+      "credit": {
+        "author": "snakesatsunset.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://snakesatsunset.com/albino-african-fat-tail-gecko-for-sale-hemitheconyx-caudicinctus/",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "카라멜알비노",
@@ -481,7 +651,14 @@
       "description": "카라멜색 발색으로 알려진 별도의 알비노 계열.",
       "aliases": [
         "Caramel Albino"
-      ]
+      ],
+      "image": "images/review-species-15-5.jpg",
+      "credit": {
+        "author": "Aso Tropical Fish",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://aso.vc/2023/03/21/%E3%83%8B%E3%82%B7%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E3%83%88%E3%82%AB%E3%82%B2%E3%83%A2%E3%83%89%E3%82%AD-%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%A1%E3%83%AB%E3%82%A2%E3%83%AB%E3%83%93%E3%83%8E/",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "고스트",
@@ -489,7 +666,13 @@
       "description": "옅은 회색·갈색 톤으로 발색이 감소한 모프.",
       "aliases": [
         "Ghost"
-      ]
+      ],
+      "image": "images/review-species-15-6.jpg",
+      "credit": {
+        "author": "www.exotic-supply.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.exotic-supply.com/product/3015"
+      }
     },
     {
       "name": "스트라이프",
@@ -498,7 +681,13 @@
       "aliases": [
         "Stripe",
         "Striped"
-      ]
+      ],
+      "image": "images/review-species-15-7.jpg",
+      "credit": {
+        "author": "www.morphmarket.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/us/c/reptiles/lizards/african-fat-tailed-geckos/1494737"
+      }
     },
     {
       "name": "스노우",
@@ -507,7 +696,13 @@
       "aliases": [
         "Snow",
         "Caramel Oreo"
-      ]
+      ],
+      "image": "images/review-species-15-8.jpg",
+      "credit": {
+        "author": "repwst.cart.fc2.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://repwst.cart.fc2.com/ca23/7638/"
+      }
     }
   ],
   "species-18": [
@@ -519,7 +714,13 @@
         "Amelanistic",
         "Amel",
         "아멜"
-      ]
+      ],
+      "image": "images/review-species-18-0.jpg",
+      "credit": {
+        "author": "tailsandscales.ca",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://tailsandscales.ca/products/albino-pictus-gecko-male"
+      }
     },
     {
       "name": "스트라이프",
@@ -528,7 +729,14 @@
       "aliases": [
         "Stripe",
         "Striped"
-      ]
+      ],
+      "image": "images/review-species-18-1.jpg",
+      "credit": {
+        "author": "coldblooded.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://coldblooded.com/post/373849_pictus-gecko-panther-gecko-bold-stripe.html",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     }
   ],
   "species-22": [
@@ -539,7 +747,14 @@
       "aliases": [
         "Albino",
         "아멜"
-      ]
+      ],
+      "image": "images/review-species-22-0.jpg",
+      "credit": {
+        "author": "Northern Gecko",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.northerngecko.net/products/albino-ngnlp-al-3",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "패턴리스",
@@ -548,7 +763,14 @@
       "aliases": [
         "Patternless",
         "패턴"
-      ]
+      ],
+      "image": "images/review-species-22-1.jpg",
+      "credit": {
+        "author": "Northern Gecko",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.northerngecko.net/products/patternless-ngnlp-p-2",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "알비노패턴리스",
@@ -556,7 +778,14 @@
       "description": "알비노와 패턴리스 특징을 함께 가진 조합명.",
       "aliases": [
         "Albino Patternless"
-      ]
+      ],
+      "image": "images/review-species-22-2.jpg",
+      "credit": {
+        "author": "Northern Gecko",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.northerngecko.net/products/albino-patternless-ngnlp-alp-4",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     }
   ],
   "species-41": [
@@ -567,7 +796,13 @@
       "aliases": [
         "High Red",
         "하레"
-      ]
+      ],
+      "image": "images/review-species-41-0.jpg",
+      "credit": {
+        "author": "www.junglereptiles.uk",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.junglereptiles.uk/reptiles/p/adult-female-giant-day-gecko-for-sale-high-red"
+      }
     },
     {
       "name": "크림슨",
@@ -593,7 +828,14 @@
       "aliases": [
         "Hypo",
         "Hypomelanistic"
-      ]
+      ],
+      "image": "images/review-species-75-0.jpg",
+      "credit": {
+        "author": "www.morphmarket.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/morphpedia/bearded-dragons/hypo/",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "트랜슬루센트",
@@ -603,7 +845,15 @@
         "Translucent",
         "Trans",
         "트랜스"
-      ]
+      ],
+      "image": "images/review-species-75-1.jpg",
+      "credit": {
+        "author": "Andrew’s Reptiles LLC",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://andrewsreptilesllc.com/products/rm-50-red-monster-bearded-dragon-for-sale-copy-101",
+        "note": "RM1041, female, trans, possible het hypo, 50% Red Monster bearded dragon for sale"
+      },
+      "photoContext": "트랜슬루센트 표현 참고. 브리더는 Red Monster 혈통 50%·Hypo 보인자 가능성도 표기했으며, Hypo가 발현된 개체로 표기하지 않았습니다."
     },
     {
       "name": "레더백",
@@ -627,7 +877,13 @@
       "description": "몸의 패턴과 발색이 크게 감소한 모프.",
       "aliases": [
         "Zero"
-      ]
+      ],
+      "image": "images/review-species-75-3.jpg",
+      "credit": {
+        "author": "www.morphmarket.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/morphpedia/bearded-dragons/zero/"
+      }
     },
     {
       "name": "윗블릿",
@@ -636,7 +892,16 @@
       "aliases": [
         "Witblits",
         "윗블리츠"
-      ]
+      ],
+      "image": "images/review-species-75-4.jpg",
+      "credit": {
+        "author": "andrewsreptilesllc.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://andrewsreptilesllc.com/products/witblits-hypo-trans-possible-het-zero-witblits-bearded-dragon-for-sale-copy-77",
+        "note": "복합 모프 참고 사진: Hypo + Witblits. Zero 보인자 가능성도 표기된 개체이며, 단독 Witblits의 사진으로 보장하지 않습니다."
+      },
+      "photoContext": "복합 모프 참고 사진: Hypo + Witblits. Zero 보인자 가능성도 표기된 개체이며, 단독 Witblits의 사진으로 보장하지 않습니다.",
+      "imageVerification": "reference-composite"
     },
     {
       "name": "레드·다크레드",
@@ -646,7 +911,14 @@
         "Red",
         "Dark Red",
         "다크레드"
-      ]
+      ],
+      "image": "images/review-species-75-5.jpg",
+      "credit": {
+        "author": "coldblooded.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://coldblooded.com/dden_store",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     }
   ],
   "species-97": [
@@ -673,7 +945,14 @@
       "description": "Ambanja 지역 계통을 가리키는 명칭.",
       "aliases": [
         "Ambanja"
-      ]
+      ],
+      "image": "images/review-species-97-1.jpg",
+      "credit": {
+        "author": "tailsandscales.ca",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://tailsandscales.ca/products/panther-chameleon-male-ambanja-locale",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "노시베",
@@ -698,7 +977,14 @@
       "description": "Sambava 지역 계통을 가리키는 명칭.",
       "aliases": [
         "Sambava"
-      ]
+      ],
+      "image": "images/review-species-97-3.jpg",
+      "credit": {
+        "author": "Chameleons.info · Petr Nečas",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.chameleons.info/en/furcifer-pardalis-2/",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "노시미치오",
@@ -707,7 +993,13 @@
       "aliases": [
         "Nosy Mitsio",
         "노지미시오"
-      ]
+      ],
+      "image": "images/review-species-97-4.jpg",
+      "credit": {
+        "author": "vreptiles.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://vreptiles.com/product/nosy-mitsio-panther-chameleon/"
+      }
     }
   ],
   "species-120": [
@@ -817,7 +1109,14 @@
       "description": "옅은 보라·회색 계열의 발색으로 알려진 모프.",
       "aliases": [
         "Lavender"
-      ]
+      ],
+      "image": "images/review-species-129-2.jpg",
+      "credit": {
+        "author": "South Mountain Reptiles",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://cornsnake.net/pages/corn-snake-morph-photos",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "카라멜",
@@ -825,7 +1124,14 @@
       "description": "노랑·갈색 계열의 발색이 두드러지는 모프.",
       "aliases": [
         "Caramel"
-      ]
+      ],
+      "image": "images/review-species-129-3.jpg",
+      "credit": {
+        "author": "South Mountain Reptiles",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://cornsnake.net/pages/corn-snake-morph-photos",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "모틀리",
@@ -833,7 +1139,14 @@
       "description": "등과 배의 무늬 배열이 변화하는 패턴 모프.",
       "aliases": [
         "Motley"
-      ]
+      ],
+      "image": "images/review-species-129-4.jpg",
+      "credit": {
+        "author": "South Mountain Reptiles",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://cornsnake.net/pages/corn-snake-morph-photos",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "테세라",
@@ -856,7 +1169,14 @@
       "aliases": [
         "Palmetto",
         "팔메"
-      ]
+      ],
+      "image": "images/review-species-129-6.jpg",
+      "credit": {
+        "author": "South Mountain Reptiles",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://cornsnake.net/pages/corn-snake-morph-photos",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "스노우",
@@ -879,7 +1199,14 @@
       "description": "아멜과 차콜을 조합한 밝은 단색 계열 명칭.",
       "aliases": [
         "Blizzard"
-      ]
+      ],
+      "image": "images/review-species-129-8.jpg",
+      "credit": {
+        "author": "South Mountain Reptiles",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://cornsnake.net/pages/corn-snake-morph-photos",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "버터",
@@ -904,7 +1231,13 @@
       "description": "검정 색소가 감소한 밝은 색 모프.",
       "aliases": [
         "Albino"
-      ]
+      ],
+      "image": "images/review-species-143-0.jpg",
+      "credit": {
+        "author": "reptilerapture.net",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://reptilerapture.net/albino-kenyan-sand-boa-female.html"
+      }
     },
     {
       "name": "애너리",
@@ -914,7 +1247,13 @@
         "Anery",
         "Anerythristic",
         "에너리"
-      ]
+      ],
+      "image": "images/review-species-143-1.jpg",
+      "credit": {
+        "author": "reptilerapture.net",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://reptilerapture.net/anery-kenyan-sand-boa-2020-m.html"
+      }
     },
     {
       "name": "스노우",
@@ -922,7 +1261,13 @@
       "description": "알비노와 애너리 특징을 조합한 밝은 색 모프.",
       "aliases": [
         "Snow"
-      ]
+      ],
+      "image": "images/review-species-143-2.jpg",
+      "credit": {
+        "author": "www.morphmarket.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/us/c/reptiles/boas/kenyan-sand-boas/1176683"
+      }
     },
     {
       "name": "뉴클리어",
@@ -930,7 +1275,13 @@
       "description": "주황색 발색을 강화해 선별한 계통명.",
       "aliases": [
         "Nuclear"
-      ]
+      ],
+      "image": "images/review-species-143-3.jpg",
+      "credit": {
+        "author": "reptilerapture.net",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://reptilerapture.net/nuclear-kenyan-sand-boa-male.html"
+      }
     },
     {
       "name": "패러독스",
@@ -939,7 +1290,16 @@
       "aliases": [
         "Paradox",
         "파라독스"
-      ]
+      ],
+      "image": "images/review-species-143-4.jpg",
+      "credit": {
+        "author": "www.morphmarket.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/us/c/reptiles/boas/kenyan-sand-boas/1517819",
+        "note": "복합 표현 참고 사진: Albino + Paradox. Anery 보인자로 표기된 개체입니다. 알비노 바탕의 패러독스 반점을 보여 주는 예시이며 단독 표현 사진으로 보장하지 않습니다."
+      },
+      "photoContext": "복합 표현 참고 사진: Albino + Paradox. Anery 보인자로 표기된 개체입니다. 알비노 바탕의 패러독스 반점을 보여 주는 예시이며 단독 표현 사진으로 보장하지 않습니다.",
+      "imageVerification": "reference-composite"
     }
   ],
   "species-157": [
@@ -966,7 +1326,14 @@
       "aliases": [
         "Strawberry",
         "딸기팩맨"
-      ]
+      ],
+      "image": "images/review-species-157-1.jpg",
+      "credit": {
+        "author": "www.morphmarket.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/us/c/amphibians/frogs/pac-man-frogs/1421212",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "애프리콧",
@@ -975,7 +1342,14 @@
       "aliases": [
         "Apricot",
         "아프리콧"
-      ]
+      ],
+      "image": "images/review-species-157-2.jpg",
+      "credit": {
+        "author": "reptilepetsdirect.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://reptilepetsdirect.com/products/apricot-pacman-frog",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "사무라이블루",
@@ -984,7 +1358,14 @@
       "aliases": [
         "Samurai Blue",
         "블루팩맨"
-      ]
+      ],
+      "image": "images/review-species-157-3.jpg",
+      "credit": {
+        "author": "jamjamexotic.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://jamjamexotic.com/products/super-blue-samurai-blue",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     }
   ],
   "species-167": [
@@ -995,7 +1376,13 @@
       "aliases": [
         "Snowflake",
         "스노우 플레이크"
-      ]
+      ],
+      "image": "images/review-species-167-0.jpg",
+      "credit": {
+        "author": "www.bigappleherp.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.bigappleherp.com/products/snow-flake-blue-whites-tree-frogs"
+      }
     },
     {
       "name": "블루아이",
@@ -1005,7 +1392,14 @@
         "Blue-Eyed",
         "Blue Eye",
         "블루아이"
-      ]
+      ],
+      "image": "images/review-species-167-1.jpg",
+      "credit": {
+        "author": "bugbugbugs.theshop.jp",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://bugbugbugs.theshop.jp/items/105770608",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "허니",
@@ -1013,7 +1407,14 @@
       "description": "꿀색·노란빛 발색으로 알려진 선별 계통명.",
       "aliases": [
         "Honey"
-      ]
+      ],
+      "image": "images/review-species-167-2.jpg",
+      "credit": {
+        "author": "tailsandscales.ca",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://tailsandscales.ca/products/honey-whites-tree-frog",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "블루폼",
@@ -1023,7 +1424,14 @@
         "Blue Phase",
         "Blue",
         "블루페이즈"
-      ]
+      ],
+      "image": "images/review-species-167-3.jpg",
+      "credit": {
+        "author": "www.morphmarket.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.morphmarket.com/us/c/amphibians/frogs/whites-tree-frogs/833364",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     }
   ],
   "species-185": [
@@ -1063,7 +1471,14 @@
       "description": "주황색 계열로 알려진 사육 계통.",
       "aliases": [
         "Orange"
-      ]
+      ],
+      "image": "images/review-species-185-2.jpg",
+      "credit": {
+        "author": "FrogDaddy",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://frogdaddy.net/products/phyllobates-terribilis-orange",
+        "note": "Orange 판매형의 군락 사진"
+      }
     },
     {
       "name": "오렌지블랙풋",
@@ -1091,7 +1506,14 @@
       "aliases": [
         "Standard",
         "Standard Leucs"
-      ]
+      ],
+      "image": "images/review-species-186-0.jpg",
+      "credit": {
+        "author": "www.frontierexotics.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.frontierexotics.com/product-page/dendrobates-leucomelas-standard-nominant",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "밴디드",
@@ -1118,7 +1540,14 @@
       "description": "푸른 회색 계열로 보이는 개체를 구분하는 유통명. 다른 색상형과 별도 종으로 세지 않아요.",
       "aliases": [
         "Powder Blue"
-      ]
+      ],
+      "image": "images/review-species-268-0.jpg",
+      "credit": {
+        "author": "www.skakavky.sk",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.skakavky.sk/p/porcellionides-pruinosus-powder-blue",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "파우더오렌지",
@@ -1126,7 +1555,13 @@
       "description": "주황 계열 체색의 개체를 구분하는 유통명. 이름만으로 유전 방식이나 계통을 확정하지 않아요.",
       "aliases": [
         "Powder Orange"
-      ]
+      ],
+      "image": "images/review-species-268-1.jpg",
+      "credit": {
+        "author": "finnsfrogfarm.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://finnsfrogfarm.com/products/porcellionides-pruinosus-powder-orange"
+      }
     },
     {
       "name": "오레오크럼블",
@@ -1134,7 +1569,13 @@
       "description": "밝은 바탕과 짙은 무늬가 섞이는 개체의 유통명. 사진의 종 참고 개체가 이 색상형을 뜻하지는 않아요.",
       "aliases": [
         "Oreo Crumble"
-      ]
+      ],
+      "image": "images/review-species-268-2.jpg",
+      "credit": {
+        "author": "www.garnelio.fr",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.garnelio.fr/oreo-assel-porcellionides-pruinosus-oreo-crumble"
+      }
     }
   ],
   "species-270": [
@@ -1144,7 +1585,14 @@
       "description": "밝은 바탕에 짙은 반점이 나타나는 유통형. 반점의 양과 분포는 개체마다 달라요.",
       "aliases": [
         "Dalmatian"
-      ]
+      ],
+      "image": "images/review-species-270-0.jpg",
+      "credit": {
+        "author": "www.porcellio.nl",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.porcellio.nl/soorten-3/porcellio-03/p-scaber-dalmatian",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "스패니시오렌지",
@@ -1152,7 +1600,14 @@
       "description": "주황 계열 개체가 유통되는 라인명. 별도 종으로 세지 않고 원래 종 아래에 연결해요.",
       "aliases": [
         "Spanish Orange"
-      ]
+      ],
+      "image": "images/review-species-270-1.jpg",
+      "credit": {
+        "author": "www.supremegecko.com",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://www.supremegecko.com/product/porcellioscaberspanishorange/46",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     },
     {
       "name": "라바",
@@ -1192,7 +1647,14 @@
       "description": "주황 계열 개체가 유통되는 라인명. 실제 발색은 개체와 성장 상태에 따라 달라요.",
       "aliases": [
         "Orange Vigor"
-      ]
+      ],
+      "image": "images/review-species-274-1.jpg",
+      "credit": {
+        "author": "arthropods.ca",
+        "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+        "url": "https://arthropods.ca/products/armadillidium-vulgare-orange-vigor",
+        "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+      }
     }
   ]
 }

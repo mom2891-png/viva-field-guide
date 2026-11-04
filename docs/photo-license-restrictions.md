@@ -79,3 +79,7 @@
 - plant-291 Monosolenium tenerum · CC BY-NC · 비영리 조건, 상업화 전 재검토 · [원본](https://www.inaturalist.org/photos/477742013)
 - plant-292 Leptodictyum riparium · CC BY-NC · 비영리 조건, 상업화 전 재검토 · [원본](https://www.inaturalist.org/photos/758591491)
 - plant-293 Taxiphyllum taxirameum · CC BY-NC · 비영리 조건, 상업화 전 재검토 · [원본](https://www.inaturalist.org/photos/607342947)
+
+## 2026-11-05 일반 사진 공개 포함
+
+사용자 명시 승인으로 재게시 조건 미확인 일반 사진141장을 이번 비영리 공개 묶음에 포함했다. 사용자 승인과 저작권자 이용허락은 별개다. 해당 사진 credit.license는 “재게시 조건 미확인 · 원저작자 권리 유지”이며 저작자와 원본 페이지를 보존한다. 자유 라이선스로 표기하지 않는다. 상업화 전 이141장 및 기존 NC 사진을 재검토해야 한다.

@@ -11983,7 +11983,13 @@
       "Bothrochilus meridionalis",
       "Leiopython fredparkeri",
       "Bothrochilus fredparkeri"
-    ]
+    ],
+    "image": "images/review-species-151.jpg",
+    "credit": {
+      "author": "reptichip.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://reptichip.com/blogs/animals/southern-white-lipped-python"
+    }
   },
   {
     "n": 152,
@@ -18128,7 +18134,14 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "images/review-species-255.jpg",
+    "credit": {
+      "author": "www.morphmarket.com",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://www.morphmarket.com/us/c/invertebrates/isopods/2142883",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "species-256",
@@ -19174,7 +19187,14 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "images/review-species-287.jpg",
+    "credit": {
+      "author": "world-of-isopods.de",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://world-of-isopods.de/products/centrobolus-richardii",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "species-288",
@@ -20116,7 +20136,14 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "images/review-species-313.jpg",
+    "credit": {
+      "author": "plantimal.co.kr",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://plantimal.co.kr/product/아르덴티엘라-엠버비-등각류-쥐며느리-공벌레-콩벌레/838/category/85/display/1/",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
+    }
   },
   {
     "id": "species-314",
@@ -20276,7 +20303,16 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "images/review-species-318.jpg",
+    "credit": {
+      "author": "www.aquarium-dietzenbach.de",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://www.aquarium-dietzenbach.de/descriptions_geosesarma_bicolor",
+      "note": "Geosesarma bicolor라는 이름의 판매처 참고 사진입니다. 판매명 일치이며 정명 종 동정이 검증된 사진으로 집계하지 않습니다."
+    },
+    "photoContext": "Geosesarma bicolor라는 이름의 판매처 참고 사진입니다. 판매명 일치이며 정명 종 동정이 검증된 사진으로 집계하지 않습니다.",
+    "imageVerification": "reference-unconfirmed-trade"
   },
   {
     "id": "species-319",
@@ -22300,6 +22336,13 @@
       "kind": "maximum",
       "note": "분류 논문 표본 최대14mm. 일부 사육 자료의15~20mm와 차이가 있어 측정 기준·군체 확인이 필요해요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "images/review-species-350.jpg",
+    "credit": {
+      "author": "tropicalisopods.shop",
+      "license": "재게시 조건 미확인 · 원저작자 권리 유지",
+      "url": "https://tropicalisopods.shop/products/armadillidium-hauseni",
+      "note": "출처 표기 이름을 대조한 참고 사진. 이용허락 미확인."
     }
   },
   {

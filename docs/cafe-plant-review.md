@@ -2,6 +2,15 @@
 
 2026-11-04. 사용자 지정 [카페](https://cafe.naver.com/vivariummania)는 현재 ‘비바리움 파크’로 표시되며 clubid는28867385다. 다른 카페12440585와 섞지 않는다. 앱 재시작 뒤 내장 브라우저 연결·공개 목록·본문 열람에 성공했다. 앞선 접근 실패는 과거 상태다.
 
+## 최신 후속 — 2026-11-04 착생란·중복 이름 대조
+
+- 신규 plant-243 Aerangis punctata, plant-244 Lepanthes calodictyon, plant-245 Phalaenopsis schilleriana. 정명과 종별 재배 근거를 분리 확인했다. 362동물·245식물=607항목. 사진498·크기190·가격214 유지, 사진 공란109. 신규 사진·수치·판매가·인기 추정 없음.
+- 기존 plant-31에 Anoectochilus lobbianus/로비아누스 검색 별칭 연결: Kew가 roxburghii 이명으로 처리하므로 별도 종 생성 안 함. 그 외 기존 항목 보존.
+- 확인2026-11-04: [Kew lobbianus](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:616596-1), [Kew Aerangis](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:930769-1), [Baker 종별 재배](https://www.orchidculture.com/COD/FREE/FS1001.html), [Kew Lepanthes](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:639955-1), [New World Orchids](https://newworldorchids.com/shop/lepanthes-calodictyon/)는 검색 색인 설명 확인·직접 접속403. 꽃 지름/포트 지름/기후 극값은 성숙 크기·사육 설정으로 쓰지 않음.
+- [Kew schilleriana](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:650591-1/general-information), [AOS 종별 재배](https://www.aos.org/explore-orchids/phalaenopsis-alliance/phalaenopsis-schilleriana). 지역별 배지 차이·통기·생장점 관리 위주로 반영. 해외 인기 서술을 국내 순위로 변환하지 않음.
+- Sonerila hirsuta는 [Kew 정명](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:575787-1)만 확인, 종별 재배 근거 부족으로 보류. Polka Dot/Tepuai는 종 동일성 불명, 다른 Sonerila 아래 임의 연결하지 않음. Black Swan·야마사키카즈라·Corybas 휴면 보류 유지.
+- 새 카페 페이지/본문 추가 열람 없음. 내장 브라우저가 사용 비활성 오류를 반환해 실제 도감 데스크톱/390px 검수 미완료. 추가 업로드·main 반영·배포 없음.
+
 ## 최신 후속 — 2026-11-04 덩굴·초화·보석란
 
 추가 보석란57/소넬리아146/난153 첫 페이지 각15개 고유 글, 합계45제목. 원시 링크48개는 고정글 중복 포함 수다. 본문5글을 더 읽어 누적9게시판135제목·본문25글이다. 아래90제목/20본문은 이전 범위다. 카페 사진은 가져오지 않았다.

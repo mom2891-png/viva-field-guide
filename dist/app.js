@@ -1,5 +1,5 @@
 'use strict';
-const CATALOG_VERSION = '2026-11-04-cafe3';
+const CATALOG_VERSION = '2026-11-04-orchids';
 const $ = (selector) => document.querySelector(selector);
 const envNames = {습:'습식',혼:'건습 혼합',건:'건조',수:'반수생·수생',냉:'냉량 관리',대:'대형 사육장',환:'충분한 환기',굴:'깊은 바닥재',해:'담수·해수'};
 const descriptions = {
@@ -105,6 +105,7 @@ function filtered(){
     .sort(compareEntries);
 }
 const genusNames = {
+  Aerangis:'에어랑기스',Lepanthes:'레판테스',
   Correlophus:"크레스티드·사라시노룸게코",Rhacodactylus:"라코닥틸루스 게코",Eurydactylodes:"카멜레온게코",Eublepharis:"레오파드게코류",Paroedura:"파로에두라 게코",Nephrurus:"납테일게코",Oedura:"벨벳게코",Goniurosaurus:"케이브게코",Teratoscincus:"프로그아이게코",Uroplatus:"리프테일게코",Phelsuma:"데이게코",Geckolepis:"피시스케일게코",Egernia:"에게르니아 스킨크",Tiliqua:"블루텅스킨크",Tribolonotus:"크로커다일스킨크",Chalcides:"찰키데스 스킨크",Acanthosaura:"마운틴혼드래곤",Hydrosaurus:"세일핀리자드",Pogona:"비어디드래곤",Anolis:"아놀",Corytophanes:"헬멧리자드",Abronia:"아브로니아",Oplurus:"오플루루스",Furcifer:"퍼시퍼 카멜레온",Calumma:"칼룸마 카멜레온",Boaedon:"하우스스네이크",Coelognathus:"코엘로그나투스 뱀",Dasypeltis:"에그이터",Drymarchon:"인디고스네이크",Elaphe:"엘라페 뱀",Gonyosoma:"고니오소마 뱀",Lampropeltis:"킹스네이크·밀크스네이크",Pantherophis:"콘스네이크·랫스네이크",Pituophis:"파인·불·고퍼스네이크",Eryx:"샌드보아",Morelia:"모렐리아 파이톤",Leiopython:"화이트립파이톤",Bufotes:"그린토드류",Ceratophrys:"팩맨프로그",Dendropsophus:"덴드롭소푸스 트리프로그",Heterixalus:"헤테릭살루스 트리프로그",Litoria:"리토리아 트리프로그",Pyxicephalus:"아프리칸불프로그류",Theloderma:"모시프로그류",Zhangixalus:"장시살루스 트리프로그",Dendrobates:"덴드로바테스 다트프로그",Epipedobates:"에피페도바테스 다트프로그",Ambystoma:"앰비스토마 도롱뇽",Cynops:"파이어벨리뉴트류",Triturus:"크레스티드뉴트류",Tylototriton:"틸로토트리톤 뉴트",Coenobita:"육지소라게",Strophurus:"스트로푸루스 게코",Trioceros:"트리오케로스 카멜레온",Ranitomeya:"라니토메야 다트프로그",Pseudosinella:"슈도시넬라 톡토기",Entomobrya:"엔토모브리아 톡토기",Porcellionides:"포르셀리오니데스 등각류",Porcellio:"포르셀리오 등각류",Cubaris:"쿠바리스 등각류",Armadillidium:"아르마딜리디움 등각류",Phidippus:"피디푸스 점핑스파이더",Geosesarma:"뱀파이어크랩류",Grammostola:"그람모스톨라 타란튤라",Terrapene:"상자거북",Testudo:"테스투도 육지거북",Varanus:"모니터",Oophaga:"오오파가 다트프로그",Trachelipus:"트라켈리푸스 등각류",
   Rhaphidophora:'라피도포라',Alsobia:'알소비아',Vanda:'풍란류',Goodyera:'사철란',Tectaria:'텍타리아',Monolena:'모노레나',Gloxinella:'글록시넬라',Schismatoglottis:'스키스마토글로티스',Anthurium:'안스리움',Ruellia:'루엘리아',Myuroclada:'쥐꼬리이끼',Racomitrium:'서리이끼류',Brachythecium:'양털이끼류',Microgramma:'미크로그램마',
   Strobilanthes:'스트로빌란테스',Saxifraga:'바위취류',Selliguea:'셀리구에아',Solanum:'솔라넘',Crepidomanes:'괴불이끼류 (고사리)',Teratophyllum:'테라토필럼',Crypsinus:'고란초류',Lepisorus:'일엽초류',Loxogramme:'주걱일엽류',Hymenophyllum:'수염이끼류 (고사리)',Huperzia:'뱀톱류',Deparia:'진고사리·버들참빗류',Gastrochilus:'탐라난류',Oberonia:'차걸이란류',

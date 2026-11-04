@@ -1386,7 +1386,9 @@
       "금선련",
       "jewel orchid",
       "록스버기 골드바",
-      "roxburghii Gold Bar"
+      "roxburghii Gold Bar",
+      "Anoectochilus lobbianus",
+      "아노엑토칠루스 로비아누스"
     ],
     "order": 31,
     "shopCoverage": 0,
@@ -1395,7 +1397,7 @@
       "골드바 (록스버기 하위 유통명·품종 등록 미확인)"
     ],
     "catalogType": "종",
-    "verification": "기존 도감 · 재검토 대상 · 2026-11-04 카페141955의 록스버기 종류로 알려진 골드바라는 설명을 하위 유통명으로 연결. 부모종 실물 동정·품종 등록 미확인. 기존 종 사진은 골드바 대표 사진이 아님. 블랙스완은 부모종 연결 보류.",
+    "verification": "기존 도감 · 재검토 대상 · 2026-11-04 카페141955의 록스버기 종류로 알려진 골드바라는 설명을 하위 유통명으로 연결. 부모종 실물 동정·품종 등록 미확인. 기존 종 사진은 골드바 대표 사진이 아님. 블랙스완은 부모종 연결 보류. · 2026-11-04 Kew는 Anoectochilus lobbianus를 roxburghii의 이명으로 처리. 별도 종·유통형 항목을 생성하지 않음.",
     "domesticStatus": "국내 유통 미확인",
     "popularityKnown": false,
     "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/618849401/large.jpg",
@@ -10671,6 +10673,84 @@
     "popularity": null,
     "shopCoverage": null,
     "popularityKnown": false,
+    "addedAt": "2026-11-04"
+  },
+  {
+    "id": "plant-243",
+    "n": 243,
+    "order": 243,
+    "name": "에어랑기스 푼크타타",
+    "latin": "Aerangis punctata",
+    "environment": "착생형·주야/계절 변화·통기",
+    "light": "밝은 여과광·직사광선 피함",
+    "humidity": "높은 공중 습도·뿌리 배수와 환기",
+    "placement": "거친 수피·착생판 또는 통기성 높은 바스켓",
+    "care": "작은 착생란으로 뿌리 주변이 정체되거나 계속 젖지 않도록 공기 흐름을 확보해요. Baker의 종별 재배 자료는 생장기의 충분한 급수와 빠른 배수, 생장 성숙 뒤 급수 감소 및 주야·계절 변화를 함께 설명해요. 건조기에 장기간 완전히 말리는 것과 급수 조절을 구별하며, 지역 기후표의 극값을 사육장 설정값으로 쓰지 않아요. 꽃 지름과 판매 포트 규격은 성숙 식물 전체 크기가 아니어서 크기 필드는 비웠어요.",
+    "aliases": [
+      "아에랑기스 푼크타타",
+      "에어랑기스 펑크타타",
+      "Aerangis punctata J.Stewart"
+    ],
+    "verification": "2026-11-04 Kew930769-1 정명·서식 및 Charles/Margaret Baker 종별 재배 자료 대조. 인계 장부의 카페142822 도입명은 실물 종 동정 완료가 아님. 꽃/화분 크기·기후 극값을 성숙 크기/사육 설정값으로 전환하지 않음.",
+    "category": "착생란",
+    "catalogType": "종",
+    "domesticStatus": "국내 커뮤니티 도입명 확인·종 일치 미확정",
+    "varieties": [],
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04"
+  },
+  {
+    "id": "plant-244",
+    "n": 244,
+    "order": 244,
+    "name": "레판테스 칼로딕티온",
+    "latin": "Lepanthes calodictyon",
+    "environment": "고습 착생형·중간 온도 재배·통기",
+    "light": "종별 착생 재배 조건 확인",
+    "humidity": "높은 공중 습도·급수 상태 확인",
+    "placement": "습도를 유지하며 관찰할 수 있는 착생 공간",
+    "care": "잎의 그물 무늬가 특징인 소형 착생란 참고 항목이에요. New World Orchids의 직접 재배 설명은 높은 습도 요구와 중간 온도 환경의 재배 경험을 함께 제시해요. 높은 공중 습도와 물고임을 같은 조건으로 다루지 말고 뿌리·잎의 상태와 공기 흐름을 확인하세요. 어느 밀폐 용기나 고온 환경에도 자동으로 적합하다는 뜻이 아니며 정밀 광량·온습도 수치와 성숙 전체 크기는 추가 확인 중이에요.",
+    "aliases": [
+      "레판테스 칼로딕티온",
+      "Lepanthes calodictyon f. ivanoflava",
+      "Stelis calodyction"
+    ],
+    "verification": "2026-11-04 Kew639955-1 정명·이명 확인, New World Orchids 직접 재배 설명 검색 색인 대조·본문403. 인계 장부의 카페142025 도입명은 실물 동정 완료와 별개. 숫자·사진·국내 판매가를 추정하지 않음.",
+    "category": "착생란",
+    "catalogType": "종",
+    "domesticStatus": "국내 커뮤니티 도입명 확인·종 일치 미확정",
+    "varieties": [],
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04"
+  },
+  {
+    "id": "plant-245",
+    "n": 245,
+    "order": 245,
+    "name": "팔레놉시스 쉴레리아나",
+    "latin": "Phalaenopsis schilleriana",
+    "environment": "열대 착생형·통기·배수",
+    "light": "직사광선을 피한 밝은 그늘",
+    "humidity": "재배 공간에 맞춘 수분 유지·통기",
+    "placement": "잎과 꽃대가 자연스럽게 늘어질 여유가 있는 통기성 화분",
+    "care": "필리핀 루손 원산 착생란으로 무늬 잎과 분홍 꽃이 특징이다. AOS의 종별 재배 경험에서는 직사광선을 피하고, 재배지 기후와 용기 건조 속도에 맞춰 배지의 보수성·입자 크기를 달리한다. 늘어지는 잎과 꽃대 공간을 확보하고 생장점에 물이 고이지 않도록 배치한다. 통풍과 뿌리 상태를 관찰하며 관리하고, 밀폐된 소형 용기에 바로 적합하다고 판단하지 않는다. 자료의 잎·꽃대 치수를 식물 전체 성숙 크기로 환산하지 않아 크기 분류는 미확인으로 둔다.",
+    "aliases": [
+      "팔레놉시스 실레리아나",
+      "호접란 쉴레리아나",
+      "Schiller’s moth orchid"
+    ],
+    "verification": "2026-11-04 Kew POWO 정명·루손 원산 착생 생태와 AOS Greg Allikas(2009)의 종별 재배 경험 대조. 카페 후보명은 실물 동정 완료가 아님. 지역별 배지·관수 차이를 단일 수치로 일반화하지 않음. 사진 권리·국내 판매 단위·성숙 전체 크기 미확인.",
+    "category": "착생란",
+    "catalogType": "종",
+    "domesticStatus": "국내 커뮤니티 후보명 확인·판매 단위 미확인",
+    "varieties": [],
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
     "addedAt": "2026-11-04"
   }
 ]

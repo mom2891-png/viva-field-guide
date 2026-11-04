@@ -392,3 +392,17 @@ assert.equal(plants.find(r=>r.id==='plant-127').latin,'Calohypnum plumiforme');
 assert.equal(run("genusName('Calohypnum')"),'털깃털이끼');
 assert.equal(animals.find(r=>r.id==='species-151').latin,'Leiopython meridionalis','Disputed classification retains the existing representative');
 console.log('PASS: reviewed taxon aliases reach stable IDs in cards and TOC; disputed name preserved.');
+
+// Cafe discovery is distinct from verified identity, price and market popularity.
+assert.equal(plants.find(r=>r.id==='plant-232').catalogType,'유통명');
+assert.equal(plants.find(r=>r.id==='plant-232').latin,'Argostemma sp. “Bukit Larut”');
+for(const id of ['plant-230','plant-231','plant-232']){
+  const r=plants.find(r=>r.id===id);
+  assert.equal(r.popularityKnown,false);assert.equal(r.popularity,null);
+  assert.ok(!r.priceInfo&&!r.sizeInfo&&!r.purchaseLinks,'Cafe discovery must not invent price, size or purchase offers');
+}
+run("state.page='plants';species=plants;state.catalogNode='plants';state.search='포토스 스칸덴스';state.category='all';state.subgroup='all';render()");
+assert.equal(run('filtered()[0].id'),'plant-230');
+assert.equal(run("genusName('Pothos')"),'포토스');
+assert.equal(run("catalogModel.nodes.find(n=>n.id===catalogModel.entryNode('plant-230').parentId).label"),'포토스');
+console.log('PASS: cafe candidates keep trade identity, unknown market fields and new genus navigation.');

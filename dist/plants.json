@@ -5626,13 +5626,16 @@
     "placement": "배수되는 바닥·그늘진 돌 주변",
     "care": "한국 국명과 학명을 대조한 이끼예요. 표면 수분과 배수를 함께 관리하고 여름 고온을 피하세요. 국내 판매명만으로 개체 동정을 보장할 수 없어 정확한 종을 확인한 뒤 식재하세요.",
     "aliases": [
-      "Hypnum plumaeforme"
+      "Hypnum plumaeforme",
+      "Calohypnum plumiforme",
+      "Insomniella plumiformis",
+      "Insomniella plumaeforme"
     ],
     "varieties": [],
     "order": 127,
     "popularity": null,
     "shopCoverage": null,
-    "verification": "식재명·환경 자료 확인",
+    "verification": "한국 국명·학명 대조. ITIS TSN1136446은 Calohypnum plumiforme를 정명, Hypnum plumiforme를 이명으로 처리(2026-11-04). 기존 학명 검색과 ID를 보존하고 최신 조합을 별칭으로 연결. 국내 판매 개체 동정 미검증.",
     "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",
@@ -5758,7 +5761,15 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Hypnum_plumaeforme.JPG/960px-Hypnum_plumaeforme.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Hypnum plumaeforme.JPG",
+    "credit": {
+      "author": "Imuzak",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Hypnum_plumaeforme.JPG",
+      "licenseUrl": ""
+    }
   },
   {
     "id": "plant-128",
@@ -8059,22 +8070,26 @@
   {
     "id": "plant-176",
     "n": 176,
-    "name": "비단이끼 유통형 (준페로이데움)",
+    "name": "비단이끼",
     "latin": "Leucobryum juniperoideum",
     "category": "이끼",
     "environment": "냉량형",
     "light": "중간·직사광선 피함",
     "humidity": "종·환기 조건 확인",
     "placement": "배수되는 바닥·암석",
-    "care": "이 판매처가 표기한 학명 기준의 이끼 항목이에요. 산란광과 배수되는 촉촉한 기질을 사용하고 고온의 밀폐 환경을 피하세요. 환기·계절 변화와 종별 관리 조건을 확인해 주세요. 기존 흰털이끼 Leucobryum glaucum과 구분해요.",
+    "care": "둥근 쿠션을 이루는 이끼로, 국내에서는 비단이끼·가는흰털이끼라는 이름으로 찾아볼 수 있어요. 배수되는 촉촉한 기질과 밝은 그늘에서 관리하고, 물에 잠기거나 유리 용기가 직사광선으로 과열되지 않게 해 주세요. 흰털이끼 Leucobryum glaucum과는 별도 종이에요. 판매명만으로 종을 보장할 수 없고, 흰털이끼속의 비슷한 종은 검경이 필요해요.",
     "aliases": [
-      "비단이끼"
+      "비단이끼",
+      "가는흰털이끼",
+      "빵이끼",
+      "비단이끼 유통형 (준페로이데움)",
+      "호소바오키나고케"
     ],
     "varieties": [],
     "order": 176,
     "popularity": null,
     "shopCoverage": null,
-    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "verification": "국가 목록의 가는흰털이끼 학명·전문 재배업체 자료 대조(2026-11-04). 국내 판매 개체 동정 미검증. 영국 자료는 L. albidum과의 과거 혼동을 경고하므로 외국 수치/사진으로 국내 개체를 확정하지 않음.",
     "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",
@@ -9305,6 +9320,214 @@
       "author": "Yercaud-elango",
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Cryptanthus_zonatus-2-selvapuram-coimbatore-India.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "plant-207",
+    "n": 207,
+    "name": "쥐꼬리이끼",
+    "latin": "Myuroclada maximowiczii",
+    "category": "이끼",
+    "environment": "환기형",
+    "light": "산란광·과열 피함",
+    "humidity": "촉촉함 유지·표면 상태 확인",
+    "placement": "배수되는 바닥·습한 암석·나무 밑동",
+    "care": "둥글고 오목한 잎이 줄기에 포개져 붙는 이끼예요. 국내 재배 연구에서는 원예상토 위에 천을 덮고 충분한 수분을 공급한 배양 방식이 효과적이었어요. 바닥을 촉촉하게 유지하되 정체된 물에 잠그지 마세요. 연구의 양액 농도를 동물이 사는 비바리움의 시비 지침으로 적용하지 않아요. 강가의 토사·암석·나무 밑동 등에서 기록되며, 열대 고온 밀폐 환경의 적합성은 별도로 확인해야 해요.",
+    "aliases": [
+      "Myuroclada concinna",
+      "Hypnum maximowiczii",
+      "쥐꼬리 이끼"
+    ],
+    "varieties": [],
+    "order": 207,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "국가 국명 목록·ITIS TSN547912·FNA 형태자료와 국내 재배 연구 DOI10.7732/kjpr.2013.26.1.052 대조(2026-11-04). 실바리움 취급명은 확인했으나 상품 개체의 종 동정·현재 재고는 미검증.",
+    "domesticStatus": "판매명 확인·종 일치 미확정",
+    "catalogType": "종",
+    "addedAt": "2026-11-04",
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 1,
+      "max": 5,
+      "unit": "cm",
+      "measurement": "줄기 길이",
+      "basis": "종 형태 자료",
+      "kind": "range",
+      "note": "군락의 가로 퍼짐이나 삭병 길이는 제외해요. FNA 형태 자료의 줄기 1~5cm 기준이에요.",
+      "checkedAt": "2026-11-04"
+    }
+  },
+  {
+    "id": "plant-208",
+    "n": 208,
+    "name": "큰솔이끼",
+    "latin": "Polytrichum formosum",
+    "category": "이끼",
+    "environment": "냉량형",
+    "light": "밝은 그늘·여름 직사광선 피함",
+    "humidity": "촉촉하되 배수·통풍 확보",
+    "placement": "부엽질 바닥·경사면",
+    "care": "작은 소나무 같은 줄기가 모여 자라는 이끼예요. 숲의 산성~약산성 토양과 배수되는 기질에서 기록되며, 기존 솔이끼 Polytrichum commune가 선호하는 더 습한 땅과 구별해 주세요. 촉촉하게 관리하되 늪처럼 상시 물이 고이는 배치는 피하고, 여름에는 용기의 과열과 마름을 살펴 주세요. 자료에 따라 Polytrichastrum formosum이라는 조합으로도 찾아볼 수 있어요.",
+    "aliases": [
+      "Polytrichastrum formosum",
+      "큰 솔이끼",
+      "Bank Haircap"
+    ],
+    "varieties": [],
+    "order": 208,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "국가 목록의 큰솔이끼·영국 선태학회 동정/서식 자료·Montana Field Guide 형태자료 대조(2026-11-04). 실바리움 취급명 확인; 국내 판매 개체 동정은 미검증.",
+    "domesticStatus": "판매명 확인·종 일치 미확정",
+    "catalogType": "종",
+    "addedAt": "2026-11-04",
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 3,
+      "max": 20,
+      "unit": "cm",
+      "measurement": "줄기 높이",
+      "basis": "종 형태 자료",
+      "kind": "range",
+      "note": "Montana Field Guide: 보통 3~8cm, 드물게 20cm. 필터는 드문 최대값 20cm를 사용해요. 삭병 길이는 제외해요.",
+      "checkedAt": "2026-11-04"
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Polytrichum_formosum_%28Fraai_haarmos%29_-_Nieuwe_Leeuwenhorst%2C_Noordwijkerhout%2C_NL.jpg/960px-Polytrichum_formosum_%28Fraai_haarmos%29_-_Nieuwe_Leeuwenhorst%2C_Noordwijkerhout%2C_NL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Polytrichum formosum (Fraai haarmos) - Nieuwe Leeuwenhorst, Noordwijkerhout, NL.jpg",
+    "credit": {
+      "author": "Rudolphous",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Polytrichum_formosum_(Fraai_haarmos)_-_Nieuwe_Leeuwenhorst,_Noordwijkerhout,_NL.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "plant-209",
+    "n": 209,
+    "name": "서리이끼·양지이끼 유통형",
+    "latin": "Racomitrium sp. “서리이끼·양지이끼”",
+    "category": "이끼",
+    "environment": "환기형",
+    "light": "종 확인 후 밝기 조절·용기 과열 피함",
+    "humidity": "종 확인 후 급수·건습 주기 결정",
+    "placement": "환기되는 암석·배수되는 기질·종 확인 우선",
+    "care": "국내에서 서리이끼·양지이끼로 판매되는 이름을 모은 미확정 항목이에요. 이 이름만으로 Racomitrium canescens나 R. japonicum 중 하나를 지정할 수 없어요. 최근 연구는 관련 종을 Niphotrichum 등으로 나누며 과거 오동정을 지적해요. 밝고 배수되는 자리의 후보로 검토하되, 종과 재배 조건을 확인하기 전 고온다습한 밀폐 비바리움에 적용하지 마세요. 건조를 견딘다는 설명은 물 없이 계속 자란다는 뜻이 아니에요.",
+    "aliases": [
+      "서리이끼",
+      "양지이끼",
+      "서리 이끼",
+      "양지 이끼"
+    ],
+    "varieties": [],
+    "order": 209,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "국내 오쿠아·실바리움 목록의 유통명 확인. 동아시아 서리이끼속 미소서식지 연구의 Niphotrichum canescens/japonicum 혼동·속 분리 대조(2026-11-04). Racomitrium은 넓은 의미의 탐색용 속명이며 실물 종·현재 속 미확정.",
+    "domesticStatus": "국내 취급 기록",
+    "catalogType": "유통명",
+    "addedAt": "2026-11-04",
+    "popularityKnown": false
+  },
+  {
+    "id": "plant-210",
+    "n": 210,
+    "name": "물가양털이끼",
+    "latin": "Brachythecium rivulare",
+    "category": "이끼",
+    "environment": "환기형",
+    "light": "산란광·과열 피함",
+    "humidity": "충분한 수분·상태 관찰",
+    "placement": "별도 이끼 배양 바닥·촉촉한 기질",
+    "care": "국내에서 실내 조경 소재를 위한 재배 연구가 이루어진 이끼예요. 연구에서는 원예상토 위에 천을 덮고 분쇄한 이끼를 산포한 뒤 충분한 수분을 공급한 방식이 효과적이었어요. 바크·피트모스와 비교한 해당 실험의 결과이며 모든 비바리움 바닥의 우열을 뜻하지 않아요. 이 연구에서 양액 처리는 생육을 억제했으므로 시비가 필수라고 보지 마세요. 국내에서 양털이끼라는 이름으로 판매되는 개체와 같은 종인지는 확인되지 않았고, 고온 밀폐 사육장 적용도 별도 확인이 필요해요.",
+    "aliases": [
+      "물가 양털이끼"
+    ],
+    "varieties": [],
+    "order": 210,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "국가 목록의 물가양털이끼 학명과 국내 재배 연구 DOI10.7732/kjpr.2013.26.1.052 대조(2026-11-04). 국내 재배 근거 항목; 일반 양털이끼 판매명과 종 일치 미확정.",
+    "domesticStatus": "국내 재배 연구·판매 미확인",
+    "catalogType": "종",
+    "addedAt": "2026-11-04",
+    "popularityKnown": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Brachythecium_rivulare.jpg/960px-Brachythecium_rivulare.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Brachythecium rivulare.jpg",
+    "credit": {
+      "author": "User:Tigerente",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Brachythecium_rivulare.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  },
+  {
+    "id": "plant-211",
+    "n": 211,
+    "name": "미크로그램마 렙탄스",
+    "latin": "Microgramma reptans",
+    "category": "고사리·석송류",
+    "environment": "열대 습식",
+    "light": "산란광·직사광선 피함",
+    "humidity": "중간~높음·착생부 마름 관찰",
+    "placement": "유목·코르크 착생",
+    "care": "털이 있는 뿌리줄기가 기질을 따라 뻗는 소형 착생 고사리예요. 전문 재배업체는 따뜻한 환경과 중간~높은 수분, 유목 등에 붙여 기르는 방식을 제시해요. 배양토에 깊게 묻는 대신 뿌리줄기를 기질 표면에 고정하고 수분과 통풍을 함께 살펴 주세요. Microgramma sp. Ecuador라는 미확정 유통형을 이 종으로 강제 합치지 않아요. 잎 한 장의 크기를 전체 식물의 성숙 크기로 표시하지 않아요.",
+    "aliases": [
+      "마이크로그램마 렙탄스",
+      "미크로그램마 렙탄즈",
+      "Polypodium ciliatum",
+      "Marginaria ciliata"
+    ],
+    "varieties": [],
+    "order": 211,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "Kew POWO accepted taxon17444950-1·Glass Box Tropicals 해당 종 재배자료 대조(2026-11-04). 국내 판매·인기 미확인.",
+    "domesticStatus": "해외 재배 자료",
+    "catalogType": "종",
+    "addedAt": "2026-11-04",
+    "popularityKnown": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Microgramma_reptans_kz01.jpg/960px-Microgramma_reptans_kz01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Microgramma reptans kz01.jpg",
+    "credit": {
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Microgramma_reptans_kz01.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "plant-212",
+    "n": 212,
+    "name": "미크로그램마 헤테로필라",
+    "latin": "Microgramma heterophylla",
+    "category": "고사리·석송류",
+    "environment": "열대 습식",
+    "light": "산란광·직사광선 피함",
+    "humidity": "중간~높음·착생부 마름 관찰",
+    "placement": "유목·코르크·착생 벽면",
+    "care": "뿌리줄기를 따라 모양이 다른 잎이 달리는 착생 고사리예요. Kew는 습윤 열대의 착생종으로 기록하고, 전문 재배업체는 따뜻한 환경에서 기질에 붙여 기르는 방식을 권해요. 촉촉한 상태를 유지하면서 통풍을 확보하고 뿌리줄기를 배양토에 깊게 묻지 마세요. 판매 사진에서 보이는 작은 잎만으로 영구적인 소형종이라고 판단하지 않아요. 영양엽과 포자엽의 형태·길이 차이를 확인하고 퍼지는 뿌리줄기를 관리할 공간을 남겨 주세요.",
+    "aliases": [
+      "마이크로그램마 헤테로필라",
+      "Phymatodes heterophylla",
+      "Polypodium heterophyllum"
+    ],
+    "varieties": [],
+    "order": 212,
+    "popularity": null,
+    "shopCoverage": null,
+    "verification": "Kew POWO accepted taxon17444900-1·Cayman Islands Flora 형태/착생 설명·Glass Box Tropicals 종별 재배자료 대조(2026-11-04). 국내 판매·인기 미확인.",
+    "domesticStatus": "해외 재배 자료",
+    "catalogType": "종",
+    "addedAt": "2026-11-04",
+    "popularityKnown": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Microgramma_heterophylla_kz01.jpg/960px-Microgramma_heterophylla_kz01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Microgramma heterophylla kz01.jpg",
+    "credit": {
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Microgramma_heterophylla_kz01.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     }
   }

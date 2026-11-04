@@ -293,3 +293,19 @@ assert.ok(run("filtered()[0].latin.includes('sp.')"));
 assert.equal(run("genusName('Anthurium')"),'안스리움');
 assert.equal(run("genusName('Ruellia')"),'루엘리아');
 console.log('PASS: subordinate trade forms, unresolved Fishbone identity and Korean genus labels.');
+
+// Basic moss names stay discoverable without inventing species from trade labels.
+run("reset();state.page='plants';state.catalogNode='plants';species=plants;state.search='가는흰털이끼';render()");
+assert.deepEqual(Array.from(run('filtered().map(r=>r.id)')),['plant-176']);
+assert.equal(run('filtered()[0].name'),'비단이끼');
+assert.equal(run("genusName('Leucobryum')"),'비단이끼·흰털이끼');
+run("state.search='양지이끼';render()");
+assert.deepEqual(Array.from(run('filtered().map(r=>r.id)')),['plant-209']);
+assert.equal(run('filtered()[0].catalogType'),'유통명');
+assert.ok(run("filtered()[0].latin.includes('sp.')"));
+assert.equal(run("sizeClass(plants.find(r=>r.id==='plant-207'))"),'small');
+assert.equal(run("sizeClass(plants.find(r=>r.id==='plant-208'))"),'medium','Rare documented maximum stays visible to the size filter');
+assert.equal(run("sizeClass(plants.find(r=>r.id==='plant-212'))"),'unknown','Variable leaf sizes cannot classify whole fern size');
+run("state.search='미크로그램마';render()");
+assert.equal(run("plantGroups(filtered()).find(g=>g.key==='Microgramma').rows.length"),2);
+console.log('PASS: basic moss aliases, unresolved trade identity, documented size basis and new epiphytic fern genus.');

@@ -2,7 +2,29 @@
 
 초기 기록: 2026-11-03 (Asia/Seoul). 초기 배치는 등각류 공개 카테고리의 **목록 전 페이지 대조**와 드워프화이트 추가다. 전체 도감·업체 전 상품 조사 완료를 뜻하지 않는다. 목록 열람 완료와 후보 처리 완료를 구분한다. 미조사는 누락 0건이 아니며, 후보 미확정은 종 수에 넣지 않는다.
 
-최신 집계(2026-11-04): 동물362·식물206=568항목. 세부군·입력 누락은 node scripts/catalog-status.mjs로 집계한다. 사진432·크기184·가격214항목이 입력되어 있다. 아래 분류 표와 초기 배치95상품·74보류 수치는 당시 기록이며 이후 추가·동정 보류는 후속 배치별로 별도 기록한다. 항목에는 종·속·유통명이 섞여 있어 이 수치를 동정 완료 종 수로 쓰지 않는다.
+최신 집계(2026-11-04): 동물362·식물212=574항목. 세부군·입력 누락은 node scripts/catalog-status.mjs로 집계한다. 사진437·크기186·가격214항목이 입력되어 있다. 아래 분류 표와 초기 배치95상품·74보류 수치는 당시 기록이며 이후 추가·동정 보류는 후속 배치별로 별도 기록한다. 항목에는 종·속·유통명이 섞여 있어 이 수치를 동정 완료 종 수로 쓰지 않는다.
+
+## 2026-11-04 기본 이끼·착생 고사리 반영
+
+- package.json 전체 check·git diff --check 통과. 기존 동물 불변, 기존206식물 중 plant-176/127의 허용한 이름·별칭·설명·사진 필드만 바뀐 보존 검사 통과.
+- 현재 동물362·식물212=574항목, 목차858노드. 사진437·크기186·가격214. 신규6(이끼4·착생 고사리2), 기존2항목 보강. 서리이끼는 유통명1건이며 확정 종으로 세지 않는다.
+- plant-176 대표명을 비단이끼로 줄이고 가는흰털이끼·빵이끼·과거 표기 별칭을 연결. Leucobryum 속 표시는 비단이끼·흰털이끼로 바꿔 기본 이름으로 찾기 쉽게 했다. L. glaucum과 합치지 않음. 기존 가격/인기/ID는 보존.
+- plant-127 털깃털이끼에 실제 생육 사진을 추가하고 ITIS의 최신 조합 Calohypnum plumiforme 등을 별칭으로 연결. 기존 Hypnum plumiforme 학명 표기/검색을 보존했다.
+- Commons 후보를 직접 열어 검수했다. 사진5장은 저자·이용허락·원본 링크와 반영. 비단이끼 후보는 L. albidum과 최근 재동정 문제로 제외, 깃털/봉황의 건조 표본과 헤테로필라 첫 후보의 다른 잎 형태도 제외. 깃털·봉황·그늘대호꼬리와 비단이끼의 적합한 살아있는 종 사진 확보는 계속 필요하다.
+- 쥐꼬리이끼 줄기1~5cm(FNA), 큰솔이끼 줄기 높이 보통3~8cm/드물게20cm(Montana 형태자료)를 측정부위·한계와 함께 입력. 큰솔 필터는 드문 최대20cm를 사용. 고사리 잎 길이를 전체 크기로 입력하지 않음. 신규 가격/구매 링크/인기 순위는 확정하지 않음.
+- 양털 판매명은 물가양털이끼와 자동 연결하지 않았다. 세줄·양털·큰초롱 판매명은 종·관리 대조 보류. 새로운 물가양털이끼는 국내 재배 연구 근거이며 판매 확인 항목이 아니다. 미크로그램마2종은 해외 재배 참고로 국내 취급·인기와 구분.
+- 자료·후보 사진·제외 사유·필드별 URL은 저장소 밖 research/moss-batch-2026-11-04/에 보관. 공개 최소 근거는 아래 기록. 실제 새 화면 검수는 미완료이며 이전 브라우저 연결 오류가 해결되었다고 가정하지 않음. 업로드·main·배포 없음.
+
+|ID|반영|최소 근거·한계|
+|---|---|---|
+|plant-176|비단이끼|[자료1](https://www.nibr.go.kr/aiibook/catImage/20/National%20Species%201.pdf) · [자료2](https://www.akb.jp/c/int/koke_pack/int-096) · [자료3](https://www.bibsbryology.org/learning/species-finder/leucobryum-juniperoideum-2/)|
+|plant-127|털깃털이끼|[자료1](https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1136446) · [자료2](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&id=98943&lvl=&mode=node)|
+|plant-207|쥐꼬리이끼|[자료1](https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=547912) · [자료2](https://bryophyteportal.org/portal/taxa/index.php?taxon=159990) · [자료3](https://library.nih.go.kr/ncmiklib/elib/kom/articleDtl.do?pk_pb_seq=PB06067674) · [자료4](https://silvarium2023.cafe24.com/product/list.html?cate_no=43)|
+|plant-208|큰솔이끼|[자료1](https://www.bibsbryology.org/learning/species-finder/polytrichum-formosum/) · [자료2](https://fieldguide.mt.gov/speciesDetail.aspx?elcode=NBMUS5T020) · [자료3](https://silvarium2023.cafe24.com/product/list.html?cate_no=43)|
+|plant-209|서리이끼·양지이끼 유통형|[자료1](https://www.kjpr.kr/articles/xml/bYqR/) · [자료2](https://m.oqua.co.kr/category/이끼/453/) · [자료3](https://silvarium2023.cafe24.com/product/list.html?cate_no=43)|
+|plant-210|물가양털이끼|[자료1](https://www.nibr.go.kr/aiibook/catImage/20/National%20Species%201.pdf) · [자료2](https://library.nih.go.kr/ncmiklib/elib/kom/articleDtl.do?pk_pb_seq=PB06067674)|
+|plant-211|미크로그램마 렙탄스|[자료1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17444950-1) · [자료2](https://glassboxtropicals.com/microgramma-reptans/)|
+|plant-212|미크로그램마 헤테로필라|[자료1](https://powo.science.kew.org/taxon/17444900-1) · [자료2](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A17444900-1/general-information) · [자료3](https://glassboxtropicals.com/microgramma-heterophylla/)|
 
 ## 2026-11-04 기본 이끼·식물 누락 재조사
 

@@ -1,5 +1,5 @@
 'use strict';
-const CATALOG_VERSION = '2026-11-03-guide2';
+const CATALOG_VERSION = '2026-11-04-review1';
 const $ = (selector) => document.querySelector(selector);
 const envNames = {습:'습식',혼:'건습 혼합',건:'건조',수:'반수생·수생',냉:'냉량 관리',대:'대형 사육장',환:'충분한 환기',굴:'깊은 바닥재',해:'담수·해수'};
 const descriptions = {
@@ -261,7 +261,12 @@ function openShopMenu(shop){
   if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';
 }
 function setPage(page){
+  const wasRestoring=restoringCatalogRoute;
+  const push=!wasRestoring&&page!==state.page&&catalogModel&&catalogCanRoute();
+  if(push)saveCatalogRoute();
   if(!restoringCatalogRoute){currentCatalogEntry=null;currentCatalogSelection=null;catalogReturnView=null;state.catalogNode=page==='plants'?'plants':'animals';catalogPanel?.close();}
+  if(push)restoringCatalogRoute=true;
+  try{
   $('#animalPage').hidden=page==='shops';$('#shopsPage').hidden=page!=='shops';
   if(page==='shops'){
     state.page=page;document.body.classList.remove('plants-view');document.querySelectorAll('.nav-item').forEach(b=>b.classList.toggle('active',b.dataset.page===page));
@@ -273,6 +278,10 @@ function setPage(page){
   $('#search').placeholder=page==='plants'?'식물 이름·학명으로 찾아보세요':'생물·모프 이름·학명으로 찾아보세요';
   $('#search').setAttribute('aria-label',page==='plants'?'식물 이름 또는 학명 검색':'생물 모프 이름 또는 학명 검색');
   reset();window.scrollTo({top:0,behavior:'smooth'});
+  }finally{
+    restoringCatalogRoute=wasRestoring;
+    if(push)saveCatalogRoute('push');
+  }
 }
 document.addEventListener('click',event=>{
   const toc=event.target.closest('[data-catalog-open-menu]');if(toc){catalogPanel?.open(toc.dataset.catalogOpenMenu);return;}

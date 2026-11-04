@@ -1,8 +1,36 @@
 # 도감 수록 범위·조사 장부
 
-확인일: 2026-11-03 (Asia/Seoul). 이번 배치는 등각류 공개 카테고리의 **목록 전 페이지 대조**와 드워프화이트 추가다. 전체 도감·업체 전 상품 조사 완료를 뜻하지 않는다. 목록 열람 완료와 후보 처리 완료를 구분한다. 미조사는 누락 0건이 아니며, 후보 미확정은 종 수에 넣지 않는다.
+초기 기록: 2026-11-03 (Asia/Seoul). 초기 배치는 등각류 공개 카테고리의 **목록 전 페이지 대조**와 드워프화이트 추가다. 전체 도감·업체 전 상품 조사 완료를 뜻하지 않는다. 목록 열람 완료와 후보 처리 완료를 구분한다. 미조사는 누락 0건이 아니며, 후보 미확정은 종 수에 넣지 않는다.
 
-최신 집계: 동물360·식물196=556항목. 세부군·입력 누락은 node scripts/catalog-status.mjs로 집계한다. 사진427·크기182·가격214항목이 입력되어 있다. 기존338동물은 HEAD와 전체 필드 일치 확인. 아래 초기 배치95상품·74보류 수치는 당시 기록이며 이후 추가·동정 보류는 후속 배치별로 별도 기록한다. 항목에는 종·속·유통명이 섞여 있어 이 수치를 동정 완료 종 수로 쓰지 않는다.
+최신 집계(2026-11-04): 동물362·식물198=560항목. 세부군·입력 누락은 node scripts/catalog-status.mjs로 집계한다. 사진427·크기184·가격214항목이 입력되어 있다. 아래 분류 표와 초기 배치95상품·74보류 수치는 당시 기록이며 이후 추가·동정 보류는 후속 배치별로 별도 기록한다. 항목에는 종·속·유통명이 섞여 있어 이 수치를 동정 완료 종 수로 쓰지 않는다.
+
+## 2026-11-04 인계 후속 — 우선 식물 목록·도마뱀 후보·대표 화면 검수
+
+### 플랜티멀 정글플랜트48: 목록 전수, 동정·가격 처리 일부
+
+[공개 카테고리48](https://plantimal.co.kr/product/list.html?cate_no=48)의 표시 총수150건을 페이지1~4의40+40+40+30개와 대조했다. 중복 제거 상품 URL150개. 기존 이름/학명/별칭으로 28상품에 대조 후보 ID를 지정했고, 122상품은 미확정 보류로 기록했다. 이 판정은 보수적인 이름 대조이며 122개의 신규 종이나 28개의 실물 동정 완료를 뜻하지 않는다. 전체 상품별 원장은 checkout 밖 ../research/review-2026-11-04/plantimal-review-ledger.json, 원문과 목록은 같은 폴더에 보관했다. 가격은 단위·규격 검증 전이라 이번 목록 배치에서 추가하지 않았다.
+
+상세6상품(1029 라비시아 핑크 그라데이션,739 호마로메나 골드벨벳,591 페페로미아 메탈리카,571 마르크라시아 콜롬비아,522 에피스시아 핑크스모크,519 필레아 브론즈 실버트리)에 접근했다. 목록의 표시 가격과 상세 판매명을 확인했으나 화분·촉·수량 규격이 텍스트로 확인되지 않았다. 최소 주문수량1개는 식물1촉/1포트 근거로 사용하지 않았다. 571/522/519의 기존 유통명 항목은 그대로 유지하며 종 동정·현재 재고를 확정하지 않았다.
+
+다음 보류 우선 묶음: 호말로메나 실버 네로우리프·골드벨벳·하세호미 / 라비시아 핑크 그라데이션·블랙·WK그린 / 피커스 sp. 빌로사 / 셀라지넬라 인터메디아·픽타·퍼플 / 베고니아 판매명 철자 충돌. 서리이끼 건조이끼·혼합 SET는 살아 있는 특정 종으로 자동 연결하지 않는다. 브로멜리아 상품은 이 카테고리에서 확인되지 않았으므로 브로멜리아 국내 전체 조사를 완료로 표시하지 않는다.
+
+### 신규4항목과 기존4항목의 정보 보강
+
+|ID|항목|확인 범위와 한계|
+|---|---|---|
+|species-361|제노사우루스 그란디스 · Xenosaurus grandis|[ITIS586165](https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=586165), [Reptile Database](https://reptile-database.reptarium.cz/Xenosaurus/grandis), [직접 야외연구](https://www.thebhs.org/publications/the-herpetological-journal/volume-21-number-2-april-2011/619-03-estimating-potential-reproductive-costs-in-the-survival-of-a-xenosaurid-lizard/file)의 바위 틈·단독 생활 대조. 국내[2134](https://reptileahead.com/product/detail.html?product_no=2134)는 한글 판매명만 확인. 옛 grandis 아종을 모두 현행 종으로 합치지 않음. 성숙 개시 SVL9.5/10cm를 성체 최대크기로 쓰지 않음. 세부 사육 조건 추가 검증 필요.|
+|species-362|유러피안 글라스리자드 · Pseudopus apodus|[현행/옛 학명](https://reptile-database.reptarium.cz/Pseudopus/apodus), [Beardsley Zoo](https://beardsleyzoo.org/plan-your-visit/animals/legless-lizard/), [Phoenix Zoo](https://www.phoenixzoo.org/explore/animals/european-legless-lizard/)의 지상 생활·낙엽/굴·먹이·꼬리 포함 최대4피트 대조. 국내[2788](https://reptileahead.com/product/detail.html?product_no=2788) 한글 판매명만 확인. 아종/실물 동정·가격 단위 미확인. 뱀 분류로 넣지 않음.|
+|plant-197|페페로미아 메탈리카 · Peperomia metallica|[POWO 이름색인](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A189133-2/general-information)·WFO0001092562 이름 대조, POWO 본문403. [재배자의 종별 안내](https://rootgrowings.com/products/peperomia-metallica)의 중간 빛·급수/배수 참고. 국내591 판매명 확인·실물 종 일치 미확정. 재배자의 small표현과 판매 화분4인치를 성숙 크기로 쓰지 않음.|
+|plant-198|디스키디아 누뮬라리아 · Dischidia nummularia|[NParks1385](https://www.nparks.gov.sg/florafaunaweb/flora/1/3/1385)의 종명/이명·착생·빛·적은 급수 대조. 잎 지름7~10mm는 전체 크기 필터에 넣지 않음. 국내 취급은 미조사.|
+
+신규4항목의 사진·인기·가격은 미입력 유지. 두 국내 도마뱀 상품은 한글 판매명과 상품가(2134:700,000원,2788:150,000원)를 읽었으나 학명/생물 단위/옵션을 모두 검증하지 못해 구매 링크·가격을 입력하지 않았다. SOLD OUT과 구매하기가 같은 텍스트에 나와 재고도 확정하지 않았다.
+
+- species-42 골든더스트데이게코: [ReptiFiles 종별 사육 안내](https://reptifiles.com/gold-dust-day-gecko)의 주행성·수목성·잡식·UVB·습도 일주기·약한 피부를 careNote에 반영. 기존 크기/가격/인기는 보존.
+- species-183 밀키프로그: [Smithsonian 직접 사육 전시 자료](https://nationalzoo.si.edu/animals/news/fun-facts-about-amazon-milk-frogs)의 수목 생활·곤충 먹이·방어 분비물 반영. 온습도 수치를 만들지 않음.
+- plant-24 네오레겔리아 릴리푸티아나: [Steve's Leaves 재배 자료](https://stevesleaves.com/products/neoregelia-lilliputiana)의 밝은 여과광·고습·포복경·식물 높이2~3인치를 반영. 높이5.08~7.62cm와 군락 폭/판매 화분3.5인치를 구별.
+- plant-51 크립탄서스 비비타투스: [NParks3875](https://www.nparks.gov.sg/florafaunaweb/flora/3/8/3875)의 Pink Starlite를 기존 종 아래 품종으로 연결. 해당 품종의 지생·배수·여과광·잎 가장자리 주의만 설명하고 품종 최대높이20cm를 종 전체 크기로 덮어쓰지 않음.
+
+대표 UI를1440×900/390×844에서 검수했다. 동물 목차→파충류→게코, 식물 목차 전역검색→브로멜리아 상세, 크기 필터·종 상세/선택목록/속 목록 복귀·URL 새로고침·뒤로/앞으로·구매처 검색→관련 식물→상세→원래 업체 목록을 확인했다. 구매처 탭 전환이 원래 history 항목을 덮어쓰는 문제를 실제 화면에서 재현한 뒤, 출발 상태 저장과 새 history 항목 push로 수정했다. 실패하는 회귀검사→수정→모바일/데스크톱 왕복 재검수 통과. 새 덩굴 상세에서 페이지390/scroll390, 대화상자337/scroll337로 가로 넘침 없음; 데스크톱 상세885/scroll885. 확인한 브라우저 console error 없음. 전 항목/전 외부 구매 상품의 전수 검수는 아니다.
 
 ## 기준 목록 정리
 
@@ -91,7 +119,7 @@
 |tarancenter|[타란센터](https://tarancenter.com/)|파충류·양서류·무척추동물|대기 — 세부 카테고리 URL·하위 페이지·표시 총수 미확정|
 |tistou|[티쭈 (티스투)](https://tistou.co.kr/)|정글플랜트|대기 — 세부 카테고리 URL·하위 페이지·표시 총수 미확정|
 |reptileahead|[파충류출몰구역](https://reptileahead.com/)|파충류·양서류|대기 — 세부 카테고리 URL·하위 페이지·표시 총수 미확정|
-|plantimal|[플랜티멀](https://plantimal.co.kr/)|정글플랜트·무척추동물·파충류·양서류|등각류85만 목록 전수/처리 일부; 먹이50 접근 실패; 식물·기타군 대기|
+|plantimal|[플랜티멀](https://plantimal.co.kr/)|정글플랜트·무척추동물·파충류·양서류|등각류85·정글플랜트48 목록 전수/처리 일부(48:150상품); 먹이50 접근 실패; 기타군 대기|
 |dreamnature|[꿈속의 자연](https://www.xn--cw0b005ajgdetb9h.com/)|정글플랜트·이끼·수초·테라리움 완성품·주문제작·자재·도구|이전 기록: 정글·생태 식물44의3페이지28상품 처리; 이번 재검증 없음; 다른 군 대기|
 |firerium|[Firerium](https://www.daangn.com/kr/local-profile/firerium-2q9mrmii51h7/)|테라리움 완성품·주문제작|대기 — 세부 카테고리 URL·하위 페이지·표시 총수 미확정|
 |iammoss|[아이엠모스](https://www.iammoss.kr/)|테라리움 완성품·주문제작·DIY 키트|대기 — 세부 카테고리 URL·하위 페이지·표시 총수 미확정|

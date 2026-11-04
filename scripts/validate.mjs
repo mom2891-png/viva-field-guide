@@ -43,7 +43,7 @@ assert.equal(run('plantGroups(filtered()).length'),new Set(plants.map(r=>r.latin
 assert.equal(run('plantGroups(filtered()).flatMap(g=>g.rows).length'),plants.length,'Grouping preserves every plant');
 assert.equal((element('#grid').innerHTML.match(/<article class="species-card genus-card"/g)||[]).length,run('plantGroups(filtered()).length'),'Every genus rendered');
 assert.equal(run("plantGroups(filtered()).find(g=>g.key==='Begonia').rows.length"),19);
-assert.equal(run("plantGroups(filtered()).find(g=>g.key==='Peperomia').rows.length"),13);
+assert.equal(run("plantGroups(filtered()).find(g=>g.key==='Peperomia').rows.length"),plants.filter(r=>r.latin.startsWith('Peperomia ')).length,'Genus grouping includes newly added species');
 assert.equal(run('plantGroups(filtered())[0].key'),'Ficus','Genus with first ranked plant leads popular order');
 run("state.sort='name';render()");
 assert.ok(run("plantGroups(filtered()).every((g,i,arr)=>!i||arr[i-1].name.localeCompare(g.name,'ko')<=0)"),'Sort by genus name');
@@ -235,5 +235,18 @@ ctx.window.location.hash=historyEntries[0].hash;ctx.window.history.state=history
 run('restoreCatalogRoute()');
 assert.equal(run('state.catalogNode'),'animals');assert.equal(run('state.search'),'게코');assert.equal(run('state.sizeClass'),'small');
 console.log('PASS: History transitions preserve departing scroll, search, size and branch restoration.');
+
+// Top navigation must preserve the departing URL, just like branch navigation.
+vm.runInContext('var shopDirectory={show(){}}',ctx);
+const beforeShopHistory=historyEntries.length;
+run("state.catalogNode='animals/reptiles/geckos';state.search='게코';state.sizeClass='small';saveCatalogRoute();setPage('shops')");
+assert.equal(historyEntries.length,beforeShopHistory+1,'Opening shops pushes a new history entry');
+const departingShopEntry=historyEntries.at(-2);
+assert.ok(departingShopEntry.hash.includes('sizeClass=small'),'Departing filters must not be overwritten');
+ctx.window.location.hash=departingShopEntry.hash;ctx.window.history.state=departingShopEntry.data;
+run('restoreCatalogRoute()');
+assert.equal(run('state.page'),'animals');assert.equal(run('state.catalogNode'),'animals/reptiles/geckos');
+assert.equal(run('state.search'),'게코');assert.equal(run('state.sizeClass'),'small');
+console.log('PASS: shops round-trip preserves branch, search and size history.');
 
 assert.equal(run('sizeClass({id:"plant-93",sizeInfo:{max:3,unit:"cm",kind:"range",measurement:"잎 길이"}})'),"unknown","Leaf length alone cannot classify whole plant size");

@@ -1112,7 +1112,7 @@
     "humidity": "높음",
     "placement": "유목·상부",
     "environment": "열대습식",
-    "care": "작은 로제트와 포복줄기로 군락을 만들어요. 통기성 있게 부착하고 빛을 확보하되 잎이 뜨겁게 달아오르지 않게 해 주세요.",
+    "care": "작은 로제트를 만들고 짧은 포복경으로 자구가 퍼지는 브로멜리아예요. 밝은 여과광과 높은 공중습도를 제공하되 부착 부위와 뿌리가 통기되는 자리를 마련해요. 모체 한 포기의 높이와 옆으로 늘어나는 군락 폭을 구분하고 자구가 퍼질 여유를 둬요. 판매 화분 크기를 성숙 식물 크기로 사용하지 않았어요.",
     "aliases": [
       "미니네오레겔리아",
       "lilliputiana"
@@ -1130,9 +1130,19 @@
     "popularity": null,
     "varieties": [],
     "catalogType": "종",
-    "verification": "기존 도감 · 재검토 대상",
+    "verification": "기존 도감 · 재검토 대상; 2026-11-04 Steve's Leaves 종별 재배·식물 높이 대조",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "sizeInfo": {
+      "min": 5.08,
+      "max": 7.62,
+      "unit": "cm",
+      "measurement": "한 로제트 높이",
+      "basis": "성숙",
+      "kind": "range",
+      "note": "Steve's Leaves의 식물 높이2~3인치 환산값. 포복경·자구를 포함한 군락 폭과 판매 화분3.5인치는 별도예요.",
+      "checkedAt": "2026-11-04"
+    }
   },
   {
     "id": "plant-25",
@@ -2150,7 +2160,7 @@
     "humidity": "보통~높음",
     "placement": "바닥·전경",
     "environment": "열대습식",
-    "care": "별 모양의 포기를 만드는 지생 브로멜리아예요. 착생형과 달리 뿌리를 배지에 심고 밝은 간접광과 좋은 배수를 제공해 주세요.",
+    "care": "별 모양의 포기를 만드는 지생 브로멜리아예요. 착생형과 달리 뿌리를 배지에 심고 밝은 간접광과 좋은 배수를 제공해 주세요. 핑크 스타라이트 품종은 밝은 여과광·촉촉하되 배수되는 흙에서 자라는 지생형 브로멜리아로, 네오레겔리아의 컵 급수 방식을 그대로 적용하지 않아요. 품종별 크기·색상 차이를 확인하고 잎 가장자리의 작은 가시에 주의하세요.",
     "aliases": [
       "어스스타",
       "earth star"
@@ -2166,7 +2176,9 @@
     },
     "shopCoverage": 0,
     "popularity": null,
-    "varieties": [],
+    "varieties": [
+      "Pink Starlite"
+    ],
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
@@ -8982,5 +8994,58 @@
     "popularity": null,
     "shopCoverage": null,
     "addedAt": "2026-11-03"
+  },
+  {
+    "id": "plant-197",
+    "n": 197,
+    "name": "페페로미아 메탈리카",
+    "latin": "Peperomia metallica",
+    "category": "관엽식물",
+    "environment": "환기형",
+    "light": "중간 밝기·간접광",
+    "humidity": "적당한 급수·배수와 환기",
+    "placement": "그늘진 전경·작은 화분",
+    "care": "금속빛 잎을 감상하는 소형 페페로미아예요. 원예 판매자의 종별 안내는 중간 밝기와 적당한 급수, 물이 빠지는 화분 관리를 제시해요. 화분 밑에 물을 고이게 두지 않고 기질의 마름을 확인한 뒤 급수해요. 밀폐 고습 환경에 자동으로 적합하다고 보지 않으며 국내 판매 식물의 종 일치와 성숙 최대크기는 추가 확인 중이에요.",
+    "aliases": [
+      "메탈리카 페페",
+      "Metallic Peperomia"
+    ],
+    "catalogType": "종",
+    "domesticStatus": "국내 종 일치 미확정",
+    "verification": "POWO189133-2 이름색인·WFO0001092562 종명 대조; POWO 본문403; RootGrowings 종별 재배 안내; 플랜티멀591 판매명 확인·실물 동정 미검증",
+    "varieties": [],
+    "order": 197,
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04"
+  },
+  {
+    "id": "plant-198",
+    "n": 198,
+    "name": "디스키디아 누뮬라리아",
+    "latin": "Dischidia nummularia",
+    "category": "덩굴식물",
+    "environment": "환기형",
+    "light": "밝은 빛·반그늘",
+    "humidity": "적은 급수·통기성 있는 뿌리 자리",
+    "placement": "착생 지지물·늘어지는 덩굴 공간",
+    "care": "나무 위를 기며 작은 둥근 다육질 잎을 달고 자라는 착생성 덩굴이에요. NParks는 양지~반그늘과 적은 급수를 제시해요. 줄기를 지지물에 올리거나 늘어뜨리고 뿌리 주변 물고임을 피하세요. 잎 지름 약7~10mm는 덩굴 전체 크기와 달라 소형 사육장 적합 크기로 환산하지 않았어요. 국내 상품명과 종 일치는 아직 확인하지 않았어요.",
+    "aliases": [
+      "누무라리아",
+      "누물라리아",
+      "동전 디스키디아",
+      "Dischidia gaudichaudii",
+      "Button Orchid"
+    ],
+    "catalogType": "종",
+    "domesticStatus": "해외 원예 자료",
+    "verification": "NParks1385 종명·이명·착생·빛·급수 자료 대조; 국내 취급 미조사",
+    "varieties": [],
+    "order": 198,
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04"
   }
 ]

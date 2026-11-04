@@ -5410,7 +5410,8 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "careNote": "낮에 나뭇가지 위에서 활동하는 수목성 잡식 게코예요. 위아래를 오갈 가지와 잎 사이 피난처, 밝은 조명과 종에 맞는 UVB·따뜻한 일광욕 구역을 함께 계획해요. 분무로 생긴 물방울을 마실 수 있게 하되 낮 동안 환기하며 습도가 내려가고 밤에 오르는 변화를 허용해요. 곤충과 종에 맞는 완전식 급여를 구분하고 피부가 약해 손으로 잡는 관찰 방식은 피하세요."
   },
   {
     "n": 43,
@@ -13548,7 +13549,8 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "careNote": "남아메리카 열대우림의 나무와 식물 위에서 생활하는 수목성 개구리예요. 수직 이동이 가능한 튼튼한 가지와 숨을 잎을 배치하고 성체가 안정적으로 앉을 발판을 마련해요. 먹이는 곤충과 작은 무척추동물이 중심이에요. 피부의 방어 분비물이 있어 불필요한 접촉을 줄이고, 정확한 분무·환기·물 관리 및 온도 조건은 별도 종별 사육 자료로 확인하세요."
   },
   {
     "n": 184,
@@ -22289,5 +22291,62 @@
     "popularity": null,
     "shopCoverage": null,
     "addedAt": "2026-11-03"
+  },
+  {
+    "id": "species-361",
+    "n": 361,
+    "name": "제노사우루스 그란디스",
+    "latin": "Xenosaurus grandis",
+    "major": "파충류",
+    "middle": "기타 도마뱀",
+    "env": "혼·환",
+    "aliases": [
+      "제노사우루스",
+      "크세노사우루스 그란디스",
+      "Knob-scaled Lizard"
+    ],
+    "careNote": "바위 틈을 은신처로 사용하는 도마뱀이에요. 야외 연구에서 성체는 번식기를 제외하면 대체로 각자의 틈에서 단독으로 관찰됐어요. 이 생활방식을 고려해 움직이지 않도록 고정한 틈형 은신처와 서로 피할 공간을 계획하세요. 전문 사육 온도·습도·먹이와 계절 관리의 수치 검증은 추가로 필요해요. 예전 grandis 아종에 포함됐던 다른 종과 혼동하지 않도록 유통 개체의 동정을 확인하세요.",
+    "domesticStatus": "국내 종 일치 미확정",
+    "verification": "ITIS586165·Reptile Database 종명 대조; Zuniga-Vega2011 직접 야외연구의 은신·단독 생활 참고; 국내2134 판매명만 확인·개체 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04"
+  },
+  {
+    "id": "species-362",
+    "n": 362,
+    "name": "유러피안 글라스리자드",
+    "latin": "Pseudopus apodus",
+    "major": "파충류",
+    "middle": "기타 도마뱀",
+    "env": "혼·대·굴",
+    "aliases": [
+      "유럽유리도마뱀",
+      "유러피언 글라스 리자드",
+      "유러피안 레그리스리자드",
+      "European Glass Lizard",
+      "Ophisaurus apodus",
+      "셸토푸식"
+    ],
+    "careNote": "다리가 거의 보이지 않지만 눈꺼풀과 외부 귓구멍이 있는 도마뱀이에요. 건조한 개방지·관목지의 낙엽과 느슨한 흙을 이용하며, 몸을 숨기고 굴을 팔 공간을 마련하는 지상형 사육을 계획해요. 무척추동물을 먹고 꼬리가 전체길이의 큰 부분을 차지하므로 좁은 소형 습식 비바리움 후보로 다루지 않아요. 꼬리를 붙잡거나 강제로 다루지 말고 온습도 구배·UVB·계절 관리는 별도 종별 자료로 확인하세요.",
+    "domesticStatus": "국내 종 일치 미확정",
+    "verification": "Reptile Database 현행 학명·옛 Ophisaurus apodus 대조; Beardsley Zoo·Phoenix Zoo 생태/먹이 참고; 국내2788 판매명 확인·아종/실물 동정 미검증",
+    "catalogType": "종",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04",
+    "sizeInfo": {
+      "min": null,
+      "max": 122,
+      "unit": "cm",
+      "measurement": "전체길이·꼬리 포함",
+      "basis": "성체",
+      "kind": "maximum",
+      "note": "Beardsley Zoo의 최대 약4피트(약122cm) 참고값이며 대부분이 꼬리 길이예요. 일반 개체의 평균 크기나 사육장 규격이 아니에요.",
+      "checkedAt": "2026-11-04"
+    }
   }
 ]

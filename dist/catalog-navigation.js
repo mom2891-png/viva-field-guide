@@ -64,16 +64,17 @@ var VivaCatalog = (function () {
       var category = row.category || '', g = (row.latin || '').split(/\s+/)[0], p = byId.get('plants');
       if (/^(Neoregelia|Tillandsia|Guzmania|Cryptanthus)$/.test(g) || category === '브로멜리아·착생') p = branch(p, 'bromeliads', '브로멜리아류');
       else if (category === '보석란' || category === '착생란') p = branch(branch(p, 'orchids', '난초류'), category === '보석란' ? 'jewel' : 'other', category === '보석란' ? '보석란' : '그 외 착생란·소형 난초');
-      else if (category === '고사리·석송류' || /^(Leptochilus|Bolbitis|Crepidomanes|Hymenophyllum)$/.test(g)) p = branch(p, 'ferns', '고사리·석송류');
-      else if (category === '이끼') p = branch(p, 'mosses', '이끼류');
-      else if (category === '우산이끼류') p = branch(p, 'liverworts', '우산이끼류');
+      else if (category === '고사리·석송류' || category === '양치식물' || /^(Leptochilus|Bolbitis|Crepidomanes|Hymenophyllum)$/.test(g)) p = branch(p, 'ferns', '고사리·석송류');
+      else if (category === '이끼' || category === '이끼류') p = branch(p, 'mosses', '선류 (이끼)');
+      else if (category === '우산이끼류' || category === '태류') p = branch(p, 'liverworts', '태류 (우산이끼·잎태류)');
+      else if (category === '뿔이끼류') p = branch(p, 'hornworts', '뿔이끼류');
       else if (category === '식충식물') p = branch(p, 'carnivorous', '식충식물');
       else if (['관엽식물','덩굴식물','지피식물','수변식물'].indexOf(category) >= 0) p = branch(p, 'foliage', '관엽·초화류');
       else p = branch(p, 'unclassified', '분류 미확인');
       return genus(p, g || '분류 미확인');
     }
     function addEntry(row, parent) {
-      var n = add('entry:' + row.id, row.name, parent.id, 'entry', parent.page, {entryId:row.id});
+      var n = add('entry:' + row.id, row.name, parent.id, 'entry', parent.page, {entryId:row.id,mossHabitats:row.mossHabitats || [],mossForms:row.mossForms || []});
       entries.set(row.id, n);
       var searchText = [row.name, row.latin, row.aliases, row.varieties, row.genus, genusNames[(row.latin || '').split(/\s+/)[0]]];
       (morphs[row.id] || []).forEach(function (m, index) {
@@ -98,6 +99,9 @@ var VivaCatalog = (function () {
     }
     nodes.forEach(function (n) { n.count = new Set(descendantEntryIds(n.id)).size; });
     return {nodes:nodes, children:children, path:path, entryNode:function (id) { return entries.get(id); }, descendantEntryIds:descendantEntryIds,
+      matchesMoss:function (entryId, habitat, form) {
+        var n = entries.get(entryId); return !!n && (!habitat || habitat === 'all' || n.mossHabitats.indexOf(habitat) >= 0) && (!form || form === 'all' || n.mossForms.indexOf(form) >= 0);
+      },
       search:function (query, scopeId) {
         var q = normalize(query), allowed = scopeId ? new Set(descendantEntryIds(scopeId)) : null;
         return nodes.filter(function (n) { return text.has(n.id) && (!allowed || allowed.has(n.entryId)) && (!q || text.get(n.id).indexOf(q) >= 0); });

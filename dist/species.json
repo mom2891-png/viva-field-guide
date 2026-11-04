@@ -13292,7 +13292,15 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/263469344/medium.jpg",
+    "credit": {
+      "author": "pgkaestner",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/263469344",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+    }
   },
   {
     "n": 178,
@@ -14512,7 +14520,15 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/477532780/medium.jpeg",
+    "credit": {
+      "author": "Uwe Gerlach",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/477532780",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+    }
   },
   {
     "n": 200,
@@ -14886,7 +14902,15 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/661351197/medium.jpg",
+    "credit": {
+      "author": "vivi1874",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/661351197",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+    }
   },
   {
     "id": "species-208",
@@ -15040,7 +15064,13 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/188597373/medium.jpg",
+    "credit": {
+      "author": "no rights reserved",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/188597373"
+    }
   },
   {
     "id": "species-211",
@@ -17554,7 +17584,15 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Mexican_black_kingsnake-1-karnataka_aquarium-J_P_Nagar-bangalore-India.jpg/960px-Mexican_black_kingsnake-1-karnataka_aquarium-J_P_Nagar-bangalore-India.jpg",
+    "imageFile": "Mexican black kingsnake-1-karnataka aquarium-J P Nagar-bangalore-India.jpg",
+    "credit": {
+      "author": "Yercaud-elango",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Mexican%20black%20kingsnake-1-karnataka%20aquarium-J%20P%20Nagar-bangalore-India.jpg"
+    }
   },
   {
     "id": "species-237",
@@ -18134,7 +18172,13 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/724667107/medium.jpg",
+    "credit": {
+      "author": "Timothy Lindsey",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/724667107"
+    }
   },
   {
     "id": "species-258",
@@ -18178,7 +18222,13 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/29816152/medium.jpeg",
+    "credit": {
+      "author": "Even Dankowicz",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/29816152"
+    }
   },
   {
     "id": "species-260",
@@ -18196,7 +18246,13 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/257381584/medium.jpg",
+    "credit": {
+      "author": "Gilles San Martin",
+      "license": "CC BY-SA",
+      "url": "https://www.inaturalist.org/photos/257381584"
+    }
   },
   {
     "id": "species-261",
@@ -18214,7 +18270,13 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/198588235/medium.jpeg",
+    "credit": {
+      "author": "Reiner Jakubowski",
+      "license": "CC BY-SA",
+      "url": "https://www.inaturalist.org/photos/198588235"
+    }
   },
   {
     "id": "species-262",
@@ -18258,7 +18320,13 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/723683527/medium.jpg",
+    "credit": {
+      "author": "Timothy Lindsey",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/723683527"
+    }
   },
   {
     "id": "species-264",
@@ -18354,7 +18422,13 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/680946334/medium.jpg",
+    "credit": {
+      "author": "Timothy Lindsey",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/680946334"
+    }
   },
   {
     "id": "species-268",
@@ -18755,7 +18829,13 @@
     "shopCoverage": null,
     "popularity": null,
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/255145669/medium.jpg",
+    "credit": {
+      "author": "Rodolfo Salinas Villarreal",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/255145669"
+    }
   },
   {
     "id": "species-279",
@@ -19816,7 +19896,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Porcellio_hoffmannseggii.jpg/500px-Porcellio_hoffmannseggii.jpg",
+    "imageFile": "Porcellio hoffmannseggii.jpg",
+    "credit": {
+      "author": "mattiamenchetti / iNaturalist",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Porcellio%20hoffmannseggii.jpg"
+    }
   },
   {
     "id": "species-309",
@@ -19899,7 +19987,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Rubber_Ducky_isopod.png",
+    "imageFile": "Rubber Ducky isopod.png",
+    "credit": {
+      "author": "Edgars Fish Channel",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rubber%20Ducky%20isopod.png",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   {
     "id": "species-312",
@@ -19964,7 +20060,14 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/674637860/medium.jpg",
+    "credit": {
+      "author": "@lankasterlab",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/674637860",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
+    }
   },
   {
     "id": "species-313",
@@ -21826,6 +21929,13 @@
       "kind": "range",
       "note": "전문 사육 자료의 참고 범위. 판매 개체의 동정·규격을 보증하지 않아요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/619305148/medium.jpg",
+    "credit": {
+      "author": "Gaëtan Jouvenez",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/619305148",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
     }
   },
   {
@@ -21966,6 +22076,14 @@
       "kind": "maximum",
       "note": "분류 논문에서 인용한 수컷 최대29mm. 꼬리다리 포함 여부가 다른 사육 자료와 직접 비교하지 마세요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Porcellio_magnificus.jpg/960px-Porcellio_magnificus.jpg",
+    "imageFile": "Porcellio magnificus.jpg",
+    "credit": {
+      "author": "Individuo Núcleo",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Porcellio%20magnificus.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     }
   },
   {
@@ -21998,6 +22116,13 @@
       "kind": "range",
       "note": "전문 사육 자료의 참고 범위이며 판매 당시 규격과 구분해요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/224306001/medium.jpg",
+    "credit": {
+      "author": "Paolo Mazzei",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/224306001",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
     }
   },
   {
@@ -22137,6 +22262,13 @@
       "kind": "maximum",
       "note": "분류 논문 표본의 최대값으로, 모든 개체의 성장 한계를 뜻하지 않아요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/579509616/medium.jpg",
+    "credit": {
+      "author": "juliusj",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/579509616",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
     }
   },
   {
@@ -22200,6 +22332,12 @@
       "kind": "maximum",
       "note": "박물관 자료: 암컷 약90mm, 수컷 약45mm. 웅크린 공의 지름이나 판매 당시 크기와 구분해요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/531210858/medium.jpg",
+    "credit": {
+      "author": "David Weisenbeck",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/531210858"
     }
   },
   {
@@ -22221,7 +22359,14 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/683166805/medium.jpg",
+    "credit": {
+      "author": "emanon",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/683166805",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
+    }
   },
   {
     "id": "species-353",
@@ -22252,6 +22397,13 @@
       "kind": "maximum",
       "note": "분류 논문에서 측정한 표본 최대값이며, 모든 개체의 성장 한계를 뜻하지 않아요.",
       "checkedAt": "2026-11-03"
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/571879767/medium.jpg",
+    "credit": {
+      "author": "Gaëtan Jouvenez",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/571879767",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
     }
   },
   {
@@ -22382,7 +22534,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Porcellio_nicklesi.jpg/960px-Porcellio_nicklesi.jpg",
+    "imageFile": "Porcellio nicklesi.jpg",
+    "credit": {
+      "author": "Individuo Núcleo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Porcellio%20nicklesi.jpg"
+    }
   },
   {
     "id": "species-358",
@@ -22493,7 +22653,13 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/308371086/medium.jpeg",
+    "credit": {
+      "author": "Wouter Beukema",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/308371086"
+    }
   },
   {
     "id": "species-362",

@@ -8,7 +8,15 @@
         "릴리",
         "Lilly White",
         "Lily White"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Crested_gecko-mars.jpg/960px-Crested_gecko-mars.jpg",
+      "imageFile": "Crested gecko-mars.jpg",
+      "credit": {
+        "author": "CRUSHER",
+        "license": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File%3ACrested%20gecko-mars.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     },
     {
       "name": "아잔틱",
@@ -60,7 +68,15 @@
       "aliases": [
         "Harlequin",
         "할리"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Crested_gecko_juvenile.jpg/960px-Crested_gecko_juvenile.jpg",
+      "imageFile": "Crested gecko juvenile.jpg",
+      "credit": {
+        "author": "DigitalLem0n",
+        "license": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File%3ACrested%20gecko%20juvenile.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     },
     {
       "name": "익스트림 할리퀸",
@@ -69,7 +85,15 @@
       "aliases": [
         "Extreme Harlequin",
         "익할"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Lil_B_the_Crested_Gecko.jpg/960px-Lil_B_the_Crested_Gecko.jpg",
+      "imageFile": "Lil B the Crested Gecko.jpg",
+      "credit": {
+        "author": "Jazium",
+        "license": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File%3ALil%20B%20the%20Crested%20Gecko.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     },
     {
       "name": "핀스트라이프",
@@ -78,7 +102,16 @@
       "aliases": [
         "Pinstripe",
         "풀핀"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Correlophus_ciliatus_partial_pinstripe.jpg/500px-Correlophus_ciliatus_partial_pinstripe.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20210513190855",
+      "imageFile": "Correlophus ciliatus partial pinstripe.jpg",
+      "credit": {
+        "author": "Papa webo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "url": "https://commons.wikimedia.org/wiki/File:Correlophus%20ciliatus%20partial%20pinstripe.jpg",
+        "note": "원본 파일 표기 Partial Pinstripe · 부분 핀스트라이프 참고 사진."
+      }
     },
     {
       "name": "달마시안",
@@ -87,7 +120,16 @@
       "aliases": [
         "Dalmatian",
         "달마"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Rhacodactylus_ciliatus_%22dalmatien%22.jpg/500px-Rhacodactylus_ciliatus_%22dalmatien%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20110929183425",
+      "imageFile": "Rhacodactylus ciliatus \"dalmatien\".jpg",
+      "credit": {
+        "author": "Nathouf",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "url": "https://commons.wikimedia.org/wiki/File:Rhacodactylus%20ciliatus%20%22dalmatien%22.jpg",
+        "note": "원저자 표기 달마시안 참고 사진."
+      }
     },
     {
       "name": "슈퍼달마시안",
@@ -145,7 +187,15 @@
       "aliases": [
         "Red Stripe",
         "레드 스트라이프"
-      ]
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Al-GargoyleRS_01.jpg",
+      "imageFile": "Al-GargoyleRS_01.jpg",
+      "credit": {
+        "author": "Alfeus Liman",
+        "license": "저자 표시 조건 재사용 허용",
+        "url": "https://commons.wikimedia.org/wiki/File:Al-GargoyleRS_01.jpg",
+        "note": "저작권자가 저자 표시 조건으로 모든 용도 이용 허용. 레드스트라이프 유체 참고 사진."
+      }
     },
     {
       "name": "오렌지스트라이프",
@@ -194,7 +244,23 @@
       "aliases": [
         "Tremper Albino",
         "트램퍼"
-      ]
+      ],
+      "image": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12774848.1/iyaf236f1.jpg",
+      "imageRegion": {
+        "x": 525,
+        "y": 80,
+        "width": 185,
+        "height": 65,
+        "sourceWidth": 760,
+        "sourceHeight": 297
+      },
+      "credit": {
+        "author": "Pierre Beaudier, Asier Ullate-Agote, Athanasia C. Tzika",
+        "license": "CC BY 4.0",
+        "url": "https://doi.org/10.1093/genetics/iyaf236",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "그림1d 성체 패널 부분 표시"
+      }
     },
     {
       "name": "벨알비노",
@@ -202,7 +268,23 @@
       "description": "벨 계통의 알비노. 계통명은 외형만으로 단정하기 어려워요.",
       "aliases": [
         "Bell Albino"
-      ]
+      ],
+      "image": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12774848.1/iyaf236f1.jpg",
+      "imageRegion": {
+        "x": 525,
+        "y": 225,
+        "width": 185,
+        "height": 65,
+        "sourceWidth": 760,
+        "sourceHeight": 297
+      },
+      "credit": {
+        "author": "Pierre Beaudier, Asier Ullate-Agote, Athanasia C. Tzika",
+        "license": "CC BY 4.0",
+        "url": "https://doi.org/10.1093/genetics/iyaf236",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "그림1f 성체 패널 부분 표시"
+      }
     },
     {
       "name": "레인워터알비노",
@@ -211,7 +293,23 @@
       "aliases": [
         "Rainwater Albino",
         "Las Vegas Albino"
-      ]
+      ],
+      "image": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12774848.1/iyaf236f1.jpg",
+      "imageRegion": {
+        "x": 525,
+        "y": 153,
+        "width": 185,
+        "height": 65,
+        "sourceWidth": 760,
+        "sourceHeight": 297
+      },
+      "credit": {
+        "author": "Pierre Beaudier, Asier Ullate-Agote, Athanasia C. Tzika",
+        "license": "CC BY 4.0",
+        "url": "https://doi.org/10.1093/genetics/iyaf236",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "그림1e 성체 패널 부분 표시"
+      }
     },
     {
       "name": "맥스노우",
@@ -220,7 +318,23 @@
       "aliases": [
         "Mack Snow",
         "맥 스노우"
-      ]
+      ],
+      "image": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11260152.1/pnas.2400486121fig01.jpg",
+      "imageRegion": {
+        "x": 340,
+        "y": 365,
+        "width": 375,
+        "height": 160,
+        "sourceWidth": 794,
+        "sourceHeight": 529
+      },
+      "credit": {
+        "author": "Asier Ullate-Agote, Athanasia C. Tzika",
+        "license": "CC BY 4.0",
+        "url": "https://doi.org/10.1073/pnas.2400486121",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "그림1C 성체 패널 부분 표시"
+      }
     },
     {
       "name": "슈퍼스노우",
@@ -229,7 +343,23 @@
       "aliases": [
         "Super Snow",
         "슈스노"
-      ]
+      ],
+      "image": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11260152.1/pnas.2400486121fig01.jpg",
+      "imageRegion": {
+        "x": 340,
+        "y": 195,
+        "width": 375,
+        "height": 160,
+        "sourceWidth": 794,
+        "sourceHeight": 529
+      },
+      "credit": {
+        "author": "Asier Ullate-Agote, Athanasia C. Tzika",
+        "license": "CC BY 4.0",
+        "url": "https://doi.org/10.1073/pnas.2400486121",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "그림1B 성체 패널 부분 표시"
+      }
     },
     {
       "name": "이클립스",
@@ -245,7 +375,15 @@
       "description": "몸의 무늬가 크게 감소해 거의 단색으로 보이는 모프.",
       "aliases": [
         "Blizzard"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Eublepharis_macularius_-_Blizzard.JPG/960px-Eublepharis_macularius_-_Blizzard.JPG",
+      "imageFile": "Eublepharis macularius - Blizzard.JPG",
+      "credit": {
+        "author": "Hirvenkürpa",
+        "license": "CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File%3AEublepharis%20macularius%20-%20Blizzard.JPG",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
     },
     {
       "name": "머피패턴리스",
@@ -437,7 +575,14 @@
       "description": "붉은 발색을 강화한 선별 계통명. 브리더에 따라 이름 사용 기준이 달라요.",
       "aliases": [
         "Crimson"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/753161546/medium.jpg",
+      "credit": {
+        "author": "Todd Thomas",
+        "license": "CC BY-NC",
+        "url": "https://www.inaturalist.org/photos/753161546",
+        "note": "비영리 이용 조건 · 관찰자 형태 표기 · 유전형 검사 아님"
+      }
     }
   ],
   "species-75": [
@@ -467,7 +612,14 @@
       "aliases": [
         "Leatherback",
         "레더"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/353426161/medium.jpeg",
+      "credit": {
+        "author": "pacific-wrensong",
+        "license": "CC BY-NC",
+        "url": "https://www.inaturalist.org/photos/353426161",
+        "note": "비영리 이용 조건 · 관찰자 형태 표기 · 유전형 검사 아님"
+      }
     },
     {
       "name": "제로",
@@ -505,7 +657,15 @@
       "aliases": [
         "Ambilobe",
         "암빌로베"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Ambilobe_panther_chameleon.jpg/960px-Ambilobe_panther_chameleon.jpg",
+      "imageFile": "Ambilobe panther chameleon.jpg",
+      "credit": {
+        "author": "Daniel Schwen",
+        "license": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File%3AAmbilobe%20panther%20chameleon.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     },
     {
       "name": "암반자",
@@ -522,7 +682,15 @@
       "aliases": [
         "Nosy Be",
         "노지베"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Panther_chameleon_%28Furcifer_pardalis%29_male_Nosy_Be.jpg/960px-Panther_chameleon_%28Furcifer_pardalis%29_male_Nosy_Be.jpg",
+      "imageFile": "Panther chameleon (Furcifer pardalis) male Nosy Be.jpg",
+      "credit": {
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Panther%20chameleon%20(Furcifer%20pardalis)%20male%20Nosy%20Be.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
     },
     {
       "name": "삼바바",
@@ -550,7 +718,14 @@
       "aliases": [
         "Albino",
         "Amelanistic"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/512559551/medium.jpg",
+      "credit": {
+        "author": "Tasjanei",
+        "license": "CC BY-NC",
+        "url": "https://www.inaturalist.org/photos/512559551",
+        "note": "비영리 이용 조건 · 관찰자 형태 표기 · 유전형 검사 아님"
+      }
     },
     {
       "name": "밴디드",
@@ -558,7 +733,14 @@
       "description": "몸을 가로지르는 띠무늬가 반복되는 패턴형.",
       "aliases": [
         "Banded"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/728764807/medium.jpg",
+      "credit": {
+        "author": "Tyler nelsen",
+        "license": "CC BY-NC",
+        "url": "https://www.inaturalist.org/photos/728764807",
+        "note": "비영리 이용 조건 · 관찰자 형태 표기 · 유전형 검사 아님"
+      }
     },
     {
       "name": "스트라이프",
@@ -567,7 +749,13 @@
       "aliases": [
         "Striped",
         "Stripe"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/4445548/medium.jpeg",
+      "credit": {
+        "author": "Millie Basden",
+        "license": "CC BY",
+        "url": "https://www.inaturalist.org/photos/4445548"
+      }
     },
     {
       "name": "하이화이트",
@@ -576,7 +764,14 @@
       "aliases": [
         "High White",
         "하화"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/109214982/medium.jpg",
+      "credit": {
+        "author": "lizard23007",
+        "license": "CC BY-NC",
+        "url": "https://www.inaturalist.org/photos/109214982",
+        "note": "비영리 이용 조건 · 관찰자 형태 표기 · 유전형 검사 아님"
+      }
     }
   ],
   "species-129": [
@@ -588,7 +783,15 @@
         "Amel",
         "Amelanistic",
         "Albino"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Pantherophis_guttatus_%2848325672551%29.jpg/960px-Pantherophis_guttatus_%2848325672551%29.jpg",
+      "imageFile": "Pantherophis guttatus (48325672551).jpg",
+      "credit": {
+        "author": "Gilles San Martin from Namur, Belgium",
+        "license": "CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File%3APantherophis%20guttatus%20(48325672551).jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
     },
     {
       "name": "애너리",
@@ -598,7 +801,15 @@
         "Anery",
         "Anerythristic",
         "에너리"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Anerycorn.JPG/960px-Anerycorn.JPG",
+      "imageFile": "Anerycorn.JPG",
+      "credit": {
+        "author": "Antsterr at English Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File%3AAnerycorn.JPG",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
     },
     {
       "name": "라벤더",
@@ -630,7 +841,13 @@
       "description": "등의 세로줄과 측면의 망상 무늬가 특징인 모프.",
       "aliases": [
         "Tessera"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/347156071/medium.jpg",
+      "credit": {
+        "author": "Jeremiah Degenhardt",
+        "license": "CC BY",
+        "url": "https://www.inaturalist.org/photos/347156071"
+      }
     },
     {
       "name": "팔메토",
@@ -647,7 +864,14 @@
       "description": "아멜과 애너리 특징을 함께 가진 밝은 색의 조합.",
       "aliases": [
         "Snow"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/250958336/medium.jpg",
+      "credit": {
+        "author": "lvtao",
+        "license": "CC BY-NC",
+        "url": "https://www.inaturalist.org/photos/250958336",
+        "note": "비영리 이용 조건 · 관찰자 형태 표기 · 유전형 검사 아님"
+      }
     },
     {
       "name": "블리자드",
@@ -663,7 +887,14 @@
       "description": "아멜과 카라멜을 조합한 노란색 계열 명칭.",
       "aliases": [
         "Butter"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/95953534/medium.jpg",
+      "credit": {
+        "author": "vgdefree",
+        "license": "CC BY-NC",
+        "url": "https://www.inaturalist.org/photos/95953534",
+        "note": "비영리 이용 조건 · 관찰자 형태 표기 · 유전형 검사 아님"
+      }
     }
   ],
   "species-143": [
@@ -718,7 +949,15 @@
       "description": "어두운 색소가 감소한 밝은 노랑·분홍 계열 모프.",
       "aliases": [
         "Albino"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/%E9%BB%83%E9%87%91%E8%A7%92%E8%9B%99_Ceratophrys_cranwelli_albino_-_panoramio.jpg/960px-%E9%BB%83%E9%87%91%E8%A7%92%E8%9B%99_Ceratophrys_cranwelli_albino_-_panoramio.jpg",
+      "imageFile": "黃金角蛙 Ceratophrys cranwelli albino - panoramio.jpg",
+      "credit": {
+        "author": "lienyuan lee",
+        "license": "CC BY 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:%E9%BB%83%E9%87%91%E8%A7%92%E8%9B%99%20Ceratophrys%20cranwelli%20albino%20-%20panoramio.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+      }
     },
     {
       "name": "스트로베리",
@@ -794,7 +1033,14 @@
       "description": "옅은 민트색 계열로 알려진 사육 계통. 유전 모프와 동일한 뜻으로 보지 않아요.",
       "aliases": [
         "Mint"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/271072107/medium.jpg",
+      "credit": {
+        "author": "reillydurham",
+        "license": "CC BY-NC",
+        "url": "https://www.inaturalist.org/photos/271072107",
+        "note": "비영리 이용 조건 · 관찰자 형태 표기 · 유전형 검사 아님"
+      }
     },
     {
       "name": "옐로우",
@@ -802,7 +1048,14 @@
       "description": "노란색 계열로 알려진 사육 계통.",
       "aliases": [
         "Yellow"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/271071192/medium.jpg",
+      "credit": {
+        "author": "reillydurham",
+        "license": "CC BY-NC",
+        "url": "https://www.inaturalist.org/photos/271071192",
+        "note": "비영리 이용 조건 · 관찰자 형태 표기 · 유전형 검사 아님"
+      }
     },
     {
       "name": "오렌지",
@@ -819,7 +1072,15 @@
       "aliases": [
         "Orange Black Foot",
         "Blackfoot"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Phyllobates_terribilis_%22orange_blackfoot%22.jpg/960px-Phyllobates_terribilis_%22orange_blackfoot%22.jpg",
+      "imageFile": "Phyllobates terribilis \"orange blackfoot\".jpg",
+      "credit": {
+        "author": "crbonade",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "url": "https://commons.wikimedia.org/wiki/File:Phyllobates%20terribilis%20%22orange%20blackfoot%22.jpg"
+      }
     }
   ],
   "species-186": [
@@ -839,7 +1100,15 @@
       "aliases": [
         "Banded",
         "Banded Leucs"
-      ]
+      ],
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Dendrobates_leucomelas_%22Banded%22.JPG/960px-Dendrobates_leucomelas_%22Banded%22.JPG",
+      "imageFile": "Dendrobates leucomelas \"Banded\".JPG",
+      "credit": {
+        "author": "The Lord of the Allosaurs",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "url": "https://commons.wikimedia.org/wiki/File:Dendrobates%20leucomelas%20%22Banded%22.JPG"
+      }
     }
   ],
   "species-268": [
@@ -891,7 +1160,14 @@
       "description": "검정·주황 계열의 무늬로 유통되는 이름. 명칭만으로 아종이나 유전 방식을 확정하지 않아요.",
       "aliases": [
         "Lava"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/524272597/medium.jpg",
+      "credit": {
+        "author": "CRB",
+        "license": "CC BY-NC",
+        "url": "https://www.inaturalist.org/photos/524272597",
+        "note": "비영리 이용 조건 · 관찰자 형태 표기 · 유전형 검사 아님"
+      }
     }
   ],
   "species-274": [
@@ -901,7 +1177,14 @@
       "description": "밝은 바탕에 검정·노랑 계열 반점이 보이는 유통형. 같은 이름이라도 계통과 표현 차이가 있어요.",
       "aliases": [
         "Magic Potion"
-      ]
+      ],
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/728226528/medium.jpg",
+      "credit": {
+        "author": "nixxis77",
+        "license": "CC BY-NC",
+        "url": "https://www.inaturalist.org/photos/728226528",
+        "note": "비영리 이용 조건 · 관찰자 형태 표기 · 유전형 검사 아님"
+      }
     },
     {
       "name": "오렌지비거",

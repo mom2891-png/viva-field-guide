@@ -42,6 +42,17 @@ assert.match(labels('plant-149'), /난초류.*그 외 착생란/);
 assert.match(labels('plant-27'), /브로멜리아류/);
 assert.match(labels('plant-51'), /브로멜리아류/);
 assert.match(labels('plant-61'), /고사리·석송류/);
+assert.match(labels('plant-246'), /고사리·석송류/);
+for (const row of plants.filter(r => ['이끼','이끼류','우산이끼류','태류','뿔이끼류'].includes(r.category))) {
+  assert(!labels(row.id).includes('분류 미확인'), row.id + ': bryophyte must remain reachable');
+  assert(row.mossHabitats?.length && row.mossForms?.length, row.id + ': discovery tags missing');
+  assert(model.matchesMoss(row.id, row.mossHabitats[0], row.mossForms[0]));
+}
+assert(model.matchesMoss('plant-284', 'aquatic', 'leafy'), 'Phoenix moss has a submerged discovery route');
+assert(!model.matchesMoss('plant-284', 'dry', 'leafy'));
+assert(!model.matchesMoss('plant-2', 'temperate', 'all'), 'Spikemoss is not a true moss');
+assert.match(labels('plant-277'), /태류/);
+assert(!model.nodes.some(n => n.id === 'plants/hornworts'), 'No empty hornwort branch');
 assert.equal(model.entryNode('plant-3').parentId, model.entryNode('plant-65').parentId);
 assert(model.search(morphs['species-1'][0].name).some(n => n.id === firstMorph.id));
 assert(model.search('CORRELOPHUS - CILIATUS').some(n => n.entryId === 'species-1'));

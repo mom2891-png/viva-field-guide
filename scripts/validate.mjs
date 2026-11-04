@@ -13,12 +13,12 @@ for(const r of all){
   else for(const k of ['major','middle','env'])assert.ok(r[k],`${r.id}: missing ${k}`);
   if(!r.popularityKnown)assert.equal(r.popularity,null,`${r.id}: unverified popularity must be null`);
   else assert.ok(Number.isFinite(r.popularity)&&r.popularity>0,`${r.id}: invalid popularity rank`);
-  if(r.image){assert.ok(r.image.startsWith('https://'));assert.ok(r.credit?.license&&r.credit?.url,`${r.id}: incomplete photo credit`);}
+  if(r.image){assert.ok(/^https:\/\//.test(r.image)||/^images\/[a-z0-9-]+\.(?:jpg|png|webp)$/.test(r.image));if(r.image.startsWith('images/'))assert.ok(fs.existsSync(new URL('../dist/'+r.image,import.meta.url)),r.id+': local photo missing');assert.ok(r.credit?.license&&r.credit?.url,`${r.id}: incomplete photo credit`);}
 }
 for(const id of Object.keys(morphs))assert.ok(animals.some(r=>r.id===id),`Orphan morph ${id}`);
 // Exercise actual catalog logic with a small DOM stand-in, without browser dependencies.
 const elements=new Map();
-const element=key=>{if(!elements.has(key))elements.set(key,{value:'',textContent:'',innerHTML:'',hidden:false,checked:false,style:{},classList:{add(){},remove(){},toggle(){},contains(){return false}},setAttribute(){},addEventListener(){},closest(){return this},querySelectorAll(){return []},querySelector(){return null},showModal(){this.open=true}});return elements.get(key);};
+const element=key=>{if(!elements.has(key))elements.set(key,{value:'',textContent:'',innerHTML:'',hidden:false,checked:false,style:{},classList:{add(){},remove(){},toggle(){},contains(){return false}},setAttribute(){},addEventListener(){},scrollIntoView(){},closest(){return this},querySelectorAll(){return []},querySelector(){return null},showModal(){this.open=true}});return elements.get(key);};
 const ctx=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],body:{style:{}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,URL,URLSearchParams,a:animals,p:plants,m:morphs});
 vm.runInContext(fs.readFileSync(new URL('../dist/catalog-navigation.js',import.meta.url),'utf8'),ctx);
 const code=fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8').split("document.addEventListener('click'")[0];
@@ -443,3 +443,62 @@ for(const id of ['plant-239','plant-240','plant-241','plant-242']){
 assert.equal(run("genusName('Rhaphidophora')"),'라피도포라');
 assert.equal(run("genusName('Alsobia')"),'알소비아');
 console.log('PASS: vine and orchid trade distinctions, species aliases, mature-size basis and genus navigation.');
+
+// Exercise real species rendering with movable content and a dialog that must remain closed.
+element('#detailContent .detail-info').insertAdjacentHTML=function(_position,html){this.innerHTML=html+this.innerHTML;};
+const inlineHost=element('#catalogDetail'), content=element('#detailContent'), detailDialog=element('#detailDialog');
+inlineHost.appendChild=child=>{child.parentElement=inlineHost;};
+detailDialog.appendChild=child=>{child.parentElement=detailDialog;};
+const originalShow=detailDialog.showModal;
+detailDialog.open=false;detailDialog.showModal=()=>{throw new Error('Species selection opened a popup');};
+run("state.page='animals';state.catalogNode='animals';currentCatalogEntry=null;openDetail('species-1')");
+assert.equal(content.parentElement,inlineHost);
+assert.match(content.innerHTML,/크레스티드게코/);
+assert.equal(detailDialog.open,false);assert.equal(ctx.document.body.style.overflow,'');
+run("state.page='plants';openDetail('plant-243')");
+assert.equal(content.parentElement,inlineHost);assert.match(content.innerHTML,/Aerangis punctata/);
+run('clearInlineDetail()');assert.equal(content.parentElement,detailDialog);
+detailDialog.showModal=originalShow;
+console.log('PASS: animal and plant details render in the permanent panel without opening a modal or locking page scroll.');
+
+// Morph image resolution must use the selected form, never a generic species fallback.
+run("state.page='animals';currentCatalogSelection='morph:species-1:0'");
+const beforeMorph=run('morphs["species-1"][0]');
+run('morphs["species-1"][0]={...morphs["species-1"][0],image:"https://example.org/lilly.jpg",credit:{author:"Photographer",license:"CC BY 4.0",url:"https://example.org/source"}}');
+assert.equal(run('selectedPhoto(animals.find(r=>r.id==="species-1")).image'),'https://example.org/lilly.jpg');
+assert.match(run('morphSection(animals.find(r=>r.id==="species-1"))'),/data-morph-select/);
+run('morphs["species-1"][0]={name:"릴리화이트",type:"유전 모프",description:"test"}');
+assert.equal(run('selectedPhoto(animals.find(r=>r.id==="species-1")).image'),null,'Unpictured morph cannot impersonate species photo');
+ctx.originalMorph=beforeMorph;run('morphs["species-1"][0]=originalMorph;currentCatalogSelection=null');
+console.log('PASS: morph image selection, explicit missing-form placeholder, and source attribution.');
+
+for(const [parent,items]of Object.entries(morphs))for(const item of items)if(item.image){assert.match(item.image,/^https:\/\//);assert.ok(item.credit?.author&&item.credit?.license&&item.credit?.url,parent+': morph photo credit');assert.match(item.credit.url,/^https:\/\//);}
+assert.ok(run('photoCredit({image:"https://example.org/photo.jpg",credit:{author:"Photo author",license:"CC BY 4.0",licenseUrl:"javascript:bad",url:"https://example.org/source"}})').includes('Photo author'));
+assert.ok(!run('photoCredit({image:"https://example.org/photo.jpg",credit:{licenseUrl:"javascript:bad"}})').includes('javascript:'));
+console.log('PASS: every morph photo has HTTPS attribution and unsafe license links are excluded.');
+
+assert.match(run('photo({name:"Panel",image:"https://example.org/figure.jpg",imageRegion:{x:10,y:20,width:100,height:50,sourceWidth:200,sourceHeight:100}})'),/photo-region/);
+assert.ok(!run('photo({name:"Panel",image:"https://example.org/figure.jpg",imageRegion:{x:-1,y:0,width:0,height:50,sourceWidth:200,sourceHeight:100}})').includes('photo-region'),'Invalid image regions must not affect display');
+console.log('PASS: licensed figure panels retain proportions and invalid regions use a whole-image fallback.');
+
+// Noncommercial and no-derivatives photos retain attribution and do not receive panel crops.
+const licensedRows=[...animals,...plants,...Object.values(morphs).flat()];
+for(const row of licensedRows.filter(x=>x.image&&/NC/.test(x.credit?.license||''))){assert.ok(row.credit.author&&row.credit.url,'NC attribution required');assert.match(row.credit.note||'',/비영리/,'Noncommercial condition must remain visible');if(/ND/.test(row.credit.license))assert.ok(!row.imageRegion,'No panel crops on ND images');}
+assert.ok(fs.readFileSync(new URL('../docs/photo-license-restrictions.md',import.meta.url),'utf8').includes('상업화'));
+console.log('PASS: noncommercial photo conditions, author/source retention and no-derivatives display rules.');
+
+assert.equal(run('safeImageUrl("images/begonia-lichenora-fig13.jpg")'),'images/begonia-lichenora-fig13.jpg');
+for(const bad of ['../images/test.jpg','images/../test.jpg','//example.org/test.jpg','javascript:alert(1)'])assert.equal(run('safeImageUrl('+JSON.stringify(bad)+')'),'');
+console.log('PASS: bundled reference photos resolve safely under the Pages subdirectory.');
+
+// Plant variety selection must never reuse an unrelated species image.
+run("catalogModel=VivaCatalog.createModel(animals,plants,morphs,genusNames);currentCatalogSelection='variety:plant-1:0'");
+run("plants.find(x=>x.id==='plant-1').varietyPhotos={'화이트스타':{image:'https://example.org/white.jpg',credit:{author:'A',license:'test',url:'https://example.org/white'}}}");
+assert.equal(run("selectedPhoto(plants.find(x=>x.id==='plant-1')).image"),'https://example.org/white.jpg');
+run("currentCatalogSelection='variety:plant-1:1'");
+assert.equal(run("selectedPhoto(plants.find(x=>x.id==='plant-1')).image"),null);
+console.log('PASS: plant cultivar photos stay separate and missing cultivars never borrow species photos.');
+assert.equal(run("photoContext({image:null,photoContext:'Unverified'})"),'','No context label without a photo');
+assert.match(run("photoContext({image:'https://example.org/photo.jpg',photoContext:'판매형 <unverified>'})"),/판매형 &lt;unverified&gt;/);
+assert.match(run("photoContext({image:'https://example.org/photo.jpg',photoContext:'판매형'})"),/role="note"/);
+console.log('PASS: photo identity context remains visible, escaped and separate from image pixels.');

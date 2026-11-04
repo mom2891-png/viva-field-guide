@@ -138,7 +138,9 @@
     },
     "shopCoverage": 0,
     "popularity": null,
-    "varieties": [],
+    "varieties": [
+      "Aurea (아우레아)"
+    ],
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
@@ -547,6 +549,12 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
+    ],
+    "mossHabitats": [
+      "aquatic"
+    ],
+    "mossForms": [
+      "mat"
     ]
   },
   {
@@ -581,7 +589,13 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "aquatic"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-12",
@@ -615,7 +629,14 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "waterside",
+      "aquatic"
+    ],
+    "mossForms": [
+      "leafy"
+    ]
   },
   {
     "id": "plant-13",
@@ -649,7 +670,13 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "cushion"
+    ]
   },
   {
     "id": "plant-14",
@@ -683,7 +710,13 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-15",
@@ -719,7 +752,13 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상 · 레드 생수태 판매명은 색상만 확인되어 이 종/품종으로 연결하지 않음(2026-11-04).",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "waterside"
+    ],
+    "mossForms": [
+      "upright"
+    ]
   },
   {
     "id": "plant-16",
@@ -1171,7 +1210,14 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/426875607/medium.jpeg",
+    "credit": {
+      "author": "Vitor C. Dias Gonçalves",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/426875607",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
+    }
   },
   {
     "id": "plant-26",
@@ -1194,7 +1240,13 @@
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/417396004/medium.jpeg",
+    "credit": {
+      "author": "no rights reserved",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/417396004"
+    }
   },
   {
     "id": "plant-27",
@@ -1794,7 +1846,10 @@
     },
     "shopCoverage": 0,
     "popularity": null,
-    "varieties": [],
+    "varieties": [
+      "Marble Queen (마블퀸)",
+      "Neon (네온)"
+    ],
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 유통 미확인",
@@ -2611,7 +2666,9 @@
     },
     "shopCoverage": 3,
     "popularity": 4,
-    "varieties": [],
+    "varieties": [
+      "var. nana (나나)"
+    ],
     "catalogType": "종",
     "verification": "기존 도감 · 재검토 대상",
     "domesticStatus": "국내 취급 기록",
@@ -2872,7 +2929,7 @@
     "humidity": "높음",
     "placement": "배경·유목·바닥",
     "environment": "열대습식",
-    "care": "작은 잎이 붙는 덩굴식물로 유목이나 배경을 덮는 데 활용해요. 배수되는 촉촉한 바닥에 뿌리를 내리고, 다른 식물을 덮으면 줄기를 정리해 주세요. 유통명만으로 동정하기 어려우므로 구입 전 학명을 확인해 주세요.",
+    "care": "작은 잎이 붙는 덩굴식물로 유목이나 배경을 덮는 데 활용해요. 배수되는 촉촉한 바닥에 뿌리를 내리고, 다른 식물을 덮으면 줄기를 정리해 주세요. 유통명만으로 동정하기 어려우므로 구입 전 학명을 확인해 주세요. 유년형의 작은 잎과 성숙 가지의 잎 모양이 달라요. 대표 사진은 나무줄기를 타는 유년형 참고 모습이며, 판매 개체의 정확한 종은 별도 확인해야 해요.",
     "aliases": [
       "Ficus thunbergii",
       "애기모람"
@@ -2881,15 +2938,15 @@
     "shopCoverage": 5,
     "popularity": 1,
     "varieties": [],
-    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/460358714/medium.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Juvenile_Ficus_thunbergii_covering_the_surface_of_the_tree_trunk_1.jpg/960px-Juvenile_Ficus_thunbergii_covering_the_surface_of_the_tree_trunk_1.jpg",
     "credit": {
-      "author": "(c) りなべる, some rights reserved (CC BY)",
-      "license": "CC-BY",
-      "url": "https://www.inaturalist.org/photos/460358714",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      "author": "M108t",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Juvenile%20Ficus%20thunbergii%20covering%20the%20surface%20of%20the%20tree%20trunk%201.jpg"
     },
     "catalogType": "종",
-    "verification": "기존 도감 · 재검토 대상",
+    "verification": "기존 도감 · 재검토 대상 · 2026-11-04 대표 사진을 Ficus thunbergii 유년형 원본 설명/CC BY4.0 사진으로 교체. 기존 큰 잎 사진의 원본 동정은 접근403으로 재확인 불가; 모람 오동정으로 단정하지 않음. 국내 국명·학명 처리 차이를 유지하고 유통명으로 실물 동정 완료를 주장하지 않음.",
     "domesticStatus": "국내 취급 기록",
     "popularityKnown": true,
     "priceInfo": {
@@ -3099,7 +3156,8 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "imageFile": "Juvenile Ficus thunbergii covering the surface of the tree trunk 1.jpg"
   },
   {
     "id": "plant-65",
@@ -3317,7 +3375,15 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "images/begonia-lichenora-fig13.jpg",
+    "credit": {
+      "author": "Che-Wei Lin, Shin-Wen Chung, Ching-I Peng",
+      "license": "CC BY-NC-ND",
+      "url": "https://taiwania.ntu.edu.tw/abstract/1506",
+      "licenseUrl": "https://taiwania.ntu.edu.tw/author_guidelines",
+      "note": "비영리 이용 · 원저 그림13 전체 사진판, 변형 없음. 상업화 전 권리 재검토."
+    }
   },
   {
     "id": "plant-71",
@@ -3339,7 +3405,14 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/75533336/medium.jpeg",
+    "credit": {
+      "author": "Cheongweei Gan",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/75533336",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
+    }
   },
   {
     "id": "plant-72",
@@ -3401,7 +3474,13 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/529894907/medium.jpg",
+    "credit": {
+      "author": "no rights reserved",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/529894907"
+    }
   },
   {
     "id": "plant-74",
@@ -3423,7 +3502,14 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/466138254/medium.png",
+    "credit": {
+      "author": "yp_ang",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/466138254",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
+    }
   },
   {
     "id": "plant-75",
@@ -3445,7 +3531,13 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/63394392/medium.jpg",
+    "credit": {
+      "author": "Denis Barthel",
+      "license": "CC BY-SA",
+      "url": "https://www.inaturalist.org/photos/63394392"
+    }
   },
   {
     "id": "plant-76",
@@ -3467,7 +3559,14 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/230248601/medium.jpeg",
+    "credit": {
+      "author": "João",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/230248601",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
+    }
   },
   {
     "id": "plant-77",
@@ -4278,7 +4377,15 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "유통명",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Pilea_glauca-1-R.M.Nagar-bengaluru-India.jpg/500px-Pilea_glauca-1-R.M.Nagar-bengaluru-India.jpg",
+    "imageFile": "Pilea glauca-1-R.M.Nagar-bengaluru-India.jpg",
+    "credit": {
+      "author": "Yercaud-elango",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Pilea%20glauca-1-R.M.Nagar-bengaluru-India.jpg"
+    }
   },
   {
     "id": "plant-99",
@@ -4311,7 +4418,13 @@
       "url": "https://commons.wikimedia.org/wiki/File:Wellenbl%C3%A4ttriges_Katharinenmoos.jpg",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "upright"
+    ]
   },
   {
     "id": "plant-100",
@@ -4354,7 +4467,14 @@
       "kind": "range",
       "note": "",
       "checkedAt": "2026-11-03"
-    }
+    },
+    "mossHabitats": [
+      "temperate",
+      "waterside"
+    ],
+    "mossForms": [
+      "upright"
+    ]
   },
   {
     "id": "plant-101",
@@ -4397,7 +4517,13 @@
       "kind": "range",
       "note": "",
       "checkedAt": "2026-11-03"
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-102",
@@ -4440,7 +4566,13 @@
       "kind": "approximate",
       "note": "그늘에서는 줄기가 더 길어질 수 있어요.",
       "checkedAt": "2026-11-03"
-    }
+    },
+    "mossHabitats": [
+      "dry"
+    ],
+    "mossForms": [
+      "cushion"
+    ]
   },
   {
     "id": "plant-103",
@@ -4473,7 +4605,14 @@
       "license": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Climacium_americanum.jpg",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
-    }
+    },
+    "mossHabitats": [
+      "temperate",
+      "waterside"
+    ],
+    "mossForms": [
+      "tree"
+    ]
   },
   {
     "id": "plant-104",
@@ -4506,7 +4645,14 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Climacium_dendroides.jpeg",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
-    }
+    },
+    "mossHabitats": [
+      "temperate",
+      "waterside"
+    ],
+    "mossForms": [
+      "tree"
+    ]
   },
   {
     "id": "plant-105",
@@ -4549,7 +4695,13 @@
       "kind": "range",
       "note": "군락 높이가 아닌 개별 잎 기준이에요.",
       "checkedAt": "2026-11-03"
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "cushion"
+    ]
   },
   {
     "id": "plant-106",
@@ -4611,7 +4763,13 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-107",
@@ -4644,7 +4802,13 @@
       "license": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Callicladium_imponens.jpg",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-108",
@@ -4678,7 +4842,13 @@
       "license": "CC BY 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Hypnum_curvifolium.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-109",
@@ -4721,7 +4891,13 @@
       "kind": "range",
       "note": "",
       "checkedAt": "2026-11-03"
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "upright"
+    ]
   },
   {
     "id": "plant-110",
@@ -4764,7 +4940,14 @@
       "kind": "range",
       "note": "통상적인 범위이며 환경에 따라 더 길어져요.",
       "checkedAt": "2026-11-03"
-    }
+    },
+    "mossHabitats": [
+      "temperate",
+      "waterside"
+    ],
+    "mossForms": [
+      "upright"
+    ]
   },
   {
     "id": "plant-111",
@@ -4797,7 +4980,13 @@
       "url": "https://commons.wikimedia.org/wiki/File:Polytrichum_juniperinum_in_the_Blean.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "dry"
+    ],
+    "mossForms": [
+      "upright"
+    ]
   },
   {
     "id": "plant-112",
@@ -4830,7 +5019,13 @@
       "url": "https://commons.wikimedia.org/wiki/File:Ptilium_crista-castrensis.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-113",
@@ -4873,7 +5068,13 @@
       "kind": "maximum",
       "note": "",
       "checkedAt": "2026-11-03"
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-114",
@@ -4906,7 +5107,13 @@
       "url": "https://commons.wikimedia.org/wiki/File:Rhytidiadelphus_triquetrus0.jpg",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-115",
@@ -4939,7 +5146,13 @@
       "url": "https://commons.wikimedia.org/wiki/File:Thuidium_delicatulum_(d,_144924-481522)_4154.JPG",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-116",
@@ -4972,7 +5185,13 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Thuidium_tamariscinum_kz1.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-117",
@@ -5059,6 +5278,18 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/347317518/medium.jpeg",
+    "credit": {
+      "author": "no rights reserved",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/347317518"
+    },
+    "mossHabitats": [
+      "waterside"
+    ],
+    "mossForms": [
+      "leafy"
     ]
   },
   {
@@ -5094,7 +5325,13 @@
       "url": "https://commons.wikimedia.org/wiki/File:RicciaFluitans1.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "aquatic"
+    ],
+    "mossForms": [
+      "leafy"
+    ]
   },
   {
     "id": "plant-119",
@@ -5128,7 +5365,14 @@
       "url": "https://commons.wikimedia.org/wiki/File:Javamos_op_kienhout.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "waterside",
+      "aquatic"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-120",
@@ -5189,6 +5433,12 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
+    ],
+    "mossHabitats": [
+      "waterside"
+    ],
+    "mossForms": [
+      "leafy"
     ]
   },
   {
@@ -5247,6 +5497,12 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
+    ],
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "upright"
     ]
   },
   {
@@ -5305,6 +5561,12 @@
         "status": "soldOut",
         "checkedAt": "2026-11-03"
       }
+    ],
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "upright"
     ]
   },
   {
@@ -5423,6 +5685,12 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
+    ],
+    "mossHabitats": [
+      "tropical"
+    ],
+    "mossForms": [
+      "tree"
     ]
   },
   {
@@ -5507,6 +5775,18 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/344849867/medium.jpeg",
+    "credit": {
+      "author": "no rights reserved",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/344849867"
+    },
+    "mossHabitats": [
+      "waterside"
+    ],
+    "mossForms": [
+      "tree"
     ]
   },
   {
@@ -5627,6 +5907,13 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
+    ],
+    "mossHabitats": [
+      "temperate",
+      "waterside"
+    ],
+    "mossForms": [
+      "tree"
     ]
   },
   {
@@ -5685,6 +5972,12 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
+    ],
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "upright"
     ]
   },
   {
@@ -5842,7 +6135,13 @@
       "license": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File:Hypnum_plumaeforme.JPG",
       "licenseUrl": ""
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-128",
@@ -5864,7 +6163,19 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/220120287/medium.jpg",
+    "credit": {
+      "author": "Young Jun Lee",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/220120287"
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-129",
@@ -6405,7 +6716,13 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/342404910/medium.jpg",
+    "credit": {
+      "author": "B. Phalan",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/342404910"
+    }
   },
   {
     "id": "plant-139",
@@ -6513,7 +6830,14 @@
         "status": "listed",
         "checkedAt": "2026-11-03"
       }
-    ]
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/470057999/medium.jpg",
+    "credit": {
+      "author": "surinkumar",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/470057999",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
+    }
   },
   {
     "id": "plant-141",
@@ -6812,7 +7136,13 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/611678759/medium.jpg",
+    "credit": {
+      "author": "no rights reserved",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/611678759"
+    }
   },
   {
     "id": "plant-148",
@@ -6834,7 +7164,13 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758235813/medium.jpg",
+    "credit": {
+      "author": "Gabriel",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/758235813"
+    }
   },
   {
     "id": "plant-149",
@@ -6886,7 +7222,13 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/624794052/medium.jpg",
+    "credit": {
+      "author": "no rights reserved",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/624794052"
+    }
   },
   {
     "id": "plant-151",
@@ -6975,7 +7317,14 @@
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/56949570/medium.jpg",
+    "credit": {
+      "author": "Safwanah Safwan",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/56949570",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
+    }
   },
   {
     "id": "plant-154",
@@ -7099,6 +7448,12 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/245838361/medium.jpg",
+    "credit": {
+      "author": "Douglas Goldman",
+      "license": "CC BY-SA",
+      "url": "https://www.inaturalist.org/photos/245838361"
     }
   },
   {
@@ -7151,6 +7506,12 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/281424437/medium.jpg",
+    "credit": {
+      "author": "ashleyrsteel",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/281424437"
     }
   },
   {
@@ -7222,27 +7583,36 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가·제공 가격표",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/1292135/medium.JPG",
+    "credit": {
+      "author": "Colin Meurk",
+      "license": "CC BY-SA",
+      "url": "https://www.inaturalist.org/photos/1292135"
     }
   },
   {
     "id": "plant-159",
     "n": 159,
     "name": "야쿠시마 바위취",
-    "latin": "Saxifraga yakushimensis",
+    "latin": "Saxifraga sp. “Yakushima”",
     "category": "지피식물",
     "environment": "냉량형",
     "light": "중간·직사광선 피함",
     "humidity": "종·환기 조건 확인",
     "placement": "바닥·암석·착생판",
-    "care": "직사광선을 피한 산란광에서 관리하고, 배수와 환기를 확보해 주세요. 촉촉함을 유지하되 뿌리가 계속 잠기지 않도록 하세요. 종별 성숙 크기와 적정 온도 범위는 확인 중이에요.",
-    "aliases": [],
+    "care": "직사광선을 피한 산란광에서 관리하고, 배수와 환기를 확보해 주세요. 촉촉함을 유지하되 뿌리가 계속 잠기지 않도록 하세요. 종별 성숙 크기와 적정 온도 범위는 확인 중이에요. 야쿠시마는 여기서 판매형 이름이며 종 동정은 미완료 상태로 구분해요.",
+    "aliases": [
+      "Saxifraga yakushimensis",
+      "야쿠시마유키노시타"
+    ],
     "varieties": [],
     "order": 159,
     "popularity": null,
     "shopCoverage": null,
-    "verification": "판매 학명·국명 대조 · 판매 개체 동정 미검증",
+    "verification": "야쿠시마 바위취라는 국내 판매형. 종 동정 미확정. 기존 Saxifraga yakushimensis 표기는 정명 근거 미확보로 판매표기 별칭에 보존. 일본 원예업체의 屋久島ユキノシタ는 Saxifraga stolonifera로 취급하지만 국내 해당 유통품의 동일 종·클론을 확정하지 않음.",
     "domesticStatus": "국내 취급 기록",
-    "catalogType": "종",
+    "catalogType": "유통명",
     "addedAt": "2026-11-03",
     "popularityKnown": false,
     "purchaseLinks": [
@@ -7272,7 +7642,8 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
-    }
+    },
+    "photoContext": "야쿠시마 바위취로 판매되는 실물 사진입니다. 정식 종 동정은 미확정이며 판매형으로 구분합니다."
   },
   {
     "id": "plant-160",
@@ -7495,6 +7866,12 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/652951706/medium.jpg",
+    "credit": {
+      "author": "no rights reserved",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/652951706"
     }
   },
   {
@@ -7598,6 +7975,12 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/252783198/medium.jpg",
+    "credit": {
+      "author": "Jared Shorma",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/252783198"
     }
   },
   {
@@ -7654,6 +8037,12 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/656086889/medium.jpg",
+    "credit": {
+      "author": "no rights reserved",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/656086889"
     }
   },
   {
@@ -7862,6 +8251,14 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/487076348/medium.jpg",
+    "credit": {
+      "author": "naturalistchu",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/487076348",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
     }
   },
   {
@@ -7952,6 +8349,12 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가·제공 가격표",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759456796/medium.jpg",
+    "credit": {
+      "author": "no rights reserved",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/759456796"
     }
   },
   {
@@ -8250,7 +8653,19 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
-    }
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/376584565/medium.jpeg",
+    "credit": {
+      "author": "Christian Berg",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/376584565"
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "cushion"
+    ]
   },
   {
     "id": "plant-177",
@@ -8321,6 +8736,13 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가·제공 가격표",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/610866457/medium.jpg",
+    "credit": {
+      "author": "Neal Kelso",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://www.inaturalist.org/photos/610866457"
     }
   },
   {
@@ -8371,6 +8793,22 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요."
+    },
+    "image": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-020-68000-7/MediaObjects/41598_2020_68000_Fig1_HTML.jpg",
+    "imageRegion": {
+      "x": 330,
+      "y": 300,
+      "width": 355,
+      "height": 323,
+      "sourceWidth": 685,
+      "sourceHeight": 623
+    },
+    "credit": {
+      "author": "Hyoung Tae Kim, Jung Sung Kim",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://doi.org/10.1038/s41598-020-68000-7",
+      "note": "그림1D 애기수염이끼 확대사진 부분 표시"
     }
   },
   {
@@ -8745,6 +9183,12 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가·제공 가격표",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/571410708/medium.jpg",
+    "credit": {
+      "author": "Motohiro Sunouchi",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/571410708"
     }
   },
   {
@@ -8837,6 +9281,14 @@
       "checkedAt": "2026-11-03",
       "basis": "판매 규격별 공개 표시가·제공 가격표",
       "note": "시장 평균이나 실거래가가 아니에요. 판매 규격·품종·옵션을 확인해 주세요. 배송비·자재·활착유목 비용은 제외해요. 이끼상점은 사용자 제공 가격표 기준이며 원본 게시일 미상·현재 가격 및 재고는 문의가 필요해요."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Oberonia_japonica_%2825381241488%29.jpg/500px-Oberonia_japonica_%2825381241488%29.jpg",
+    "imageFile": "Oberonia japonica (25381241488).jpg",
+    "credit": {
+      "author": "Naoki Takebayashi",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Oberonia%20japonica%20(25381241488).jpg"
     }
   },
   {
@@ -9194,7 +9646,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-03"
+    "addedAt": "2026-11-03",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Neoregelia_%27Fireball%27.jpg/960px-Neoregelia_%27Fireball%27.jpg",
+    "imageFile": "Neoregelia 'Fireball'.jpg",
+    "credit": {
+      "author": "Alphama",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Neoregelia%20'Fireball'.jpg"
+    }
   },
   {
     "id": "plant-196",
@@ -9253,7 +9713,15 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Peperomia_metallica_2019-05-29_01.jpg/960px-Peperomia_metallica_2019-05-29_01.jpg",
+    "imageFile": "Peperomia metallica 2019-05-29 01.jpg",
+    "credit": {
+      "author": "Agnieszka Kwiecień, Nova",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Peperomia%20metallica%202019-05-29%2001.jpg"
+    }
   },
   {
     "id": "plant-198",
@@ -9480,7 +9948,13 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/656086206/medium.jpg",
+    "credit": {
+      "author": "no rights reserved",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/656086206"
+    }
   },
   {
     "id": "plant-205",
@@ -9590,7 +10064,13 @@
       "license": "CC BY",
       "url": "https://www.inaturalist.org/photos/374050027",
       "licenseUrl": "https://creativecommons.org/licenses/by/"
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-208",
@@ -9634,7 +10114,13 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Polytrichum_formosum_(Fraai_haarmos)_-_Nieuwe_Leeuwenhorst,_Noordwijkerhout,_NL.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "upright"
+    ]
   },
   {
     "id": "plant-209",
@@ -9661,7 +10147,13 @@
     "domesticStatus": "국내 취급 기록",
     "catalogType": "유통명",
     "addedAt": "2026-11-04",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "mossHabitats": [
+      "dry"
+    ],
+    "mossForms": [
+      "cushion"
+    ]
   },
   {
     "id": "plant-210",
@@ -9693,7 +10185,13 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Brachythecium_rivulare.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-    }
+    },
+    "mossHabitats": [
+      "waterside"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-211",
@@ -9970,6 +10468,14 @@
       "kind": "approximate",
       "checkedAt": "2026-11-04",
       "note": "약 직경30cm·높이10cm라는 업체 설명의 직경 기준이며 종의 최대 크기를 보장하지 않아요."
+    },
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/680770061/medium.jpg",
+    "credit": {
+      "author": "zxchang",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/680770061",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
     }
   },
   {
@@ -9995,7 +10501,15 @@
     "catalogType": "종",
     "domesticStatus": "판매명 확인·종 일치 미확정",
     "addedAt": "2026-11-04",
-    "verification": "Kew accepted taxon575731-1·Understory Enterprises 증식 식물의 Indoor Ecosystems 테라리움 사례·국내 상품79 대조(2026-11-04). 정량 관리값 미확인."
+    "verification": "Kew accepted taxon575731-1·Understory Enterprises 증식 식물의 Indoor Ecosystems 테라리움 사례·국내 상품79 대조(2026-11-04). 정량 관리값 미확인.",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/743676118/medium.jpg",
+    "credit": {
+      "author": "藜梓柠",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/743676118",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+    }
   },
   {
     "id": "plant-220",
@@ -10143,7 +10657,13 @@
     "catalogType": "종",
     "domesticStatus": "해외 재배 자료",
     "addedAt": "2026-11-04",
-    "verification": "공식 분류·종별 재배 자료 대조(2026-11-04). 국내 취급·인기 미확인."
+    "verification": "공식 분류·종별 재배 자료 대조(2026-11-04). 국내 취급·인기 미확인.",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/186633239/medium.jpg",
+    "credit": {
+      "author": "desertnaturalist",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/186633239"
+    }
   },
   {
     "id": "plant-225",
@@ -10168,7 +10688,13 @@
     "catalogType": "종",
     "domesticStatus": "해외 재배 자료",
     "addedAt": "2026-11-04",
-    "verification": "공식 분류·종별 재배 자료 대조(2026-11-04). 국내 취급·인기 미확인."
+    "verification": "공식 분류·종별 재배 자료 대조(2026-11-04). 국내 취급·인기 미확인.",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/464777191/medium.jpg",
+    "credit": {
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "license": "CC BY-SA",
+      "url": "https://www.inaturalist.org/photos/464777191"
+    }
   },
   {
     "id": "plant-226",
@@ -10196,7 +10722,14 @@
     "catalogType": "종",
     "domesticStatus": "해외 재배 자료",
     "addedAt": "2026-11-04",
-    "verification": "Kew accepted Schismatoglottis pusilla·Glass Box Tropicals Frosty Kiss 재배 사례 대조(2026-11-04). 특정 유통형 관리 경험을 종 전체의 확정 크기로 전환하지 않음."
+    "verification": "Kew accepted Schismatoglottis pusilla·Glass Box Tropicals Frosty Kiss 재배 사례 대조(2026-11-04). 특정 유통형 관리 경험을 종 전체의 확정 크기로 전환하지 않음.",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/421769728/medium.jpeg",
+    "credit": {
+      "author": "Samuel Brillo",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/421769728",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
+    }
   },
   {
     "id": "plant-227",
@@ -10221,7 +10754,15 @@
     "catalogType": "품종·교잡종",
     "domesticStatus": "해외 재배 자료",
     "addedAt": "2026-11-04",
-    "verification": "Glass Box Tropicals의 해당 이름 품종 페이지·관리 설명 확인(2026-11-04). 종으로 세지 않음. 품종 등록/교배 계보·국내 취급·성숙 로제트 크기는 미확인."
+    "verification": "Glass Box Tropicals의 해당 이름 품종 페이지·관리 설명 확인(2026-11-04). 종으로 세지 않음. 품종 등록/교배 계보·국내 취급·성숙 로제트 크기는 미확인.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/%E5%BD%A9%E8%91%89%E9%B3%B3%E6%A2%A8%E5%B1%AC_Neoregelia_%27Chiquita_Linda%27_-%E9%A6%99%E6%B8%AF%E9%9D%92%E6%9D%BE%E8%A7%80%E8%98%AD%E8%8A%B1%E5%B1%95_Tuen_Mun%2C_Hong_Kong-_%2817234267614%29.jpg/960px-%E5%BD%A9%E8%91%89%E9%B3%B3%E6%A2%A8%E5%B1%AC_Neoregelia_%27Chiquita_Linda%27_-%E9%A6%99%E6%B8%AF%E9%9D%92%E6%9D%BE%E8%A7%80%E8%98%AD%E8%8A%B1%E5%B1%95_Tuen_Mun%2C_Hong_Kong-_%2817234267614%29.jpg",
+    "imageFile": "彩葉鳳梨屬 Neoregelia 'Chiquita Linda' -香港青松觀蘭花展 Tuen Mun, Hong Kong- (17234267614).jpg",
+    "credit": {
+      "author": "阿橋 HQ",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%BD%A9%E8%91%89%E9%B3%B3%E6%A2%A8%E5%B1%AC%20Neoregelia%20'Chiquita%20Linda'%20-%E9%A6%99%E6%B8%AF%E9%9D%92%E6%9D%BE%E8%A7%80%E8%98%AD%E8%8A%B1%E5%B1%95%20Tuen%20Mun%2C%20Hong%20Kong-%20(17234267614).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+    }
   },
   {
     "id": "plant-228",
@@ -10296,7 +10837,13 @@
     ],
     "catalogType": "종",
     "domesticStatus": "국내 입고명 확인·종 일치 미확정",
-    "verification": "2026-11-04 카페 공개 입고 글141695의 판매명·학명, Kew POWO 정명, PROSEA 종별 서식 대조. 입고 게시글은 현재 재고·가격·인기 또는 판매 실물 동정을 보장하지 않음."
+    "verification": "2026-11-04 카페 공개 입고 글141695의 판매명·학명, Kew POWO 정명, PROSEA 종별 서식 대조. 입고 게시글은 현재 재고·가격·인기 또는 판매 실물 동정을 보장하지 않음.",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/755923035/medium.jpg",
+    "credit": {
+      "author": "renjus box",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/755923035"
+    }
   },
   {
     "varieties": [],
@@ -10322,7 +10869,13 @@
     ],
     "catalogType": "종",
     "domesticStatus": "국내 입고명 확인·종 일치 미확정",
-    "verification": "2026-11-04 카페 공개 입고 글141695·Kew POWO 정명·Glass Box Tropicals/Zephyr Terra 종별 재배 설명 대조. 휴면은 업체 경험 기록이며 모든 개체의 주기·관리 수치로 일반화하지 않음. 판매 개체 동정 미검증."
+    "verification": "2026-11-04 카페 공개 입고 글141695·Kew POWO 정명·Glass Box Tropicals/Zephyr Terra 종별 재배 설명 대조. 휴면은 업체 경험 기록이며 모든 개체의 주기·관리 수치로 일반화하지 않음. 판매 개체 동정 미검증.",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/630196465/medium.jpg",
+    "credit": {
+      "author": "Dan Vickers",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/630196465"
+    }
   },
   {
     "varieties": [],
@@ -10381,7 +10934,13 @@
       "license": "CC0",
       "url": "https://www.inaturalist.org/photos/344691973",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ]
   },
   {
     "id": "plant-234",
@@ -10413,7 +10972,13 @@
       "license": "CC BY",
       "url": "https://www.inaturalist.org/photos/450717480",
       "licenseUrl": "https://creativecommons.org/licenses/by/"
-    }
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "cushion"
+    ]
   },
   {
     "id": "plant-235",
@@ -10440,7 +11005,14 @@
     "popularity": null,
     "shopCoverage": null,
     "popularityKnown": false,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/715773779/medium.jpg",
+    "credit": {
+      "author": "Irisa Hudson",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://www.inaturalist.org/photos/715773779"
+    }
   },
   {
     "id": "plant-236",
@@ -10498,7 +11070,13 @@
     "popularity": null,
     "shopCoverage": null,
     "popularityKnown": false,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/627314826/medium.jpg",
+    "credit": {
+      "author": "B. Phalan",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/627314826"
+    }
   },
   {
     "id": "plant-238",
@@ -10534,7 +11112,14 @@
     "popularity": null,
     "shopCoverage": null,
     "popularityKnown": false,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/97459130/medium.jpeg",
+    "credit": {
+      "author": "usebcm",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/97459130",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토"
+    }
   },
   {
     "id": "plant-239",
@@ -10673,7 +11258,15 @@
     "popularity": null,
     "shopCoverage": null,
     "popularityKnown": false,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/596926044/medium.jpg",
+    "credit": {
+      "author": "通通",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/596926044",
+      "note": "비영리 이용 조건 · 상업화 전 권리 재검토",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+    }
   },
   {
     "id": "plant-243",
@@ -10699,7 +11292,13 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/1533894/medium.JPG",
+    "credit": {
+      "author": "Romer N. Rabarijaona",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/1533894"
+    }
   },
   {
     "id": "plant-244",
@@ -10725,7 +11324,13 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/508116632/medium.jpg",
+    "credit": {
+      "author": "Nolan Exe",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/508116632"
+    }
   },
   {
     "id": "plant-245",
@@ -10751,6 +11356,1909 @@
     "popularityKnown": false,
     "popularity": null,
     "shopCoverage": null,
-    "addedAt": "2026-11-04"
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/289248027/medium.jpg",
+    "credit": {
+      "author": "sunoochi",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/289248027"
+    }
+  },
+  {
+    "name": "콩짜개덩굴",
+    "latin": "Lepisorus microphyllus",
+    "aliases": [
+      "Lemmaphyllum microphyllum",
+      "레마필룸 미크로필룸"
+    ],
+    "category": "양치식물",
+    "environment": "착생·습식·통기",
+    "light": "밝은 그늘·직사광선 피하기",
+    "humidity": "촉촉한 착생면·분무 후 배수",
+    "placement": "코르크·가지·배경 벽",
+    "care": "작고 둥근 영양엽을 내며 뿌리줄기가 착생면을 따라 퍼지는 고사리다. 이끼를 얇게 댄 가지나 배경에 고정하고 분무한 물이 빠지게 한다. 뿌리줄기를 깊게 묻거나 계속 물에 잠기게 두지 않는다.",
+    "verification": "Kew POWO는 Lemmaphyllum microphyllum을 Lepisorus microphyllus의 이명으로 처리. Glass Box Tropicals·Rana의 착생 테라리움 재배 설명 대조.",
+    "id": "plant-246",
+    "n": 246,
+    "order": 246,
+    "catalogType": "종",
+    "varieties": [],
+    "domesticStatus": "해외 테라리움 취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758583467/medium.jpg",
+    "credit": {
+      "author": "no rights reserved",
+      "license": "CC0",
+      "url": "https://www.inaturalist.org/photos/758583467"
+    }
+  },
+  {
+    "name": "플라기옴니움 아피네",
+    "latin": "Plagiomnium affine",
+    "aliases": [
+      "Many-fruited thyme-moss"
+    ],
+    "category": "이끼류",
+    "environment": "온대 숲형·통기·배수",
+    "light": "그늘·간접광",
+    "humidity": "촉촉하되 침수되지 않는 바닥",
+    "placement": "배수되는 토양·바위 밑동",
+    "care": "둥근 잎이 줄기 양쪽에 달리는 숲바닥 이끼다. 축축하지만 물에 잠기지 않는 바닥에 배치한다. 온대 숲 서식종으로 고온 밀폐 열대 비바리움의 적합성을 보장하지 않는다. 수생 펄모스라는 유통명만으로 이 종과 동일하다고 판단하지 않는다.",
+    "verification": "영국 선태학회 종별 서식 설명·Tims Terraristik 테라리움 취급 기록 대조. 유사종은 현미경 형질 확인이 필요.",
+    "id": "plant-247",
+    "n": 247,
+    "order": 247,
+    "catalogType": "종",
+    "varieties": [],
+    "domesticStatus": "해외 테라리움 취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/740074665/medium.jpg",
+    "credit": {
+      "author": "(c) Oleksandr Shynder, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/740074665"
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "upright"
+    ]
+  },
+  {
+    "name": "엑세르토테카 크리스파",
+    "latin": "Exsertotheca crispa",
+    "aliases": [
+      "Neckera crispa",
+      "Crisped neckera"
+    ],
+    "category": "이끼류",
+    "environment": "온대 숲형·통기·착생",
+    "light": "밝은 그늘",
+    "humidity": "습한 공기·물 고임 없는 착생면",
+    "placement": "염기성 바위·수피 표면",
+    "care": "주름진 잎과 납작하게 퍼지는 가지가 특징인 이끼다. 서식 자료에서는 염기성 바위와 수피에 자라며 테라리움용으로도 유통된다. 통풍과 배수를 확보하고, 온대 원산의 생육 특성을 무시한 고온 밀폐 환경에는 신중하게 시험한다.",
+    "verification": "WFO 정명 Exsertotheca crispa·이명 Neckera crispa 대조. 영국 선태학회 서식 설명과 Mosswholesale 테라리움 취급명 확인.",
+    "id": "plant-248",
+    "n": 248,
+    "order": 248,
+    "catalogType": "종",
+    "varieties": [],
+    "domesticStatus": "해외 테라리움 취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759270640/medium.jpg",
+    "credit": {
+      "author": "(c) Eliass Tāre, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/759270640"
+    },
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "hanging"
+    ]
+  },
+  {
+    "id": "plant-249",
+    "n": 249,
+    "order": 249,
+    "name": "히오코미움 아르모리쿰",
+    "latin": "Hyocomium armoricum",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "물가·반수생형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "물이 흐르는 바위·폭포 배경",
+    "care": "깃털 같은 가지가 흐르는 물가에 퍼지는 이끼다. 물이 스며드는 암석면과 수경 배경에 사용되며, 정체된 침수 환경과는 구분한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "waterside"
+    ],
+    "mossForms": [
+      "mat"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/756537966/medium.jpg",
+    "credit": {
+      "author": "(c) Jackson Bird, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/756537966",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-250",
+    "n": 250,
+    "order": 250,
+    "name": "린코스테기엘라 테넬라",
+    "latin": "Rhynchostegiella tenella",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "건조내성형",
+    "light": "밝은 그늘",
+    "humidity": "건습 변화·배수·통기",
+    "placement": "배수되는 바위·광물성 토양",
+    "care": "가느다란 가지가 낮은 매트를 만드는 바위 이끼다. 판매 재배 자료에서는 비교적 낮은 습도 조건도 안내하므로 계속 젖은 열대 밀폐통의 기본 이끼로 취급하지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "dry"
+    ],
+    "mossForms": [
+      "mat"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/741541311/medium.jpg",
+    "credit": {
+      "author": "(c) Helen Waterman, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/741541311"
+    }
+  },
+  {
+    "id": "plant-251",
+    "n": 251,
+    "order": 251,
+    "name": "팔라비키니아 리엘리",
+    "latin": "Pallavicinia lyellii",
+    "aliases": [],
+    "category": "우산이끼류",
+    "catalogType": "종",
+    "environment": "물가·반수생형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "축축한 모래흙·낙엽층",
+    "care": "얇은 띠 모양 엽상체가 옆으로 기며 퍼지는 태류다. 습한 바닥을 덮는 식재로 유통된다. 다른 펠리아류와 외형이 비슷하므로 판매명과 동정명을 함께 확인한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "waterside"
+    ],
+    "mossForms": [
+      "leafy"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758495852/medium.jpg",
+    "credit": {
+      "author": "(c) jdowlen, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/758495852",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-252",
+    "n": 252,
+    "order": 252,
+    "name": "바르트라미아 포미포르미스",
+    "latin": "Bartramia pomiformis",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "밝은 그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "배수되는 바위 틈·흙 경사면",
+    "care": "밝은 녹색 잎이 쿠션을 이루고 둥근 삭이 눈에 띄는 이끼다. 구형 삭만 찍은 사진과 식물체의 모습은 구별한다. 습한 공기와 배수되는 바닥을 마련한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "cushion"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758805568/medium.jpg",
+    "credit": {
+      "author": "(c) Juha Kinnunen, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/758805568",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-253",
+    "n": 253,
+    "order": 253,
+    "name": "토르텔라 메디테라네아",
+    "latin": "Tortella mediterranea",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "건조내성형",
+    "light": "밝은 빛",
+    "humidity": "건습 변화·배수·통기",
+    "placement": "노출된 바위 표면",
+    "care": "바위 표면에 작은 쿠션을 만드는 종으로 테라리움용 재배품이 유통된다. 판매처의 광량·습도 설명만으로 고온 밀폐 적합성을 확정하지 않는다. 재배 조건 확인 후 소량 시험한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "dry"
+    ],
+    "mossForms": [
+      "cushion"
+    ],
+    "image": null
+  },
+  {
+    "id": "plant-254",
+    "n": 254,
+    "order": 254,
+    "name": "그리미아 토르쿠아타",
+    "latin": "Grimmia torquata",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "건조내성형",
+    "light": "밝은 빛",
+    "humidity": "건습 변화·배수·통기",
+    "placement": "배수되는 바위 표면",
+    "care": "건조할 때 어두워 보이고 젖으면 녹색이 드러나는 바위 이끼다. 작은 쿠션으로 붙여 관찰하는 식재에 쓰며 물이 고이는 바닥보다 마를 수 있는 암석면을 구분해 마련한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "dry"
+    ],
+    "mossForms": [
+      "cushion"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/756961005/medium.jpg",
+    "credit": {
+      "author": "(c) John D Reynolds, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/756961005",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-255",
+    "n": 255,
+    "order": 255,
+    "name": "피시덴스 폴리필루스",
+    "latin": "Fissidens polyphyllus",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "물가·반수생형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "습한 모래흙·물가 사면",
+    "care": "잎이 좌우로 납작하게 배열되는 봉황이끼류다. 그늘진 습한 토양 식재로 유통된다. 피시덴스 폰타누스 같은 수중 종과 재배 조건을 동일하게 적용하지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "waterside"
+    ],
+    "mossForms": [
+      "leafy"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/740508815/medium.jpg",
+    "credit": {
+      "author": "(c) Johnny Turner, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/740508815",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-256",
+    "n": 256,
+    "order": 256,
+    "name": "필로노티스 세리아타",
+    "latin": "Philonotis seriata",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "물가·반수생형",
+    "light": "밝은 그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "물 스며드는 바위·수변",
+    "care": "잎이 달린 줄기가 모여 서는 물가 이끼다. 젖은 바위 배경과 샘물가를 닮은 식재 후보이며 물 공급과 통기를 함께 관리한다. 열대 고온 내성은 별도 확인 대상이다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "waterside"
+    ],
+    "mossForms": [
+      "upright"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/733320821/medium.jpg",
+    "credit": {
+      "author": "(c) Vojtěch Vyskočil, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/733320821",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-257",
+    "n": 257,
+    "order": 257,
+    "name": "아노모돈 비티쿨로수스",
+    "latin": "Anomodon viticulosus",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "바위·수피·나무 밑동",
+    "care": "가지가 길게 뻗으며 바위와 수피를 덮는 이끼다. 수직면이나 나무 밑동 배경에 붙이는 형태로 유통된다. 붙이는 면에 물이 고이지 않게 하고 온대성 재료로 신중히 시험한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "hanging"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759468710/medium.jpg",
+    "credit": {
+      "author": "(c) Martina Mo, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/759468710",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-258",
+    "n": 258,
+    "order": 258,
+    "name": "이소테키움 미오수로이데스",
+    "latin": "Pseudisothecium myosuroides",
+    "aliases": [
+      "Isothecium myosuroides"
+    ],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "바위·수피·산성 숲바닥",
+    "care": "아랫부분이 덜 갈라진 줄기 위에 가지가 모여 작은 나무 같은 군락을 만든다. 바위와 나무 주변의 숲 경관 식재로 쓰인다. Pseudisothecium 명칭도 함께 검색한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "tree"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758824345/medium.jpg",
+    "credit": {
+      "author": "(c) Daniel Buczkiewicz, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/758824345"
+    }
+  },
+  {
+    "id": "plant-259",
+    "n": 259,
+    "order": 259,
+    "name": "플라기옴니움 운둘라툼",
+    "latin": "Plagiomnium undulatum",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "그늘·밝은 그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "습한 토양·숲바닥",
+    "care": "넓은 잎에 가로 주름이 보이고 줄기가 모여 서는 초롱이끼류다. 온대 숲형 테라리움 재료로 유통된다. 고온의 밀폐 열대 환경에 일괄 적용하지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "upright"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759445529/medium.jpg",
+    "credit": {
+      "author": "(c) Martina Mo, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/759445529",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-260",
+    "n": 260,
+    "order": 260,
+    "name": "피시덴스 브리오이데스",
+    "latin": "Fissidens bryoides",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "습한 모래흙·점토 사면",
+    "care": "작은 줄기에 잎이 두 줄로 배열되는 봉황이끼류다. 바닥의 작은 틈이나 습한 토양면을 꾸미는 재배품으로 유통된다. 확대하지 않으면 다른 피시덴스류와 혼동하기 쉽다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "leafy"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758408584/medium.jpg",
+    "credit": {
+      "author": "(c) marie_engelien, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/758408584",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-261",
+    "n": 261,
+    "order": 261,
+    "name": "킨드베르기아 프라엘롱가",
+    "latin": "Kindbergia praelonga",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "습한 숲흙·경사면",
+    "care": "잘게 갈라진 가지가 평평한 깃털 매트를 만드는 이끼다. 숲바닥을 닮은 테라리움 재배품이 유통된다. 부드러운 토양면을 덮되 과밀한 젖은 덩어리로 누르지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759183235/medium.jpg",
+    "credit": {
+      "author": "(c) Bartosz Czołczyński, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/759183235"
+    }
+  },
+  {
+    "id": "plant-262",
+    "n": 262,
+    "order": 262,
+    "name": "힐로코미움 스플렌덴스",
+    "latin": "Hylocomium splendens",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "밝은 그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "서늘한 숲바닥·부식층",
+    "care": "여러 번 갈라진 가지가 층층이 겹치는 숲바닥 이끼다. 온대 숲 풍경 재료로 유통된다. 서늘한 환경의 재료를 계속 뜨거운 열대 밀폐통에 사용하는 것은 피한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759595796/medium.jpg",
+    "credit": {
+      "author": "(c) relew, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/759595796"
+    }
+  },
+  {
+    "id": "plant-263",
+    "n": 263,
+    "order": 263,
+    "name": "캄필로푸스 필리페르",
+    "latin": "Campylopus pilifer",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "건조내성형",
+    "light": "밝은 빛",
+    "humidity": "건습 변화·배수·통기",
+    "placement": "배수되는 산성 흙·바위",
+    "care": "뻣뻣한 잎 끝이 모인 조밀한 쿠션을 만드는 이끼다. 바위와 흙 위의 돌출 군락 식재로 유통된다. 쿠션 안쪽이 계속 물에 잠기는 상태와 표면 습도 유지는 구분한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "dry"
+    ],
+    "mossForms": [
+      "cushion"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/734270637/medium.jpg",
+    "credit": {
+      "author": "(c) dawnsbugfriends, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/734270637",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-264",
+    "n": 264,
+    "order": 264,
+    "name": "호말로테키움 세리케움",
+    "latin": "Homalothecium sericeum",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "밝은 그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "바위·수피 표면",
+    "care": "비단 같은 광택의 가지가 바위와 수피를 따라 매트를 만든다. 숲형 배경 식재로 유통된다. 물이 고이지 않는 부착면을 마련하고 원재료의 온대성 조건을 확인한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759240144/medium.jpg",
+    "credit": {
+      "author": "(c) lasse_arp, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/759240144",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-265",
+    "n": 265,
+    "order": 265,
+    "name": "폴리아 누탄스",
+    "latin": "Pohlia nutans",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "밝은 그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "산성 토양·부식질 바닥",
+    "care": "작은 곧은 줄기와 길게 솟은 삭자루가 눈에 띄는 이끼다. 토양면의 작은 군락 재료로 유통된다. 포자체의 색과 크기를 전체 군락 크기나 열대 적합성으로 해석하지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "upright"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/734181116/medium.jpg",
+    "credit": {
+      "author": "(c) Svetlana, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/734181116",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-266",
+    "n": 266,
+    "order": 266,
+    "name": "렙토돈 스미티",
+    "latin": "Leptodon smithii",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "수피·바위 표면",
+    "care": "줄기에서 가지가 퍼지고 건조 상태에서는 가지가 말리는 착생 이끼다. 나무와 바위에 붙이는 재료로 유통된다. 마른 모습과 젖은 모습을 구분해 관찰한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "hanging"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/756805811/medium.jpg",
+    "credit": {
+      "author": "(c) Marceau Coppée, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/756805811",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-267",
+    "n": 267,
+    "order": 267,
+    "name": "리티디아델푸스 로레우스",
+    "latin": "Rhytidiadelphus loreus",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "밝은 그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "산성 숲바닥·부식층",
+    "care": "길게 뻗는 가지와 붉은 줄기가 보이는 숲바닥 이끼다. 온대 숲형 재배 재료로 유통된다. 두꺼운 매트를 물에 잠기게 하기보다 표면의 습도와 바닥 배수를 함께 관리한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "mat"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759368524/medium.jpg",
+    "credit": {
+      "author": "(c) pwlf, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/759368524",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-268",
+    "n": 268,
+    "order": 268,
+    "name": "므니움 호르눔",
+    "latin": "Mnium hornum",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "습한 숲흙·나무 밑동",
+    "care": "넓은 잎이 달린 줄기가 모여 작은 숲처럼 보이는 이끼다. 서늘한 숲형 테라리움 재료로 유통된다. 고온에 강한 열대 지피 식물과 같은 조건으로 취급하지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "upright"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759388076/medium.jpg",
+    "credit": {
+      "author": "(c) Martina Mo, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/759388076",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-269",
+    "n": 269,
+    "order": 269,
+    "name": "브라우니아 알로페쿠라",
+    "latin": "Braunia alopecura",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "건조내성형",
+    "light": "밝은 빛",
+    "humidity": "건습 변화·배수·통기",
+    "placement": "바위·배수되는 흙",
+    "care": "줄기가 길게 자라는 모습으로 테라리움용 재배품이 유통된다. 판매 규격이나 최대 높이는 여기서 성숙 크기로 입력하지 않는다. 배수와 통기를 확보해 시험 식재한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "dry"
+    ],
+    "mossForms": [
+      "upright"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/162610895/medium.jpeg",
+    "credit": {
+      "author": "(c) guidobrusa, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/162610895",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-270",
+    "n": 270,
+    "order": 270,
+    "name": "브리오에리트로필룸 페루기나스켄스",
+    "latin": "Bryoerythrophyllum ferruginascens",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "밝은 빛",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "광물성 흙·바위 틈",
+    "care": "작은 줄기가 뭉쳐 낮은 군락을 만드는 이끼다. 바위와 흙 표면 식재용으로 유통된다. 이름이 비슷한 다른 브리오에리트로필룸류의 사진이나 관리 수치를 대신 적용하지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "cushion"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/741942893/medium.jpg",
+    "credit": {
+      "author": "(c) Jackson Bird, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/741942893",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-271",
+    "n": 271,
+    "order": 271,
+    "name": "암피디움 무조티",
+    "latin": "Amphidium mougeotii",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "밝은 그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "습한 바위 틈·절벽면",
+    "care": "바위 틈에서 짧은 줄기가 밀집해 쿠션을 만드는 이끼다. 암석 배경을 덮는 재배품으로 유통된다. 물이 스미는 틈과 정체된 물웅덩이를 구분한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "cushion"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/753356668/medium.jpg",
+    "credit": {
+      "author": "(c) Dominik Richter, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/753356668",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-272",
+    "n": 272,
+    "order": 272,
+    "name": "라코미트리움 아쿠아티쿰",
+    "latin": "Racomitrium aquaticum",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "물가·반수생형",
+    "light": "밝은 그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "젖는 규산질 바위·수변",
+    "care": "젖는 바위에서 군락을 만드는 이끼로 물가 식재용 재배품이 유통된다. aquaticum이라는 이름만으로 상시 완전 수중 재배를 보장하지 않는다. 물에 닿는 바위면부터 시험한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "waterside"
+    ],
+    "mossForms": [
+      "cushion"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/669023788/medium.jpg",
+    "credit": {
+      "author": "(c) Esteban Stefano Pavan, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/669023788"
+    }
+  },
+  {
+    "id": "plant-273",
+    "n": 273,
+    "order": 273,
+    "name": "폰티날리스 스쿠아모사",
+    "latin": "Fontinalis squamosa",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "수중형",
+    "light": "그늘·밝은 그늘",
+    "humidity": "담수 수역·수위 조건 확인",
+    "placement": "담수 수역의 돌·유목",
+    "care": "줄기와 가지가 물속에서 길게 뻗는 수생 이끼다. 수조와 팔루다리움의 수역 식재 대상으로 구분한다. 육상 토양용 이끼처럼 수역 밖 바닥에 심지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "aquatic"
+    ],
+    "mossForms": [
+      "hanging"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/716613562/medium.jpg",
+    "credit": {
+      "author": "(c) Calum McLennan, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/716613562",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-274",
+    "n": 274,
+    "order": 274,
+    "name": "린코스테기움 리파리오이데스",
+    "latin": "Rhynchostegium riparioides",
+    "aliases": [
+      "Platyhypnidium riparioides"
+    ],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "물가·반수생형·수중형",
+    "light": "밝은 그늘",
+    "humidity": "담수 수역·수위 조건 확인",
+    "placement": "물 흐르는 바위·수역 가장자리",
+    "care": "흐르는 물의 바위나 젖은 가장자리를 덮는 이끼다. Platyhypnidium riparioides 명칭으로도 유통된다. 수위와 유속이 있는 식재를 별도 계획하며 육상 고습 조건과 혼동하지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "waterside",
+      "aquatic"
+    ],
+    "mossForms": [
+      "mat"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/749649832/medium.jpg",
+    "credit": {
+      "author": "(c) Bartosz Czołczyński, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/749649832"
+    }
+  },
+  {
+    "id": "plant-275",
+    "n": 275,
+    "order": 275,
+    "name": "폴리트리쿰 스트릭툼",
+    "latin": "Polytrichum strictum",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형·물가·반수생형",
+    "light": "밝은 빛",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "습지·수태 군락 가장자리",
+    "care": "작은 솔 같은 직립 줄기가 모이는 솔이끼류다. 습지형 식재 재료로 유통되며 수태류와 함께 보일 수 있다. 줄기의 외형이 비슷한 다른 솔이끼 종과 구별한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate",
+      "waterside"
+    ],
+    "mossForms": [
+      "upright"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758049094/medium.jpg",
+    "credit": {
+      "author": "(c) Станислав, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/758049094",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-276",
+    "n": 276,
+    "order": 276,
+    "name": "안드레아에아 알피나",
+    "latin": "Andreaea alpina",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "밝은 빛",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "서늘한 바위·슬레이트 면",
+    "care": "어두운 적갈색을 띠는 작은 군락의 바위 이끼다. 암석 테라리움용 재배품이 유통되지만 서늘한 생육 특성을 무시한 고온 열대 식재로 일반화하지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "cushion"
+    ],
+    "image": null
+  },
+  {
+    "id": "plant-277",
+    "n": 277,
+    "order": 277,
+    "name": "플라기오킬라 포렐로이데스",
+    "latin": "Plagiochila porelloides",
+    "aliases": [],
+    "category": "우산이끼류",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "습한 흙·바위·숲바닥",
+    "care": "납작한 줄기 양옆에 잎이 겹치듯 달리는 잎태류다. 선류의 깃털형 매트와 다른 공식 분류로 표시한다. 그늘진 습한 바닥을 덮는 재배품으로 유통된다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "leafy"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758801571/medium.jpg",
+    "credit": {
+      "author": "(c) Juha Kinnunen, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/758801571",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-278",
+    "n": 278,
+    "order": 278,
+    "name": "포렐라 플라티필라",
+    "latin": "Porella platyphylla",
+    "aliases": [],
+    "category": "우산이끼류",
+    "catalogType": "종",
+    "environment": "온대 숲형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "수피·바위 표면",
+    "care": "잎이 겹쳐 달리는 가지가 수피와 바위를 덮는 잎태류다. 수직 배경에 붙이는 재배 재료로 유통된다. 착생면의 통기를 확보하고 고온 밀폐 적합성은 별도로 확인한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate"
+    ],
+    "mossForms": [
+      "leafy"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759269158/medium.jpg",
+    "credit": {
+      "author": "(c) Eliass Tāre, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/759269158"
+    }
+  },
+  {
+    "id": "plant-279",
+    "n": 279,
+    "order": 279,
+    "name": "스파그넘 플렉수오숨",
+    "latin": "Sphagnum flexuosum",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형·물가·반수생형",
+    "light": "밝은 그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "산성 습지·수태 화단",
+    "care": "가지 끝이 모여 머리 모양을 이루는 살아 있는 수태류다. 식충식물과 함께 사용하는 습지형 재배품이 유통된다. 죽은 건조 수태 자재와 살아 있는 종 항목을 구별한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate",
+      "waterside"
+    ],
+    "mossForms": [
+      "upright"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/756796729/medium.jpg",
+    "credit": {
+      "author": "(c) eugenezakharov, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/756796729",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-280",
+    "n": 280,
+    "order": 280,
+    "name": "탐노브리움 알로페쿠룸",
+    "latin": "Thamnobryum alopecurum",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형·물가·반수생형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "물가 바위·유목·습한 사면",
+    "care": "줄기 위쪽에서 가지가 갈라져 작은 나무 같은 모습을 만든다. 물가 배경과 폭포 주변 식재 재료로 유통된다. 물이 스며드는 부착면과 완전 침수 환경을 구분한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate",
+      "waterside"
+    ],
+    "mossForms": [
+      "tree"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758995969/medium.jpg",
+    "credit": {
+      "author": "(c) tomflynn, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/758995969",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-281",
+    "n": 281,
+    "order": 281,
+    "name": "루눌라리아 크루키아타",
+    "latin": "Lunularia cruciata",
+    "aliases": [],
+    "category": "우산이끼류",
+    "catalogType": "종",
+    "environment": "물가·반수생형",
+    "light": "밝은 그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "습한 토양·수변 경사면",
+    "care": "엽상체 표면의 초승달 모양 무성아 컵이 특징인 태류다. 습한 바닥을 덮는 테라리움 재배품이 유통된다. 퍼지는 속도를 관찰하며 다른 작은 식물을 덮지 않게 관리한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "waterside"
+    ],
+    "mossForms": [
+      "leafy"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759470685/medium.jpg",
+    "credit": {
+      "author": "(c) Martina Mo, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/759470685",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-282",
+    "n": 282,
+    "order": 282,
+    "name": "아포펠리아 엔디비이폴리아",
+    "latin": "Apopellia endiviifolia",
+    "aliases": [
+      "Pellia endiviifolia"
+    ],
+    "category": "우산이끼류",
+    "catalogType": "종",
+    "environment": "물가·반수생형",
+    "light": "그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "얕은 물가·젖은 흙과 바위",
+    "care": "갈라지는 엽상체를 만드는 태류로 Pellia endiviifolia 명칭도 사용된다. 수변과 얕은 수위에서 쓰는 재배품이 유통된다. 깊은 수중 장기 생육은 판매 문구만으로 보장하지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "waterside"
+    ],
+    "mossForms": [
+      "leafy"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759323251/medium.jpg",
+    "credit": {
+      "author": "(c) wolff christiane, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/759323251",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-283",
+    "n": 283,
+    "order": 283,
+    "name": "바르불라 운귀쿨라타",
+    "latin": "Barbula unguiculata",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "건조내성형",
+    "light": "밝은 빛",
+    "humidity": "건습 변화·배수·통기",
+    "placement": "광물성 토양·벽돌·바위 틈",
+    "care": "짧은 줄기가 작은 쿠션과 패치를 만드는 이끼다. 밝고 배수되는 노출면 재료로 유통된다. 상시 젖은 열대 바닥용 재료와 구분하고 건습 변화와 통기를 확보한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "dry"
+    ],
+    "mossForms": [
+      "cushion"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758451900/medium.jpg",
+    "credit": {
+      "author": "(c) Séléna Bergeron, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/758451900",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-284",
+    "n": 284,
+    "order": 284,
+    "name": "피닉스모스",
+    "latin": "Fissidens fontanus",
+    "aliases": [
+      "Phoenix moss"
+    ],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "수중형",
+    "light": "그늘·밝은 그늘",
+    "humidity": "담수 수역·수위 조건 확인",
+    "placement": "담수 수역의 돌·유목",
+    "care": "잎이 두 줄로 퍼져 작은 분수처럼 보이는 수생 봉황이끼류다. 수조와 팔루다리움 수역에 사용하는 종이며 육상용 봉황이끼와 구분한다. 수역 밖 생육을 기본값으로 삼지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "aquatic"
+    ],
+    "mossForms": [
+      "leafy"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758116464/medium.jpg",
+    "credit": {
+      "author": "(c) Keith Bradley, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/758116464",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-285",
+    "n": 285,
+    "order": 285,
+    "name": "폰티날리스 안티피레티카",
+    "latin": "Fontinalis antipyretica",
+    "aliases": [
+      "Willow moss"
+    ],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "수중형",
+    "light": "밝은 그늘",
+    "humidity": "담수 수역·수위 조건 확인",
+    "placement": "담수 수역의 돌·유목",
+    "care": "물속에서 길게 가지를 뻗는 수생 이끼로 윌로모스라는 이름도 쓰인다. 수역 식재로 구분하며 건조한 육지에 두지 않는다. 원산지와 유통 계통에 따른 수온 조건은 별도 확인한다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인. 국내 취급: 영플랜츠 상품 원문 학명 Fantinalis antipyretica는 Fontinalis의 철자 오기 · 상품 이름과 대조.",
+    "domesticStatus": "국내 취급 기록",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "aquatic"
+    ],
+    "mossForms": [
+      "hanging"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759265305/medium.jpg",
+    "credit": {
+      "author": "(c) Joke Verkeyn, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/759265305",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    },
+    "domesticEvidence": [
+      {
+        "title": "윌로모스",
+        "shop": "영플랜츠",
+        "url": "https://m.youngplants.co.kr/goods/goods_view.php?goodsNo=1000000150",
+        "checkedAt": "2026-11-05",
+        "basis": "상품 원문 학명 Fantinalis antipyretica는 Fontinalis의 철자 오기 · 상품 이름과 대조"
+      }
+    ]
+  },
+  {
+    "id": "plant-286",
+    "n": 286,
+    "order": 286,
+    "name": "브리움 아르겐테움",
+    "latin": "Bryum argenteum",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "건조내성형",
+    "light": "밝은 빛",
+    "humidity": "건습 변화·배수·통기",
+    "placement": "배수되는 흙·바위·노출면",
+    "care": "마르면 은빛으로 보이는 작은 줄기가 조밀한 패치를 만드는 이끼다. 밝고 배수되는 경관 식재 재료로 유통된다. 은색 외형만 보고 서리이끼 유통형과 같은 종으로 합치지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "dry"
+    ],
+    "mossForms": [
+      "cushion"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759614244/medium.jpg",
+    "credit": {
+      "author": "(c) Анна Мазур, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/759614244",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-287",
+    "n": 287,
+    "order": 287,
+    "name": "라코미트리움 카네스켄스",
+    "latin": "Racomitrium canescens",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "건조내성형",
+    "light": "밝은 빛",
+    "humidity": "건습 변화·배수·통기",
+    "placement": "배수되는 바위·모래흙",
+    "care": "밝은 털끝이 보이는 줄기가 바위와 모래흙 위에 군락을 만든다. Racomitrium canescens 명칭으로 유통된다. 종이 미확정인 국내 서리이끼 유통 항목과 자동으로 같은 종으로 묶지 않는다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "dry"
+    ],
+    "mossForms": [
+      "cushion"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/759379720/medium.jpg",
+    "credit": {
+      "author": "(c) Bartosz Czołczyński, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/759379720"
+    }
+  },
+  {
+    "id": "plant-288",
+    "n": 288,
+    "order": 288,
+    "name": "스파그넘 카필리폴리움",
+    "latin": "Sphagnum capillifolium",
+    "aliases": [],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "온대 숲형·물가·반수생형",
+    "light": "밝은 빛·밝은 그늘",
+    "humidity": "습한 공기·배수·통기",
+    "placement": "산성 습지·식충식물 재배면",
+    "care": "작은 가지 끝이 모여 조밀한 머리 모양을 이루는 살아 있는 수태류다. 붉은색은 환경에 따라 달라지며 색만으로 동정하지 않는다. 식충식물 습지형 식재 재료로 유통된다.",
+    "verification": "종명은 iNaturalist 분류명과 판매명을 대조. 해외 재배업체의 종별 취급·식재 설명 확인. 국명 미확정 항목은 학명 음역이며 국내 취급·고온 밀폐 적합성 미확인.",
+    "domesticStatus": "해외 재배·취급 확인·국내 취급 미확인",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "varieties": [],
+    "addedAt": "2026-11-04",
+    "mossHabitats": [
+      "temperate",
+      "waterside"
+    ],
+    "mossForms": [
+      "upright"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/757682953/medium.jpg",
+    "credit": {
+      "author": "(c) Norma Malinowski, some rights reserved (CC BY)",
+      "license": "CC BY",
+      "url": "https://www.inaturalist.org/photos/757682953"
+    }
+  },
+  {
+    "id": "plant-289",
+    "n": 289,
+    "order": 289,
+    "name": "위핑모스",
+    "latin": "Vesicularia ferriei",
+    "aliases": [
+      "Weeping moss",
+      "베시쿨라리아 페리에이"
+    ],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "열대습식·수분·통기 조건 확인",
+    "light": "산란광·판매형별 광량 확인",
+    "humidity": "수역·수상 식재 조건 구별",
+    "placement": "수역의 돌·유목·습한 수변",
+    "care": "새 가지가 아래로 늘어지는 모습의 모스다. 수중의 유목·암석 활착에 쓰이며 원산지에서는 젖은 바위와 하천 가장자리 토양에도 자란다. 수중에서의 늘어짐과 수상 재배 때의 모습을 구분하고, 열대 습식에서도 환기와 물 공급을 함께 관리한다.",
+    "verification": "학명·해외 재배 취급 기록 대조. 수중/수상 표현과 유통 클론의 동일성은 구별. 국내 취급: 영플랜츠 국내 상품명 위핑모스와 해외 재배 명칭 대조 · 실물 종 동정 보장 아님.",
+    "domesticStatus": "국내 취급 기록",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-05",
+    "varieties": [],
+    "mossHabitats": [
+      "tropical",
+      "waterside",
+      "aquatic"
+    ],
+    "mossForms": [
+      "hanging"
+    ],
+    "image": null,
+    "domesticEvidence": [
+      {
+        "title": "위핑모스",
+        "shop": "영플랜츠",
+        "url": "https://m.youngplants.co.kr/goods/goods_view.php?goodsNo=1000000158",
+        "checkedAt": "2026-11-05",
+        "basis": "국내 상품명 위핑모스와 해외 재배 명칭 대조 · 실물 종 동정 보장 아님"
+      }
+    ]
+  },
+  {
+    "id": "plant-290",
+    "n": 290,
+    "order": 290,
+    "name": "타이완모스",
+    "latin": "Taxiphyllum alternans",
+    "aliases": [
+      "Taiwan moss",
+      "대만이끼",
+      "탁시필룸 알테르난스"
+    ],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "열대습식·수분·통기 조건 확인",
+    "light": "산란광·판매형별 광량 확인",
+    "humidity": "수역·수상 식재 조건 구별",
+    "placement": "수역의 돌·유목·습한 수변",
+    "care": "가늘게 갈라지는 가지가 겹쳐 매트를 만드는 모스다. 타이완모스라는 이름으로 유목·돌 활착 재료가 유통된다. 사진은 종 참고 사진이며 특정 판매 클론의 형태나 국내 판매품의 동정을 보장하지 않는다. 수상 식재는 충분한 수분 공급과 통기를 함께 확보한다.",
+    "verification": "학명·해외 재배 취급 기록 대조. 수중/수상 표현과 유통 클론의 동일성은 구별. 국내 취급: 웨이브아쿠아 상품명에 Taxiphyllum alternans 학명 명시.",
+    "domesticStatus": "국내 취급 기록",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-05",
+    "varieties": [],
+    "mossHabitats": [
+      "tropical",
+      "waterside",
+      "aquatic"
+    ],
+    "mossForms": [
+      "mat"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/491702918/medium.jpg",
+    "credit": {
+      "author": "(c) James K. Wetterer, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/491702918",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    },
+    "domesticEvidence": [
+      {
+        "title": "타이완모스",
+        "shop": "웨이브아쿠아",
+        "url": "https://waveaqua.co.kr/product/%ED%83%80%EC%9D%B4%EC%99%84%EB%AA%A8%EC%8A%A4-taxiphyllum-alternans-%EB%8C%80%EB%A7%8C%EC%9D%B4%EB%81%BC-8-x-8-%EC%8A%A4%ED%85%90%EB%A7%9D-%ED%99%9C%EC%B0%A9/144/category/90/display/1/",
+        "checkedAt": "2026-11-05",
+        "basis": "상품명에 Taxiphyllum alternans 학명 명시"
+      }
+    ]
+  },
+  {
+    "id": "plant-291",
+    "n": 291,
+    "order": 291,
+    "name": "모노솔레니움 테네룸",
+    "latin": "Monosolenium tenerum",
+    "aliases": [
+      "Monosolenium",
+      "펠리아 유통명",
+      "모노솔레늄 테네룸"
+    ],
+    "category": "우산이끼류",
+    "catalogType": "종",
+    "environment": "수중·수변 조건 구분",
+    "light": "산란광·판매형별 광량 확인",
+    "humidity": "수역·수상 식재 조건 구별",
+    "placement": "수역의 돌·유목·습한 수변",
+    "care": "넓고 갈라지는 엽상체가 덩어리를 이루는 태류다. 수중 또는 습한 수변 식재에 사용되며 펠리아라는 이름으로 잘못 불리기도 한다. 쉽게 부서져 작은 조각을 부착해 자리 잡게 한다. 물미역이라는 국내 이름만 보고 고사리 전엽체인 Lomariopsis와 같은 식물로 합치지 않는다.",
+    "verification": "학명·해외 재배 취급 기록 대조. 수중/수상 표현과 유통 클론의 동일성은 구별.",
+    "domesticStatus": "해외 취급 확인·국내 취급 대조 중",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-05",
+    "varieties": [],
+    "mossHabitats": [
+      "waterside",
+      "aquatic"
+    ],
+    "mossForms": [
+      "leafy"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/477742013/medium.jpeg",
+    "credit": {
+      "author": "(c) 潘立傑 LICHIEH_PAN, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/477742013",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-292",
+    "n": 292,
+    "order": 292,
+    "name": "스트링기모스",
+    "latin": "Leptodictyum riparium",
+    "aliases": [
+      "Stringy moss",
+      "String moss",
+      "렙토딕티움 리파리움"
+    ],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "수중·수변 조건 구분",
+    "light": "산란광·판매형별 광량 확인",
+    "humidity": "수역·수상 식재 조건 구별",
+    "placement": "수역의 돌·유목·습한 수변",
+    "care": "가늘고 길게 뻗는 가지가 느슨한 매트를 이루는 물가 이끼다. 스트링기모스 등의 이름으로 수중 활착 재료가 유통된다. 사진은 수상 군락의 종 참고 사진이다. 수중에서의 길게 늘어지는 표현과 습한 육상면의 형태가 다를 수 있다.",
+    "verification": "학명·해외 재배 취급 기록 대조. 수중/수상 표현과 유통 클론의 동일성은 구별.",
+    "domesticStatus": "해외 취급 확인·국내 취급 대조 중",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-05",
+    "varieties": [],
+    "mossHabitats": [
+      "waterside",
+      "aquatic"
+    ],
+    "mossForms": [
+      "mat"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/758591491/medium.jpg",
+    "credit": {
+      "author": "(c) Gábor Keresztes, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/758591491",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-293",
+    "n": 293,
+    "order": 293,
+    "name": "탁시필룸 탁시라메움",
+    "latin": "Taxiphyllum taxirameum",
+    "aliases": [
+      "Taxirameum moss",
+      "Khao Sok moss"
+    ],
+    "category": "이끼",
+    "catalogType": "종",
+    "environment": "열대습식·수분·통기 조건 확인",
+    "light": "산란광·판매형별 광량 확인",
+    "humidity": "수역·수상 식재 조건 구별",
+    "placement": "수역의 돌·유목·습한 수변",
+    "care": "납작한 잎이 달린 가지가 매트를 만드는 모스다. 태국 카오속 유래 수중 재배 계통과 원예 유통 기록이 있다. 모든 Spiky라는 판매품이 이 종으로 확인된 것은 아니므로 미동정 스파이키 유통형과 분리한다. 사진은 잎과 가지를 보여주는 종 참고 사진이다.",
+    "verification": "학명·해외 재배 취급 기록 대조. 수중/수상 표현과 유통 클론의 동일성은 구별.",
+    "domesticStatus": "해외 취급 확인·국내 취급 대조 중",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-05",
+    "varieties": [],
+    "mossHabitats": [
+      "tropical",
+      "waterside",
+      "aquatic"
+    ],
+    "mossForms": [
+      "mat"
+    ],
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/607342947/medium.jpg",
+    "credit": {
+      "author": "(c) abelkinser, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC",
+      "url": "https://www.inaturalist.org/photos/607342947",
+      "note": "비영리 이용 조건 · 상업화 전 사진 권리 재검토"
+    }
+  },
+  {
+    "id": "plant-294",
+    "n": 294,
+    "order": 294,
+    "name": "불꽃모스 유통형",
+    "latin": "Taxiphyllum sp. “Flame”",
+    "aliases": [
+      "Flame moss",
+      "플레임모스"
+    ],
+    "category": "이끼",
+    "catalogType": "유통명",
+    "environment": "수중·수변 조건 구분",
+    "light": "산란광·판매형별 광량 확인",
+    "humidity": "수역·수상 식재 조건 구별",
+    "placement": "수역의 돌·유목·습한 수변",
+    "care": "불꽃처럼 꼬이며 위로 뻗는 수중 표현으로 유통되는 모스다. 정식 종명이 확정된 것으로 취급하지 않는다. 수조와 팔루다리움 수역의 돌·유목에 고정하는 식재이며 수중의 불꽃 모양이 육상에서도 그대로 유지된다고 보장하지 않는다.",
+    "verification": "재배업체의 명명된 판매형. 종 동정 미완료이며 유통형을 별도 정식 종수로 세지 않음. 국내 취급: 영플랜츠 국내 불꽃모스 상품과 해외 Flame 유통명 대조 · 정식 종 미확정.",
+    "domesticStatus": "국내 취급 기록",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-05",
+    "varieties": [],
+    "mossHabitats": [
+      "aquatic"
+    ],
+    "mossForms": [
+      "upright"
+    ],
+    "image": null,
+    "domesticEvidence": [
+      {
+        "title": "불꽃모스",
+        "shop": "영플랜츠",
+        "url": "https://m.youngplants.co.kr/goods/goods_list.php?cateCd=028",
+        "checkedAt": "2026-11-05",
+        "basis": "국내 불꽃모스 상품과 해외 Flame 유통명 대조 · 정식 종 미확정"
+      }
+    ]
+  },
+  {
+    "id": "plant-295",
+    "n": 295,
+    "order": 295,
+    "name": "스파이키모스 유통형",
+    "latin": "Taxiphyllum sp. “Spiky”",
+    "aliases": [
+      "Spiky moss",
+      "스파이키 모스"
+    ],
+    "category": "이끼",
+    "catalogType": "유통명",
+    "environment": "수중·수변 조건 구분",
+    "light": "산란광·판매형별 광량 확인",
+    "humidity": "수역·수상 식재 조건 구별",
+    "placement": "수역의 돌·유목·습한 수변",
+    "care": "가시처럼 갈라진 가지가 퍼지는 모습으로 유통되는 모스다. 재배업체는 Taxiphyllum sp.로 표기하므로 특정 종명을 임의로 부여하지 않는다. 크리스마스모스나 타이완모스와 이름만으로 합치지 않고 물속 활착용 판매형으로 구분한다.",
+    "verification": "재배업체의 명명된 판매형. 종 동정 미완료이며 유통형을 별도 정식 종수로 세지 않음.",
+    "domesticStatus": "해외 취급 확인·국내 취급 대조 중",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-05",
+    "varieties": [],
+    "mossHabitats": [
+      "waterside",
+      "aquatic"
+    ],
+    "mossForms": [
+      "mat"
+    ],
+    "image": null
+  },
+  {
+    "id": "plant-296",
+    "n": 296,
+    "order": 296,
+    "name": "열대 솔이끼 Tropical A 유통형",
+    "latin": "Polytrichum sp. “Tropical A”",
+    "aliases": [
+      "Siamgreenculture Tropical moss A",
+      "Tropical A moss"
+    ],
+    "category": "이끼",
+    "catalogType": "유통명",
+    "environment": "열대습식·수분·통기 조건 확인",
+    "light": "산란광·판매형별 광량 확인",
+    "humidity": "높은 공중 습도·충분한 통기",
+    "placement": "습한 암석·가지·바닥 표면",
+    "care": "태국 재배업체가 Tropical moss A 및 Polytrichum species라는 이름으로 판매하는 미동정 이끼다. 밝은 녹색 잎과 아래쪽의 어두운 줄기를 보여 준다. 판매자는 높은 공중 습도와 공기 흐름을 함께 안내한다. 정식 종 또는 기존 솔이끼와 다른 새 종으로 확정하지 않는다.",
+    "verification": "재배업체의 명명된 판매형. 종 동정 미완료이며 유통형을 별도 정식 종수로 세지 않음.",
+    "domesticStatus": "해외 취급 확인·국내 취급 대조 중",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-05",
+    "varieties": [],
+    "mossHabitats": [
+      "tropical"
+    ],
+    "mossForms": [
+      "upright"
+    ],
+    "image": null
+  },
+  {
+    "id": "plant-297",
+    "n": 297,
+    "order": 297,
+    "name": "열대 피시덴스 B·C·D 유통형",
+    "latin": "Fissidens sp. “Tropical B C D”",
+    "aliases": [
+      "Siamgreenculture Tropical moss B",
+      "Tropical moss C",
+      "Tropical moss D"
+    ],
+    "category": "이끼",
+    "catalogType": "유통명",
+    "environment": "열대습식·수분·통기 조건 확인",
+    "light": "산란광·판매형별 광량 확인",
+    "humidity": "높은 공중 습도·충분한 통기",
+    "placement": "습한 암석·가지·바닥 표면",
+    "care": "태국 재배업체가 Fissidens라는 판매표기 아래 B·C·D 코드로 나누어 유통하는 미동정 식재형을 묶었다. 세 코드를 새 종 세 개로 세지 않으며 각 하위형의 실제 판매 사진을 따로 연결한다. 봉황이끼·피닉스모스 등 기존의 동정된 종과 동일하다고 단정하지 않는다.",
+    "verification": "재배업체의 명명된 판매형. 종 동정 미완료이며 유통형을 별도 정식 종수로 세지 않음.",
+    "domesticStatus": "해외 취급 확인·국내 취급 대조 중",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-05",
+    "varieties": [
+      "Tropical B (판매형)",
+      "Tropical C (판매형)",
+      "Tropical D (판매형)"
+    ],
+    "mossHabitats": [
+      "tropical",
+      "waterside"
+    ],
+    "mossForms": [
+      "leafy"
+    ],
+    "image": null
+  },
+  {
+    "id": "plant-298",
+    "n": 298,
+    "order": 298,
+    "name": "블루 태류 A 유통형",
+    "latin": "Marchantia sp. “Blue A”",
+    "aliases": [
+      "Blue liverwort A",
+      "Iridescent liverwort",
+      "Siamgreenculture Liverwort A"
+    ],
+    "category": "우산이끼류",
+    "catalogType": "유통명",
+    "environment": "열대습식·수분·통기 조건 확인",
+    "light": "산란광·판매형별 광량 확인",
+    "humidity": "높은 공중 습도·충분한 통기",
+    "placement": "습한 암석·가지·바닥 표면",
+    "care": "판매자가 Marchantia species와 Liverwort A로 표기한 미동정 태류다. 넓게 갈라지는 엽상체에 청록색 광택이 보이는 재배형으로 유통된다. 색은 조명과 관찰 각도에 따라 달라지며 사진 색만으로 속·종을 확정하지 않는다. 정식 학명 동정은 미완료 상태로 보존한다.",
+    "verification": "재배업체의 명명된 판매형. 종 동정 미완료이며 유통형을 별도 정식 종수로 세지 않음.",
+    "domesticStatus": "해외 취급 확인·국내 취급 대조 중",
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-05",
+    "varieties": [],
+    "mossHabitats": [
+      "tropical"
+    ],
+    "mossForms": [
+      "leafy"
+    ],
+    "image": null
   }
 ]

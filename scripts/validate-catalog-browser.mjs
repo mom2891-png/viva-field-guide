@@ -50,3 +50,36 @@ click('navOpen','variety:p:0');assert.equal(opened[1].kind,'variety');
 ui.open('animals');listeners.keydown({key:'Escape',preventDefault(){}});
 assert(!ui.isOpen());assert(restored>0);
 console.log('Catalog browser validated: lifecycle, loading, path columns, escaped labels, browse/open, global/scoped search, reset, morph/variety and Escape.');
+
+// Embedded guide stays visible while navigating and selecting entries.
+const embeddedRoot={...root,hidden:false};
+const inlineOpened=[];
+const embedded=ctx.VivaCatalogBrowser.mount(embeddedRoot,{inline:true,onOpen:n=>inlineOpened.push(n)});
+embedded.setModel(model);embedded.open('animals');
+click('navOpen','entry:a');
+assert(embedded.isOpen(),'Inline guide must stay visible after selecting a species');
+assert.equal(inlineOpened[0].entryId,'a');
+assert.match(elements.get('#catalogTrail').innerHTML,/&lt;Animal&gt;/,'Selected species remains in the inline path');
+embedded.close();assert(embedded.isOpen(),'Inline guide has no dismiss overlay');
+console.log('PASS: inline guide remains visible and keeps species selection.');
+
+// Habitat and shape are independent discovery filters; they do not add duplicate taxonomy rows.
+for (const id of ['catalogMossFilters','catalogMossHabitat','catalogMossForm']) elements.set('#'+id,{value:'all',hidden:false});
+const mossModel=ctx.VivaCatalog.createModel([], [
+  {id:'wet',name:'Water moss',latin:'Fissidens test',category:'이끼',mossHabitats:['aquatic'],mossForms:['leafy']},
+  {id:'forest',name:'Forest moss',latin:'Mnium test',category:'이끼류',mossHabitats:['temperate'],mossForms:['upright']},
+  {id:'fern',name:'Fern',latin:'Lepisorus test',category:'양치식물'}
+],{});
+const discovery=ctx.VivaCatalogBrowser.mount(embeddedRoot,{inline:true});discovery.setModel(mossModel);discovery.open('plants');
+elements.get('#catalogMossHabitat').value='aquatic';listeners.change({target:elements.get('#catalogMossHabitat')});
+assert(!elements.get('#catalogColumns').innerHTML.includes('고사리·석송류'));
+assert.match(elements.get('#catalogMenuStatus').textContent,/1개/);
+elements.get('#catalogNavSearch').value='moss';listeners.input({target:elements.get('#catalogNavSearch')});
+assert.match(elements.get('#catalogSearchResults').innerHTML,/Water moss/);
+assert(!elements.get('#catalogSearchResults').innerHTML.includes('Forest moss'));
+elements.get('#catalogMossForm').value='upright';listeners.change({target:elements.get('#catalogMossForm')});
+assert.match(elements.get('#catalogMenuStatus').textContent,/0개/);
+discovery.open('animals');assert(elements.get('#catalogMossFilters').hidden);
+discovery.open('plants');assert.match(elements.get('#catalogMenuStatus').textContent,/0개/);
+assert(!elements.get('#catalogColumns').innerHTML.includes('Forest moss'), 'Returning to plants retains the filtered navigation root');
+console.log('PASS: moss habitat/shape intersection, filtered taxonomy counts/search, fern exclusion and animal-page visibility.');

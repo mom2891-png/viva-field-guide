@@ -731,7 +731,8 @@
     "aliases": [
       "청실사리",
       "블루스파이크모스",
-      "peacock spikemoss"
+      "peacock spikemoss",
+      "셀라지넬라 운시나타"
     ],
     "order": 16,
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Selaginella_uncinata_-_Berlin_Botanical_Garden_-_IMG_8722.JPG/960px-Selaginella_uncinata_-_Berlin_Botanical_Garden_-_IMG_8722.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -791,7 +792,8 @@
     "care": "붉은 줄기와 잎 뒷면이 특징인 석송류예요. 그늘지고 촉촉한 배지에 심되 뿌리가 계속 잠기지 않도록 배수해 주세요.",
     "aliases": [
       "루비스파이크모스",
-      "ruby spikemoss"
+      "ruby spikemoss",
+      "셀라지넬라 에리스로푸스"
     ],
     "order": 17,
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Selaginella_erthropus.png/960px-Selaginella_erthropus.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -1706,11 +1708,15 @@
     "humidity": "보통~높음",
     "placement": "배경·지지대",
     "environment": "열대습식",
-    "care": "하트 잎이 지지대를 타고 자라요. 성장이 빨라 전정이 필요하며 식물을 씹는 동물에는 옥살산칼슘 자극 가능성을 따로 고려해야 해요.",
+    "care": "하트 잎이 지지대를 타고 자라요. 성장이 빨라 전정이 필요하며 식물을 씹는 동물에는 옥살산칼슘 자극 가능성을 따로 고려해야 해요. 미칸으로 유통되는 벨벳잎 형태는 별도 종으로 늘리지 않고 여기에서 찾아볼 수 있어요. 밝은 간접광과 배수되는 기질을 제공하고 자란 덩굴을 정리해요.",
     "aliases": [
       "하트리프필로덴드론",
       "스칸덴스",
-      "heartleaf philodendron"
+      "heartleaf philodendron",
+      "필로덴드론 미칸",
+      "필로덴드론 미칸스",
+      "Philodendron micans",
+      "Philodendron hederaceum var. hederaceum"
     ],
     "order": 41,
     "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Philodendron_scandens_subsp_oxycardium2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -1723,9 +1729,11 @@
     },
     "shopCoverage": 1,
     "popularity": 11,
-    "varieties": [],
+    "varieties": [
+      "미칸 (벨벳잎 유통형)"
+    ],
     "catalogType": "종",
-    "verification": "기존 도감 · 재검토 대상",
+    "verification": "기존 도감 · 재검토 대상; 2026-11-04 RHS254662의 P.micans 이명 대조·플랜티멀55 판매명 확인",
     "domesticStatus": "국내 취급 기록",
     "popularityKnown": true,
     "sizeInfo": {
@@ -2493,7 +2501,7 @@
     "humidity": "보통~높음",
     "placement": "바닥·늘어뜨리기",
     "environment": "열대습식",
-    "care": "작은 잎을 단 줄기가 빠르게 퍼져요. 밝은 간접광과 배수를 제공하며 다른 식물을 덮지 않도록 잘라 주세요.",
+    "care": "마디에서 뿌리를 내리며 바닥을 덮거나 가장자리로 늘어지는 초본이에요. NParks는 양지~반그늘, 적당한 급수와 얕은 배지 내성을 제시해요. 높은 습도를 계속 가두는 관리가 필수라고 보지 말고 배지 수분과 빛에 적응하는 상태를 확인해요. 줄기 삽목으로 늘릴 수 있고 넓게 번지는 매트를 정리해 주변 식물이 가려지지 않게 관리해요.",
     "aliases": [
       "거북이덩굴",
       "turtle vine"
@@ -2511,7 +2519,7 @@
     "popularity": null,
     "varieties": [],
     "catalogType": "종",
-    "verification": "기존 도감 · 재검토 대상",
+    "verification": "기존 도감 · 재검토 대상; 2026-11-04 NParks1772 종명·포복·급수·증식 대조",
     "domesticStatus": "국내 유통 미확인",
     "popularityKnown": false,
     "sizeInfo": {
@@ -3129,12 +3137,15 @@
     "aliases": [
       "셀라지넬라 윌데노위",
       "셀레지넬라 윌데노위",
-      "peacock fern"
+      "peacock fern",
+      "셀라지넬라 윌데노위 바리에가타"
     ],
     "order": 66,
     "shopCoverage": 0,
     "popularity": null,
-    "varieties": [],
+    "varieties": [
+      "바리에가타 (판매 유통형)"
+    ],
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Iridescent_fern.jpg/960px-Iridescent_fern.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "imageFile": "Iridescent_fern.jpg",
     "credit": {
@@ -4141,13 +4152,13 @@
     "light": "중간",
     "humidity": "높음",
     "placement": "바닥·배경·유목",
-    "care": "전문 테라리움 식재 목록에서 확인한 후보예요. 성숙 크기와 성장 속도에 맞춰 공간을 두고, 촉촉하되 물이 정체되지 않는 바닥과 통풍을 마련해 주세요.",
+    "care": "작고 둥근 잎이 달린 줄기가 늘어지는 피레아예요. 밝은 간접광과 높은 공중습도, 촉촉하되 배수되는 배양재를 제공해요. 겨울에는 생장 상태에 맞춰 급수를 줄이고 찬바람을 피하며, 끝순을 다듬으면 곁가지가 늘어나는 형태로 관리할 수 있어요. 작은 판매 포트 크기와 자란 줄기가 퍼지는 범위를 구분하세요.",
     "aliases": [],
     "varieties": [],
     "order": 96,
     "popularity": null,
     "shopCoverage": null,
-    "verification": "식재명 확인",
+    "verification": "식재명 확인; 2026-11-04 RHS59546 종별 재배·전정 대조",
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
@@ -9047,5 +9058,254 @@
     "popularity": null,
     "shopCoverage": null,
     "addedAt": "2026-11-04"
+  },
+  {
+    "id": "plant-199",
+    "n": 199,
+    "name": "스킨답서스 트루비",
+    "latin": "Scindapsus treubii",
+    "category": "덩굴식물",
+    "environment": "환기형",
+    "light": "중간~밝은 간접광",
+    "humidity": "기질 윗부분 마름 확인 후 급수",
+    "placement": "벽면 지지물·늘어뜨릴 공간",
+    "care": "두꺼운 잎을 달고 기거나 지지물을 타는 덩굴식물이에요. 은빛 문라이트 유통형은 중간~밝은 빛에서 키우고 기질 윗부분이 마른 뒤 물을 주는 재배 안내가 있어요. 공중습도를 높이는 것과 뿌리를 계속 물에 잠기게 하는 것은 구분해요. 이 설명은 문라이트의 재배 자료를 참고했으며 모든 유통형의 성숙 크기나 밀폐 고습 적합성을 보증하지 않아요.",
+    "aliases": [
+      "트레우비",
+      "스킨답서스 트루비 문라이트",
+      "Moonlight Scindapsus",
+      "Sterling Silver Scindapsus"
+    ],
+    "catalogType": "종",
+    "domesticStatus": "국내 종 일치 미확정",
+    "verification": "Singapore Botanic Gardens2010 분류 논문·Costa Farms 문라이트 직접 재배 자료; 플랜티멀74 판매명 확인·판매 개체/계통 미검증",
+    "varieties": [
+      "Moonlight"
+    ],
+    "order": 199,
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04"
+  },
+  {
+    "id": "plant-200",
+    "n": 200,
+    "name": "필로덴드론 브랜티아넘",
+    "latin": "Philodendron brandtianum",
+    "category": "덩굴식물",
+    "environment": "환기형",
+    "light": "밝은 간접광",
+    "humidity": "급수 사이 기질 상태 확인",
+    "placement": "수직 지지물·뿌리 배수 공간",
+    "care": "은빛 무늬가 있는 잎을 달고 오르는 필로덴드론이에요. 지지물을 마련해 주고 간접광과 배수되는 뿌리 자리를 확보해요. 재배자는 급수 사이 흙의 마름을 확인하도록 안내하므로, 잎이 정글식물처럼 보인다는 이유로 기질을 계속 흠뻑 적시지 않아요. 성숙 덩굴 전체 길이와 국내 판매 개체의 동정은 추가 확인 중이에요.",
+    "aliases": [
+      "브란티아넘",
+      "브랜디 필로덴드론",
+      "Silver Leaf Philodendron"
+    ],
+    "catalogType": "종",
+    "domesticStatus": "국내 종 일치 미확정",
+    "verification": "POWO192982-2 accepted 종명·덩굴 생활형, Gold Leaf Botanicals 종별 관리; 플랜티멀89 판매명 확인·실물 동정 미검증",
+    "varieties": [],
+    "order": 200,
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Philodendron_brandtianum_in_Colombia.jpg/960px-Philodendron_brandtianum_in_Colombia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Philodendron brandtianum in Colombia.jpg",
+    "credit": {
+      "author": "Martha Lucia Ortiz Moreno",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Philodendron_brandtianum_in_Colombia.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+  },
+  {
+    "id": "plant-201",
+    "n": 201,
+    "name": "안스리움 그라실레",
+    "latin": "Anthurium gracile",
+    "category": "관엽식물",
+    "environment": "환기형",
+    "light": "반그늘·여과광",
+    "humidity": "지지물 수분 유지·뿌리 통기",
+    "placement": "착생 지지물·늘어진 기근 공간",
+    "care": "가늘고 긴 잎과 굵은 기근을 내는 착생성 안스리움이에요. 싱가포르 식물원의 직접 재배 기록은 성긴 배양재의 행잉 바구니나 수태·코코섬유를 두른 지지물, 정기적인 분무와 그늘이 많은 자리를 제시해요. 기근과 기부에서 자라는 새 줄기가 자리를 차지하므로 좁은 바닥을 덮는 소형 지피와 구별해 배치해요. 어린 판매 식물의 크기를 성숙 최대값으로 쓰지 않았어요.",
+    "aliases": [
+      "안스리움 그라실",
+      "안투리움 그라실레",
+      "Red Pearls Anthurium"
+    ],
+    "catalogType": "종",
+    "domesticStatus": "국내 종 일치 미확정",
+    "verification": "Singapore Botanic Gardens Gardenwise50의 Nigel P. Taylor 직접 재배 기록·종명; 플랜티멀73 판매명 확인·실물 동정 미검증",
+    "varieties": [],
+    "order": 201,
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Anthurium_gracile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imageFile": "Anthurium gracile.jpg",
+    "credit": {
+      "author": "guilherme jofili",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Anthurium_gracile.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+  },
+  {
+    "id": "plant-202",
+    "n": 202,
+    "name": "루엘리아 피쉬본 유통형",
+    "latin": "Ruellia sp. “Fishbone”",
+    "category": "관엽식물",
+    "environment": "조건 미확인",
+    "light": "종 확인 후 결정",
+    "humidity": "종 확인 후 결정",
+    "placement": "전경·지피 적합성은 종 확인 후 결정",
+    "care": "국내에서 루엘리아 피쉬본으로 판매하는 식물을 찾기 위한 유통명 항목이에요. Ruellia makoyana와 Ruellia devosiana는 공식 목록에서 각각 별개의 종으로 인정되므로, 피쉬본이라는 이름만으로 어느 쪽인지 정하지 않았어요. 마코야나의 고습·여과광 재배 설명이나 크기를 이 판매형 전체에 옮기지 않았어요. 판매 개체의 정확한 종과 계통을 확인한 뒤 사육장 환경을 정하세요.",
+    "aliases": [
+      "루엘리아 피쉬본",
+      "루엘리아 피시본",
+      "Fishbone Ruellia"
+    ],
+    "catalogType": "유통명",
+    "domesticStatus": "국내 취급 기록",
+    "verification": "플랜티멀84 한글 판매명만 확인; POWO54287-1과53993-1은 별개 accepted 종·유통형 동일성 미검증",
+    "varieties": [],
+    "order": 202,
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04"
+  },
+  {
+    "id": "plant-203",
+    "n": 203,
+    "name": "베고니아 레프로사",
+    "latin": "Begonia leprosa",
+    "category": "관엽식물",
+    "environment": "습식",
+    "light": "여과광·재배등",
+    "humidity": "높은 공중습도·배수되는 기질",
+    "placement": "낮은 근경과 잎이 퍼질 자리",
+    "care": "중국 남부에 분포하는 근경성 베고니아예요. 베고니아 협회의 테라리움 재배 대상에 포함되며 습도를 유지하는 식재 후보로 검토할 수 있어요. 기질은 촉촉하게 준비하되 물이 고이게 하지 않고, 고습 상태에서 냉해나 과열이 생기지 않게 관찰해요. 밀폐 용기 재배 안내를 동물이 있는 모든 비바리움의 환기 방식으로 그대로 적용하지는 않아요. 성숙 크기와 국내 개체의 종 일치는 추가 확인 중이에요.",
+    "aliases": [
+      "레프로사 베고니아",
+      "Begonia bretschneideriana"
+    ],
+    "catalogType": "종",
+    "domesticStatus": "국내 종 일치 미확정",
+    "verification": "POWO105031-1 accepted 종명·이명·근경성, AFABEGO 직접 재배 안내; 플랜티멀86 판매명 확인·실물 동정 미검증",
+    "varieties": [],
+    "order": 203,
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Begonia_leprosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imageFile": "Begonia leprosa.jpg",
+    "credit": {
+      "author": "Maberjay",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Begonia_leprosa.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  },
+  {
+    "id": "plant-204",
+    "n": 204,
+    "name": "셀라기넬라 픽타",
+    "latin": "Selaginella picta",
+    "category": "고사리·석송류",
+    "environment": "습식",
+    "light": "밝은 간접광·직사광 피하기",
+    "humidity": "높은 공중습도·기질 마름 주의",
+    "placement": "배수되는 전경·그늘진 벽면 아래",
+    "care": "밝은 잎맥이 도드라지는 석송류로 이끼와는 다른 식물이에요. 재배자의 종별 안내는 높은 공중습도와 간접광, 완전히 마르지 않되 질척이지 않는 기질을 제시해요. 식물의 원산지를 서로 다르게 쓰는 판매 자료가 있어 분포는 공식 목록을 우선하고, 판매자의 습도 수치를 생리적 한계값으로 일반화하지 않았어요. 국내 판매형의 실물 동정과 성숙 크기는 미검증이에요.",
+    "aliases": [
+      "셀라지넬라 픽타",
+      "픽타",
+      "Lycopodioides picta",
+      "Didiclis picta"
+    ],
+    "catalogType": "종",
+    "domesticStatus": "국내 종 일치 미확정",
+    "verification": "POWO77186741-1 accepted 종명·이명; Grow Tropicals 종별 재배 안내; 플랜티멀57 판매명만 확인·실물 동정 미검증",
+    "varieties": [],
+    "order": 204,
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04"
+  },
+  {
+    "id": "plant-205",
+    "n": 205,
+    "name": "네오레겔리아 파우시플로라",
+    "latin": "Neoregelia pauciflora",
+    "category": "브로멜리아·착생",
+    "environment": "열대습식",
+    "light": "착색과 과열을 보며 빛 조절",
+    "humidity": "규칙적 급수·급수 사이 약한 마름",
+    "placement": "착생 지지물·자구가 퍼질 공간",
+    "care": "브라질에 분포하는 착생성 브로멜리아예요. 전문 재배자는 규칙적인 급수와 중간~높은 공중습도를 제공하되 급수 사이 조금 마를 시간을 두고 잎에 물이 계속 흐르는 상태는 피하도록 안내해요. 로제트 안은 깨끗한 물로 주기적으로 씻어 주고 자구가 퍼질 공간을 마련해요. 다른 브로멜리아와 교잡한 상품은 이 종으로 자동 연결하지 않아요. 국내 상품의 종 일치와 성숙 최대크기는 추가 확인 중이에요.",
+    "aliases": [
+      "파우시플로라",
+      "파우시플로라 네오레겔리아"
+    ],
+    "catalogType": "종",
+    "domesticStatus": "국내 종 일치 미확정",
+    "verification": "POWO169054-2 accepted 종명·착생, Glass Box Tropicals 직접 재배 안내; 국내 검색 목록의 판매명만 확인·개별 상품 미검증",
+    "varieties": [],
+    "order": 205,
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Neoregelia_pauciflora%2C_Conservatoire_botanique_national_de_Brest_01.jpg/960px-Neoregelia_pauciflora%2C_Conservatoire_botanique_national_de_Brest_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Neoregelia pauciflora, Conservatoire botanique national de Brest 01.jpg",
+    "credit": {
+      "author": "El Funcionario",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Neoregelia_pauciflora,_Conservatoire_botanique_national_de_Brest_01.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  {
+    "id": "plant-206",
+    "n": 206,
+    "name": "크립탄서스 조나투스",
+    "latin": "Cryptanthus zonatus",
+    "category": "브로멜리아·착생",
+    "environment": "환기형",
+    "light": "반그늘",
+    "humidity": "적은 급수·촉촉하되 배수되는 뿌리 자리",
+    "placement": "로제트가 퍼질 배지·전경 공간",
+    "care": "자주빛 잎에 은빛 가로무늬가 나타나는 로제트형 브로멜리아예요. NParks는 반그늘과 적은 급수, 촉촉하되 배수가 되는 뿌리 자리를 제시해요. 잎 가장자리에 톱니가 있어 다루거나 다른 생물의 동선 가까이에 배치할 때 확인하세요. 자료의 생활형 태그만으로 부착 방법이나 컵 급수 방식을 단정하지 않았어요. 국내 취급과 성숙 크기는 추가 조사 중이에요.",
+    "aliases": [
+      "크립탄서스 존아투스",
+      "Zebra Plant Cryptanthus"
+    ],
+    "catalogType": "종",
+    "domesticStatus": "해외 원예 자료",
+    "verification": "NParks1892 종명·잎 형태·빛·급수·뿌리 조건 대조; 국내 취급 미조사",
+    "varieties": [],
+    "order": 206,
+    "popularityKnown": false,
+    "popularity": null,
+    "shopCoverage": null,
+    "addedAt": "2026-11-04",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Cryptanthus_zonatus-2-selvapuram-coimbatore-India.jpg/960px-Cryptanthus_zonatus-2-selvapuram-coimbatore-India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Cryptanthus zonatus-2-selvapuram-coimbatore-India.jpg",
+    "credit": {
+      "author": "Yercaud-elango",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cryptanthus_zonatus-2-selvapuram-coimbatore-India.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
   }
 ]

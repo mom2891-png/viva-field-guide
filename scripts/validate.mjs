@@ -42,7 +42,7 @@ run("reset();state.page='plants';species=plants;render()");
 assert.equal(run('plantGroups(filtered()).length'),new Set(plants.map(r=>r.latin.split(' ')[0])).size,'One card per genus');
 assert.equal(run('plantGroups(filtered()).flatMap(g=>g.rows).length'),plants.length,'Grouping preserves every plant');
 assert.equal((element('#grid').innerHTML.match(/<article class="species-card genus-card"/g)||[]).length,run('plantGroups(filtered()).length'),'Every genus rendered');
-assert.equal(run("plantGroups(filtered()).find(g=>g.key==='Begonia').rows.length"),19);
+assert.equal(run("plantGroups(filtered()).find(g=>g.key==='Begonia').rows.length"),plants.filter(r=>r.latin.startsWith('Begonia ')).length,'Genus grouping stays complete as the catalog expands');
 assert.equal(run("plantGroups(filtered()).find(g=>g.key==='Peperomia').rows.length"),plants.filter(r=>r.latin.startsWith('Peperomia ')).length,'Genus grouping includes newly added species');
 assert.equal(run('plantGroups(filtered())[0].key'),'Ficus','Genus with first ranked plant leads popular order');
 run("state.sort='name';render()");
@@ -50,13 +50,13 @@ assert.ok(run("plantGroups(filtered()).every((g,i,arr)=>!i||arr[i-1].name.locale
 run("state.sort='popular';state.search='암피옥수스';render();openPlantGroup('Begonia')");
 assert.equal(run('plantGroups(filtered()).length'),1);
 assert.equal(run('plantGroups(filtered())[0].rows.length'),1,'Search keeps only matching species within genus');
-assert.ok(element('#detailContent').innerHTML.includes('현재 조건에 맞는 1개 / 전체 19개'));
+assert.ok(element('#detailContent').innerHTML.includes(`현재 조건에 맞는 1개 / 전체 ${plants.filter(r=>r.latin.startsWith('Begonia ')).length}개`));
 assert.ok(element('#detailContent').innerHTML.includes('data-parent-genus="Begonia"'));
 run("state.search='화이트스타';render();openPlantGroup('Fittonia');openDetail('plant-1','Fittonia')");
 assert.ok(element('#detailContent').innerHTML.includes('화이트스타'),'Cultivar remains in species detail');
 assert.ok(element('#detailContent').innerHTML.includes('data-genus="Fittonia"'),'Back navigation to genus');
 run("state.search='베고니아';render()");
-assert.equal(run("plantGroups(filtered()).find(g=>g.key==='Begonia').rows.length"),19,'Korean genus search');
+assert.equal(run("plantGroups(filtered()).find(g=>g.key==='Begonia').rows.length"),plants.filter(r=>r.latin.startsWith('Begonia ')).length,'Korean genus search');
 assert.ok(run("plantGroups(filtered()).find(g=>g.key==='Cissus').rows.every(r=>genusOf(r)==='Cissus')"),'Common-name alias does not change botanical genus');
 run("state.search='';state.environment=plants[0].environment;render()");
 assert.ok(run('plantGroups(filtered()).every(g=>g.rows.every(r=>r.environment===state.environment))'),'Environment filter applies within genus');
@@ -280,3 +280,16 @@ assert.equal(run('state.page'),'animals','Direct directory URL cannot bypass the
 assert.equal(run("purchaseSection(animals.find(r=>r.id==='species-1'))"),'');
 
 assert.equal(run('sizeClass({id:"plant-93",sizeInfo:{max:3,unit:"cm",kind:"range",measurement:"잎 길이"}})'),"unknown","Leaf length alone cannot classify whole plant size");
+
+// New trade names stay searchable without manufacturing extra species.
+run("reset();state.page='plants';state.catalogNode='plants';species=plants;state.search='Philodendron micans';render()");
+assert.deepEqual(Array.from(run('filtered().map(r=>r.id)')),['plant-41']);
+run("state.search='셀라지넬라 윌데노위 바리에가타';render()");
+assert.deepEqual(Array.from(run('filtered().map(r=>r.id)')),['plant-66']);
+run("state.search='피쉬본';render()");
+assert.deepEqual(Array.from(run('filtered().map(r=>r.id)')),['plant-202']);
+assert.equal(run('filtered()[0].catalogType'),'유통명');
+assert.ok(run("filtered()[0].latin.includes('sp.')"));
+assert.equal(run("genusName('Anthurium')"),'안스리움');
+assert.equal(run("genusName('Ruellia')"),'루엘리아');
+console.log('PASS: subordinate trade forms, unresolved Fishbone identity and Korean genus labels.');

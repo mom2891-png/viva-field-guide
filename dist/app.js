@@ -1,5 +1,5 @@
 'use strict';
-const CATALOG_VERSION = '2026-11-04-taxon1';
+const CATALOG_VERSION = '2026-11-04-mossphoto1';
 const $ = (selector) => document.querySelector(selector);
 const envNames = {습:'습식',혼:'건습 혼합',건:'건조',수:'반수생·수생',냉:'냉량 관리',대:'대형 사육장',환:'충분한 환기',굴:'깊은 바닥재',해:'담수·해수'};
 const descriptions = {

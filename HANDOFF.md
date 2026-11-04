@@ -2,6 +2,14 @@
 
 Updated: 2026-11-04 (Asia/Seoul)
 
+## 2026-11-04 이끼 사진·종별 서식 설명 보강 (배포 후 로컬 작업)
+
+- plant-103 미국나무이끼와 plant-108 쿠르비폴리움 이끼에 생육 사진2장 추가. 원본을 직접 열고 종 메타데이터·저자·CC0/CC BY 4.0 확인. 기존 사진 교체 없음.
+- 두 항목의 공통 관리 설명을 종별 형태·서식 기록과 재배 해석의 한계로 보강. plant-108에 Calliergonella curvifolia 검색 별칭 추가, 대표 학명·속/경로 유지. 신규 크기·가격·인기는 입력하지 않음.
+- 최신591항목 유지, 사진447(미입력144), 크기187·가격214, 목차1081. 이끼 사진 미입력8→6. 비단이끼 후보는 유럽의 재동정 문제로 여전히 보류. 크기 자료의 두 종 혼합값과 잎 길이를 종 전체 성숙 최대값으로 전환하지 않음.
+- 전체 check 통과. 실제 화면 검수는 미완료. 이번 작업은 로컬이며 이전 9c4899d 배포 이후 추가 업로드 없음. 후보·원문 API는 저장소 밖 research/moss-photo-followup-2026-11-04/.
+- 최소 근거: [미국나무이끼 FNA 기록](https://bryophyteportal.org/portal/taxa/index.php?taxon=Climacium+americanum), [Missouri MDC](https://mdc.mo.gov/discover-nature/field-guide/tree-mosses-climacium-mosses), [쿠르비폴리움 형태·서식](https://ohiomosslichen.org/moss-calliergonella-curvifolia/), [비단이끼 후보 제외 이유](https://www.bibsbryology.org/learning/species-finder/leucobryum-albidum/). 사진 원본: [Climacium](https://commons.wikimedia.org/wiki/File:Climacium_americanum.jpg) · [Hypnum](https://commons.wikimedia.org/wiki/File:Hypnum_curvifolium.jpg).
+
 ## 2026-11-04 사용자 승인 업로드·공개 배포 완료
 
 - 사용자의 “이제 깃헙에 올려서 홈페이지 적용해줘” 지시에 따라 작업 브랜치와 main을 9c4899d123701c7e694c802d5650be7968099103으로 fast-forward 업로드. 원격 main의 별도 변경 없음·깨끗한 작업 트리·전체 check·diff 검사 확인 후 실행.

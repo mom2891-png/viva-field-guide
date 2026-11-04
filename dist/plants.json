@@ -4406,7 +4406,7 @@
     "light": "중간",
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
-    "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
+    "care": "곧게 선 줄기 위에 가지가 퍼져 작은 나무 같은 모습을 이루는 이끼예요. 미국의 종별 자료에서는 그늘지고 촉촉한 토양·암벽 아래 턱과 나무 밑동 등의 서식 기록을 확인할 수 있어요. 이 서식 정보를 참고해 그늘진 촉촉한 자리를 검토하되, 국내 판매 개체의 종과 실제 재배 반응을 먼저 확인하세요. 야생 서식 기록은 열대 고온 밀폐 환경이나 상시 수중 재배의 적합성을 보장하지 않아요.",
     "aliases": [
       "클리마키움 아메리카눔",
       "클리마키움"
@@ -4415,11 +4415,19 @@
     "order": 103,
     "popularity": null,
     "shopCoverage": null,
-    "verification": "식재명 확인",
+    "verification": "식재명 확인 · 2026-11-04 FNA/Bryophyte Portal 및 Missouri MDC의 C. americanum 서식 기록 대조. MDC의 두 종 공통 크기 수치는 종별 성숙 최대값으로 입력하지 않음. 사진은 Commons 종 표기·CC0·생육 원본 확인; 판매 개체 동정과 구별.",
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Climacium_americanum.jpg/960px-Climacium_americanum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Climacium americanum.jpg",
+    "credit": {
+      "author": "Des Callaghan",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Climacium_americanum.jpg",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
   },
   {
     "id": "plant-104",
@@ -4602,20 +4610,29 @@
     "light": "중간",
     "humidity": "높음",
     "placement": "이끼 전용 공간·바닥·유목",
-    "care": "이끼 재배·테라리움 자료에서 확인한 후보예요. 고온다습한 동물 사육장에 바로 적용하지 말고, 별도 이끼 공간에서 온도·광량·통풍과 물 마름 반응을 확인해 주세요. 국내 유통 이끼와 학명 일치 여부는 추가 확인이 필요해요.",
+    "care": "줄기와 가지에 한쪽으로 굽은 잎이 붙고 매트처럼 퍼지는 이끼예요. Ohio Moss and Lichen Association 자료는 습한 숲·하천과 늪 주변의 부식토, 썩은 통나무, 바위를 덮는 토양에서 기록해요. 이 서식 정보를 참고해 촉촉한 부식질 표면을 검토하되, 실제 재배 조건은 따로 확인하세요. 고온 밀폐 적합성·구체적인 온습도 범위는 확인되지 않았고, 국내 판매 개체의 학명 일치도 추가 확인이 필요해요.",
     "aliases": [
       "히프눔 쿠르비폴리움",
-      "히프눔"
+      "히프눔",
+      "Calliergonella curvifolia"
     ],
     "varieties": [],
     "order": 108,
     "popularity": null,
     "shopCoverage": null,
-    "verification": "식재명 확인",
+    "verification": "식재명 확인 · 2026-11-04 Ohio Moss and Lichen Association의 형태·서식 기록 및 Calliergonella curvifolia(구 Hypnum curvifolium) 표기 대조. 기존 대표 학명·ID 유지, 새 조합 검색 연결. 잎 길이는 전체 성숙 크기에 입력하지 않음. CC BY 4.0 생육 사진·저자·원본 대조.",
     "domesticStatus": "해외 식재 자료",
     "catalogType": "종",
     "addedAt": "2026-11-03",
-    "popularityKnown": false
+    "popularityKnown": false,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Hypnum_curvifolium.jpg/960px-Hypnum_curvifolium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageFile": "Hypnum curvifolium.jpg",
+    "credit": {
+      "author": "David Weisenbeck",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hypnum_curvifolium.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
   },
   {
     "id": "plant-109",

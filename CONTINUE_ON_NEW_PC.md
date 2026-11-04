@@ -26,6 +26,8 @@ git pull --ff-only https://github.com/mom2891-png/viva-field-guide.git codex/pur
 
 ## 모든 AI의 읽기 순서
 
+배포 이후 로컬 보강: 미국나무이끼·쿠르비폴리움 사진2장과 서식 설명·별칭. 최신 사진447, 미입력144(이끼6). 591항목/목차1081 유지. HANDOFF 최상단 참조. 이 추가분은 아직 업로드하지 않았다.
+
 최신 작업: 2026-11-04 이명6항목 연결·게코 사진1장. 591항목, 식물112속·목차1081·사진445. docs/taxon-alias-review.md의 보류와 다음 작업을 확인한다. 아래 과거 분류 묶음 수치는 해당 시점 기록이다. 업로드 전이므로 원격에는 아직 없을 수 있다.
 
 1. AGENTS.md → docs/agent-work-rules.md. Claude는 CLAUDE.md도 읽는다.

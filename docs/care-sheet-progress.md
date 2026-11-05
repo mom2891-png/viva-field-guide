@@ -1,22 +1,26 @@
 # 케어시트 진행 장부
 
-2026-11-05 · 공개 배포 전 로컬 작업. 자료 연결 수와 완성 케어시트 수를 구분한다. 전체 케어시트 완성은 아직0으로 유지한다. 핵심 요약마다 미입력 항목을 표시한다.
+2026-11-05 · 현재 후속은 로컬 작업, 인계69d3418의278연결 묶음만 공개 배포된 상태다. 자료 연결과 완성 케어시트 수를 구분한다. 전체 완성 케어시트 집계는0이며 연결 항목에도 추가 확인 필드가 남아 있다.
 
 - total: 660
-- connected: 278
-- animals: 156
-- plants: 122
-- plantPositions: 122
-- sources: 221
+- connected: 301
+- animals: 165
+- plants: 136
+- plantPositions: 136
+- sources: 248
 - originalDataUnchanged: true
 
-상태: {"species-reviewed":156,"pending":382,"group-reference":80,"identity-limited":11,"source-limited":31}
+상태: {"species-reviewed": 170, "pending": 359, "group-reference": 85, "identity-limited": 12, "source-limited": 34}
 
-- 전문 사육자·재배자 원문 우선. 전문 자료 미확보 식물은 NC State Extension 원예 자료 보완.
-- 식재 위치는 원문 직접 안내와 편집 추론을 구분. 수중·수상·토양·착생·고온 밀폐 조건을 혼합하지 않는다.
-- 전문 원문80PDF, 학명별 전문 매체233조회, 재배업체161학명 경로·대학122경로를 대조했으며 응답 성공·제목 일치만으로 종별 관리 완료 처리하지 않음. 일부 링크·상품 관리 문단 오류를 장부로 보류.
-- 원문 화씨·섭씨 불일치: Uroplatus fimbriatus/lineatus 가온값 미채택. Macodes sanderiana 상품의 petola 복사 문단 보류. Taiwan/Mini Taiwan 본문 혼용 보류.
-- 실제 화면 검수: Work 설정의 로컬 브라우저 제어 비활성으로 미완료. DOM/데이터 검사와 구별.
+## 2026-11-05 후속 검토
+
+- 신규23연결(동물9·식물14), 기존4보강. 분야는 게코·개구리, 브로멜리아·덩굴·지피·베고니아·셀라기넬라. 개별 대상·원문·보류는 care-source-audit.json의 followupReviews 및 care-sheets.json 출처를 따른다. 원문 전체 복제 없음.
+- 종별 또는 품종별 안내와 속 공통 문구를 구분: Punini/Domino/Chiquita Linda 상품은 이름이 맞아도 관리 문단이 속 공통이므로 group-reference. albogularis의 fuscus 자료는 identity-limited. ARC 구형 문서·Payne2015·siamensis 휴면 충돌은 source-limited.
+- 기존 크레스티드 성장별 급여·곤충 영양강화, 블루백 먹이/물그릇 관리, 파이어볼/파우시플로라 뿌리 배수 보강. 원문 내부 주기/야간 온도 차이·단위 없는 가온값은 평균·추정하지 않음.
+- 원문 직접 재배 안내는 sections에, 구체적 비바리움 위치·고정·피할 조건은 editorial 표시로 분리. 기존 사진·가격·크기·이름·인기·ID 및 모프 JSON 전체 보존.
+- 이전 Uroplatus 단위 충돌·Macodes 다른 종 문단·Taiwan/Mini Taiwan 혼용·이끼7업체 충돌 보류 유지. 전문 종별 케어 미확보 이끼를 야생 서식 자료만으로 채우지 않음.
+- 실제 화면 검수: CUA 인벤토리가 Local browser use is disabled in Work settings 반환. 우회하지 않았으며 데스크톱/390px QA 미완료. npm 준비 후 start 실행.4190은 브라우저/Node fetch 차단 포트여서 기본4173으로 수정, 실제 HTML/JS/케어 JSON HTTP200 확인. HTTP응답은 화면 조작 검수가 아님.
+- 승인 범위는 계속 미연결/미입력 보강이며 완료되지 않음. 다음에는 미연결 표의 우선군과 기존 연결 항목의 부족 필드를 이어서 처리. 달팽이·육지소라게 마지막. 추가 업로드·main·배포 없음.
 
 ## 미연결 전체 목록
 
@@ -32,8 +36,6 @@
 |species-29|푸스쿠스게코|Eublepharis fuscus|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-30|무리쉬게코|Tarentola mauritanica|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-32|프로그아이게코|Teratoscincus scincus|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
-|species-33|스콜피온테일게코|Pristurus carteri|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
-|species-34|옐로우헤드게코|Gonatodes albogularis|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-35|에베나우이리프테일게코|Uroplatus ebenaui|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-38|헨켈리프테일게코|Uroplatus henkeli|전문 저자 사육 기사 후보 존재·실제 대상 종과 적용 조건 검토 대기|
 |species-47|오네이트데이게코|Phelsuma ornata|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
@@ -118,10 +120,7 @@
 |species-155|브라질리안혼프로그|Ceratophrys aurita|전문 저자 사육 기사 후보 존재·실제 대상 종과 적용 조건 검토 대기|
 |species-156|수리남혼프로그|Ceratophrys cornuta|전문 저자 사육 기사 후보 존재·실제 대상 종과 적용 조건 검토 대기|
 |species-159|팩꽁이|Chacophrys pierottii|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
-|species-162|스태리나이트리드프로그|Heterixalus alboguttatus|전문 저자 사육 기사 후보 존재·실제 대상 종과 적용 조건 검토 대기|
 |species-165|세네갈워킹프로그|Kassina senegalensis|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
-|species-166|버젯프로그|Lepidobatrachus laevis|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
-|species-168|화이트립트리프로그|Litoria infrafrenata|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-169|말레이혼프로그|Pelobatrachus nasuta|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-170|자이언트왁시몽키프로그|Phyllomedusa bicolor|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-171|타이거렉왁시몽키프로그|Pithecopus hypochondrialis|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
@@ -150,7 +149,6 @@
 |species-209|스텀피 그라운드게코|Paroedura stumpffi|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-210|바짐바 그라운드게코|Paroedura vazimba|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-211|피그미 팬서게코|Paroedura androyensis|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
-|species-212|듄게코|Stenodactylus petrii|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-213|서던 스파이니테일게코|Strophurus intermedius|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-214|랜킨 스파이니테일게코|Strophurus rankini|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-215|러프스케일게코|Pachydactylus rugosus|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
@@ -217,34 +215,25 @@
 |species-324|레드풋육지거북|Chelonoidis carbonarius|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-325|헤르만육지거북|Testudo hermanni|전문 저자 사육 기사 후보 존재·실제 대상 종과 적용 조건 검토 대기|
 |species-328|그린트리모니터|Varanus prasinus|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
-|species-329|푸밀리오다트프로그|Oophaga pumilio|전문 저자 사육 기사 후보 존재·실제 대상 종과 적용 조건 검토 대기|
 |species-330|히스트리오니카다트프로그|Oophaga histrionica|전문 저자 사육 기사 후보 존재·실제 대상 종과 적용 조건 검토 대기|
-|species-331|트리컬러다트프로그|Epipedobates tricolor|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-332|카이저뉴트|Neurergus kaiseri|전문 저자 사육 기사 후보 존재·실제 대상 종과 적용 조건 검토 대기|
 |species-333|이스턴뉴트|Notophthalmus viridescens|전문 저자 사육 기사 후보 존재·실제 대상 종과 적용 조건 검토 대기|
-|species-336|일렉트릭블루드워프게코|Lygodactylus williamsi|전문 저자 사육 기사 후보 존재·실제 대상 종과 적용 조건 검토 대기|
 |species-351|넵튜너스공노래기|Zoosphaerium neptunus|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
 |species-358|인도육지소라게|Coenobita brevimanus|전문 사육·재배 원문 조사 대기|
 |species-359|러그육지소라게|Coenobita rugosus|전문 사육·재배 원문 조사 대기|
 |species-360|바이오라센츠육지소라게|Coenobita violascens|전문 사육·재배 원문 조사 대기|
 |species-361|제노사우루스 그란디스|Xenosaurus grandis|이번 학명별 전문 매체 검색에서 종별 관리 기사 미확보·다른 사육자 출처 조사 필요|
-|plant-5|네오레겔리아 암풀라세아|Neoregelia ampullacea|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-15|물이끼 (생수태)|Sphagnum palustre|전문 사육·재배 원문 조사 대기|
 |plant-18|셀라기넬라 마르텐시|Selaginella martensii|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-21|아스플레니움 안티쿰|Asplenium antiquum|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-23|피로시아 눔물라리폴리아|Pyrrosia nummulariifolia|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
-|plant-24|네오레겔리아 릴리푸티아나|Neoregelia lilliputiana|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
-|plant-25|네오레겔리아 푼크타티시마|Neoregelia punctatissima|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
-|plant-26|네오레겔리아 티그리나|Neoregelia tigrina|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-31|아노엑토칠루스 록스버기|Anoectochilus roxburghii|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-32|도시니아 마르모라타|Dossinia marmorata|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
-|plant-35|디스키디아 루스키폴리아|Dischidia ruscifolia|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-37|호야 세르펜스|Hoya serpens|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-38|시서스 디스컬러|Cissus discolor|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-43|몬스테라 두비아|Monstera dubia|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-46|페페로미아 아르기레이아|Peperomia argyreia|전문 사육·재배 원문 조사 대기|
 |plant-47|베고니아 보웨리|Begonia bowerae|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
-|plant-49|베고니아 리스트라다|Begonia listada|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-64|제주애기모람|Ficus sarmentosa var. thunbergii|전문 사육·재배 원문 조사 대기|
 |plant-66|셀라기넬라 윌데노위|Selaginella willdenowii|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-67|베고니아 아눌라타|Begonia annulata|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
@@ -253,16 +242,13 @@
 |plant-73|베고니아 닝밍엔시스|Begonia ningmingensis|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-74|베고니아 페라켄시스|Begonia perakensis|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-76|베고니아 프테리디포르미스|Begonia pteridiformis|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
-|plant-78|베고니아 솔리무타타|Begonia soli-mutata|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-80|베고니아 투리알바에|Begonia turrialbae|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-81|베고니아 울미폴리아|Begonia ulmifolia|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-84|프테리스 크레티카|Pteris cretica|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-85|피커스 사지타타|Ficus sagittata|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-86|피커스 바키니오이데스|Ficus vaccinioides|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-88|페페로미아 파게르린디|Peperomia fagerlindii|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
-|plant-89|페페로미아 글라벨라|Peperomia glabella|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-90|페페로미아 자포니카|Peperomia japonica|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
-|plant-91|페페로미아 페르킬리아타|Peperomia perciliata|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-92|페페로미아 푸테올라타|Peperomia puteolata|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-93|페페로미아 콰드랑굴라리스|Peperomia quadrangularis|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-94|페페로미아 루벨라|Peperomia rubella|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
@@ -367,11 +353,7 @@
 |plant-219|소네릴라 칸토넨시스|Sonerila cantonensis|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-223|시서스 아마조니카 유통형|Cissus sp. “amazonica”|정체와 원문 적용 범위를 먼저 확인|
 |plant-226|스키스마토글로티스 푸실라|Schismatoglottis pusilla|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
-|plant-227|네오레겔리아 치키타 린다|Neoregelia 'Chiquita Linda'|전문 사육·재배 원문 조사 대기|
-|plant-228|네오레겔리아 푸니니|Neoregelia 'Punini'|전문 사육·재배 원문 조사 대기|
-|plant-229|네오레겔리아 도미노|Neoregelia 'Domino'|전문 사육·재배 원문 조사 대기|
 |plant-230|포토스 스칸덴스|Pothos scandens|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
-|plant-231|셀라기넬라 시아멘시스|Selaginella siamensis|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-232|아르고스템마 비폴리움 부킷 라루트 유통형|Argostemma sp. “Bukit Larut”|정체와 원문 적용 범위를 먼저 확인|
 |plant-233|넓은잎윤이끼|Entodon challengeri|전문 사육·재배 원문 조사 대기|
 |plant-234|나무연지이끼|Venturiella sinensis|전문 사육·재배 원문 조사 대기|
@@ -380,7 +362,6 @@
 |plant-237|브리세아 라시나에|Vriesea racinae|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-238|트리코산테스 와우라에|Trichosanthes wawrae|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-240|라피도포라 테누이스 실버 유통형|Rhaphidophora sp. “Tenuis Silver”|정체와 원문 적용 범위를 먼저 확인|
-|plant-241|알소비아 디안티플로라|Alsobia dianthiflora|원예기관 Alsobia 페이지의 광환경 표가 Full sun으로만 표기되어 비바리움 광조건으로 채택하지 않고 재배자 자료 추가 대조 중|
 |plant-243|에어랑기스 푼크타타|Aerangis punctata|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-246|콩짜개덩굴|Lepisorus microphyllus|이번 재배업체·대학 원예기관의 해당 학명 경로에서 원문 미확보·다른 전문 재배자 조사 필요|
 |plant-248|엑세르토테카 크리스파|Exsertotheca crispa|전문 사육·재배 원문 조사 대기|
@@ -409,7 +390,7 @@
 
 |ID|이름|상태|추가 확인|
 |---|---|---|---|
-|species-1|크레스티드게코|species-reviewed|성장 단계별 급여량·주기 · 보충제와 식단 구성 · 바닥재·유지관리 세부|
+|species-1|크레스티드게코|species-reviewed|개체별 급여량·제품/UVB별 보충제 정량 · 바닥재·유지관리 세부|
 |species-3|차화게코|species-reviewed|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리|
 |species-4|가고일게코|species-reviewed|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리|
 |species-5|리키에너스게코|species-reviewed|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리|
@@ -431,6 +412,8 @@
 |species-26|토케이게코|species-reviewed|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리|
 |species-27|틱테일게코|species-reviewed|현행 공간·온습도 수치 대조 · 조명·UVB·주야 변화 · 급여·보충과 성장 단계 · 바닥·급수·청소 세부|
 |species-31|하이난케이브게코|group-reference|종별 온습도·주야 변화 · 종별 공간·바닥·급수 · UVB·식단·보충 · 합사·유지관리|
+|species-33|스콜피온테일게코|species-reviewed|조명·측정 UVI · 성장 단계별 급여량·보충 · 장기 청소 기준|
+|species-34|옐로우헤드게코|identity-limited|보유 개체 계통·분류 일치 · 최신 공간·UVB 노출량 · 보충제 용량·급여 주기|
 |species-36|사타닉리프테일게코|species-reviewed|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리 · 주야·계절·미세환경별 습도|
 |species-37|시코레리프테일게코|species-reviewed|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리 · 주야·계절·미세환경별 습도|
 |species-39|핌브리아투스리프테일게코|species-reviewed|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리 · 주야·계절·미세환경별 습도 · 원문 국소 가온값 화씨·섭씨 불일치 교차검증|
@@ -474,9 +457,12 @@
 |species-158|오네이트팩맨|species-reviewed|현행 공간·온습도 수치 대조 · 조명·UVB·주야 변화 · 급여·보충과 성장 단계 · 바닥·급수·청소 세부|
 |species-160|크라운트리프로그|species-reviewed|종·계통별 공간·온습도 · 조명·UVB·물·바닥 · 성장 단계별 먹이·보충 · 청소·건강 관찰 세부|
 |species-161|아메리칸그린트리프로그|species-reviewed|종·계통별 공간·온습도 · 조명·UVB·물·바닥 · 성장 단계별 먹이·보충 · 청소·건강 관찰 세부|
+|species-162|스태리나이트리드프로그|group-reference|alboguttatus 단독 장기 재배 자료 · 최신 공간·UVB·가온 조건 · 먹이량·보충제 정량|
 |species-163|블루백리드프로그|species-reviewed|종·계통별 공간·온습도 · 조명·UVB·물·바닥 · 성장 단계별 먹이·보충 · 청소·건강 관찰 세부|
 |species-164|츄비프로그|species-reviewed|현행 공간·온습도 수치 대조 · 조명·UVB·주야 변화 · 급여·보충과 성장 단계 · 바닥·급수·청소 세부|
+|species-166|버젯프로그|species-reviewed|물·공기 최적 온도 구분 · 성장별 급여량·보충제 용량 · 조명·UVB·여과/환수 정량 기준|
 |species-167|화이트트리프로그|identity-limited|온도 적용 조건 교차검증 · 계통·성체별 공간 · UVB 설치·급여량·보충 조합 · 바닥재 섭취와 유지관리|
+|species-168|화이트립트리프로그|source-limited|최신 공간·주야 온습도 · UVB 측정량·안전한 가온 방식 · 보충제·급여량·수질 측정|
 |species-176|새똥개구리|group-reference|현행 공간·온습도 수치 대조 · 조명·UVB·주야 변화 · 급여·보충과 성장 단계 · 바닥·급수·청소 세부|
 |species-177|미니모시프로그|group-reference|현행 공간·온습도 수치 대조 · 조명·UVB·주야 변화 · 급여·보충과 성장 단계 · 바닥·급수·청소 세부|
 |species-178|베트남모시프로그|group-reference|현행 공간·온습도 수치 대조 · 조명·UVB·주야 변화 · 급여·보충과 성장 단계 · 바닥·급수·청소 세부|
@@ -492,6 +478,7 @@
 |species-197|엠페러뉴트|species-reviewed|현행 공간·온습도 수치 대조 · 조명·UVB·주야 변화 · 급여·보충과 성장 단계 · 바닥·급수·청소 세부|
 |species-206|바왕링 케이브게코|group-reference|종별 온습도·주야 변화 · 종별 공간·바닥·급수 · UVB·식단·보충 · 합사·유지관리|
 |species-207|아라네우스 케이브게코|group-reference|종별 온습도·주야 변화 · 종별 공간·바닥·급수 · UVB·식단·보충 · 합사·유지관리|
+|species-212|듄게코|species-reviewed|최신 공간·가온 단위·야간 온도 · UVB·먹이/보충제 양 · 장기 유지관리|
 |species-222|잭슨카멜레온|group-reference|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리 · 주야·계절·미세환경별 습도|
 |species-224|카펫카멜레온|species-reviewed|종·계통별 공간·온습도 · 조명·UVB·물·바닥 · 성장 단계별 먹이·보충 · 청소·건강 관찰 세부|
 |species-234|볼파이톤|species-reviewed|성체 공간·은신처 기준 · 성장 단계별 먹이 · 조명·UVB·야간 온도 · 바닥재·청소|
@@ -542,8 +529,11 @@
 |species-322|오네이트박스터틀|group-reference|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리|
 |species-326|호스필드육지거북|species-reviewed|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리|
 |species-327|애키모니터|species-reviewed|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리 · 주야·계절·미세환경별 습도|
+|species-329|푸밀리오다트프로그|species-reviewed|지역형별 공간·최적 주야 온습도 · 측정 UVI와 거리·그늘 · 개체별 급여량·보충제 정량|
+|species-331|트리컬러다트프로그|species-reviewed|야간 온도 내부 차이 추가 대조 · 제품·개체별 보충제 용량 · 조명 노출량·장기 관리 세부|
 |species-334|카펫파이톤|group-reference|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리|
 |species-335|커먼보아|group-reference|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리|
+|species-336|일렉트릭블루드워프게코|source-limited|현재 공간·UVB 측정 기준 · 정량 습도 교차검증 · 제품별 보충량·개체별 급여량|
 |species-337|블루텅스킨크 스킨코이데스|group-reference|원문 판본과 현행 공간 기준 대조 · 조명·UVB 설치 · 급여·보충의 성장 단계별 기준 · 바닥·급수·장기 유지관리|
 |species-338|드워프화이트등각류|group-reference|종·유통형별 온도 · 종별 습도 구배·환기 · 성장·번식 차이 · 동물과의 합사 적합성|
 |species-339|익스판서스등각류|group-reference|종·유통형별 온도 · 종별 습도 구배·환기 · 성장·번식 차이 · 동물과의 합사 적합성|
@@ -569,6 +559,7 @@
 |plant-2|셀라기넬라 크라우시아나|species-reviewed|조명·온습도 정량 기준 · 품종별 차이·시비|
 |plant-3|크리핑피그|species-reviewed|성숙 잎·성장 단계별 공간 · 온습도·시비 정량 기준|
 |plant-4|피레아 인볼루크라타|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
+|plant-5|네오레겔리아 암풀라세아|species-reviewed|종별 정량 온습도·광량 · 밀폐 용기 장기 관수·시비|
 |plant-6|마코데스 페톨라|species-reviewed|온습도·시비 정량 기준 · 배지 배합과 관수 판단|
 |plant-7|루디시아 디스컬러|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
 |plant-8|페페로미아 프로스트라타|species-reviewed|광량·온습도 정량 기준 · 시비·과습 판단|
@@ -583,12 +574,16 @@
 |plant-19|보스턴고사리|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
 |plant-20|아스플레니움 니두스|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
 |plant-22|다발리아 페지엔시스|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
+|plant-24|네오레겔리아 릴리푸티아나|species-reviewed|밀폐 용기별 관수량 · 종별 최적 주야 온도·광량|
+|plant-25|네오레겔리아 푼크타티시마|group-reference|해당 종 직접 재배 자료 · 종별 온습도·광량·급수·시비|
+|plant-26|네오레겔리아 티그리나|species-reviewed|종별 정량 온습도·광량 · 장기 관수·시비|
 |plant-27|틸란드시아 이오난사|group-reference|각 종의 광량·온도·급수 차이 · 종별 시비·번식|
 |plant-28|틸란드시아 스트릭타|group-reference|각 종의 광량·온도·급수 차이 · 종별 시비·번식|
 |plant-29|틸란드시아 수염틸란드시아|group-reference|각 종의 광량·온도·급수 차이 · 종별 시비·번식|
 |plant-30|구즈마니아 링굴라타|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
 |plant-33|마크그라비아 움벨라타|species-reviewed|성숙 후 조명·시비 · 온습도 정량 기준|
 |plant-34|마크그라비아 렉티플로라|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
+|plant-35|디스키디아 루스키폴리아|species-reviewed|종별 온도·정량 광량 · 착생 고정의 종별 직접 시험|
 |plant-36|호야 커티시|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
 |plant-39|펠리오니아 레펜스|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
 |plant-40|페페로미아 로툰디폴리아|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
@@ -597,6 +592,7 @@
 |plant-44|피레아 카디에레이|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
 |plant-45|페페로미아 카페라타|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
 |plant-48|베고니아 폴리오사|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
+|plant-49|베고니아 리스트라다|species-reviewed|종별 최적 온도·광량 · 시비·가지치기·장기 유지|
 |plant-50|베고니아 암피옥수스|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
 |plant-51|크립탄서스 비비타투스|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
 |plant-52|에피스키아 쿠프레아타|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
@@ -617,10 +613,13 @@
 |plant-72|베고니아 마소니아나|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
 |plant-75|베고니아 프리스마토카르파|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
 |plant-77|베고니아 라자|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
+|plant-78|베고니아 솔리무타타|species-reviewed|비바리움 얕은 배지 관수 기준 · 최적 온도·시비·정량 광량|
 |plant-79|베고니아 델마이|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
 |plant-82|헤미오니티스 아리폴리아|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
 |plant-83|네프로레피스 코르디폴리아|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
 |plant-87|페페로미아 에마르지넬라|species-reviewed|온도·수질·시비 정량 기준 · 수상 순화·육상 재배 조건 · 장기 관리와 개체별 반응|
+|plant-89|페페로미아 글라벨라|species-reviewed|종별 온도·정량 광량 · 장기 시비·동물 훼손 관찰|
+|plant-91|페페로미아 페르킬리아타|species-reviewed|정량 온도·광량 · 시비·장기 가지치기|
 |plant-95|페페로미아 세르펜스|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
 |plant-96|피레아 데프레사|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
 |plant-97|피레아 눔물라리폴리아|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
@@ -652,7 +651,12 @@
 |plant-222|미크로그램마 바키니폴리아|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
 |plant-224|모노레나 프리뮬리플로라|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
 |plant-225|글록시넬라 린데니아나|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
+|plant-227|네오레겔리아 치키타 린다|group-reference|품종 고유 온습도·광량 · 장기 시비·관수량|
+|plant-228|네오레겔리아 푸니니|group-reference|품종 고유 온습도·광량 · 장기 시비·관수량|
+|plant-229|네오레겔리아 도미노|group-reference|품종 고유 온습도·광량 · 장기 시비·관수량|
+|plant-231|셀라기넬라 시아멘시스|source-limited|휴면 시 수분 지침 교차검증 · 종별 온도·광량·시비 · 장기 유지관리|
 |plant-239|라피도포라 크립탄사|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
+|plant-241|알소비아 디안티플로라|species-reviewed|전문 재배자 장기 사례 · 정량 온습도·광량·시비|
 |plant-242|보석란 히스피다|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
 |plant-244|레판테스 칼로딕티온|species-reviewed|온습도 정량 기준 · 종별 광량·시비 · 장기 유지관리 세부|
 |plant-245|팔레놉시스 쉴레리아나|species-reviewed|밀폐·반밀폐 비바리움 재배 검증 · 실내 온습도·광량 · 관수·시비·번식 세부 · 품종별 차이|
@@ -690,4 +694,4 @@
 
 ## 다른 PC에서 재개
 
-원문 후보·경로 조회·제외/충돌 기록은 [care-source-audit.json](care-source-audit.json)에 보존했다. 원문 캐시 없이도 이 장부와 care-sheets.json의 원문 URL에서 재개한다. 2026-11-05 사용자가 현재 묶음의 업로드·공개 배포를 승인했다. 이후 변경 배포는 별도 지시를 따른다.
+[care-source-audit.json](care-source-audit.json)의 후보·실패·충돌과 dist/care-sheets.json의 요약·출처를 재사용한다. 원문 캐시는 전달되지 않는다. 최신 로컬 수치와 공개 배포 수치를 구별한다. 실행·검사는 README.md, 최종 인계는 HANDOFF.md를 따른다.

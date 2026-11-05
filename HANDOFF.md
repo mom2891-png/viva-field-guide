@@ -1,5 +1,13 @@
 # 공동 작업 현황
 
+## 2026-11-05 케어 후속23연결·기존4보강 (로컬)
+
+- 인계69d3418까지 ff-only 갱신·포함 확인. Git2.56/Node24.22.1·기존 GitHub 인증 정상. npm이 없어 저장소 밖 research/tools/npm에 공식 실행 도구12.2.2 준비. 패키지 설치/잠금파일/원문 캐시 업로드 없음.
+- 자료 301/660(동물165·식물136), 식재 위치136·미연결359·출처248. 신규23=동물9/식물14. 기존 크레스티드·블루백·파이어볼·파우시플로라4보강. 연결이 전체 케어시트 완성을 뜻하지 않음. [진행·미완료](docs/care-sheet-progress.md), audit followupReviews에서 재개.
+- 신규 동물33/34/162/166/168/212/329/331/336; 식물5/24/25/26/35/49/78/89/91/227/228/229/231/241. fuscus 적용 제한·품종 상품의 속 공통 문구·ARC/Payne의 구형 조건·siamensis 휴면 충돌을 분리. 원문 단위/야간 온도/주기 불일치 추정 금지. 식재 위치는 편집 제안으로 표시.
+- scripts/serve.mjs 기본포트4190은 브라우저 차단 포트라4173으로 수정, README/재개 문서 갱신. npm start 실행·localhost HTML/JS/케어 JSON HTTP200 확인. CUA는 Work local browser disabled 반환으로 실제 데스크톱/390px QA 미완료. 화면 검수 완료로 주장하지 않음.
+- 기존 species/plants/morphs JSON 전체 deepEqual·케어 국소 검사 통과. npm run check 전체·git diff --check·audit 출처 연결 검사를 통과했다. 케어 캐시버전 care-followup1. 이번 후속 추가 업로드·main 반영·공개 배포 없음. 공개278연결 묶음과 구별.
+
 ## 2026-11-05 케어시트 배포 검증 완료
 
 - 배포 커밋 cd6c88fbb0d8ff1d802f3934a2c76e1a05a0d311, main 및 인계 브랜치 업로드 확인.

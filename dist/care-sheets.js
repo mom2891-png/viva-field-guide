@@ -8,7 +8,7 @@
   function render(bank,row,selection=''){
     const {entry,profile}=resolve(bank,row.id);
     if(!profile)return `<section class="care-sheet"><h3>케어시트</h3><p class="note-small">${bank?.loadState==='error'?'케어시트를 불러오지 못했어요. 새로고침 후 다시 확인해 주세요.':`전문 자료 조사 대기 · ${esc(entry?.reason||'종별 사육·재배 근거 확인 중')}`} 아래 기존 도감 설명은 종별 케어시트 검토 완료를 뜻하지 않아요.</p></section>`;
-    const statuses={'species-reviewed':'종·품종별 핵심 자료 검토','group-reference':'그룹 공통 참고','identity-limited':'유통형·적용 범위 제한','source-limited':'단일 재배자 자료 · 교차검증 중'};
+    const statuses={'species-reviewed':'종·품종별 핵심 자료 검토','group-reference':'그룹 공통 참고','identity-limited':'유통형·적용 범위 제한','source-limited':'자료 제한 · 추가 교차검증 필요'};
     const placement=profile.placement;
     const inherited=/^(?:morph|variety):/.test(selection);
     const references=list(profile.sourceIds).map(id=>bank.sources?.[id]).filter(Boolean).map(s=>{

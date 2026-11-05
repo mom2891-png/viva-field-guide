@@ -4,7 +4,7 @@
 
 - 사이트: https://mom2891-png.github.io/viva-field-guide/
 - 원본: https://github.com/mom2891-png/viva-field-guide
-- 로컬: Node.js 22 이상에서 `npm start` → http://127.0.0.1:4190/
+- 로컬: Node.js 22 이상에서 `npm start` → http://127.0.0.1:4173/
 - 검사: `npm run check` (패키지 설치 불필요)
 
 npm이 없는 Node 단독 환경에서는 `node --check dist/app.js`, `node scripts/validate.mjs`, `node scripts/serve.mjs`를 직접 실행해도 됩니다.

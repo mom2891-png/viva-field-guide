@@ -6859,5 +6859,292 @@
       "postId": 11758,
       "reason": "레드아이청개구리가 언급되나 실제 주제는 다른 monkey frog"
     }
+  ],
+  "followupReviews": [
+    {
+      "checkedAt": "2026-11-05",
+      "baseCommit": "69d3418e5970704f825f7bdf889f0cbc047429f1",
+      "reviews": [
+        {
+          "entryId": "plant-5",
+          "profileId": "followup-ampullacea",
+          "result": "connected",
+          "sourceIds": [
+            "bj-ampullacea",
+            "rff-neoregelia"
+          ],
+          "note": "종별 직접 재배 안내를 우선하고, 잎 통 급수는 Neoregelia 속 공통 보완 자료로 구분했습니다."
+        },
+        {
+          "entryId": "plant-24",
+          "profileId": "followup-lilliputiana",
+          "result": "connected",
+          "sourceIds": [
+            "aqua-lilliputiana"
+          ],
+          "note": "종별 핵심 일부 요약·미입력 필드 유지"
+        },
+        {
+          "entryId": "plant-25",
+          "profileId": "followup-neoregelia-25",
+          "result": "connected",
+          "sourceIds": [
+            "rff-neoregelia"
+          ],
+          "note": "종 이름이 직접 다뤄진 케어시트는 아직 미확보입니다. 속 공통 참고 연결을 종별 검토 완료로 세지 않습니다."
+        },
+        {
+          "entryId": "plant-26",
+          "profileId": "followup-neoregelia-26",
+          "result": "connected",
+          "sourceIds": [
+            "rff-neoregelia"
+          ],
+          "note": "종 이름이 직접 다뤄진 케어시트는 아직 미확보입니다. 속 공통 참고 연결을 종별 검토 완료로 세지 않습니다."
+        },
+        {
+          "entryId": "plant-91",
+          "profileId": "followup-perciliata",
+          "result": "connected",
+          "sourceIds": [
+            "fd-perciliata"
+          ],
+          "note": "단일 재배자 핵심 안내입니다. 비슷한 이름의 fagerlindii에 이 자료를 자동 연결하지 않았습니다."
+        },
+        {
+          "entryId": "plant-89",
+          "profileId": "followup-glabella",
+          "result": "connected",
+          "sourceIds": [
+            "fd-glabella"
+          ],
+          "note": "단일 재배업체의 안내입니다. 습도 범주를 동물 합사 보증이나 항시 젖은 배지 조건으로 쓰지 않습니다."
+        },
+        {
+          "entryId": "plant-35",
+          "profileId": "followup-ruscifolia",
+          "result": "connected",
+          "sourceIds": [
+            "hsa-ruscifolia"
+          ],
+          "note": "판매 표본D18의 재배자 안내이며 다른 Dischidia 종이나 품종으로 확대하지 않습니다."
+        },
+        {
+          "entryId": "plant-49",
+          "profileId": "followup-listada",
+          "result": "connected",
+          "sourceIds": [
+            "sl-listada"
+          ],
+          "note": "단일 재배자 안내입니다. 단위 없이 적힌50~90degrees를 검증된 섭씨 최적 범위로 변환하지 않았습니다."
+        },
+        {
+          "entryId": "plant-78",
+          "profileId": "followup-solimutata",
+          "result": "connected",
+          "sourceIds": [
+            "sl-solimutata"
+          ],
+          "note": "단일 재배자 화분 안내입니다. 단위 미표시45~95degrees와 판매 크기를 케어 수치/기존 크기 필드로 전환하지 않았습니다."
+        },
+        {
+          "entryId": "species-33",
+          "profileId": "followup-carteri",
+          "result": "connected",
+          "sourceIds": [
+            "jf-carteri"
+          ],
+          "note": "직접 번식업체의 종별 안내입니다. 온도 구역을 평균내지 않으며 번식·산란 지침은 일반 관리에서 제외했습니다."
+        },
+        {
+          "entryId": "species-34",
+          "profileId": "followup-albogularis",
+          "result": "connected",
+          "sourceIds": [
+            "jf-albogularis",
+            "mf-albogularis"
+          ],
+          "note": "두 출처 모두 Gonatodes albogularis fuscus 표기를 사용합니다. fuscus 분류 처리와 보유 계통 확인 전 적용 범위를 제한합니다. 구형 램프2.0/5.0 표기를 UVI로 바꾸지 않았습니다."
+        },
+        {
+          "entryId": "species-166",
+          "profileId": "followup-budgett",
+          "result": "connected",
+          "sourceIds": [
+            "jf-budgett"
+          ],
+          "note": "원문mid70s라는 느슨한 온도 표현을 좁은 섭씨 처방으로 만들지 않았습니다. 번식용 건기·우기 재현을 일반 관리에 넣지 않았습니다."
+        },
+        {
+          "entryId": "species-162",
+          "profileId": "followup-reed",
+          "result": "connected",
+          "sourceIds": [
+            "jf-reed-specific",
+            "jf-reed-common"
+          ],
+          "note": "종을 직접 포함한2종 공동 안내와 속 공통 안내를 구분했습니다. 전문 자료 연결을 해당 종 단독 검증 완료로 표시하지 않습니다."
+        },
+        {
+          "entryId": "species-168",
+          "profileId": "followup-infrafrenata",
+          "result": "connected",
+          "sourceIds": [
+            "arc-infrafrenata"
+          ],
+          "note": "발행일 미표시의 오래된 ARC 케어시트입니다. 현재 종별 가온/UVB/수질 기준과 교차검증이 필요해 참고 범위를 제한합니다."
+        },
+        {
+          "entryId": "species-212",
+          "profileId": "followup-petrii",
+          "result": "connected",
+          "sourceIds": [
+            "mg-petrii",
+            "mf-petrii"
+          ],
+          "note": "직접 사육 경험과 전문업체 자료를 연결했습니다. 원문의 핀셋 탈피 제거·약품 안내는 일반 케어 절차로 복사하지 않았습니다."
+        },
+        {
+          "entryId": "species-1",
+          "result": "deepened",
+          "sourceIds": [
+            "rf-crest-food"
+          ],
+          "note": "급여 주기 내부 차이 유지·곤충 영양강화/보충과 완전식 구분"
+        },
+        {
+          "entryId": "plant-195",
+          "result": "deepened",
+          "sourceIds": [
+            "rff-neoregelia"
+          ],
+          "note": "속 공통 수피 배수 보완, 로제트/줄기 구조에 맞춘 고정 문구"
+        },
+        {
+          "entryId": "plant-205",
+          "result": "deepened",
+          "sourceIds": [
+            "rff-neoregelia"
+          ],
+          "note": "속 공통 수피 배수 보완, 로제트/줄기 구조에 맞춘 고정 문구"
+        },
+        {
+          "entryId": "species-163",
+          "result": "deepened",
+          "sourceIds": [
+            "jf-reed-specific"
+          ],
+          "note": "2종 공동 사육자 자료로 먹이·물그릇 유지관리 보완"
+        },
+        {
+          "entryId": "plant-26",
+          "result": "scope-upgraded",
+          "sourceIds": [
+            "fw-tigrina"
+          ],
+          "note": "동일 배치의 속 공통 참고에 종별 직접 재배 안내 추가. 신규 연결 수로 중복 집계하지 않음"
+        },
+        {
+          "entryId": "plant-231",
+          "result": "connected",
+          "sourceIds": [
+            "gbt-siamensis-care"
+          ],
+          "note": "생육기 재배 안내 연결·휴면 관리 충돌 미해결 유지"
+        },
+        {
+          "entryId": "species-329",
+          "result": "connected",
+          "sourceIds": [
+            "ff-pumilio"
+          ],
+          "note": "직접 전문 사육자 자료의 핵심 일부입니다. 계절별 표를 연중 단일 범위로 합치거나 램프6%를 측정 UVI로 환산하지 않았습니다. 원문 발행일은 확인되지 않았습니다."
+        },
+        {
+          "entryId": "species-336",
+          "result": "connected",
+          "sourceIds": [
+            "payne-williamsi"
+          ],
+          "note": "2015년 단일 브리더의 직접 경험으로 추가 교차검증이 필요합니다. 작은 번식장 예시·물그릇 불필요 주장·번식용 칼슘/냉각 처방을 현재 보편 규칙으로 확정하지 않았습니다."
+        },
+        {
+          "entryId": "species-331",
+          "result": "connected",
+          "sourceIds": [
+            "cc-tricolor"
+          ],
+          "note": "2024-07-30 보전 사육 지침의 일반 관리 부분만 요약했습니다. anthonyi와의 이름 혼동·다른 지역형 연결은 허용하지 않습니다. 번식·치료 절차를 일반 케어로 복사하지 않았습니다."
+        },
+        {
+          "entryId": "plant-227",
+          "result": "connected",
+          "sourceIds": [
+            "gbt-care-chiquita-linda"
+          ],
+          "note": "품종명 일치는 확인했으나 관리 본문은 속 공통 문구입니다. 종·품종별 완료 대신 공통 참고로 연결하며 원본 ID·사진·품종 분류는 유지합니다."
+        },
+        {
+          "entryId": "plant-228",
+          "result": "connected",
+          "sourceIds": [
+            "gbt-care-punini"
+          ],
+          "note": "품종명 일치는 확인했으나 관리 본문은 속 공통 문구입니다. 종·품종별 완료 대신 공통 참고로 연결하며 원본 ID·사진·품종 분류는 유지합니다."
+        },
+        {
+          "entryId": "plant-229",
+          "result": "connected",
+          "sourceIds": [
+            "gbt-care-domino"
+          ],
+          "note": "품종명 일치는 확인했으나 관리 본문은 속 공통 문구입니다. 종·품종별 완료 대신 공통 참고로 연결하며 원본 ID·사진·품종 분류는 유지합니다."
+        },
+        {
+          "entryId": "plant-241",
+          "result": "connected",
+          "sourceIds": [
+            "rhs-alsobia-care"
+          ],
+          "note": "전문 재배자 자료가 부족해 RHS 원예기관 안내로 보완했습니다. RHS 내한성 구간을 실내 적정 온도로 환산하지 않았고 미니 판매형에 자동 적용하지 않습니다."
+        }
+      ],
+      "holds": [
+        {
+          "taxon": "Correlophus sarasinorum",
+          "reason": "이번 검색에서 직접 브리더의 종별 공개 케어 미확보. 최근 출처 불명 블로그로 채우지 않음"
+        },
+        {
+          "taxon": "Polypedates otilophus / Phelsuma ornata",
+          "reason": "직접 사육자 종별 관리 원문 미확보. 분류/야생 생태 자료를 사육 레시피로 대체하지 않음"
+        },
+        {
+          "taxon": "Peperomia fagerlindii",
+          "reason": "perciliata와 별도 정명 기록. 이름 유사성으로 관리 자료 자동 연결 금지"
+        },
+        {
+          "taxon": "Litoria infrafrenata",
+          "reason": "ARC 구형 가온수/공기온도·지역 수돗물 처리·UVB/보충제 지침을 현재 처방으로 복사하지 않음"
+        },
+        {
+          "taxon": "Epipedobates tricolor",
+          "reason": "야간19~22(요약)/18~20(본문)·우기 급여 four to four 오자 보존. 평균/추정 주기 미입력"
+        }
+      ],
+      "accessNotes": [
+        {
+          "url": "https://training.joshsfrogs.com/care-sheet/caring-for-your-buddgetts-frog-lepidobatrachus-laevis",
+          "result": "502; 정식 joshsfrogs.com 동일 글로 확인"
+        },
+        {
+          "url": "https://www.begonias.org/begonia-listida/",
+          "result": "조회 시간초과; Steve’s Leaves 종별 직접 안내 사용"
+        },
+        {
+          "url": "https://www.geckosunlimited.com/community/threads/78835/",
+          "result": "403; 우회하지 않고 Gehyra marginata 연결 보류"
+        }
+      ]
+    }
   ]
 }

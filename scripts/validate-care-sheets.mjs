@@ -23,6 +23,8 @@ for(const [id,entry]of Object.entries(bank.entries)){
  assert(['pending','species-reviewed','group-reference','identity-limited','source-limited'].includes(entry.status),id+': invalid status');
  if(!entry.profileId){assert.equal(entry.status,'pending');continue;}
  const p=bank.profiles[entry.profileId];assert(p,id+': missing profile');
+ assert.equal(new Set(p.sourceIds).size,p.sourceIds.length,id+': duplicate care source');
+ assert.equal(new Set(p.sections.map(s=>s.key)).size,p.sections.length,id+': duplicate management section');
  assert(p.taxa.includes(all.find(x=>x.id===id).latin),id+': wrong target taxon');
  assert(p.sourceIds.length&&p.summary&&p.sections.length,id+': empty care profile');
  for(const sid of p.sourceIds){const s=bank.sources[sid];assert(s?.author&&s.title&&s.checkedAt,id+': missing source provenance');assert.match(s.url,/^https:\/\//);}
@@ -30,3 +32,15 @@ for(const [id,entry]of Object.entries(bank.entries)){
  if(p.placement){assert(id.startsWith('plant-'));assert(p.placement.zones.length&&p.placement.surfaces.length&&p.placement.method&&p.placement.avoid&&p.placement.reason);assert(['editorial','source'].includes(p.placement.basis));}
 }
 console.log('PASS: care provenance, missing fields, inferred placement, parent inheritance, escaping and unsafe-link rejection.');
+
+// Narrower source populations and common cultivar text must keep their limits.
+assert.equal(bank.entries['species-34'].status,'identity-limited');
+assert.equal(bank.profiles[bank.entries['species-34'].profileId].scope,'subspecies');
+for(const id of ['plant-227','plant-228','plant-229']){
+ const e=bank.entries[id];assert.equal(e.status,'group-reference');
+ assert.equal(bank.profiles[e.profileId].scope,'genus');
+ assert.equal(bank.profiles[e.profileId].placement.basis,'editorial');
+}
+const limitedHTML=api.render(bank,all.find(r=>r.id==='species-336'));
+assert(limitedHTML.includes('자료 제한 · 추가 교차검증 필요'),'Source-limited references include dated breeder or institutional sources, not only growers');
+console.log('PASS: population limits, common cultivar guidance and source limitations stay explicit.');

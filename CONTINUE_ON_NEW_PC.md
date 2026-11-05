@@ -1,5 +1,9 @@
 # 다른 PC·다른 AI에서 이어가기
 
+## 최신 로컬 후속 — 2026-11-05
+
+케어301/660(동물165/식물136), 위치136·미연결359·출처248. 신규23연결·기존4보강. 자세한 목록·보류·검증은 HANDOFF.md 상단과 docs/care-sheet-progress.md, audit followupReviews 참조. 기존 도감 JSON 보존. 추가 업로드/배포 없음, 공개는 아래278연결 묶음. 실제 화면은 CUA 비활성으로 미완료. 기본 미리보기 포트는4173(4190 브라우저 차단 문제 교정).
+
 ## 2026-11-05 케어시트 배포 검증 완료
 
 - 배포 커밋 cd6c88fbb0d8ff1d802f3934a2c76e1a05a0d311, main 및 인계 브랜치 업로드 확인.
@@ -17,7 +21,7 @@
 - 새 PC Git·Node22+ 필요, npm 설치 의존성 없음. 공개 clone 로그인 불필요, 쓰기 인증만 정상 GitHub 로그인 사용.
 - 재개 프롬프트 [CONTINUE_PROMPT.md](CONTINUE_PROMPT.md), 계획 [케어 실행 계획](docs/care-sheet-plan.md), 전체 미완료 [진행 장부](docs/care-sheet-progress.md).
 - 자료278 연결/미연결382와 종별 추가 필드 보강이 다음 작업이다. 이전 PC 원문 캐시는 전달되지 않지만, 원문 URL·작성자·한국어 핵심 안내는 dist/care-sheets.json에 있고, 경로 조회 성공/실패·원문 후보·충돌/제외 근거는 docs/care-source-audit.json에 이식했다. 다른 PC에서 원문 캐시가 없어도 이 장부에서 재개할 수 있다. 원문 HTML/PDF·연구 스크립트·개인정보는 업로드하지 않는다.
-- 검사 npm run check, 실행 npm start → http://127.0.0.1:4190/ . 브라우저 검수는 새 PC의 허용 도구로 확인. 기존 PC의 프로세스·로그인을 가정하지 않는다.
+- 검사 npm run check, 실행 npm start → http://127.0.0.1:4173/ . 브라우저 검수는 새 PC의 허용 도구로 확인. 기존 PC의 프로세스·로그인을 가정하지 않는다.
 
 
 > 2026-11-05 최신 로컬: 케어시트 자료278/660 연결(동물156·식물122·식재 위치122), 미연결382. 미커밋·공개 미반영. 완성 케어시트278개라는 뜻이 아님. HANDOFF 최신 케어 절, docs/care-sheet-plan.md 및 docs/care-sheet-progress.md 확인. 원문은 저장소 밖 viva-research/care-2026-11-05 캐시를 재사용. 기존 사진 공개 배포 승인과 이번 케어 배포는 별개.
@@ -147,7 +151,7 @@ git pull --ff-only https://github.com/mom2891-png/viva-field-guide.git codex/pur
 
 ## 실행과 후속
 
-- 실행: npm start 또는 node scripts/serve.mjs. 기본 http://127.0.0.1:4190/ . 사용 불가 포트는 환경을 확인해 PORT로 변경한다.
+- 실행: npm start 또는 node scripts/serve.mjs. 기본 http://127.0.0.1:4173/ . 사용 불가 포트는 환경을 확인해 PORT로 변경한다.
 - 전체 검사: npm run check. npm이 없으면 HANDOFF.md의 Node 직접 실행 명령으로 package.json check와 동일한 명령을 수행한다.
 - 문서만 변경하면 링크·내용과 git diff --check만 검사한다. 코드/데이터 작업은 국소 검사 후 주요 묶음 끝에 전체 검사를 한다.
 - 다음 우선: 구매 링크 해제 실제 UI 검수 → 정글플랜트·지피·덩굴·브로멜리아와 게코·개구리 보강. 달팽이·육지소라게 심화는 후순위.

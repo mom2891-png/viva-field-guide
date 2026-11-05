@@ -1,5 +1,18 @@
 # 다른 PC·다른 AI에서 이어가기
 
+## 2026-11-05 케어시트 GitHub 인계·공개 배포 승인
+
+사용자가 이번 케어 묶음의 GitHub 업로드·main 반영·공개 배포를 명시 승인했다. 아래 이전 “로컬 미커밋/공개 미반영”은 이전 상태다. 실제 배포 결과는 작업 최종 보고 및 GitHub Actions를 확인한다.
+
+- 공개 저장소 https://github.com/mom2891-png/viva-field-guide · 인계 브랜치 codex/purchase-review-price-expansion.
+- 새 PC Git·Node22+ 필요, npm 설치 의존성 없음. 공개 clone 로그인 불필요, 쓰기 인증만 정상 GitHub 로그인 사용.
+- 재개 프롬프트 [CONTINUE_PROMPT.md](CONTINUE_PROMPT.md), 계획 [케어 실행 계획](docs/care-sheet-plan.md), 전체 미완료 [진행 장부](docs/care-sheet-progress.md).
+- 자료278 연결/미연결382와 종별 추가 필드 보강이 다음 작업이다. 이전 PC 원문 캐시는 전달되지 않지만, 원문 URL·작성자·한국어 핵심 안내는 dist/care-sheets.json에 있고, 경로 조회 성공/실패·원문 후보·충돌/제외 근거는 docs/care-source-audit.json에 이식했다. 다른 PC에서 원문 캐시가 없어도 이 장부에서 재개할 수 있다. 원문 HTML/PDF·연구 스크립트·개인정보는 업로드하지 않는다.
+- 검사 npm run check, 실행 npm start → http://127.0.0.1:4190/ . 브라우저 검수는 새 PC의 허용 도구로 확인. 기존 PC의 프로세스·로그인을 가정하지 않는다.
+
+
+> 2026-11-05 최신 로컬: 케어시트 자료278/660 연결(동물156·식물122·식재 위치122), 미연결382. 미커밋·공개 미반영. 완성 케어시트278개라는 뜻이 아님. HANDOFF 최신 케어 절, docs/care-sheet-plan.md 및 docs/care-sheet-progress.md 확인. 원문은 저장소 밖 viva-research/care-2026-11-05 캐시를 재사용. 기존 사진 공개 배포 승인과 이번 케어 배포는 별개.
+
 ## 2026-11-05 공개 배포 완료
 
 - 공개 사이트: https://mom2891-png.github.io/viva-field-guide/

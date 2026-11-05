@@ -2,8 +2,8 @@
 var VivaCatalog = (function () {
   'use strict';
   function normalize(value) { return String(value || '').normalize('NFKC').toLowerCase().replace(/[\s\-‐‑–—]+/g, ''); }
-  function createModel(animals, plants, morphs, genusNames) {
-    morphs = morphs || {}; genusNames = genusNames || {};
+  function createModel(animals, plants, morphs, genusNames, carePositions) {
+    morphs = morphs || {}; genusNames = genusNames || {}; carePositions = carePositions || {};
     var nodes = [], byId = new Map(), childMap = new Map(), entries = new Map(), text = new Map();
     function add(id, label, parentId, kind, page, extra) {
       if (byId.has(id)) return byId.get(id);
@@ -76,7 +76,7 @@ var VivaCatalog = (function () {
     function addEntry(row, parent) {
       var n = add('entry:' + row.id, row.name, parent.id, 'entry', parent.page, {entryId:row.id,mossHabitats:row.mossHabitats || [],mossForms:row.mossForms || []});
       entries.set(row.id, n);
-      var searchText = [row.name, row.latin, row.aliases, row.varieties, row.genus, genusNames[(row.latin || '').split(/\s+/)[0]]];
+      var searchText = [row.name, row.latin, row.aliases, row.varieties, row.genus, genusNames[(row.latin || '').split(/\s+/)[0]], row.id.indexOf('plant-')===0 ? carePositions[row.id] : ''];
       (morphs[row.id] || []).forEach(function (m, index) {
         var mn = add('morph:' + row.id + ':' + index, m.name, n.id, 'morph', n.page, {entryId:row.id,morphIndex:index});
         text.set(mn.id, normalize([m.name,m.aliases])); searchText.push(m.name, m.aliases);

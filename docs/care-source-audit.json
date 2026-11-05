@@ -1,0 +1,6863 @@
+{
+  "checkedAt": "2026-11-05",
+  "purpose": "다음 작업에서 중복 조회를 줄이기 위한 비개인 조사 결과. 원문 미포함.",
+  "animalSearch": [
+    {
+      "id": "species-2",
+      "latin": "Correlophus sarasinorum",
+      "candidates": []
+    },
+    {
+      "id": "species-12",
+      "latin": "Gehyra marginata",
+      "candidates": []
+    },
+    {
+      "id": "species-11",
+      "latin": "Aeluroscalabotes felinus",
+      "candidates": [
+        {
+          "id": 124255,
+          "title": "Keeping and Breeding the Malaysian Cat Gecko",
+          "url": "https://reptilesmagazine.com/keeping-and-breeding-the-malaysian-cat-gecko/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/124255",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 118746,
+          "title": "African Fat-Tailed Gecko Care And Natural History",
+          "url": "https://reptilesmagazine.com/african-fat-tailed-gecko-care-and-natural-history/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/118746",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-17",
+      "latin": "Heteronotia binoei",
+      "candidates": []
+    },
+    {
+      "id": "species-18",
+      "latin": "Paroedura picta",
+      "candidates": [
+        {
+          "id": 9247,
+          "title": "Madagascar Ground Gecko Care Sheet",
+          "url": "https://reptilesmagazine.com/madagascar-ground-gecko-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/9247",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-14",
+      "latin": "Eublepharis angramainyu",
+      "candidates": []
+    },
+    {
+      "id": "species-27",
+      "latin": "Underwoodisaurus milii",
+      "candidates": [
+        {
+          "id": 5803,
+          "title": "Breeding Australian Barking Geckos",
+          "url": "https://reptilesmagazine.com/breeding-australian-barking-geckos/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/5803",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 8812,
+          "title": "Australian Barking Gecko Care Sheet",
+          "url": "https://reptilesmagazine.com/australian-barking-gecko-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/8812",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6712,
+          "title": "Care Tips For The Australian Barking Gecko",
+          "url": "https://reptilesmagazine.com/care-tips-for-the-australian-barking-gecko/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/6712",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-25",
+      "latin": "Tropiocolotes nattereri",
+      "candidates": []
+    },
+    {
+      "id": "species-24",
+      "latin": "Oedura castelnaui",
+      "candidates": []
+    },
+    {
+      "id": "species-28",
+      "latin": "Chondrodactylus angulifer",
+      "candidates": []
+    },
+    {
+      "id": "species-29",
+      "latin": "Eublepharis fuscus",
+      "candidates": []
+    },
+    {
+      "id": "species-30",
+      "latin": "Tarentola mauritanica",
+      "candidates": []
+    },
+    {
+      "id": "species-33",
+      "latin": "Pristurus carteri",
+      "candidates": []
+    },
+    {
+      "id": "species-32",
+      "latin": "Teratoscincus scincus",
+      "candidates": []
+    },
+    {
+      "id": "species-34",
+      "latin": "Gonatodes albogularis",
+      "candidates": []
+    },
+    {
+      "id": "species-35",
+      "latin": "Uroplatus ebenaui",
+      "candidates": []
+    },
+    {
+      "id": "species-38",
+      "latin": "Uroplatus henkeli",
+      "candidates": [
+        {
+          "id": 2743,
+          "title": "Expert Care Tips for the Lined Leaf-Tailed Geckos",
+          "url": "https://reptilesmagazine.com/expert-care-tips-for-the-lined-leaf-tailed-geckos/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/2743",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-47",
+      "latin": "Phelsuma ornata",
+      "candidates": []
+    },
+    {
+      "id": "species-48",
+      "latin": "Geckolepis typica",
+      "candidates": []
+    },
+    {
+      "id": "species-49",
+      "latin": "Geckolepis maculata",
+      "candidates": []
+    },
+    {
+      "id": "species-50",
+      "latin": "Cyclodomorphus gerrardii",
+      "candidates": [
+        {
+          "id": 6763,
+          "title": "Pink-Tongued Skink Care And Breeding",
+          "url": "https://reptilesmagazine.com/pink-tongued-skink-care-and-breeding/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/6763",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-54",
+      "latin": "Scincopus fasciatus",
+      "candidates": []
+    },
+    {
+      "id": "species-51",
+      "latin": "Egernia hosmeri",
+      "candidates": []
+    },
+    {
+      "id": "species-52",
+      "latin": "Eumeces schneiderii",
+      "candidates": []
+    },
+    {
+      "id": "species-58",
+      "latin": "Tribolonotus novaeguineae",
+      "candidates": [
+        {
+          "id": 11401,
+          "title": "Red-Eyed Crocodile Skink Care And Information",
+          "url": "https://reptilesmagazine.com/red-eyed-crocodile-skink-care-and-information/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/11401",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-55",
+      "latin": "Scincus scincus",
+      "candidates": []
+    },
+    {
+      "id": "species-60",
+      "latin": "Emoia nigra",
+      "candidates": []
+    },
+    {
+      "id": "species-62",
+      "latin": "Acanthosaura nataliae",
+      "candidates": []
+    },
+    {
+      "id": "species-63",
+      "latin": "Acanthosaura capra",
+      "candidates": []
+    },
+    {
+      "id": "species-64",
+      "latin": "Calotes calotes",
+      "candidates": []
+    },
+    {
+      "id": "species-65",
+      "latin": "Gonocephalus chamaeleontinus",
+      "candidates": [
+        {
+          "id": 11812,
+          "title": "Keeping The Java Hump-Headed Lizard",
+          "url": "https://reptilesmagazine.com/keeping-the-java-hump-headed-lizard/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/11812",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-66",
+      "latin": "Chlamydosaurus kingii",
+      "candidates": [
+        {
+          "id": 7828,
+          "title": "Frilled Lizard Care Sheet",
+          "url": "https://reptilesmagazine.com/frilled-lizard-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/7828",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5839,
+          "title": "Breeding The Flamboyant Frilled Dragon",
+          "url": "https://reptilesmagazine.com/breeding-the-flamboyant-frilled-dragon/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/5839",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-67",
+      "latin": "Hydrosaurus amboinensis",
+      "candidates": [
+        {
+          "id": 997,
+          "title": "Sailfin Dragon Care Sheet",
+          "url": "https://reptilesmagazine.com/sailfin-dragon-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/997",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-68",
+      "latin": "Hydrosaurus celebensis",
+      "candidates": []
+    },
+    {
+      "id": "species-69",
+      "latin": "Hydrosaurus microlophus",
+      "candidates": []
+    },
+    {
+      "id": "species-70",
+      "latin": "Hydrosaurus pustulatus",
+      "candidates": [
+        {
+          "id": 997,
+          "title": "Sailfin Dragon Care Sheet",
+          "url": "https://reptilesmagazine.com/sailfin-dragon-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/997",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-71",
+      "latin": "Hydrosaurus weberi",
+      "candidates": [
+        {
+          "id": 997,
+          "title": "Sailfin Dragon Care Sheet",
+          "url": "https://reptilesmagazine.com/sailfin-dragon-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/997",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-72",
+      "latin": "Intellagama lesueurii",
+      "candidates": []
+    },
+    {
+      "id": "species-74",
+      "latin": "Pogona henrylawsoni",
+      "candidates": []
+    },
+    {
+      "id": "species-76",
+      "latin": "Leiolepis belliana",
+      "candidates": []
+    },
+    {
+      "id": "species-78",
+      "latin": "Xenagama taylori",
+      "candidates": []
+    },
+    {
+      "id": "species-77",
+      "latin": "Agama agama",
+      "candidates": []
+    },
+    {
+      "id": "species-81",
+      "latin": "Anolis cristatellus",
+      "candidates": []
+    },
+    {
+      "id": "species-82",
+      "latin": "Anolis marmoratus",
+      "candidates": []
+    },
+    {
+      "id": "species-84",
+      "latin": "Corytophanes hernandesii",
+      "candidates": []
+    },
+    {
+      "id": "species-85",
+      "latin": "Corytophanes cristatus",
+      "candidates": []
+    },
+    {
+      "id": "species-86",
+      "latin": "Laemanctus longipes",
+      "candidates": []
+    },
+    {
+      "id": "species-88",
+      "latin": "Broadleysaurus major",
+      "candidates": []
+    },
+    {
+      "id": "species-89",
+      "latin": "Barisia imbricata",
+      "candidates": []
+    },
+    {
+      "id": "species-90",
+      "latin": "Takydromus dorsalis",
+      "candidates": [
+        {
+          "id": 12535,
+          "title": "Long-tailed And Emerald Grass Lizard Care Tips And Information",
+          "url": "https://reptilesmagazine.com/long-tailed-and-emerald-grass-lizard-care-tips-and-information/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/12535",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-91",
+      "latin": "Abronia graminea",
+      "candidates": [
+        {
+          "id": 13486,
+          "title": "Expert Care Of The Japanese Fire-Bellied Newt",
+          "url": "https://reptilesmagazine.com/expert-care-of-the-japanese-fire-bellied-newt/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/13486",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-92",
+      "latin": "Abronia taeniata",
+      "candidates": []
+    },
+    {
+      "id": "species-93",
+      "latin": "Abronia lythrochila",
+      "candidates": []
+    },
+    {
+      "id": "species-94",
+      "latin": "Sceloporus malachiticus",
+      "candidates": []
+    },
+    {
+      "id": "species-95",
+      "latin": "Oplurus grandidieri",
+      "candidates": []
+    },
+    {
+      "id": "species-98",
+      "latin": "Calumma parsonii",
+      "candidates": []
+    },
+    {
+      "id": "species-83",
+      "latin": "Basiliscus plumifrons",
+      "candidates": [
+        {
+          "id": 6607,
+          "title": "Basilisk Lizard Care And Information",
+          "url": "https://reptilesmagazine.com/basilisk-lizard-care-and-information/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/6607",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 11077,
+          "title": "Basilisk Lizard Information And Care",
+          "url": "https://reptilesmagazine.com/basilisk-lizard-information-and-care/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/11077",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 115643,
+          "title": "Care And Breeding the Basilisk Lizard",
+          "url": "https://reptilesmagazine.com/care-and-breeding-the-basilisk-lizard/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/115643",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 7993,
+          "title": "Plumed Basilisk Lizard Care Tips",
+          "url": "https://reptilesmagazine.com/plumed-basilisk-lizard-care-tips/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/7993",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-99",
+      "latin": "Gastropholis prasina",
+      "candidates": []
+    },
+    {
+      "id": "species-100",
+      "latin": "Boaedon capensis",
+      "candidates": []
+    },
+    {
+      "id": "species-101",
+      "latin": "Boaedon fuliginosus",
+      "candidates": []
+    },
+    {
+      "id": "species-102",
+      "latin": "Boaedon lineatus",
+      "candidates": []
+    },
+    {
+      "id": "species-103",
+      "latin": "Boaedon olivaceus",
+      "candidates": []
+    },
+    {
+      "id": "species-104",
+      "latin": "Coelognathus flavolineatus",
+      "candidates": []
+    },
+    {
+      "id": "species-105",
+      "latin": "Coelognathus helena",
+      "candidates": []
+    },
+    {
+      "id": "species-106",
+      "latin": "Coelognathus radiatus",
+      "candidates": []
+    },
+    {
+      "id": "species-107",
+      "latin": "Dasypeltis scabra",
+      "candidates": []
+    },
+    {
+      "id": "species-108",
+      "latin": "Dasypeltis gansi",
+      "candidates": []
+    },
+    {
+      "id": "species-109",
+      "latin": "Drymarchon corais",
+      "candidates": []
+    },
+    {
+      "id": "species-110",
+      "latin": "Drymarchon couperi",
+      "candidates": []
+    },
+    {
+      "id": "species-111",
+      "latin": "Drymarchon melanurus",
+      "candidates": []
+    },
+    {
+      "id": "species-112",
+      "latin": "Elaphe carinata",
+      "candidates": []
+    },
+    {
+      "id": "species-113",
+      "latin": "Elaphe climacophora",
+      "candidates": []
+    },
+    {
+      "id": "species-115",
+      "latin": "Gonyosoma boulengeri",
+      "candidates": []
+    },
+    {
+      "id": "species-114",
+      "latin": "Euprepiophis mandarinus",
+      "candidates": []
+    },
+    {
+      "id": "species-116",
+      "latin": "Gonyosoma hainanense",
+      "candidates": []
+    },
+    {
+      "id": "species-117",
+      "latin": "Gonyosoma jansenii",
+      "candidates": []
+    },
+    {
+      "id": "species-118",
+      "latin": "Gonyosoma oxycephalum",
+      "candidates": []
+    },
+    {
+      "id": "species-119",
+      "latin": "Lampropeltis alterna",
+      "candidates": [
+        {
+          "id": 946,
+          "title": "Gray-Banded Kingsnake Care Sheet",
+          "url": "https://reptilesmagazine.com/gray-banded-kingsnake-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/946",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 125593,
+          "title": "Trans-Pecos Rat Snake Natural History and Captive Care",
+          "url": "https://reptilesmagazine.com/trans-pecos-rat-snake-natural-history-and-captive-care/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/125593",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6106,
+          "title": "Captive Breeding Of Gray-Banded Kingsnakes",
+          "url": "https://reptilesmagazine.com/captive-breeding-of-gray-banded-kingsnakes/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/6106",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-121",
+      "latin": "Lampropeltis getula",
+      "candidates": [
+        {
+          "id": 925,
+          "title": "California Kingsnake Care Sheet",
+          "url": "https://reptilesmagazine.com/california-kingsnake-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/925",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 115557,
+          "title": "California Kingsnake Care Tips",
+          "url": "https://reptilesmagazine.com/california-kingsnake-care-tips/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/115557",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 11572,
+          "title": "California Kingsnake Care, Breeding and Morphs",
+          "url": "https://reptilesmagazine.com/california-kingsnake-care-breeding-and-morphs/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/11572",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-120",
+      "latin": "Lampropeltis californiae",
+      "candidates": [
+        {
+          "id": 925,
+          "title": "California Kingsnake Care Sheet",
+          "url": "https://reptilesmagazine.com/california-kingsnake-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/925",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 115557,
+          "title": "California Kingsnake Care Tips",
+          "url": "https://reptilesmagazine.com/california-kingsnake-care-tips/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/115557",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-122",
+      "latin": "Lampropeltis nigra",
+      "candidates": []
+    },
+    {
+      "id": "species-123",
+      "latin": "Lampropeltis splendida",
+      "candidates": [
+        {
+          "id": 115557,
+          "title": "California Kingsnake Care Tips",
+          "url": "https://reptilesmagazine.com/california-kingsnake-care-tips/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/115557",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 11572,
+          "title": "California Kingsnake Care, Breeding and Morphs",
+          "url": "https://reptilesmagazine.com/california-kingsnake-care-breeding-and-morphs/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/11572",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-125",
+      "latin": "Opheodrys aestivus",
+      "candidates": [
+        {
+          "id": 8581,
+          "title": "Rough Green Snake Care Sheet",
+          "url": "https://reptilesmagazine.com/rough-green-snake-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/8581",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-126",
+      "latin": "Oreocryptophis porphyraceus",
+      "candidates": [
+        {
+          "id": 886,
+          "title": "Breeding Oreocryptophis porphyraceus Rat Snakes",
+          "url": "https://reptilesmagazine.com/breeding-oreocryptophis-porphyraceus-rat-snakes/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/886",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-127",
+      "latin": "Pantherophis alleghaniensis",
+      "candidates": [
+        {
+          "id": 124811,
+          "title": "Scared Of Snakes? There Is No Need To Be",
+          "url": "https://reptilesmagazine.com/scared-of-snakes-there-is-no-need-to-be/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/124811",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-130",
+      "latin": "Pareas carinatus",
+      "candidates": []
+    },
+    {
+      "id": "species-131",
+      "latin": "Pituophis catenifer",
+      "candidates": [
+        {
+          "id": 120507,
+          "title": "Bullsnake Care and Breeding Information",
+          "url": "https://reptilesmagazine.com/bullsnake-care-and-breeding-information/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/120507",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-132",
+      "latin": "Pituophis melanoleucus",
+      "candidates": []
+    },
+    {
+      "id": "species-133",
+      "latin": "Spalerosophis diadema",
+      "candidates": []
+    },
+    {
+      "id": "species-134",
+      "latin": "Spilotes pullatus",
+      "candidates": []
+    },
+    {
+      "id": "species-136",
+      "latin": "Bogertophis subocularis",
+      "candidates": [
+        {
+          "id": 5704,
+          "title": "Breeding Trans-Pecos Rat Snakes",
+          "url": "https://reptilesmagazine.com/breeding-trans-pecos-rat-snakes/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/5704",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 125593,
+          "title": "Trans-Pecos Rat Snake Natural History and Captive Care",
+          "url": "https://reptilesmagazine.com/trans-pecos-rat-snake-natural-history-and-captive-care/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/125593",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-135",
+      "latin": "Thamnophis sirtalis",
+      "candidates": []
+    },
+    {
+      "id": "species-137",
+      "latin": "Lampropeltis pyromelana",
+      "candidates": []
+    },
+    {
+      "id": "species-138",
+      "latin": "Lampropeltis leonis",
+      "candidates": [
+        {
+          "id": 8317,
+          "title": "Nuevo Leon Kingsnake Care Sheet",
+          "url": "https://reptilesmagazine.com/nuevo-leon-kingsnake/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/8317",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-139",
+      "latin": "Zamenis scalaris",
+      "candidates": []
+    },
+    {
+      "id": "species-140",
+      "latin": "Orthriophis taeniurus",
+      "candidates": [
+        {
+          "id": 2842,
+          "title": "Beauty Snake Breeding",
+          "url": "https://reptilesmagazine.com/beauty-snake-breeding/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/2842",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-141",
+      "latin": "Ptyas mucosa",
+      "candidates": []
+    },
+    {
+      "id": "species-142",
+      "latin": "Xenopeltis unicolor",
+      "candidates": []
+    },
+    {
+      "id": "species-144",
+      "latin": "Eryx conicus",
+      "candidates": [
+        {
+          "id": 5725,
+          "title": "Care, Breeding And Caudal Luring Of The Rough-scaled Sand Boa",
+          "url": "https://reptilesmagazine.com/care-breeding-and-caudal-luring-of-the-rough-scaled-sand-boa/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/5725",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-145",
+      "latin": "Candoia aspera",
+      "candidates": []
+    },
+    {
+      "id": "species-146",
+      "latin": "Corallus hortulana",
+      "candidates": []
+    },
+    {
+      "id": "species-149",
+      "latin": "Liasis mackloti",
+      "candidates": []
+    },
+    {
+      "id": "species-150",
+      "latin": "Leiopython albertisii",
+      "candidates": []
+    },
+    {
+      "id": "species-151",
+      "latin": "Leiopython meridionalis",
+      "candidates": []
+    },
+    {
+      "id": "species-152",
+      "latin": "Breviceps adspersus",
+      "candidates": []
+    },
+    {
+      "id": "species-153",
+      "latin": "Bufotes boulengeri",
+      "candidates": []
+    },
+    {
+      "id": "species-154",
+      "latin": "Bufotes viridis",
+      "candidates": []
+    },
+    {
+      "id": "species-155",
+      "latin": "Ceratophrys aurita",
+      "candidates": [
+        {
+          "id": 10201,
+          "title": "The Argentine &quot;Pac Man&quot; Horned Frog &ndash; Natural History And Captive Care",
+          "url": "https://reptilesmagazine.com/the-argentine-pac-man-horned-frog-natural-history-and-captive-care/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/10201",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-156",
+      "latin": "Ceratophrys cornuta",
+      "candidates": [
+        {
+          "id": 10201,
+          "title": "The Argentine &quot;Pac Man&quot; Horned Frog &ndash; Natural History And Captive Care",
+          "url": "https://reptilesmagazine.com/the-argentine-pac-man-horned-frog-natural-history-and-captive-care/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/10201",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-157",
+      "latin": "Ceratophrys cranwelli",
+      "candidates": [
+        {
+          "id": 11269,
+          "title": "Pac-Man Frog Care And Information",
+          "url": "https://reptilesmagazine.com/pac-man-frog-care-and-information/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/11269",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 10201,
+          "title": "The Argentine &quot;Pac Man&quot; Horned Frog &ndash; Natural History And Captive Care",
+          "url": "https://reptilesmagazine.com/the-argentine-pac-man-horned-frog-natural-history-and-captive-care/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/10201",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-158",
+      "latin": "Ceratophrys ornata",
+      "candidates": [
+        {
+          "id": 976,
+          "title": "Pac Man Frog Care Sheet",
+          "url": "https://reptilesmagazine.com/pac-man-frog-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/976",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 10201,
+          "title": "The Argentine &quot;Pac Man&quot; Horned Frog &ndash; Natural History And Captive Care",
+          "url": "https://reptilesmagazine.com/the-argentine-pac-man-horned-frog-natural-history-and-captive-care/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/10201",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-159",
+      "latin": "Chacophrys pierottii",
+      "candidates": []
+    },
+    {
+      "id": "species-160",
+      "latin": "Dendropsophus leucophyllatus",
+      "candidates": [
+        {
+          "id": 5995,
+          "title": "Clown Treefrog Care And Breeding",
+          "url": "https://reptilesmagazine.com/clown-treefrog-care-and-breeding/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/5995",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-161",
+      "latin": "Hyla cinerea",
+      "candidates": [
+        {
+          "id": 8236,
+          "title": "Green Treefrog Care Sheet",
+          "url": "https://reptilesmagazine.com/green-treefrog-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/8236",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-162",
+      "latin": "Heterixalus alboguttatus",
+      "candidates": [
+        {
+          "id": 11263,
+          "title": "Care And Breeding  Africa&rsquo;s Colorful Reed Frogs",
+          "url": "https://reptilesmagazine.com/care-and-breeding-africas-colorful-reed-frogs/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/11263",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6193,
+          "title": "Breeding Blue-back Reed Frogs",
+          "url": "https://reptilesmagazine.com/breeding-blue-back-reed-frogs/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/6193",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-163",
+      "latin": "Heterixalus madagascariensis",
+      "candidates": [
+        {
+          "id": 6193,
+          "title": "Breeding Blue-back Reed Frogs",
+          "url": "https://reptilesmagazine.com/breeding-blue-back-reed-frogs/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/6193",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 11263,
+          "title": "Care And Breeding  Africa&rsquo;s Colorful Reed Frogs",
+          "url": "https://reptilesmagazine.com/care-and-breeding-africas-colorful-reed-frogs/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/11263",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-164",
+      "latin": "Kaloula pulchra",
+      "candidates": [
+        {
+          "id": 6223,
+          "title": "Asian Painted Bullfrog Care",
+          "url": "https://reptilesmagazine.com/asian-painted-bullfrog-care/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/6223",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-165",
+      "latin": "Kassina senegalensis",
+      "candidates": []
+    },
+    {
+      "id": "species-166",
+      "latin": "Lepidobatrachus laevis",
+      "candidates": []
+    },
+    {
+      "id": "species-168",
+      "latin": "Litoria infrafrenata",
+      "candidates": []
+    },
+    {
+      "id": "species-169",
+      "latin": "Pelobatrachus nasuta",
+      "candidates": []
+    },
+    {
+      "id": "species-170",
+      "latin": "Phyllomedusa bicolor",
+      "candidates": []
+    },
+    {
+      "id": "species-171",
+      "latin": "Pithecopus hypochondrialis",
+      "candidates": []
+    },
+    {
+      "id": "species-172",
+      "latin": "Polypedates otilophus",
+      "candidates": []
+    },
+    {
+      "id": "species-173",
+      "latin": "Pyxicephalus adspersus",
+      "candidates": []
+    },
+    {
+      "id": "species-174",
+      "latin": "Pyxicephalus edulis",
+      "candidates": []
+    },
+    {
+      "id": "species-175",
+      "latin": "Rhaebo guttatus",
+      "candidates": []
+    },
+    {
+      "id": "species-176",
+      "latin": "Theloderma asperum",
+      "candidates": [
+        {
+          "id": 10861,
+          "title": "Care and Breeding the Vietnamese Mossy Frog",
+          "url": "https://reptilesmagazine.com/care-and-breeding-the-vietnamese-mossy-frog/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/10861",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-177",
+      "latin": "Theloderma bicolor",
+      "candidates": [
+        {
+          "id": 10861,
+          "title": "Care and Breeding the Vietnamese Mossy Frog",
+          "url": "https://reptilesmagazine.com/care-and-breeding-the-vietnamese-mossy-frog/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/10861",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-178",
+      "latin": "Theloderma corticale",
+      "candidates": [
+        {
+          "id": 6583,
+          "title": "Care Tips For The Vietnamese Mossy Frog",
+          "url": "https://reptilesmagazine.com/care-tips-for-the-vietnamese-mossy-frog/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/6583",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 10861,
+          "title": "Care and Breeding the Vietnamese Mossy Frog",
+          "url": "https://reptilesmagazine.com/care-and-breeding-the-vietnamese-mossy-frog/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/10861",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-179",
+      "latin": "Zhangixalus arboreus",
+      "candidates": []
+    },
+    {
+      "id": "species-180",
+      "latin": "Zhangixalus moltrechti",
+      "candidates": []
+    },
+    {
+      "id": "species-181",
+      "latin": "Zhangixalus schlegelii",
+      "candidates": []
+    },
+    {
+      "id": "species-182",
+      "latin": "Zhangixalus viridis",
+      "candidates": []
+    },
+    {
+      "id": "species-184",
+      "latin": "Agalychnis callidryas",
+      "candidates": [
+        {
+          "id": 2734,
+          "title": "Breeding Red-Eyed Treefrogs",
+          "url": "https://reptilesmagazine.com/breeding-red-eyed-treefrogs-2/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/2734",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 115257,
+          "title": "Keeping and Breeding Red-eyed Treefrogs",
+          "url": "https://reptilesmagazine.com/keeping-and-breeding-red-eyed-treefrogs/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/115257",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 8260,
+          "title": "The Top 10 Reptiles Most Reliant on Zoo Breeding Programs for Survival",
+          "url": "https://reptilesmagazine.com/the-top-10-reptiles-most-reliant-on-zoo-breeding-programs-for-survival/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/8260",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 12196,
+          "title": "Reptilekeeping In Ireland",
+          "url": "https://reptilesmagazine.com/reptilekeeping-in-ireland/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/12196",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 11758,
+          "title": "Tiger-Leg Monkey Frog Information And Care",
+          "url": "https://reptilesmagazine.com/tiger-leg-monkey-frog-information-and-care/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/11758",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-183",
+      "latin": "Trachycephalus resinifictrix",
+      "candidates": [
+        {
+          "id": 5983,
+          "title": "Breeding Amazon Milk Frogs",
+          "url": "https://reptilesmagazine.com/breeding-amazon-milk-frogs/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/5983",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 8371,
+          "title": "Amazon Milk Frog Care Sheet",
+          "url": "https://reptilesmagazine.com/amazon-milk-frog-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/8371",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6514,
+          "title": "Amazon Milk Frog Housing And Care",
+          "url": "https://reptilesmagazine.com/amazon-milk-frog-housing-and-care/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/6514",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2995,
+          "title": "Amazon Milk Frog Breeding",
+          "url": "https://reptilesmagazine.com/amazon-milk-frog-breeding/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/2995",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-188",
+      "latin": "Bufo gargarizans",
+      "candidates": []
+    },
+    {
+      "id": "species-190",
+      "latin": "Cynops ensicauda",
+      "candidates": [
+        {
+          "id": 13486,
+          "title": "Expert Care Of The Japanese Fire-Bellied Newt",
+          "url": "https://reptilesmagazine.com/expert-care-of-the-japanese-fire-bellied-newt/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/13486",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-189",
+      "latin": "Ambystoma tigrinum",
+      "candidates": []
+    },
+    {
+      "id": "species-191",
+      "latin": "Hypselotriton orientalis",
+      "candidates": []
+    },
+    {
+      "id": "species-192",
+      "latin": "Cynops pyrrhogaster",
+      "candidates": [
+        {
+          "id": 13486,
+          "title": "Expert Care Of The Japanese Fire-Bellied Newt",
+          "url": "https://reptilesmagazine.com/expert-care-of-the-japanese-fire-bellied-newt/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/13486",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 8029,
+          "title": "Japanese Fire-Bellied Newt Care Sheet",
+          "url": "https://reptilesmagazine.com/japanese-fire-bellied-newt-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/8029",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-193",
+      "latin": "Salamandra salamandra",
+      "candidates": [
+        {
+          "id": 5665,
+          "title": "Fire Salamander Care Sheet",
+          "url": "https://reptilesmagazine.com/fire-salamander-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/5665",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-194",
+      "latin": "Ambystoma maculatum",
+      "candidates": [
+        {
+          "id": 1006,
+          "title": "Spotted Salamander Care Sheet",
+          "url": "https://reptilesmagazine.com/spotted-salamander-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/1006",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 9856,
+          "title": "Natural History And Captive Care Of The Fowler&#039;s Toad",
+          "url": "https://reptilesmagazine.com/natural-history-and-captive-care-of-the-fowlers-toad/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/9856",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2392,
+          "title": "Care For The Spotted Salamander",
+          "url": "https://reptilesmagazine.com/care-for-the-spotted-salamander/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/2392",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-195",
+      "latin": "Pleurodeles waltl",
+      "candidates": [
+        {
+          "id": 11404,
+          "title": "Spanish Ribbed Newt Care Information",
+          "url": "https://reptilesmagazine.com/spanish-ribbed-newt-care-information/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/11404",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-196",
+      "latin": "Triturus cristatus",
+      "candidates": [
+        {
+          "id": 8149,
+          "title": "Expert Newt Care Tips",
+          "url": "https://reptilesmagazine.com/expert-newt-care-tips/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/8149",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-197",
+      "latin": "Tylototriton shanjing",
+      "candidates": [
+        {
+          "id": 2851,
+          "title": "Crocodile Newts Tylototriton Breeding",
+          "url": "https://reptilesmagazine.com/crocodile-newts-tylototriton-breeding/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/2851",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 10963,
+          "title": "Mandarin Newt Care and Breeding Information",
+          "url": "https://reptilesmagazine.com/mandarin-newt-care-and-breeding-information/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/10963",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-198",
+      "latin": "Tylototriton verrucosus",
+      "candidates": [
+        {
+          "id": 2851,
+          "title": "Crocodile Newts Tylototriton Breeding",
+          "url": "https://reptilesmagazine.com/crocodile-newts-tylototriton-breeding/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/2851",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 10963,
+          "title": "Mandarin Newt Care and Breeding Information",
+          "url": "https://reptilesmagazine.com/mandarin-newt-care-and-breeding-information/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/10963",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-199",
+      "latin": "Laotriton laoensis",
+      "candidates": []
+    },
+    {
+      "id": "species-200",
+      "latin": "Archispirostreptus gigas",
+      "candidates": []
+    },
+    {
+      "id": "species-201",
+      "latin": "Coenobita perlatus",
+      "candidates": []
+    },
+    {
+      "id": "species-204",
+      "latin": "Phelsuma madagascariensis",
+      "candidates": [
+        {
+          "id": 107726,
+          "title": "Giant Day Gecko Care Sheet Archived Comments",
+          "url": "https://reptilesmagazine.com/giant-day-gecko-care-sheet-archived-comments/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/107726",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 7627,
+          "title": "Giant Day Gecko Care Sheet",
+          "url": "https://reptilesmagazine.com/caring-for-giant-day-geckos/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/7627",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-205",
+      "latin": "Diplodactylus galeatus",
+      "candidates": [
+        {
+          "id": 2866,
+          "title": "Breeding Diplodactylus Geckos",
+          "url": "https://reptilesmagazine.com/breeding-diplodactylus-geckos/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/2866",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-208",
+      "latin": "Paroedura bastardi",
+      "candidates": []
+    },
+    {
+      "id": "species-209",
+      "latin": "Paroedura stumpffi",
+      "candidates": []
+    },
+    {
+      "id": "species-210",
+      "latin": "Paroedura vazimba",
+      "candidates": []
+    },
+    {
+      "id": "species-211",
+      "latin": "Paroedura androyensis",
+      "candidates": []
+    },
+    {
+      "id": "species-203",
+      "latin": "Phelsuma borbonica",
+      "candidates": []
+    },
+    {
+      "id": "species-202",
+      "latin": "Bavayia robusta",
+      "candidates": []
+    },
+    {
+      "id": "species-212",
+      "latin": "Stenodactylus petrii",
+      "candidates": []
+    },
+    {
+      "id": "species-214",
+      "latin": "Strophurus rankini",
+      "candidates": []
+    },
+    {
+      "id": "species-213",
+      "latin": "Strophurus intermedius",
+      "candidates": []
+    },
+    {
+      "id": "species-215",
+      "latin": "Pachydactylus rugosus",
+      "candidates": []
+    },
+    {
+      "id": "species-216",
+      "latin": "Oedura monilis",
+      "candidates": []
+    },
+    {
+      "id": "species-217",
+      "latin": "Teratoscincus keyserlingii",
+      "candidates": []
+    },
+    {
+      "id": "species-218",
+      "latin": "Furcifer petteri",
+      "candidates": []
+    },
+    {
+      "id": "species-219",
+      "latin": "Furcifer willsii",
+      "candidates": []
+    },
+    {
+      "id": "species-220",
+      "latin": "Calumma malthe",
+      "candidates": []
+    },
+    {
+      "id": "species-221",
+      "latin": "Calumma boettgeri",
+      "candidates": []
+    },
+    {
+      "id": "species-223",
+      "latin": "Trioceros hoehnelii",
+      "candidates": []
+    },
+    {
+      "id": "species-224",
+      "latin": "Furcifer lateralis",
+      "candidates": [
+        {
+          "id": 12445,
+          "title": "Carpet Chameleon Information And Care",
+          "url": "https://reptilesmagazine.com/carpet-chameleon-information-and-care/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/12445",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6313,
+          "title": "Carpet Chameleon Care Tips",
+          "url": "https://reptilesmagazine.com/carpet-chameleon-care-tips/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/6313",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3106,
+          "title": "Carpet Chameleon Breeding",
+          "url": "https://reptilesmagazine.com/carpet-chameleon-breeding/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/3106",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-225",
+      "latin": "Brookesia brygooi",
+      "candidates": []
+    },
+    {
+      "id": "species-226",
+      "latin": "Egernia stokesii",
+      "candidates": []
+    },
+    {
+      "id": "species-227",
+      "latin": "Trachylepis dichroma",
+      "candidates": []
+    },
+    {
+      "id": "species-228",
+      "latin": "Chalcides sepsoides",
+      "candidates": []
+    },
+    {
+      "id": "species-229",
+      "latin": "Cordylus tropidosternum",
+      "candidates": []
+    },
+    {
+      "id": "species-230",
+      "latin": "Stenocercus fimbriatus",
+      "candidates": []
+    },
+    {
+      "id": "species-231",
+      "latin": "Oplurus cyclurus",
+      "candidates": []
+    },
+    {
+      "id": "species-232",
+      "latin": "Gallotia galloti",
+      "candidates": []
+    },
+    {
+      "id": "species-233",
+      "latin": "Acanthodactylus pardalis",
+      "candidates": []
+    },
+    {
+      "id": "species-236",
+      "latin": "Lampropeltis nigrita",
+      "candidates": [
+        {
+          "id": 115557,
+          "title": "California Kingsnake Care Tips",
+          "url": "https://reptilesmagazine.com/california-kingsnake-care-tips/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/115557",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 11572,
+          "title": "California Kingsnake Care, Breeding and Morphs",
+          "url": "https://reptilesmagazine.com/california-kingsnake-care-breeding-and-morphs/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/11572",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-237",
+      "latin": "Dyscophus guineti",
+      "candidates": [
+        {
+          "id": 6031,
+          "title": "Tomato Frog Care Sheet",
+          "url": "https://reptilesmagazine.com/tomato-frog-care-sheet/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/6031",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-238",
+      "latin": "Dendropsophus ebraccatus",
+      "candidates": [
+        {
+          "id": 5995,
+          "title": "Clown Treefrog Care And Breeding",
+          "url": "https://reptilesmagazine.com/clown-treefrog-care-and-breeding/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/5995",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-239",
+      "latin": "Tylototriton shanorum",
+      "candidates": []
+    },
+    {
+      "id": "species-240",
+      "latin": "Triturus marmoratus",
+      "candidates": [
+        {
+          "id": 8149,
+          "title": "Expert Newt Care Tips",
+          "url": "https://reptilesmagazine.com/expert-newt-care-tips/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/8149",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-255",
+      "latin": "Ceratophysella isabellae",
+      "candidates": []
+    },
+    {
+      "id": "species-256",
+      "latin": "Yuukianura aphoruroides",
+      "candidates": []
+    },
+    {
+      "id": "species-257",
+      "latin": "Pseudosinella violenta",
+      "candidates": []
+    },
+    {
+      "id": "species-258",
+      "latin": "Entomobrya unostrigata",
+      "candidates": []
+    },
+    {
+      "id": "species-259",
+      "latin": "Sinella curviseta",
+      "candidates": []
+    },
+    {
+      "id": "species-260",
+      "latin": "Arrhopalites caecus",
+      "candidates": []
+    },
+    {
+      "id": "species-261",
+      "latin": "Entomobryoides purpurascens",
+      "candidates": []
+    },
+    {
+      "id": "species-262",
+      "latin": "Entomobrya atrocincta",
+      "candidates": []
+    },
+    {
+      "id": "species-263",
+      "latin": "Thalassaphorura encarpata",
+      "candidates": []
+    },
+    {
+      "id": "species-264",
+      "latin": "Proisotoma minuta",
+      "candidates": []
+    },
+    {
+      "id": "species-265",
+      "latin": "Coecobrya tenebricosa",
+      "candidates": []
+    },
+    {
+      "id": "species-266",
+      "latin": "Lepidocyrtus violaceus",
+      "candidates": []
+    },
+    {
+      "id": "species-267",
+      "latin": "Pseudosinella rolfsi",
+      "candidates": []
+    },
+    {
+      "id": "species-282",
+      "latin": "Pandinus imperator",
+      "candidates": []
+    },
+    {
+      "id": "species-283",
+      "latin": "Heterometrus longimanus",
+      "candidates": []
+    },
+    {
+      "id": "species-284",
+      "latin": "Phidippus regius",
+      "candidates": []
+    },
+    {
+      "id": "species-285",
+      "latin": "Gromphadorhina portentosa",
+      "candidates": []
+    },
+    {
+      "id": "species-286",
+      "latin": "Narceus americanus",
+      "candidates": []
+    },
+    {
+      "id": "species-287",
+      "latin": "Centrobolus richardii",
+      "candidates": []
+    },
+    {
+      "id": "species-288",
+      "latin": "Geosesarma hagen",
+      "candidates": []
+    },
+    {
+      "id": "species-289",
+      "latin": "Phyllium letiranti",
+      "candidates": []
+    },
+    {
+      "id": "species-290",
+      "latin": "Phyllocrania paradoxa",
+      "candidates": []
+    },
+    {
+      "id": "species-291",
+      "latin": "Damon diadema",
+      "candidates": []
+    },
+    {
+      "id": "species-292",
+      "latin": "Cornu aspersum",
+      "candidates": []
+    },
+    {
+      "id": "species-300",
+      "latin": "Phidippus audax",
+      "candidates": []
+    },
+    {
+      "id": "species-301",
+      "latin": "Hymenopus coronatus",
+      "candidates": []
+    },
+    {
+      "id": "species-302",
+      "latin": "Hierodula membranacea",
+      "candidates": []
+    },
+    {
+      "id": "species-303",
+      "latin": "Deroplatys desiccata",
+      "candidates": []
+    },
+    {
+      "id": "species-304",
+      "latin": "Extatosoma tiaratum",
+      "candidates": []
+    },
+    {
+      "id": "species-305",
+      "latin": "Medauroidea extradentata",
+      "candidates": []
+    },
+    {
+      "id": "species-306",
+      "latin": "Pachnoda marginata",
+      "candidates": []
+    },
+    {
+      "id": "species-307",
+      "latin": "Eudicella gralli",
+      "candidates": []
+    },
+    {
+      "id": "species-314",
+      "latin": "Telodeinopus aoutii",
+      "candidates": []
+    },
+    {
+      "id": "species-315",
+      "latin": "Anadenobolus monilicornis",
+      "candidates": []
+    },
+    {
+      "id": "species-316",
+      "latin": "Chicobolus spinigerus",
+      "candidates": []
+    },
+    {
+      "id": "species-317",
+      "latin": "Geosesarma dennerle",
+      "candidates": []
+    },
+    {
+      "id": "species-318",
+      "latin": "Geosesarma bicolor",
+      "candidates": []
+    },
+    {
+      "id": "species-323",
+      "latin": "Cuora flavomarginata",
+      "candidates": [
+        {
+          "id": 115198,
+          "title": "Chinese Box Turtle Care And Breeding",
+          "url": "https://reptilesmagazine.com/chinese-box-turtle-care-and-breeding/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/115198",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 7558,
+          "title": "Yellow-Margined Box Turtle Care And Information",
+          "url": "https://reptilesmagazine.com/yellow-margined-box-turtle-care-and-information/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/7558",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-324",
+      "latin": "Chelonoidis carbonarius",
+      "candidates": []
+    },
+    {
+      "id": "species-325",
+      "latin": "Testudo hermanni",
+      "candidates": [
+        {
+          "id": 9202,
+          "title": "Hermann&#039;s Tortoise Care And Information",
+          "url": "https://reptilesmagazine.com/hermanns-tortoise-care-and-information/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/9202",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 12196,
+          "title": "Reptilekeeping In Ireland",
+          "url": "https://reptilesmagazine.com/reptilekeeping-in-ireland/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/12196",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-328",
+      "latin": "Varanus prasinus",
+      "candidates": []
+    },
+    {
+      "id": "species-329",
+      "latin": "Oophaga pumilio",
+      "candidates": [
+        {
+          "id": 125236,
+          "title": "Beginner&#8217;s Guide To Poison Frog Care",
+          "url": "https://reptilesmagazine.com/beginners-guide-to-poison-frog-care/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/125236",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 7804,
+          "title": "Strawberry Poison Frog Care Tips",
+          "url": "https://reptilesmagazine.com/strawberry-poison-frog-care-tips/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/7804",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-330",
+      "latin": "Oophaga histrionica",
+      "candidates": [
+        {
+          "id": 114725,
+          "title": "Most Poison Frogs In Herp Keeping Are Captive-Bred, Study Says",
+          "url": "https://reptilesmagazine.com/most-poison-frogs-in-herp-keeping-are-captive-bred-study-says/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/114725",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-331",
+      "latin": "Epipedobates tricolor",
+      "candidates": []
+    },
+    {
+      "id": "species-332",
+      "latin": "Neurergus kaiseri",
+      "candidates": [
+        {
+          "id": 12985,
+          "title": "Breeding The Kaiser&#039;s Mountain Newt",
+          "url": "https://reptilesmagazine.com/breeding-the-kaisers-mountain-newt/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/12985",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 8149,
+          "title": "Expert Newt Care Tips",
+          "url": "https://reptilesmagazine.com/expert-newt-care-tips/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/8149",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-333",
+      "latin": "Notophthalmus viridescens",
+      "candidates": [
+        {
+          "id": 8149,
+          "title": "Expert Newt Care Tips",
+          "url": "https://reptilesmagazine.com/expert-newt-care-tips/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/8149",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-336",
+      "latin": "Lygodactylus williamsi",
+      "candidates": [
+        {
+          "id": 12124,
+          "title": "Electric Blue Gecko Care And Breeding Information",
+          "url": "https://reptilesmagazine.com/electric-blue-gecko-care-and-breeding-information/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/12124",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6670,
+          "title": "Essential Care For The Electric Blue Day Gecko",
+          "url": "https://reptilesmagazine.com/essential-care-for-the-electric-blue-day-gecko/",
+          "type": "post",
+          "subtype": "post",
+          "_links": {
+            "self": [
+              {
+                "embeddable": true,
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/posts/6670",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "about": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/types/post"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://reptilesmagazine.com/wp-json/wp/v2/search"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "species-351",
+      "latin": "Zoosphaerium neptunus",
+      "candidates": []
+    },
+    {
+      "id": "species-361",
+      "latin": "Xenosaurus grandis",
+      "candidates": []
+    }
+  ],
+  "plantGrower": [
+    {
+      "id": "plant-4",
+      "latin": "Pilea involucrata",
+      "url": "https://glassboxtropicals.com/pilea-involucrata/",
+      "status": 404
+    },
+    {
+      "id": "plant-5",
+      "latin": "Neoregelia ampullacea",
+      "url": "https://glassboxtropicals.com/neoregelia-ampullacea/",
+      "status": 404
+    },
+    {
+      "id": "plant-7",
+      "latin": "Ludisia discolor",
+      "url": "https://glassboxtropicals.com/ludisia-discolor/",
+      "status": 200
+    },
+    {
+      "id": "plant-9",
+      "latin": "Adiantum raddianum",
+      "url": "https://glassboxtropicals.com/adiantum-raddianum/",
+      "status": 404
+    },
+    {
+      "id": "plant-16",
+      "latin": "Selaginella uncinata",
+      "url": "https://glassboxtropicals.com/selaginella-uncinata/",
+      "status": 200
+    },
+    {
+      "id": "plant-17",
+      "latin": "Selaginella erythropus",
+      "url": "https://glassboxtropicals.com/selaginella-erythropus/",
+      "status": 200
+    },
+    {
+      "id": "plant-18",
+      "latin": "Selaginella martensii",
+      "url": "https://glassboxtropicals.com/selaginella-martensii/",
+      "status": 404
+    },
+    {
+      "id": "plant-20",
+      "latin": "Asplenium nidus",
+      "url": "https://glassboxtropicals.com/asplenium-nidus/",
+      "status": 404
+    },
+    {
+      "id": "plant-19",
+      "latin": "Nephrolepis exaltata",
+      "url": "https://glassboxtropicals.com/nephrolepis-exaltata/",
+      "status": 404
+    },
+    {
+      "id": "plant-21",
+      "latin": "Asplenium antiquum",
+      "url": "https://glassboxtropicals.com/asplenium-antiquum/",
+      "status": 404
+    },
+    {
+      "id": "plant-23",
+      "latin": "Pyrrosia nummulariifolia",
+      "url": "https://glassboxtropicals.com/pyrrosia-nummulariifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-22",
+      "latin": "Davallia fejeensis",
+      "url": "https://glassboxtropicals.com/davallia-fejeensis/",
+      "status": 200
+    },
+    {
+      "id": "plant-24",
+      "latin": "Neoregelia lilliputiana",
+      "url": "https://glassboxtropicals.com/neoregelia-lilliputiana/",
+      "status": 404
+    },
+    {
+      "id": "plant-25",
+      "latin": "Neoregelia punctatissima",
+      "url": "https://glassboxtropicals.com/neoregelia-punctatissima/",
+      "status": 404
+    },
+    {
+      "id": "plant-26",
+      "latin": "Neoregelia tigrina",
+      "url": "https://glassboxtropicals.com/neoregelia-tigrina/",
+      "status": 404
+    },
+    {
+      "id": "plant-30",
+      "latin": "Guzmania lingulata",
+      "url": "https://glassboxtropicals.com/guzmania-lingulata/",
+      "status": 404
+    },
+    {
+      "id": "plant-31",
+      "latin": "Anoectochilus roxburghii",
+      "url": "https://glassboxtropicals.com/anoectochilus-roxburghii/",
+      "status": 404
+    },
+    {
+      "id": "plant-32",
+      "latin": "Dossinia marmorata",
+      "url": "https://glassboxtropicals.com/dossinia-marmorata/",
+      "status": 404
+    },
+    {
+      "id": "plant-34",
+      "latin": "Marcgravia rectiflora",
+      "url": "https://glassboxtropicals.com/marcgravia-rectiflora/",
+      "status": 200
+    },
+    {
+      "id": "plant-36",
+      "latin": "Hoya curtisii",
+      "url": "https://glassboxtropicals.com/hoya-curtisii/",
+      "status": 404
+    },
+    {
+      "id": "plant-35",
+      "latin": "Dischidia ruscifolia",
+      "url": "https://glassboxtropicals.com/dischidia-ruscifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-37",
+      "latin": "Hoya serpens",
+      "url": "https://glassboxtropicals.com/hoya-serpens/",
+      "status": 404
+    },
+    {
+      "id": "plant-38",
+      "latin": "Cissus discolor",
+      "url": "https://glassboxtropicals.com/cissus-discolor/",
+      "status": 404
+    },
+    {
+      "id": "plant-39",
+      "latin": "Procris repens",
+      "url": "https://glassboxtropicals.com/procris-repens/",
+      "status": 404
+    },
+    {
+      "id": "plant-40",
+      "latin": "Peperomia rotundifolia",
+      "url": "https://glassboxtropicals.com/peperomia-rotundifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-41",
+      "latin": "Philodendron hederaceum",
+      "url": "https://glassboxtropicals.com/philodendron-hederaceum/",
+      "status": 404
+    },
+    {
+      "id": "plant-42",
+      "latin": "Epipremnum aureum",
+      "url": "https://glassboxtropicals.com/epipremnum-aureum/",
+      "status": 404
+    },
+    {
+      "id": "plant-43",
+      "latin": "Monstera dubia",
+      "url": "https://glassboxtropicals.com/monstera-dubia/",
+      "status": 404
+    },
+    {
+      "id": "plant-44",
+      "latin": "Pilea cadierei",
+      "url": "https://glassboxtropicals.com/pilea-cadierei/",
+      "status": 404
+    },
+    {
+      "id": "plant-45",
+      "latin": "Peperomia caperata",
+      "url": "https://glassboxtropicals.com/peperomia-caperata/",
+      "status": 404
+    },
+    {
+      "id": "plant-46",
+      "latin": "Peperomia argyreia",
+      "url": "https://glassboxtropicals.com/peperomia-argyreia/",
+      "status": 404
+    },
+    {
+      "id": "plant-47",
+      "latin": "Begonia bowerae",
+      "url": "https://glassboxtropicals.com/begonia-bowerae/",
+      "status": 404
+    },
+    {
+      "id": "plant-49",
+      "latin": "Begonia listada",
+      "url": "https://glassboxtropicals.com/begonia-listada/",
+      "status": 404
+    },
+    {
+      "id": "plant-48",
+      "latin": "Begonia foliosa",
+      "url": "https://glassboxtropicals.com/begonia-foliosa/",
+      "status": 200
+    },
+    {
+      "id": "plant-50",
+      "latin": "Begonia amphioxus",
+      "url": "https://glassboxtropicals.com/begonia-amphioxus/",
+      "status": 200
+    },
+    {
+      "id": "plant-51",
+      "latin": "Cryptanthus bivittatus",
+      "url": "https://glassboxtropicals.com/cryptanthus-bivittatus/",
+      "status": 404
+    },
+    {
+      "id": "plant-52",
+      "latin": "Episcia cupreata",
+      "url": "https://glassboxtropicals.com/episcia-cupreata/",
+      "status": 404
+    },
+    {
+      "id": "plant-53",
+      "latin": "Maranta leuconeura",
+      "url": "https://glassboxtropicals.com/maranta-leuconeura/",
+      "status": 404
+    },
+    {
+      "id": "plant-54",
+      "latin": "Goeppertia makoyana",
+      "url": "https://glassboxtropicals.com/goeppertia-makoyana/",
+      "status": 404
+    },
+    {
+      "id": "plant-55",
+      "latin": "Goeppertia insignis",
+      "url": "https://glassboxtropicals.com/goeppertia-insignis/",
+      "status": 404
+    },
+    {
+      "id": "plant-56",
+      "latin": "Soleirolia soleirolii",
+      "url": "https://glassboxtropicals.com/soleirolia-soleirolii/",
+      "status": 404
+    },
+    {
+      "id": "plant-57",
+      "latin": "Callisia repens",
+      "url": "https://glassboxtropicals.com/callisia-repens/",
+      "status": 404
+    },
+    {
+      "id": "plant-58",
+      "latin": "Pilea microphylla",
+      "url": "https://glassboxtropicals.com/pilea-microphylla/",
+      "status": 404
+    },
+    {
+      "id": "plant-59",
+      "latin": "Anubias barteri",
+      "url": "https://glassboxtropicals.com/anubias-barteri/",
+      "status": 200
+    },
+    {
+      "id": "plant-60",
+      "latin": "Cryptocoryne wendtii",
+      "url": "https://glassboxtropicals.com/cryptocoryne-wendtii/",
+      "status": 404
+    },
+    {
+      "id": "plant-61",
+      "latin": "Leptochilus pteropus",
+      "url": "https://glassboxtropicals.com/leptochilus-pteropus/",
+      "status": 404
+    },
+    {
+      "id": "plant-62",
+      "latin": "Hydrocotyle tripartita",
+      "url": "https://glassboxtropicals.com/hydrocotyle-tripartita/",
+      "status": 404
+    },
+    {
+      "id": "plant-63",
+      "latin": "Bolbitis heudelotii",
+      "url": "https://glassboxtropicals.com/bolbitis-heudelotii/",
+      "status": 404
+    },
+    {
+      "id": "plant-65",
+      "latin": "Ficus villosa",
+      "url": "https://glassboxtropicals.com/ficus-villosa/",
+      "status": 200
+    },
+    {
+      "id": "plant-66",
+      "latin": "Selaginella willdenowii",
+      "url": "https://glassboxtropicals.com/selaginella-willdenowii/",
+      "status": 404
+    },
+    {
+      "id": "plant-67",
+      "latin": "Begonia annulata",
+      "url": "https://glassboxtropicals.com/begonia-annulata/",
+      "status": 404
+    },
+    {
+      "id": "plant-68",
+      "latin": "Begonia echinosepala",
+      "url": "https://glassboxtropicals.com/begonia-echinosepala/",
+      "status": 404
+    },
+    {
+      "id": "plant-70",
+      "latin": "Begonia lichenora",
+      "url": "https://glassboxtropicals.com/begonia-lichenora/",
+      "status": 200
+    },
+    {
+      "id": "plant-69",
+      "latin": "Begonia glabra",
+      "url": "https://glassboxtropicals.com/begonia-glabra/",
+      "status": 200
+    },
+    {
+      "id": "plant-71",
+      "latin": "Begonia luzonensis",
+      "url": "https://glassboxtropicals.com/begonia-luzonensis/",
+      "status": 404
+    },
+    {
+      "id": "plant-72",
+      "latin": "Begonia masoniana",
+      "url": "https://glassboxtropicals.com/begonia-masoniana/",
+      "status": 404
+    },
+    {
+      "id": "plant-73",
+      "latin": "Begonia ningmingensis",
+      "url": "https://glassboxtropicals.com/begonia-ningmingensis/",
+      "status": 404
+    },
+    {
+      "id": "plant-75",
+      "latin": "Begonia prismatocarpa",
+      "url": "https://glassboxtropicals.com/begonia-prismatocarpa/",
+      "status": 200
+    },
+    {
+      "id": "plant-76",
+      "latin": "Begonia pteridiformis",
+      "url": "https://glassboxtropicals.com/begonia-pteridiformis/",
+      "status": 404
+    },
+    {
+      "id": "plant-74",
+      "latin": "Begonia perakensis",
+      "url": "https://glassboxtropicals.com/begonia-perakensis/",
+      "status": 404
+    },
+    {
+      "id": "plant-78",
+      "latin": "Begonia soli-mutata",
+      "url": "https://glassboxtropicals.com/begonia-soli-mutata/",
+      "status": 404
+    },
+    {
+      "id": "plant-77",
+      "latin": "Begonia rajah",
+      "url": "https://glassboxtropicals.com/begonia-rajah/",
+      "status": 200
+    },
+    {
+      "id": "plant-79",
+      "latin": "Begonia thelmae",
+      "url": "https://glassboxtropicals.com/begonia-thelmae/",
+      "status": 200
+    },
+    {
+      "id": "plant-80",
+      "latin": "Begonia turrialbae",
+      "url": "https://glassboxtropicals.com/begonia-turrialbae/",
+      "status": 404
+    },
+    {
+      "id": "plant-81",
+      "latin": "Begonia ulmifolia",
+      "url": "https://glassboxtropicals.com/begonia-ulmifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-82",
+      "latin": "Hemionitis arifolia",
+      "url": "https://glassboxtropicals.com/hemionitis-arifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-83",
+      "latin": "Nephrolepis cordifolia",
+      "url": "https://glassboxtropicals.com/nephrolepis-cordifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-84",
+      "latin": "Pteris cretica",
+      "url": "https://glassboxtropicals.com/pteris-cretica/",
+      "status": 404
+    },
+    {
+      "id": "plant-85",
+      "latin": "Ficus sagittata",
+      "url": "https://glassboxtropicals.com/ficus-sagittata/",
+      "status": 404
+    },
+    {
+      "id": "plant-86",
+      "latin": "Ficus vaccinioides",
+      "url": "https://glassboxtropicals.com/ficus-vaccinioides/",
+      "status": 404
+    },
+    {
+      "id": "plant-87",
+      "latin": "Peperomia emarginella",
+      "url": "https://glassboxtropicals.com/peperomia-emarginella/",
+      "status": 404
+    },
+    {
+      "id": "plant-88",
+      "latin": "Peperomia fagerlindii",
+      "url": "https://glassboxtropicals.com/peperomia-fagerlindii/",
+      "status": 404
+    },
+    {
+      "id": "plant-89",
+      "latin": "Peperomia glabella",
+      "url": "https://glassboxtropicals.com/peperomia-glabella/",
+      "status": 404
+    },
+    {
+      "id": "plant-90",
+      "latin": "Peperomia japonica",
+      "url": "https://glassboxtropicals.com/peperomia-japonica/",
+      "status": 404
+    },
+    {
+      "id": "plant-91",
+      "latin": "Peperomia perciliata",
+      "url": "https://glassboxtropicals.com/peperomia-perciliata/",
+      "status": 404
+    },
+    {
+      "id": "plant-93",
+      "latin": "Peperomia quadrangularis",
+      "url": "https://glassboxtropicals.com/peperomia-quadrangularis/",
+      "status": 404
+    },
+    {
+      "id": "plant-92",
+      "latin": "Peperomia puteolata",
+      "url": "https://glassboxtropicals.com/peperomia-puteolata/",
+      "status": 404
+    },
+    {
+      "id": "plant-94",
+      "latin": "Peperomia rubella",
+      "url": "https://glassboxtropicals.com/peperomia-rubella/",
+      "status": 404
+    },
+    {
+      "id": "plant-95",
+      "latin": "Peperomia serpens",
+      "url": "https://glassboxtropicals.com/peperomia-serpens/",
+      "status": 404
+    },
+    {
+      "id": "plant-97",
+      "latin": "Pilea nummulariifolia",
+      "url": "https://glassboxtropicals.com/pilea-nummulariifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-96",
+      "latin": "Pilea depressa",
+      "url": "https://glassboxtropicals.com/pilea-depressa/",
+      "status": 200
+    },
+    {
+      "id": "plant-138",
+      "latin": "Bertolonia marmorata",
+      "url": "https://glassboxtropicals.com/bertolonia-marmorata/",
+      "status": 404
+    },
+    {
+      "id": "plant-140",
+      "latin": "Argostemma hookeri",
+      "url": "https://glassboxtropicals.com/argostemma-hookeri/",
+      "status": 404
+    },
+    {
+      "id": "plant-139",
+      "latin": "Geogenanthus poeppigii",
+      "url": "https://glassboxtropicals.com/geogenanthus-poeppigii/",
+      "status": 200
+    },
+    {
+      "id": "plant-141",
+      "latin": "Mikania ternata",
+      "url": "https://glassboxtropicals.com/mikania-ternata/",
+      "status": 404
+    },
+    {
+      "id": "plant-142",
+      "latin": "Scindapsus pictus",
+      "url": "https://glassboxtropicals.com/scindapsus-pictus/",
+      "status": 404
+    },
+    {
+      "id": "plant-144",
+      "latin": "Ardisia japonica",
+      "url": "https://glassboxtropicals.com/ardisia-japonica/",
+      "status": 404
+    },
+    {
+      "id": "plant-145",
+      "latin": "Pyrrosia piloselloides",
+      "url": "https://glassboxtropicals.com/pyrrosia-piloselloides/",
+      "status": 200
+    },
+    {
+      "id": "plant-147",
+      "latin": "Microsorum musifolium",
+      "url": "https://glassboxtropicals.com/microsorum-musifolium/",
+      "status": 404
+    },
+    {
+      "id": "plant-146",
+      "latin": "Pellaea rotundifolia",
+      "url": "https://glassboxtropicals.com/pellaea-rotundifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-148",
+      "latin": "Davallia solida",
+      "url": "https://glassboxtropicals.com/davallia-solida/",
+      "status": 404
+    },
+    {
+      "id": "plant-150",
+      "latin": "Phalaenopsis parishii",
+      "url": "https://glassboxtropicals.com/phalaenopsis-parishii/",
+      "status": 404
+    },
+    {
+      "id": "plant-149",
+      "latin": "Bulbophyllum drymoglossum",
+      "url": "https://glassboxtropicals.com/bulbophyllum-drymoglossum/",
+      "status": 404
+    },
+    {
+      "id": "plant-151",
+      "latin": "Dendrobium moniliforme",
+      "url": "https://glassboxtropicals.com/dendrobium-moniliforme/",
+      "status": 404
+    },
+    {
+      "id": "plant-153",
+      "latin": "Anoectochilus albolineatus",
+      "url": "https://glassboxtropicals.com/anoectochilus-albolineatus/",
+      "status": 404
+    },
+    {
+      "id": "plant-152",
+      "latin": "Macodes sanderiana",
+      "url": "https://glassboxtropicals.com/macodes-sanderiana/",
+      "status": 200
+    },
+    {
+      "id": "plant-154",
+      "latin": "Drosera spatulata",
+      "url": "https://glassboxtropicals.com/drosera-spatulata/",
+      "status": 404
+    },
+    {
+      "id": "plant-155",
+      "latin": "Utricularia sandersonii",
+      "url": "https://glassboxtropicals.com/utricularia-sandersonii/",
+      "status": 404
+    },
+    {
+      "id": "plant-156",
+      "latin": "Strobilanthes reptans",
+      "url": "https://glassboxtropicals.com/strobilanthes-reptans/",
+      "status": 404
+    },
+    {
+      "id": "plant-158",
+      "latin": "Asplenium sarelii",
+      "url": "https://glassboxtropicals.com/asplenium-sarelii/",
+      "status": 404
+    },
+    {
+      "id": "plant-160",
+      "latin": "Marcgravia sintenisii",
+      "url": "https://glassboxtropicals.com/marcgravia-sintenisii/",
+      "status": 200
+    },
+    {
+      "id": "plant-165",
+      "latin": "Solanum uleanum",
+      "url": "https://glassboxtropicals.com/solanum-uleanum/",
+      "status": 200
+    },
+    {
+      "id": "plant-163",
+      "latin": "Selliguea rhynchophylla",
+      "url": "https://glassboxtropicals.com/selliguea-rhynchophylla/",
+      "status": 404
+    },
+    {
+      "id": "plant-161",
+      "latin": "Davallia angustata",
+      "url": "https://glassboxtropicals.com/davallia-angustata/",
+      "status": 404
+    },
+    {
+      "id": "plant-171",
+      "latin": "Crypsinus hastatus",
+      "url": "https://glassboxtropicals.com/crypsinus-hastatus/",
+      "status": 404
+    },
+    {
+      "id": "plant-166",
+      "latin": "Davallia parvula",
+      "url": "https://glassboxtropicals.com/davallia-parvula/",
+      "status": 200
+    },
+    {
+      "id": "plant-170",
+      "latin": "Teratophyllum rotundifoliatum",
+      "url": "https://glassboxtropicals.com/teratophyllum-rotundifoliatum/",
+      "status": 404
+    },
+    {
+      "id": "plant-173",
+      "latin": "Selaginella stauntoniana",
+      "url": "https://glassboxtropicals.com/selaginella-stauntoniana/",
+      "status": 404
+    },
+    {
+      "id": "plant-175",
+      "latin": "Loxogramme salicifolia",
+      "url": "https://glassboxtropicals.com/loxogramme-salicifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-174",
+      "latin": "Lepisorus onoei",
+      "url": "https://glassboxtropicals.com/lepisorus-onoei/",
+      "status": 404
+    },
+    {
+      "id": "plant-177",
+      "latin": "Crepidomanes minutum",
+      "url": "https://glassboxtropicals.com/crepidomanes-minutum/",
+      "status": 404
+    },
+    {
+      "id": "plant-179",
+      "latin": "Huperzia serrata",
+      "url": "https://glassboxtropicals.com/huperzia-serrata/",
+      "status": 404
+    },
+    {
+      "id": "plant-178",
+      "latin": "Hymenophyllum coreanum",
+      "url": "https://glassboxtropicals.com/hymenophyllum-coreanum/",
+      "status": 404
+    },
+    {
+      "id": "plant-180",
+      "latin": "Davallia mariesii",
+      "url": "https://glassboxtropicals.com/davallia-mariesii/",
+      "status": 404
+    },
+    {
+      "id": "plant-181",
+      "latin": "Deparia lancea",
+      "url": "https://glassboxtropicals.com/deparia-lancea/",
+      "status": 404
+    },
+    {
+      "id": "plant-182",
+      "latin": "Asplenium ruprechtii",
+      "url": "https://glassboxtropicals.com/asplenium-ruprechtii/",
+      "status": 404
+    },
+    {
+      "id": "plant-183",
+      "latin": "Crepidomanes latealatum",
+      "url": "https://glassboxtropicals.com/crepidomanes-latealatum/",
+      "status": 404
+    },
+    {
+      "id": "plant-184",
+      "latin": "Gastrochilus japonicus",
+      "url": "https://glassboxtropicals.com/gastrochilus-japonicus/",
+      "status": 404
+    },
+    {
+      "id": "plant-185",
+      "latin": "Oberonia japonica",
+      "url": "https://glassboxtropicals.com/oberonia-japonica/",
+      "status": 404
+    },
+    {
+      "id": "plant-188",
+      "latin": "Codonanthe gracilis",
+      "url": "https://glassboxtropicals.com/codonanthe-gracilis/",
+      "status": 404
+    },
+    {
+      "id": "plant-189",
+      "latin": "Utricularia graminifolia",
+      "url": "https://glassboxtropicals.com/utricularia-graminifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-193",
+      "latin": "Hydrocotyle sibthorpioides",
+      "url": "https://glassboxtropicals.com/hydrocotyle-sibthorpioides/",
+      "status": 404
+    },
+    {
+      "id": "plant-194",
+      "latin": "Mitchella undulata",
+      "url": "https://glassboxtropicals.com/mitchella-undulata/",
+      "status": 404
+    },
+    {
+      "id": "plant-197",
+      "latin": "Peperomia metallica",
+      "url": "https://glassboxtropicals.com/peperomia-metallica/",
+      "status": 404
+    },
+    {
+      "id": "plant-196",
+      "latin": "Dischidia ovata",
+      "url": "https://glassboxtropicals.com/dischidia-ovata/",
+      "status": 200
+    },
+    {
+      "id": "plant-198",
+      "latin": "Dischidia nummularia",
+      "url": "https://glassboxtropicals.com/dischidia-nummularia/",
+      "status": 404
+    },
+    {
+      "id": "plant-199",
+      "latin": "Scindapsus treubii",
+      "url": "https://glassboxtropicals.com/scindapsus-treubii/",
+      "status": 404
+    },
+    {
+      "id": "plant-200",
+      "latin": "Philodendron brandtianum",
+      "url": "https://glassboxtropicals.com/philodendron-brandtianum/",
+      "status": 200
+    },
+    {
+      "id": "plant-201",
+      "latin": "Anthurium gracile",
+      "url": "https://glassboxtropicals.com/anthurium-gracile/",
+      "status": 404
+    },
+    {
+      "id": "plant-203",
+      "latin": "Begonia leprosa",
+      "url": "https://glassboxtropicals.com/begonia-leprosa/",
+      "status": 404
+    },
+    {
+      "id": "plant-204",
+      "latin": "Selaginella picta",
+      "url": "https://glassboxtropicals.com/selaginella-picta/",
+      "status": 404
+    },
+    {
+      "id": "plant-206",
+      "latin": "Cryptanthus zonatus",
+      "url": "https://glassboxtropicals.com/cryptanthus-zonatus/",
+      "status": 404
+    },
+    {
+      "id": "plant-205",
+      "latin": "Neoregelia pauciflora",
+      "url": "https://glassboxtropicals.com/neoregelia-pauciflora/",
+      "status": 200
+    },
+    {
+      "id": "plant-211",
+      "latin": "Microgramma reptans",
+      "url": "https://glassboxtropicals.com/microgramma-reptans/",
+      "status": 200
+    },
+    {
+      "id": "plant-213",
+      "latin": "Vanda falcata",
+      "url": "https://glassboxtropicals.com/vanda-falcata/",
+      "status": 404
+    },
+    {
+      "id": "plant-212",
+      "latin": "Microgramma heterophylla",
+      "url": "https://glassboxtropicals.com/microgramma-heterophylla/",
+      "status": 200
+    },
+    {
+      "id": "plant-214",
+      "latin": "Phalaenopsis japonica",
+      "url": "https://glassboxtropicals.com/phalaenopsis-japonica/",
+      "status": 404
+    },
+    {
+      "id": "plant-215",
+      "latin": "Bulbophyllum inconspicuum",
+      "url": "https://glassboxtropicals.com/bulbophyllum-inconspicuum/",
+      "status": 404
+    },
+    {
+      "id": "plant-216",
+      "latin": "Goodyera schlechtendaliana",
+      "url": "https://glassboxtropicals.com/goodyera-schlechtendaliana/",
+      "status": 404
+    },
+    {
+      "id": "plant-217",
+      "latin": "Goodyera biflora",
+      "url": "https://glassboxtropicals.com/goodyera-biflora/",
+      "status": 404
+    },
+    {
+      "id": "plant-218",
+      "latin": "Tectaria hilocarpa",
+      "url": "https://glassboxtropicals.com/tectaria-hilocarpa/",
+      "status": 404
+    },
+    {
+      "id": "plant-219",
+      "latin": "Sonerila cantonensis",
+      "url": "https://glassboxtropicals.com/sonerila-cantonensis/",
+      "status": 404
+    },
+    {
+      "id": "plant-221",
+      "latin": "Microgramma nitida",
+      "url": "https://glassboxtropicals.com/microgramma-nitida/",
+      "status": 200
+    },
+    {
+      "id": "plant-220",
+      "latin": "Microgramma tecta",
+      "url": "https://glassboxtropicals.com/microgramma-tecta/",
+      "status": 200
+    },
+    {
+      "id": "plant-222",
+      "latin": "Microgramma vacciniifolia",
+      "url": "https://glassboxtropicals.com/microgramma-vacciniifolia/",
+      "status": 200
+    },
+    {
+      "id": "plant-224",
+      "latin": "Monolena primuliflora",
+      "url": "https://glassboxtropicals.com/monolena-primuliflora/",
+      "status": 200
+    },
+    {
+      "id": "plant-225",
+      "latin": "Gloxinella lindeniana",
+      "url": "https://glassboxtropicals.com/gloxinella-lindeniana/",
+      "status": 200
+    },
+    {
+      "id": "plant-226",
+      "latin": "Schismatoglottis pusilla",
+      "url": "https://glassboxtropicals.com/schismatoglottis-pusilla/",
+      "status": 404
+    },
+    {
+      "id": "plant-230",
+      "latin": "Pothos scandens",
+      "url": "https://glassboxtropicals.com/pothos-scandens/",
+      "status": 404
+    },
+    {
+      "id": "plant-231",
+      "latin": "Selaginella siamensis",
+      "url": "https://glassboxtropicals.com/selaginella-siamensis/",
+      "status": 200
+    },
+    {
+      "id": "plant-235",
+      "latin": "Blechnum obtusatum",
+      "url": "https://glassboxtropicals.com/blechnum-obtusatum/",
+      "status": 404
+    },
+    {
+      "id": "plant-236",
+      "latin": "Hymenophyllum cruentum",
+      "url": "https://glassboxtropicals.com/hymenophyllum-cruentum/",
+      "status": 404
+    },
+    {
+      "id": "plant-237",
+      "latin": "Vriesea racinae",
+      "url": "https://glassboxtropicals.com/vriesea-racinae/",
+      "status": 404
+    },
+    {
+      "id": "plant-238",
+      "latin": "Trichosanthes wawrae",
+      "url": "https://glassboxtropicals.com/trichosanthes-wawrae/",
+      "status": 404
+    },
+    {
+      "id": "plant-239",
+      "latin": "Rhaphidophora cryptantha",
+      "url": "https://glassboxtropicals.com/rhaphidophora-cryptantha/",
+      "status": 200
+    },
+    {
+      "id": "plant-241",
+      "latin": "Alsobia dianthiflora",
+      "url": "https://glassboxtropicals.com/alsobia-dianthiflora/",
+      "status": 404
+    },
+    {
+      "id": "plant-242",
+      "latin": "Goodyera hispida",
+      "url": "https://glassboxtropicals.com/goodyera-hispida/",
+      "status": 200
+    },
+    {
+      "id": "plant-243",
+      "latin": "Aerangis punctata",
+      "url": "https://glassboxtropicals.com/aerangis-punctata/",
+      "status": 404
+    },
+    {
+      "id": "plant-244",
+      "latin": "Lepanthes calodictyon",
+      "url": "https://glassboxtropicals.com/lepanthes-calodictyon/",
+      "status": 200
+    },
+    {
+      "id": "plant-245",
+      "latin": "Phalaenopsis schilleriana",
+      "url": "https://glassboxtropicals.com/phalaenopsis-schilleriana/",
+      "status": 404
+    },
+    {
+      "id": "plant-246",
+      "latin": "Lepisorus microphyllus",
+      "url": "https://glassboxtropicals.com/lepisorus-microphyllus/",
+      "status": 404
+    }
+  ],
+  "plantInstitution": [
+    {
+      "id": "plant-5",
+      "latin": "Neoregelia ampullacea",
+      "url": "https://plants.ces.ncsu.edu/plants/neoregelia-ampullacea/",
+      "status": 404
+    },
+    {
+      "id": "plant-9",
+      "latin": "Adiantum raddianum",
+      "url": "https://plants.ces.ncsu.edu/plants/adiantum-raddianum/",
+      "status": 200
+    },
+    {
+      "id": "plant-4",
+      "latin": "Pilea involucrata",
+      "url": "https://plants.ces.ncsu.edu/plants/pilea-involucrata/",
+      "status": 200
+    },
+    {
+      "id": "plant-19",
+      "latin": "Nephrolepis exaltata",
+      "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+      "status": 200
+    },
+    {
+      "id": "plant-20",
+      "latin": "Asplenium nidus",
+      "url": "https://plants.ces.ncsu.edu/plants/asplenium-nidus/",
+      "status": 200
+    },
+    {
+      "id": "plant-21",
+      "latin": "Asplenium antiquum",
+      "url": "https://plants.ces.ncsu.edu/plants/asplenium-antiquum/",
+      "status": 404
+    },
+    {
+      "id": "plant-18",
+      "latin": "Selaginella martensii",
+      "url": "https://plants.ces.ncsu.edu/plants/selaginella-martensii/",
+      "status": 404
+    },
+    {
+      "id": "plant-23",
+      "latin": "Pyrrosia nummulariifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/pyrrosia-nummulariifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-24",
+      "latin": "Neoregelia lilliputiana",
+      "url": "https://plants.ces.ncsu.edu/plants/neoregelia-lilliputiana/",
+      "status": 404
+    },
+    {
+      "id": "plant-25",
+      "latin": "Neoregelia punctatissima",
+      "url": "https://plants.ces.ncsu.edu/plants/neoregelia-punctatissima/",
+      "status": 404
+    },
+    {
+      "id": "plant-26",
+      "latin": "Neoregelia tigrina",
+      "url": "https://plants.ces.ncsu.edu/plants/neoregelia-tigrina/",
+      "status": 404
+    },
+    {
+      "id": "plant-31",
+      "latin": "Anoectochilus roxburghii",
+      "url": "https://plants.ces.ncsu.edu/plants/anoectochilus-roxburghii/",
+      "status": 404
+    },
+    {
+      "id": "plant-32",
+      "latin": "Dossinia marmorata",
+      "url": "https://plants.ces.ncsu.edu/plants/dossinia-marmorata/",
+      "status": 404
+    },
+    {
+      "id": "plant-30",
+      "latin": "Guzmania lingulata",
+      "url": "https://plants.ces.ncsu.edu/plants/guzmania-lingulata/",
+      "status": 200
+    },
+    {
+      "id": "plant-37",
+      "latin": "Hoya serpens",
+      "url": "https://plants.ces.ncsu.edu/plants/hoya-serpens/",
+      "status": 404
+    },
+    {
+      "id": "plant-35",
+      "latin": "Dischidia ruscifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/dischidia-ruscifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-36",
+      "latin": "Hoya curtisii",
+      "url": "https://plants.ces.ncsu.edu/plants/hoya-curtisii/",
+      "status": 200
+    },
+    {
+      "id": "plant-40",
+      "latin": "Peperomia rotundifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-rotundifolia/",
+      "status": 200
+    },
+    {
+      "id": "plant-38",
+      "latin": "Cissus discolor",
+      "url": "https://plants.ces.ncsu.edu/plants/cissus-discolor/",
+      "status": 404
+    },
+    {
+      "id": "plant-41",
+      "latin": "Philodendron hederaceum",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+      "status": 200
+    },
+    {
+      "id": "plant-39",
+      "latin": "Procris repens",
+      "url": "https://plants.ces.ncsu.edu/plants/procris-repens/",
+      "status": 200
+    },
+    {
+      "id": "plant-43",
+      "latin": "Monstera dubia",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-dubia/",
+      "status": 404
+    },
+    {
+      "id": "plant-44",
+      "latin": "Pilea cadierei",
+      "url": "https://plants.ces.ncsu.edu/plants/pilea-cadierei/",
+      "status": 200
+    },
+    {
+      "id": "plant-42",
+      "latin": "Epipremnum aureum",
+      "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+      "status": 200
+    },
+    {
+      "id": "plant-45",
+      "latin": "Peperomia caperata",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-caperata/",
+      "status": 200
+    },
+    {
+      "id": "plant-47",
+      "latin": "Begonia bowerae",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-bowerae/",
+      "status": 404
+    },
+    {
+      "id": "plant-49",
+      "latin": "Begonia listada",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-listada/",
+      "status": 404
+    },
+    {
+      "id": "plant-51",
+      "latin": "Cryptanthus bivittatus",
+      "url": "https://plants.ces.ncsu.edu/plants/cryptanthus-bivittatus/",
+      "status": 200
+    },
+    {
+      "id": "plant-46",
+      "latin": "Peperomia argyreia",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-argyraea/",
+      "status": 200
+    },
+    {
+      "id": "plant-53",
+      "latin": "Maranta leuconeura",
+      "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+      "status": 200
+    },
+    {
+      "id": "plant-54",
+      "latin": "Goeppertia makoyana",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-makoyana/",
+      "status": 200
+    },
+    {
+      "id": "plant-55",
+      "latin": "Goeppertia insignis",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-insignis/",
+      "status": 200
+    },
+    {
+      "id": "plant-56",
+      "latin": "Soleirolia soleirolii",
+      "url": "https://plants.ces.ncsu.edu/plants/soleirolia-soleirolii/",
+      "status": 200
+    },
+    {
+      "id": "plant-52",
+      "latin": "Episcia cupreata",
+      "url": "https://plants.ces.ncsu.edu/plants/episcia-cupreata/",
+      "status": 200
+    },
+    {
+      "id": "plant-57",
+      "latin": "Callisia repens",
+      "url": "https://plants.ces.ncsu.edu/plants/callisia-repens/",
+      "status": 200
+    },
+    {
+      "id": "plant-58",
+      "latin": "Pilea microphylla",
+      "url": "https://plants.ces.ncsu.edu/plants/pilea-microphylla/",
+      "status": 200
+    },
+    {
+      "id": "plant-66",
+      "latin": "Selaginella willdenowii",
+      "url": "https://plants.ces.ncsu.edu/plants/selaginella-willdenowii/",
+      "status": 404
+    },
+    {
+      "id": "plant-67",
+      "latin": "Begonia annulata",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-annulata/",
+      "status": 404
+    },
+    {
+      "id": "plant-68",
+      "latin": "Begonia echinosepala",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-echinosepala/",
+      "status": 404
+    },
+    {
+      "id": "plant-71",
+      "latin": "Begonia luzonensis",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-luzonensis/",
+      "status": 404
+    },
+    {
+      "id": "plant-72",
+      "latin": "Begonia masoniana",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-masoniana/",
+      "status": 200
+    },
+    {
+      "id": "plant-73",
+      "latin": "Begonia ningmingensis",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-ningmingensis/",
+      "status": 404
+    },
+    {
+      "id": "plant-74",
+      "latin": "Begonia perakensis",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-perakensis/",
+      "status": 404
+    },
+    {
+      "id": "plant-76",
+      "latin": "Begonia pteridiformis",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-pteridiformis/",
+      "status": 404
+    },
+    {
+      "id": "plant-78",
+      "latin": "Begonia soli-mutata",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-soli-mutata/",
+      "status": 404
+    },
+    {
+      "id": "plant-80",
+      "latin": "Begonia turrialbae",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-turrialbae/",
+      "status": 404
+    },
+    {
+      "id": "plant-81",
+      "latin": "Begonia ulmifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-ulmifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-82",
+      "latin": "Hemionitis arifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/hemionitis-arifolia/",
+      "status": 200
+    },
+    {
+      "id": "plant-85",
+      "latin": "Ficus sagittata",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-sagittata/",
+      "status": 404
+    },
+    {
+      "id": "plant-84",
+      "latin": "Pteris cretica",
+      "url": "https://plants.ces.ncsu.edu/plants/pteris-cretica/",
+      "status": 404
+    },
+    {
+      "id": "plant-86",
+      "latin": "Ficus vaccinioides",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-vaccinioides/",
+      "status": 404
+    },
+    {
+      "id": "plant-83",
+      "latin": "Nephrolepis cordifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-cordifolia/",
+      "status": 200
+    },
+    {
+      "id": "plant-88",
+      "latin": "Peperomia fagerlindii",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-fagerlindii/",
+      "status": 404
+    },
+    {
+      "id": "plant-89",
+      "latin": "Peperomia glabella",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-glabella/",
+      "status": 404
+    },
+    {
+      "id": "plant-90",
+      "latin": "Peperomia japonica",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-japonica/",
+      "status": 404
+    },
+    {
+      "id": "plant-91",
+      "latin": "Peperomia perciliata",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-perciliata/",
+      "status": 404
+    },
+    {
+      "id": "plant-92",
+      "latin": "Peperomia puteolata",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-puteolata/",
+      "status": 404
+    },
+    {
+      "id": "plant-93",
+      "latin": "Peperomia quadrangularis",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-quadrangularis/",
+      "status": 404
+    },
+    {
+      "id": "plant-94",
+      "latin": "Peperomia rubella",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-rubella/",
+      "status": 404
+    },
+    {
+      "id": "plant-95",
+      "latin": "Peperomia serpens",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-serpens/",
+      "status": 200
+    },
+    {
+      "id": "plant-138",
+      "latin": "Bertolonia marmorata",
+      "url": "https://plants.ces.ncsu.edu/plants/bertolonia-marmorata/",
+      "status": 404
+    },
+    {
+      "id": "plant-97",
+      "latin": "Pilea nummulariifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/pilea-nummulariifolia/",
+      "status": 200
+    },
+    {
+      "id": "plant-140",
+      "latin": "Argostemma hookeri",
+      "url": "https://plants.ces.ncsu.edu/plants/argostemma-hookeri/",
+      "status": 404
+    },
+    {
+      "id": "plant-141",
+      "latin": "Mikania ternata",
+      "url": "https://plants.ces.ncsu.edu/plants/mikania-ternata/",
+      "status": 404
+    },
+    {
+      "id": "plant-142",
+      "latin": "Scindapsus pictus",
+      "url": "https://plants.ces.ncsu.edu/plants/scindapsus-pictus/",
+      "status": 200
+    },
+    {
+      "id": "plant-144",
+      "latin": "Ardisia japonica",
+      "url": "https://plants.ces.ncsu.edu/plants/ardisia-japonica/",
+      "status": 200
+    },
+    {
+      "id": "plant-147",
+      "latin": "Microsorum musifolium",
+      "url": "https://plants.ces.ncsu.edu/plants/microsorum-musifolium/",
+      "status": 200
+    },
+    {
+      "id": "plant-148",
+      "latin": "Davallia solida",
+      "url": "https://plants.ces.ncsu.edu/plants/davallia-solida/",
+      "status": 404
+    },
+    {
+      "id": "plant-146",
+      "latin": "Pellaea rotundifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/hemionitis-rotundifolia/",
+      "status": 200
+    },
+    {
+      "id": "plant-149",
+      "latin": "Bulbophyllum drymoglossum",
+      "url": "https://plants.ces.ncsu.edu/plants/bulbophyllum-drymoglossum/",
+      "status": 404
+    },
+    {
+      "id": "plant-150",
+      "latin": "Phalaenopsis parishii",
+      "url": "https://plants.ces.ncsu.edu/plants/phalaenopsis-parishii/",
+      "status": 404
+    },
+    {
+      "id": "plant-151",
+      "latin": "Dendrobium moniliforme",
+      "url": "https://plants.ces.ncsu.edu/plants/dendrobium-moniliforme/",
+      "status": 404
+    },
+    {
+      "id": "plant-152",
+      "latin": "Macodes sanderiana",
+      "url": "https://plants.ces.ncsu.edu/plants/macodes-sanderiana/",
+      "status": 404
+    },
+    {
+      "id": "plant-153",
+      "latin": "Anoectochilus albolineatus",
+      "url": "https://plants.ces.ncsu.edu/plants/anoectochilus-albolineatus/",
+      "status": 404
+    },
+    {
+      "id": "plant-154",
+      "latin": "Drosera spatulata",
+      "url": "https://plants.ces.ncsu.edu/plants/drosera-spatulata/",
+      "status": 404
+    },
+    {
+      "id": "plant-155",
+      "latin": "Utricularia sandersonii",
+      "url": "https://plants.ces.ncsu.edu/plants/utricularia-sandersonii/",
+      "status": 404
+    },
+    {
+      "id": "plant-156",
+      "latin": "Strobilanthes reptans",
+      "url": "https://plants.ces.ncsu.edu/plants/strobilanthes-reptans/",
+      "status": 404
+    },
+    {
+      "id": "plant-158",
+      "latin": "Asplenium sarelii",
+      "url": "https://plants.ces.ncsu.edu/plants/asplenium-sarelii/",
+      "status": 404
+    },
+    {
+      "id": "plant-161",
+      "latin": "Davallia angustata",
+      "url": "https://plants.ces.ncsu.edu/plants/davallia-angustata/",
+      "status": 404
+    },
+    {
+      "id": "plant-163",
+      "latin": "Selliguea rhynchophylla",
+      "url": "https://plants.ces.ncsu.edu/plants/selliguea-rhynchophylla/",
+      "status": 404
+    },
+    {
+      "id": "plant-170",
+      "latin": "Teratophyllum rotundifoliatum",
+      "url": "https://plants.ces.ncsu.edu/plants/teratophyllum-rotundifoliatum/",
+      "status": 404
+    },
+    {
+      "id": "plant-171",
+      "latin": "Crypsinus hastatus",
+      "url": "https://plants.ces.ncsu.edu/plants/crypsinus-hastatus/",
+      "status": 404
+    },
+    {
+      "id": "plant-173",
+      "latin": "Selaginella stauntoniana",
+      "url": "https://plants.ces.ncsu.edu/plants/selaginella-stauntoniana/",
+      "status": 404
+    },
+    {
+      "id": "plant-174",
+      "latin": "Lepisorus onoei",
+      "url": "https://plants.ces.ncsu.edu/plants/lepisorus-onoei/",
+      "status": 404
+    },
+    {
+      "id": "plant-175",
+      "latin": "Loxogramme salicifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/loxogramme-salicifolia/",
+      "status": 404
+    },
+    {
+      "id": "plant-177",
+      "latin": "Crepidomanes minutum",
+      "url": "https://plants.ces.ncsu.edu/plants/crepidomanes-minutum/",
+      "status": 404
+    },
+    {
+      "id": "plant-179",
+      "latin": "Huperzia serrata",
+      "url": "https://plants.ces.ncsu.edu/plants/huperzia-serrata/",
+      "status": 404
+    },
+    {
+      "id": "plant-178",
+      "latin": "Hymenophyllum coreanum",
+      "url": "https://plants.ces.ncsu.edu/plants/hymenophyllum-coreanum/",
+      "status": 404
+    },
+    {
+      "id": "plant-180",
+      "latin": "Davallia mariesii",
+      "url": "https://plants.ces.ncsu.edu/plants/davallia-mariesii/",
+      "status": 404
+    },
+    {
+      "id": "plant-182",
+      "latin": "Asplenium ruprechtii",
+      "url": "https://plants.ces.ncsu.edu/plants/asplenium-ruprechtii/",
+      "status": 404
+    },
+    {
+      "id": "plant-181",
+      "latin": "Deparia lancea",
+      "url": "https://plants.ces.ncsu.edu/plants/deparia-lancea/",
+      "status": 404
+    },
+    {
+      "id": "plant-183",
+      "latin": "Crepidomanes latealatum",
+      "url": "https://plants.ces.ncsu.edu/plants/crepidomanes-latealatum/",
+      "status": 404
+    },
+    {
+      "id": "plant-184",
+      "latin": "Gastrochilus japonicus",
+      "url": "https://plants.ces.ncsu.edu/plants/gastrochilus-japonicus/",
+      "status": 404
+    },
+    {
+      "id": "plant-185",
+      "latin": "Oberonia japonica",
+      "url": "https://plants.ces.ncsu.edu/plants/oberonia-japonica/",
+      "status": 404
+    },
+    {
+      "id": "plant-188",
+      "latin": "Codonanthe gracilis",
+      "url": "https://plants.ces.ncsu.edu/plants/codonanthe-gracilis/",
+      "status": 404
+    },
+    {
+      "id": "plant-193",
+      "latin": "Hydrocotyle sibthorpioides",
+      "url": "https://plants.ces.ncsu.edu/plants/hydrocotyle-sibthorpioides/",
+      "status": 404
+    },
+    {
+      "id": "plant-194",
+      "latin": "Mitchella undulata",
+      "url": "https://plants.ces.ncsu.edu/plants/mitchella-undulata/",
+      "status": 404
+    },
+    {
+      "id": "plant-197",
+      "latin": "Peperomia metallica",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-metallica/",
+      "status": 404
+    },
+    {
+      "id": "plant-198",
+      "latin": "Dischidia nummularia",
+      "url": "https://plants.ces.ncsu.edu/plants/dischidia-nummularia/",
+      "status": 404
+    },
+    {
+      "id": "plant-199",
+      "latin": "Scindapsus treubii",
+      "url": "https://plants.ces.ncsu.edu/plants/scindapsus-treubii/",
+      "status": 200
+    },
+    {
+      "id": "plant-204",
+      "latin": "Selaginella picta",
+      "url": "https://plants.ces.ncsu.edu/plants/selaginella-picta/",
+      "status": 404
+    },
+    {
+      "id": "plant-201",
+      "latin": "Anthurium gracile",
+      "url": "https://plants.ces.ncsu.edu/plants/anthurium-gracile/",
+      "status": 404
+    },
+    {
+      "id": "plant-203",
+      "latin": "Begonia leprosa",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia-leprosa/",
+      "status": 404
+    },
+    {
+      "id": "plant-206",
+      "latin": "Cryptanthus zonatus",
+      "url": "https://plants.ces.ncsu.edu/plants/cryptanthus-zonatus/",
+      "status": 200
+    },
+    {
+      "id": "plant-213",
+      "latin": "Vanda falcata",
+      "url": "https://plants.ces.ncsu.edu/plants/vanda-falcata/",
+      "status": 404
+    },
+    {
+      "id": "plant-215",
+      "latin": "Bulbophyllum inconspicuum",
+      "url": "https://plants.ces.ncsu.edu/plants/bulbophyllum-inconspicuum/",
+      "status": 404
+    },
+    {
+      "id": "plant-214",
+      "latin": "Phalaenopsis japonica",
+      "url": "https://plants.ces.ncsu.edu/plants/phalaenopsis-japonica/",
+      "status": 404
+    },
+    {
+      "id": "plant-217",
+      "latin": "Goodyera biflora",
+      "url": "https://plants.ces.ncsu.edu/plants/goodyera-biflora/",
+      "status": 404
+    },
+    {
+      "id": "plant-216",
+      "latin": "Goodyera schlechtendaliana",
+      "url": "https://plants.ces.ncsu.edu/plants/goodyera-schlechtendaliana/",
+      "status": 404
+    },
+    {
+      "id": "plant-218",
+      "latin": "Tectaria hilocarpa",
+      "url": "https://plants.ces.ncsu.edu/plants/tectaria-hilocarpa/",
+      "status": 404
+    },
+    {
+      "id": "plant-226",
+      "latin": "Schismatoglottis pusilla",
+      "url": "https://plants.ces.ncsu.edu/plants/schismatoglottis-pusilla/",
+      "status": 404
+    },
+    {
+      "id": "plant-219",
+      "latin": "Sonerila cantonensis",
+      "url": "https://plants.ces.ncsu.edu/plants/sonerila-cantonensis/",
+      "status": 404
+    },
+    {
+      "id": "plant-230",
+      "latin": "Pothos scandens",
+      "url": "https://plants.ces.ncsu.edu/plants/pothos-scandens/",
+      "status": 404
+    },
+    {
+      "id": "plant-235",
+      "latin": "Blechnum obtusatum",
+      "url": "https://plants.ces.ncsu.edu/plants/blechnum-obtusatum/",
+      "status": 404
+    },
+    {
+      "id": "plant-231",
+      "latin": "Selaginella siamensis",
+      "url": "https://plants.ces.ncsu.edu/plants/selaginella-siamensis/",
+      "status": 404
+    },
+    {
+      "id": "plant-236",
+      "latin": "Hymenophyllum cruentum",
+      "url": "https://plants.ces.ncsu.edu/plants/hymenophyllum-cruentum/",
+      "status": 404
+    },
+    {
+      "id": "plant-238",
+      "latin": "Trichosanthes wawrae",
+      "url": "https://plants.ces.ncsu.edu/plants/trichosanthes-wawrae/",
+      "status": 404
+    },
+    {
+      "id": "plant-237",
+      "latin": "Vriesea racinae",
+      "url": "https://plants.ces.ncsu.edu/plants/vriesea-racinae/",
+      "status": 404
+    },
+    {
+      "id": "plant-241",
+      "latin": "Alsobia dianthiflora",
+      "url": "https://plants.ces.ncsu.edu/plants/alsobia-dianthiflora/",
+      "status": 200
+    },
+    {
+      "id": "plant-246",
+      "latin": "Lepisorus microphyllus",
+      "url": "https://plants.ces.ncsu.edu/plants/lepisorus-microphyllus/",
+      "status": 404
+    },
+    {
+      "id": "plant-243",
+      "latin": "Aerangis punctata",
+      "url": "https://plants.ces.ncsu.edu/plants/aerangis-punctata/",
+      "status": 404
+    },
+    {
+      "id": "plant-245",
+      "latin": "Phalaenopsis schilleriana",
+      "url": "https://plants.ces.ncsu.edu/plants/phalaenopsis-schilleriana/",
+      "status": 200
+    }
+  ],
+  "orchidGrower": [
+    {
+      "id": "plant-31",
+      "latin": "Anoectochilus roxburghii",
+      "url": "https://jlorchids.com/anoectochilus-roxburghii/",
+      "status": 404
+    },
+    {
+      "id": "plant-149",
+      "latin": "Bulbophyllum drymoglossum",
+      "url": "https://jlorchids.com/bulbophyllum-drymoglossum/",
+      "status": 404
+    },
+    {
+      "id": "plant-32",
+      "latin": "Dossinia marmorata",
+      "url": "https://jlorchids.com/dossinia-marmorata/",
+      "status": 404
+    },
+    {
+      "id": "plant-150",
+      "latin": "Phalaenopsis parishii",
+      "url": "https://jlorchids.com/phalaenopsis-parishii/",
+      "status": 200
+    },
+    {
+      "id": "plant-151",
+      "latin": "Dendrobium moniliforme",
+      "url": "https://jlorchids.com/dendrobium-moniliforme/",
+      "status": 200
+    },
+    {
+      "id": "plant-152",
+      "latin": "Macodes sanderiana",
+      "url": "https://jlorchids.com/macodes-sanderiana/",
+      "status": 404
+    },
+    {
+      "id": "plant-184",
+      "latin": "Gastrochilus japonicus",
+      "url": "https://jlorchids.com/gastrochilus-japonicus/",
+      "status": 200
+    },
+    {
+      "id": "plant-153",
+      "latin": "Anoectochilus albolineatus",
+      "url": "https://jlorchids.com/anoectochilus-albolineatus/",
+      "status": 404
+    },
+    {
+      "id": "plant-185",
+      "latin": "Oberonia japonica",
+      "url": "https://jlorchids.com/oberonia-japonica/",
+      "status": 404
+    },
+    {
+      "id": "plant-213",
+      "latin": "Vanda falcata",
+      "url": "https://jlorchids.com/vanda-falcata/",
+      "status": 404
+    },
+    {
+      "id": "plant-214",
+      "latin": "Phalaenopsis japonica",
+      "url": "https://jlorchids.com/phalaenopsis-japonica/",
+      "status": 404
+    },
+    {
+      "id": "plant-215",
+      "latin": "Bulbophyllum inconspicuum",
+      "url": "https://jlorchids.com/bulbophyllum-inconspicuum/",
+      "status": 404
+    },
+    {
+      "id": "plant-216",
+      "latin": "Goodyera schlechtendaliana",
+      "url": "https://jlorchids.com/goodyera-schlechtendaliana/",
+      "status": 404
+    },
+    {
+      "id": "plant-217",
+      "latin": "Goodyera biflora",
+      "url": "https://jlorchids.com/goodyera-biflora/",
+      "status": 404
+    },
+    {
+      "id": "plant-243",
+      "latin": "Aerangis punctata",
+      "url": "https://jlorchids.com/aerangis-punctata/",
+      "status": 200
+    },
+    {
+      "id": "plant-243",
+      "latin": "Aerangis punctata",
+      "url": "https://andysorchids.com/aoitmdetl.aspx?picid=1861",
+      "status": 200
+    }
+  ],
+  "articleCandidates": [
+    {
+      "postId": 124255,
+      "title": "Keeping and Breeding the Malaysian Cat Gecko",
+      "url": "https://reptilesmagazine.com/keeping-and-breeding-the-malaysian-cat-gecko/",
+      "candidateEntryIds": [
+        "species-11"
+      ],
+      "targetNameMatches": [
+        "species-11"
+      ]
+    },
+    {
+      "postId": 118746,
+      "title": "African Fat-Tailed Gecko Care And Natural History",
+      "url": "https://reptilesmagazine.com/african-fat-tailed-gecko-care-and-natural-history/",
+      "candidateEntryIds": [
+        "species-11"
+      ],
+      "targetNameMatches": []
+    },
+    {
+      "postId": 946,
+      "title": "Gray-Banded Kingsnake Care Sheet",
+      "url": "https://reptilesmagazine.com/gray-banded-kingsnake-care-sheet/",
+      "candidateEntryIds": [
+        "species-119"
+      ],
+      "targetNameMatches": [
+        "species-119"
+      ]
+    },
+    {
+      "postId": 6106,
+      "title": "Captive Breeding Of Gray-Banded Kingsnakes",
+      "url": "https://reptilesmagazine.com/captive-breeding-of-gray-banded-kingsnakes/",
+      "candidateEntryIds": [
+        "species-119"
+      ],
+      "targetNameMatches": [
+        "species-119"
+      ]
+    },
+    {
+      "postId": 125593,
+      "title": "Trans-Pecos Rat Snake Natural History and Captive Care",
+      "url": "https://reptilesmagazine.com/trans-pecos-rat-snake-natural-history-and-captive-care/",
+      "candidateEntryIds": [
+        "species-119",
+        "species-136"
+      ],
+      "targetNameMatches": [
+        "species-136"
+      ]
+    },
+    {
+      "postId": 925,
+      "title": "California Kingsnake Care Sheet",
+      "url": "https://reptilesmagazine.com/california-kingsnake-care-sheet/",
+      "candidateEntryIds": [
+        "species-120",
+        "species-121"
+      ],
+      "targetNameMatches": [
+        "species-121"
+      ]
+    },
+    {
+      "postId": 115557,
+      "title": "California Kingsnake Care Tips",
+      "url": "https://reptilesmagazine.com/california-kingsnake-care-tips/",
+      "candidateEntryIds": [
+        "species-120",
+        "species-121",
+        "species-123",
+        "species-236"
+      ],
+      "targetNameMatches": [
+        "species-121",
+        "species-123"
+      ]
+    },
+    {
+      "postId": 8581,
+      "title": "Rough Green Snake Care Sheet",
+      "url": "https://reptilesmagazine.com/rough-green-snake-care-sheet/",
+      "candidateEntryIds": [
+        "species-125"
+      ],
+      "targetNameMatches": [
+        "species-125"
+      ]
+    },
+    {
+      "postId": 11572,
+      "title": "California Kingsnake Care, Breeding and Morphs",
+      "url": "https://reptilesmagazine.com/california-kingsnake-care-breeding-and-morphs/",
+      "candidateEntryIds": [
+        "species-121",
+        "species-123",
+        "species-236"
+      ],
+      "targetNameMatches": [
+        "species-121"
+      ]
+    },
+    {
+      "postId": 886,
+      "title": "Breeding Oreocryptophis porphyraceus Rat Snakes",
+      "url": "https://reptilesmagazine.com/breeding-oreocryptophis-porphyraceus-rat-snakes/",
+      "candidateEntryIds": [
+        "species-126"
+      ],
+      "targetNameMatches": [
+        "species-126"
+      ]
+    },
+    {
+      "postId": 120507,
+      "title": "Bullsnake Care and Breeding Information",
+      "url": "https://reptilesmagazine.com/bullsnake-care-and-breeding-information/",
+      "candidateEntryIds": [
+        "species-131"
+      ],
+      "targetNameMatches": [
+        "species-131"
+      ]
+    },
+    {
+      "postId": 5704,
+      "title": "Breeding Trans-Pecos Rat Snakes",
+      "url": "https://reptilesmagazine.com/breeding-trans-pecos-rat-snakes/",
+      "candidateEntryIds": [
+        "species-136"
+      ],
+      "targetNameMatches": [
+        "species-136"
+      ]
+    },
+    {
+      "postId": 2842,
+      "title": "Beauty Snake Breeding",
+      "url": "https://reptilesmagazine.com/beauty-snake-breeding/",
+      "candidateEntryIds": [
+        "species-140"
+      ],
+      "targetNameMatches": [
+        "species-140"
+      ]
+    },
+    {
+      "postId": 8317,
+      "title": "Nuevo Leon Kingsnake Care Sheet",
+      "url": "https://reptilesmagazine.com/nuevo-leon-kingsnake/",
+      "candidateEntryIds": [
+        "species-138"
+      ],
+      "targetNameMatches": []
+    },
+    {
+      "postId": 5725,
+      "title": "Care, Breeding And Caudal Luring Of The Rough-scaled Sand Boa",
+      "url": "https://reptilesmagazine.com/care-breeding-and-caudal-luring-of-the-rough-scaled-sand-boa/",
+      "candidateEntryIds": [
+        "species-144"
+      ],
+      "targetNameMatches": [
+        "species-144"
+      ]
+    },
+    {
+      "postId": 10201,
+      "title": "The Argentine \"Pac Man\" Horned Frog – Natural History And Captive Care",
+      "url": "https://reptilesmagazine.com/the-argentine-pac-man-horned-frog-natural-history-and-captive-care/",
+      "candidateEntryIds": [
+        "species-155",
+        "species-156",
+        "species-157",
+        "species-158"
+      ],
+      "targetNameMatches": []
+    },
+    {
+      "postId": 976,
+      "title": "Pac Man Frog Care Sheet",
+      "url": "https://reptilesmagazine.com/pac-man-frog-care-sheet/",
+      "candidateEntryIds": [
+        "species-158"
+      ],
+      "targetNameMatches": [
+        "species-158"
+      ]
+    },
+    {
+      "postId": 11269,
+      "title": "Pac-Man Frog Care And Information",
+      "url": "https://reptilesmagazine.com/pac-man-frog-care-and-information/",
+      "candidateEntryIds": [
+        "species-157"
+      ],
+      "targetNameMatches": [
+        "species-157"
+      ]
+    },
+    {
+      "postId": 8236,
+      "title": "Green Treefrog Care Sheet",
+      "url": "https://reptilesmagazine.com/green-treefrog-care-sheet/",
+      "candidateEntryIds": [
+        "species-161"
+      ],
+      "targetNameMatches": [
+        "species-161"
+      ]
+    },
+    {
+      "postId": 5995,
+      "title": "Clown Treefrog Care And Breeding",
+      "url": "https://reptilesmagazine.com/clown-treefrog-care-and-breeding/",
+      "candidateEntryIds": [
+        "species-160",
+        "species-238"
+      ],
+      "targetNameMatches": [
+        "species-160"
+      ]
+    },
+    {
+      "postId": 11263,
+      "title": "Care And Breeding  Africa’s Colorful Reed Frogs",
+      "url": "https://reptilesmagazine.com/care-and-breeding-africas-colorful-reed-frogs/",
+      "candidateEntryIds": [
+        "species-162",
+        "species-163"
+      ],
+      "targetNameMatches": []
+    },
+    {
+      "postId": 6193,
+      "title": "Breeding Blue-back Reed Frogs",
+      "url": "https://reptilesmagazine.com/breeding-blue-back-reed-frogs/",
+      "candidateEntryIds": [
+        "species-162",
+        "species-163"
+      ],
+      "targetNameMatches": [
+        "species-163"
+      ]
+    },
+    {
+      "postId": 6223,
+      "title": "Asian Painted Bullfrog Care",
+      "url": "https://reptilesmagazine.com/asian-painted-bullfrog-care/",
+      "candidateEntryIds": [
+        "species-164"
+      ],
+      "targetNameMatches": [
+        "species-164"
+      ]
+    },
+    {
+      "postId": 10861,
+      "title": "Care and Breeding the Vietnamese Mossy Frog",
+      "url": "https://reptilesmagazine.com/care-and-breeding-the-vietnamese-mossy-frog/",
+      "candidateEntryIds": [
+        "species-176",
+        "species-177",
+        "species-178"
+      ],
+      "targetNameMatches": [
+        "species-178"
+      ]
+    },
+    {
+      "postId": 6583,
+      "title": "Care Tips For The Vietnamese Mossy Frog",
+      "url": "https://reptilesmagazine.com/care-tips-for-the-vietnamese-mossy-frog/",
+      "candidateEntryIds": [
+        "species-178"
+      ],
+      "targetNameMatches": []
+    },
+    {
+      "postId": 9247,
+      "title": "Madagascar Ground Gecko Care Sheet",
+      "url": "https://reptilesmagazine.com/madagascar-ground-gecko-care-sheet/",
+      "candidateEntryIds": [
+        "species-18"
+      ],
+      "targetNameMatches": [
+        "species-18"
+      ]
+    },
+    {
+      "postId": 5983,
+      "title": "Breeding Amazon Milk Frogs",
+      "url": "https://reptilesmagazine.com/breeding-amazon-milk-frogs/",
+      "candidateEntryIds": [
+        "species-183"
+      ],
+      "targetNameMatches": [
+        "species-183"
+      ]
+    },
+    {
+      "postId": 8371,
+      "title": "Amazon Milk Frog Care Sheet",
+      "url": "https://reptilesmagazine.com/amazon-milk-frog-care-sheet/",
+      "candidateEntryIds": [
+        "species-183"
+      ],
+      "targetNameMatches": [
+        "species-183"
+      ]
+    },
+    {
+      "postId": 2995,
+      "title": "Amazon Milk Frog Breeding",
+      "url": "https://reptilesmagazine.com/amazon-milk-frog-breeding/",
+      "candidateEntryIds": [
+        "species-183"
+      ],
+      "targetNameMatches": [
+        "species-183"
+      ]
+    },
+    {
+      "postId": 6514,
+      "title": "Amazon Milk Frog Housing And Care",
+      "url": "https://reptilesmagazine.com/amazon-milk-frog-housing-and-care/",
+      "candidateEntryIds": [
+        "species-183"
+      ],
+      "targetNameMatches": [
+        "species-183"
+      ]
+    },
+    {
+      "postId": 2734,
+      "title": "Breeding Red-Eyed Treefrogs",
+      "url": "https://reptilesmagazine.com/breeding-red-eyed-treefrogs-2/",
+      "candidateEntryIds": [
+        "species-184"
+      ],
+      "targetNameMatches": [
+        "species-184"
+      ]
+    },
+    {
+      "postId": 115257,
+      "title": "Keeping and Breeding Red-eyed Treefrogs",
+      "url": "https://reptilesmagazine.com/keeping-and-breeding-red-eyed-treefrogs/",
+      "candidateEntryIds": [
+        "species-184"
+      ],
+      "targetNameMatches": [
+        "species-184"
+      ]
+    },
+    {
+      "postId": 8260,
+      "title": "The Top 10 Reptiles Most Reliant on Zoo Breeding Programs for Survival",
+      "url": "https://reptilesmagazine.com/the-top-10-reptiles-most-reliant-on-zoo-breeding-programs-for-survival/",
+      "candidateEntryIds": [
+        "species-184"
+      ],
+      "targetNameMatches": []
+    },
+    {
+      "postId": 11758,
+      "title": "Tiger-Leg Monkey Frog Information And Care",
+      "url": "https://reptilesmagazine.com/tiger-leg-monkey-frog-information-and-care/",
+      "candidateEntryIds": [
+        "species-184"
+      ],
+      "targetNameMatches": [
+        "species-184"
+      ]
+    },
+    {
+      "postId": 8029,
+      "title": "Japanese Fire-Bellied Newt Care Sheet",
+      "url": "https://reptilesmagazine.com/japanese-fire-bellied-newt-care-sheet/",
+      "candidateEntryIds": [
+        "species-192"
+      ],
+      "targetNameMatches": [
+        "species-192"
+      ]
+    },
+    {
+      "postId": 13486,
+      "title": "Expert Care Of The Japanese Fire-Bellied Newt",
+      "url": "https://reptilesmagazine.com/expert-care-of-the-japanese-fire-bellied-newt/",
+      "candidateEntryIds": [
+        "species-190",
+        "species-192",
+        "species-91"
+      ],
+      "targetNameMatches": [
+        "species-192"
+      ]
+    },
+    {
+      "postId": 5665,
+      "title": "Fire Salamander Care Sheet",
+      "url": "https://reptilesmagazine.com/fire-salamander-care-sheet/",
+      "candidateEntryIds": [
+        "species-193"
+      ],
+      "targetNameMatches": [
+        "species-193"
+      ]
+    },
+    {
+      "postId": 1006,
+      "title": "Spotted Salamander Care Sheet",
+      "url": "https://reptilesmagazine.com/spotted-salamander-care-sheet/",
+      "candidateEntryIds": [
+        "species-194"
+      ],
+      "targetNameMatches": [
+        "species-194"
+      ]
+    },
+    {
+      "postId": 9856,
+      "title": "Natural History And Captive Care Of The Fowler's Toad",
+      "url": "https://reptilesmagazine.com/natural-history-and-captive-care-of-the-fowlers-toad/",
+      "candidateEntryIds": [
+        "species-194"
+      ],
+      "targetNameMatches": []
+    },
+    {
+      "postId": 2392,
+      "title": "Care For The Spotted Salamander",
+      "url": "https://reptilesmagazine.com/care-for-the-spotted-salamander/",
+      "candidateEntryIds": [
+        "species-194"
+      ],
+      "targetNameMatches": [
+        "species-194"
+      ]
+    },
+    {
+      "postId": 11404,
+      "title": "Spanish Ribbed Newt Care Information",
+      "url": "https://reptilesmagazine.com/spanish-ribbed-newt-care-information/",
+      "candidateEntryIds": [
+        "species-195"
+      ],
+      "targetNameMatches": [
+        "species-195"
+      ]
+    },
+    {
+      "postId": 8149,
+      "title": "Expert Newt Care Tips",
+      "url": "https://reptilesmagazine.com/expert-newt-care-tips/",
+      "candidateEntryIds": [
+        "species-196",
+        "species-240"
+      ],
+      "targetNameMatches": []
+    },
+    {
+      "postId": 2851,
+      "title": "Crocodile Newts Tylototriton Breeding",
+      "url": "https://reptilesmagazine.com/crocodile-newts-tylototriton-breeding/",
+      "candidateEntryIds": [
+        "species-197",
+        "species-198"
+      ],
+      "targetNameMatches": [
+        "species-198"
+      ]
+    },
+    {
+      "postId": 10963,
+      "title": "Mandarin Newt Care and Breeding Information",
+      "url": "https://reptilesmagazine.com/mandarin-newt-care-and-breeding-information/",
+      "candidateEntryIds": [
+        "species-197",
+        "species-198"
+      ],
+      "targetNameMatches": [
+        "species-197"
+      ]
+    },
+    {
+      "postId": 107726,
+      "title": "Giant Day Gecko Care Sheet Archived Comments",
+      "url": "https://reptilesmagazine.com/giant-day-gecko-care-sheet-archived-comments/",
+      "candidateEntryIds": [
+        "species-204"
+      ],
+      "targetNameMatches": [
+        "species-204"
+      ]
+    },
+    {
+      "postId": 2866,
+      "title": "Breeding Diplodactylus Geckos",
+      "url": "https://reptilesmagazine.com/breeding-diplodactylus-geckos/",
+      "candidateEntryIds": [
+        "species-205"
+      ],
+      "targetNameMatches": []
+    },
+    {
+      "postId": 12445,
+      "title": "Carpet Chameleon Information And Care",
+      "url": "https://reptilesmagazine.com/carpet-chameleon-information-and-care/",
+      "candidateEntryIds": [
+        "species-224"
+      ],
+      "targetNameMatches": [
+        "species-224"
+      ]
+    },
+    {
+      "postId": 3106,
+      "title": "Carpet Chameleon Breeding",
+      "url": "https://reptilesmagazine.com/carpet-chameleon-breeding/",
+      "candidateEntryIds": [
+        "species-224"
+      ],
+      "targetNameMatches": [
+        "species-224"
+      ]
+    },
+    {
+      "postId": 6313,
+      "title": "Carpet Chameleon Care Tips",
+      "url": "https://reptilesmagazine.com/carpet-chameleon-care-tips/",
+      "candidateEntryIds": [
+        "species-224"
+      ],
+      "targetNameMatches": [
+        "species-224"
+      ]
+    },
+    {
+      "postId": 6031,
+      "title": "Tomato Frog Care Sheet",
+      "url": "https://reptilesmagazine.com/tomato-frog-care-sheet/",
+      "candidateEntryIds": [
+        "species-237"
+      ],
+      "targetNameMatches": [
+        "species-237"
+      ]
+    },
+    {
+      "postId": 5803,
+      "title": "Breeding Australian Barking Geckos",
+      "url": "https://reptilesmagazine.com/breeding-australian-barking-geckos/",
+      "candidateEntryIds": [
+        "species-27"
+      ],
+      "targetNameMatches": [
+        "species-27"
+      ]
+    },
+    {
+      "postId": 8812,
+      "title": "Australian Barking Gecko Care Sheet",
+      "url": "https://reptilesmagazine.com/australian-barking-gecko-care-sheet/",
+      "candidateEntryIds": [
+        "species-27"
+      ],
+      "targetNameMatches": [
+        "species-27"
+      ]
+    },
+    {
+      "postId": 6712,
+      "title": "Care Tips For The Australian Barking Gecko",
+      "url": "https://reptilesmagazine.com/care-tips-for-the-australian-barking-gecko/",
+      "candidateEntryIds": [
+        "species-27"
+      ],
+      "targetNameMatches": [
+        "species-27"
+      ]
+    },
+    {
+      "postId": 2743,
+      "title": "Expert Care Tips for the Lined Leaf-Tailed Geckos",
+      "url": "https://reptilesmagazine.com/expert-care-tips-for-the-lined-leaf-tailed-geckos/",
+      "candidateEntryIds": [
+        "species-38"
+      ],
+      "targetNameMatches": []
+    },
+    {
+      "postId": 6763,
+      "title": "Pink-Tongued Skink Care And Breeding",
+      "url": "https://reptilesmagazine.com/pink-tongued-skink-care-and-breeding/",
+      "candidateEntryIds": [
+        "species-50"
+      ],
+      "targetNameMatches": []
+    },
+    {
+      "postId": 11401,
+      "title": "Red-Eyed Crocodile Skink Care And Information",
+      "url": "https://reptilesmagazine.com/red-eyed-crocodile-skink-care-and-information/",
+      "candidateEntryIds": [
+        "species-58"
+      ],
+      "targetNameMatches": [
+        "species-58"
+      ]
+    },
+    {
+      "postId": 11812,
+      "title": "Keeping The Java Hump-Headed Lizard",
+      "url": "https://reptilesmagazine.com/keeping-the-java-hump-headed-lizard/",
+      "candidateEntryIds": [
+        "species-65"
+      ],
+      "targetNameMatches": [
+        "species-65"
+      ]
+    },
+    {
+      "postId": 7828,
+      "title": "Frilled Lizard Care Sheet",
+      "url": "https://reptilesmagazine.com/frilled-lizard-care-sheet/",
+      "candidateEntryIds": [
+        "species-66"
+      ],
+      "targetNameMatches": [
+        "species-66"
+      ]
+    },
+    {
+      "postId": 5839,
+      "title": "Breeding The Flamboyant Frilled Dragon",
+      "url": "https://reptilesmagazine.com/breeding-the-flamboyant-frilled-dragon/",
+      "candidateEntryIds": [
+        "species-66"
+      ],
+      "targetNameMatches": [
+        "species-66"
+      ]
+    },
+    {
+      "postId": 997,
+      "title": "Sailfin Dragon Care Sheet",
+      "url": "https://reptilesmagazine.com/sailfin-dragon-care-sheet/",
+      "candidateEntryIds": [
+        "species-67",
+        "species-70",
+        "species-71"
+      ],
+      "targetNameMatches": [
+        "species-70"
+      ]
+    },
+    {
+      "postId": 6607,
+      "title": "Basilisk Lizard Care And Information",
+      "url": "https://reptilesmagazine.com/basilisk-lizard-care-and-information/",
+      "candidateEntryIds": [
+        "species-83"
+      ],
+      "targetNameMatches": [
+        "species-83"
+      ]
+    },
+    {
+      "postId": 7627,
+      "title": "Giant Day Gecko Care Sheet",
+      "url": "https://reptilesmagazine.com/caring-for-giant-day-geckos/",
+      "candidateEntryIds": [
+        "species-204"
+      ],
+      "targetNameMatches": []
+    },
+    {
+      "postId": 11077,
+      "title": "Basilisk Lizard Information And Care",
+      "url": "https://reptilesmagazine.com/basilisk-lizard-information-and-care/",
+      "candidateEntryIds": [
+        "species-83"
+      ],
+      "targetNameMatches": [
+        "species-83"
+      ]
+    },
+    {
+      "postId": 115643,
+      "title": "Care And Breeding the Basilisk Lizard",
+      "url": "https://reptilesmagazine.com/care-and-breeding-the-basilisk-lizard/",
+      "candidateEntryIds": [
+        "species-83"
+      ],
+      "targetNameMatches": [
+        "species-83"
+      ]
+    },
+    {
+      "postId": 7993,
+      "title": "Plumed Basilisk Lizard Care Tips",
+      "url": "https://reptilesmagazine.com/plumed-basilisk-lizard-care-tips/",
+      "candidateEntryIds": [
+        "species-83"
+      ],
+      "targetNameMatches": [
+        "species-83"
+      ]
+    },
+    {
+      "postId": 12535,
+      "title": "Long-tailed And Emerald Grass Lizard Care Tips And Information",
+      "url": "https://reptilesmagazine.com/long-tailed-and-emerald-grass-lizard-care-tips-and-information/",
+      "candidateEntryIds": [
+        "species-90"
+      ],
+      "targetNameMatches": []
+    }
+  ],
+  "unitConflicts": [
+    {
+      "i": 19,
+      "line": "    Basking area temperature: 80-82°F (28-29°C)",
+      "calculated": [
+        26.7,
+        27.8
+      ]
+    },
+    {
+      "i": 30,
+      "line": "    Basking area temperature: 80-82°F (28-29°C)",
+      "calculated": [
+        26.7,
+        27.8
+      ]
+    }
+  ],
+  "mossConflicts": {
+    "plant-112": "업체의 석회암 배지 설명을 종 생태와 교차검증 필요",
+    "plant-252": "업체의 비산성 토양·낮은 습도 안내 적용 범위 대조 필요",
+    "plant-254": "업체의 석회암 추천과 종별 산도·암석 선호 교차검증 필요",
+    "plant-272": "업체의 완전 수중 안내가 종별 서식·재배 범위와 일치하는지 확인 필요",
+    "plant-281": "업체가 태류를 수중 관수 불필요로 설명하므로 침수 적합성 검증 전 보류",
+    "plant-279": "업체가 물이끼에 rhizome 표현을 사용해 형태·배치 정확성 대조 필요",
+    "plant-287": "건조·수분 내성 안내와 원산 생태의 적용 범위 대조 필요"
+  },
+  "articleExclusions": [
+    {
+      "postId": 107726,
+      "reason": "종별 케어시트가 아닌 과거 댓글 묶음"
+    },
+    {
+      "postId": 11401,
+      "reason": "novaeguineae가 서론 자연사에 언급되지만 본문 사육 대상 gracilis와 일치하지 않음"
+    },
+    {
+      "postId": 115557,
+      "reason": "캘리포니아킹스네이크 기사에 다른 Lampropeltis 종명이 언급됐다는 이유로 해당 종 케어로 연결하지 않음"
+    },
+    {
+      "postId": 11758,
+      "reason": "레드아이청개구리가 언급되나 실제 주제는 다른 monkey frog"
+    }
+  ]
+}

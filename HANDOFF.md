@@ -1,5 +1,27 @@
 # 공동 작업 현황
 
+## 2026-11-05 케어시트 GitHub 인계·공개 배포 승인
+
+사용자가 이번 케어 묶음의 GitHub 업로드·main 반영·공개 배포를 명시 승인했다. 아래 이전 “로컬 미커밋/공개 미반영”은 이전 상태다. 실제 배포 결과는 작업 최종 보고 및 GitHub Actions를 확인한다.
+
+- 공개 저장소 https://github.com/mom2891-png/viva-field-guide · 인계 브랜치 codex/purchase-review-price-expansion.
+- 새 PC Git·Node22+ 필요, npm 설치 의존성 없음. 공개 clone 로그인 불필요, 쓰기 인증만 정상 GitHub 로그인 사용.
+- 재개 프롬프트 [CONTINUE_PROMPT.md](CONTINUE_PROMPT.md), 계획 [케어 실행 계획](docs/care-sheet-plan.md), 전체 미완료 [진행 장부](docs/care-sheet-progress.md).
+- 자료278 연결/미연결382와 종별 추가 필드 보강이 다음 작업이다. 이전 PC 원문 캐시는 전달되지 않지만, 원문 URL·작성자·한국어 핵심 안내는 dist/care-sheets.json에 있고, 경로 조회 성공/실패·원문 후보·충돌/제외 근거는 docs/care-source-audit.json에 이식했다. 다른 PC에서 원문 캐시가 없어도 이 장부에서 재개할 수 있다. 원문 HTML/PDF·연구 스크립트·개인정보는 업로드하지 않는다.
+- 검사 npm run check, 실행 npm start → http://127.0.0.1:4190/ . 브라우저 검수는 새 PC의 허용 도구로 확인. 기존 PC의 프로세스·로그인을 가정하지 않는다.
+
+
+## 2026-11-05 케어시트 실행 — 로컬 미커밋, 공개 미반영
+
+- 사용자 승인 계획 실행 및 “전문 사육자의 케어시트 출처 우선” 반영. 자료 연결278/660: 동물156·식물122, 식물 식재 위치122. 종·품종별 핵심 검토156·공통 참고80·유통형/범위 제한11·단일재배자 교차검증31. 완성 케어시트 수로 부르지 않는다. 미연결382 및 연결 항목의 추가 필드는 [전체 장부](docs/care-sheet-progress.md).
+- dist/care-sheets.json(sources/profiles/entries), care-sheets.js 추가. 모든660항목 상태 추적. 전문 작성자·원문·확인일과 확인 가능한 발행/갱신일 표시. 원문 요약·그룹 적용 범위·식재 제안 표시 분리. 모프100·식물 하위형28 선택 시 부모 케어를 연결하되 별도 차이 확인 여부 고지.
+- 기존 오른쪽 상세 패널에 케어 요약/식재 위치, 펼침 상세·출처 표시. 새 팝업 없음. 원문 작성자는 펼치기 전에도 보임. 식재 위치는 일반 목록·목차 검색에 연결, 원본 식물 필드를 변경하지 않음. 모듈/케어 데이터 실패가 기존 도감 전체 로딩을 막지 않게 구성.
+- 전문 원문: ReptiFiles 공개PDF80, NEHERP, Josh’s Frogs, Glass Box Tropicals, FrogDaddy, Smug Bug/Laura Mae Riepl, The Tarantula Collective, 전문 저자의 REPTILES Magazine 기사. 일부 식물은 NC State Extension 보완. Moss Wholesale 단일 자료31은 별도 제한 상태. 작성자 미확인 자료를 전문 사육자 검증으로 가장하지 않음.
+- 중요한 보류: Uroplatus fimbriatus/lineatus PDF의 가온값 화씨·섭씨 불일치2건 미채택; Macodes sanderiana의 petola 복사 관리 문단 보류; Taiwan/Mini Taiwan 본문 혼용 보류; 난초 J&L 온도 선택지 전체를 해당 종 범위로 채택하지 않음; 이끼7업체 설명 충돌 보류. 다른 종을 언급만 한 전문 기사는 해당 종 케어시트로 연결하지 않음.
+- 검사: npm run check 통과(660항목·1199노드+케어 검증). 실제 로딩 후 오른쪽 패널의 사육자/식재 위치, 출처·HTML/URL 안전성, 위치 목차 검색, 모프/품종 부모 연결, 모든ID 상태·출처 대상 일치 검사. 시작 species/plants/morphs JSON 전체 deepEqual 통과: 기존 사진·이름·가격·크기·ID·인기 데이터 무변경. 실제 화면 QA는 CUA가 Work 설정 “Local browser use is disabled”로 거부해 미완료. 우회하지 않음.
+- 원문·추출·스크립트·조사 캐시는 저장소 밖 C:/Users/Admin/Desktop/viva-research/care-2026-11-05에 보존. 원문233학명 전문매체 검색/재배업체161/대학122 경로 결과를 재사용. 일부 사육자 자료는 낡았고 핵심 일부만 입력했으므로 정확한 종별 공간·주야 온습도·조명/UVB·먹이/보충·청소를 계속 보강해야 함.
+- 이번 케어 묶음은 push·main 반영·공개 배포하지 않음. 이전 사진 공개 배포 승인을 이번 케어 배포로 확대하지 말 것. 실행 계획은 docs/care-sheet-plan.md. 다음은 미연결382 원문 조사와 기존278 미입력 필드 보강. 달팽이·육지소라게는 마지막 순위.
+
 ## 2026-11-05 공개 배포 완료
 
 - 공개 사이트: https://mom2891-png.github.io/viva-field-guide/

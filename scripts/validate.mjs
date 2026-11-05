@@ -18,7 +18,7 @@ for(const r of all){
 for(const id of Object.keys(morphs))assert.ok(animals.some(r=>r.id===id),`Orphan morph ${id}`);
 // Exercise actual catalog logic with a small DOM stand-in, without browser dependencies.
 const elements=new Map();
-const element=key=>{if(!elements.has(key))elements.set(key,{value:'',textContent:'',innerHTML:'',hidden:false,checked:false,style:{},classList:{add(){},remove(){},toggle(){},contains(){return false}},setAttribute(){},addEventListener(){},scrollIntoView(){},closest(){return this},querySelectorAll(){return []},querySelector(){return null},showModal(){this.open=true}});return elements.get(key);};
+const element=key=>{if(!elements.has(key))elements.set(key,{value:'',textContent:'',innerHTML:'',hidden:false,checked:false,style:{},classList:{add(){},remove(){},toggle(){},contains(){return false}},setAttribute(){},insertAdjacentHTML(position,html){this.innerHTML=position==="afterbegin"?html+this.innerHTML:this.innerHTML+html;},addEventListener(){},scrollIntoView(){},closest(){return this},querySelectorAll(){return []},querySelector(){return null},showModal(){this.open=true}});return elements.get(key);};
 const ctx=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],body:{style:{}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,URL,URLSearchParams,a:animals,p:plants,m:morphs});
 vm.runInContext(fs.readFileSync(new URL('../dist/catalog-navigation.js',import.meta.url),'utf8'),ctx);
 const code=fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8').split("document.addEventListener('click'")[0];
@@ -96,15 +96,19 @@ const requests=[];
 const startupEvents={};
 const startupContext=vm.createContext({document:{querySelector:element,querySelectorAll:()=>[],addEventListener(type,handler){startupEvents[type]=handler;},body:{style:{},classList:{toggle(){}}}},localStorage:{getItem:()=>null},setTimeout,clearTimeout,URL,URLSearchParams,window:{scrollTo(){}},fetch:async path=>{requests.push(path);return {ok:true,json:async()=>read(path.split('?')[0])}}});
 vm.runInContext(fs.readFileSync(new URL('../dist/shops.js',import.meta.url),'utf8'),startupContext);
-for(const file of ['catalog-navigation.js','catalog-browser.js','catalog-route.js']) vm.runInContext(fs.readFileSync(new URL('../dist/'+file,import.meta.url),'utf8'),startupContext);
+for(const file of ['catalog-navigation.js','catalog-browser.js','catalog-route.js','care-sheets.js']) vm.runInContext(fs.readFileSync(new URL('../dist/'+file,import.meta.url),'utf8'),startupContext);
 vm.runInContext(fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8'),startupContext);
 await new Promise(resolve=>setImmediate(resolve));
-assert.equal(requests.length,3,'Startup fetches every data file');
-assert.ok(requests.every(path=>/^(species|plants|morphs)\.json\?v=/.test(path)),'Versioned relative paths work under GitHub Pages subdirectory');
+assert.equal(requests.length,4,'Startup fetches every data file');
+assert.ok(requests.every(path=>/^(species|plants|morphs|care-sheets)\.json\?v=/.test(path)),'Versioned relative paths work under GitHub Pages subdirectory');
 assert.equal(Number(element('#animalTotal').textContent),animals.length,'Live total refreshed after loading');
 assert.ok(element('#resultCount').textContent.includes(String(animals.length)),'Initial render succeeds');
 vm.runInContext("setPage('plants')",startupContext);
 assert.ok(element('#resultCount').textContent.includes(String(plants.length)),'Plant navigation succeeds after full initialization');
+vm.runInContext("openDetail('species-1')",startupContext);
+assert.ok(element('#detailContent').innerHTML.includes('케어시트')&&element('#detailContent').innerHTML.includes('ReptiFiles'),'Loaded specialist care appears in the real detail panel');
+vm.runInContext("openDetail('plant-6')",startupContext);
+assert.ok(element('#detailContent').innerHTML.includes('비바리움 식재 위치')&&element('#detailContent').innerHTML.includes('Glass Box Tropicals'),'Loaded plant care includes grower and planting position');
 console.log('PASS: complete app startup, versioned data fetch and page navigation.');
 
 run("reset();state.page='animals';species=animals;state.sort='recent';render()");

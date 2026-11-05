@@ -1,5 +1,14 @@
 # 다른 PC·다른 AI에서 이어가기
 
+## 2026-11-05 케어시트 배포 검증 완료
+
+- 배포 커밋 cd6c88fbb0d8ff1d802f3934a2c76e1a05a0d311, main 및 인계 브랜치 업로드 확인.
+- GitHub Actions https://github.com/mom2891-png/viva-field-guide/actions/runs/41943190573 의 check/deploy 모두 success.
+- 공개 https://mom2891-png.github.io/viva-field-guide/ 의 HTML/JS/CSS·케어/도감 JSON·release.json이 커밋 파일과 일치(줄바꿈 차이만 정규화). 공개 응답660항목·케어278연결·미연결382·식재 위치122 확인. 확인2026-11-05 09:42 KST.
+- 직접 브라우저 화면 검수는 미완료. 원문 전체 번역이 아니라 한국어 핵심 요약이며278완성 케어시트로 주장하지 않음.
+- 이 배포 확인 기록은 인계 브랜치의 문서 후속 커밋으로 저장하며 사이트 변경 없이 main 재배포하지 않음. 아래 과거 미배포 기록보다 이 절이 우선.
+
+
 ## 2026-11-05 케어시트 GitHub 인계·공개 배포 승인
 
 사용자가 이번 케어 묶음의 GitHub 업로드·main 반영·공개 배포를 명시 승인했다. 아래 이전 “로컬 미커밋/공개 미반영”은 이전 상태다. 실제 배포 결과는 작업 최종 보고 및 GitHub Actions를 확인한다.

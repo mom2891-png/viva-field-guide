@@ -2,14 +2,15 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
 const context={};vm.runInNewContext(fs.readFileSync(new URL('../dist/image-loader.js',import.meta.url),'utf8'),context);
-let intersection,mutations,observed=new Set();
-class Observer{constructor(cb){intersection=cb;}observe(img){observed.add(img);}unobserve(img){observed.delete(img);}}
+let intersection,mutations,observerOptions,observed=new Set();
+class Observer{constructor(cb,options){intersection=cb;observerOptions=options;}observe(img){observed.add(img);}unobserve(img){observed.delete(img);}}
 class Mutations{constructor(cb){mutations=cb;}observe(){}}
-function img(url){const listeners=new Map();return {dataset:{photoSrc:url},isConnected:true,visible:true,getClientRects(){return this.visible?[{}]:[];},addEventListener(k,fn){listeners.set(k,fn);},removeEventListener(k){listeners.delete(k);},complete(k='load'){listeners.get(k)?.();}};}
+function img(url){const listeners=new Map();return {dataset:{photoSrc:url},isConnected:true,visible:true,getClientRects(){return this.visible?[{}]:[];},removeAttribute(key){delete this[key];},addEventListener(k,fn){listeners.set(k,fn);},removeEventListener(k){listeners.delete(k);},complete(k='load'){listeners.get(k)?.();}};}
 const images=[img('images/test-one.jpg'),img('images/test-two.jpg'),img('images/test-three.jpg')];
 const hidden=img('images/morph-hidden.jpg');hidden.visible=false;
 context.VivaImageLoader.mount({documentElement:{},querySelectorAll:()=>[...images,hidden]},Observer,Mutations);
 assert(images.every(i=>!i.src),'No request before viewport intersection');
+assert.equal(observerOptions.rootMargin,'0px','Do not preload images below or above the visible viewport');
 intersection([...images,hidden].map(target=>({target,isIntersecting:true})));
 assert(images[0].src&&images[1].src&&!images[2].src,'Only two requests may start together');
 assert.equal(images[0].loading,'eager','Intersection handling must not stall behind a second native lazy-loading gate');
@@ -25,8 +26,10 @@ intersection([{target:more,isIntersecting:true}]);assert(!more.src);
 images[2].complete('error');assert(more.src,'Error releases the next slot');
 assert(!removed.src);
 const fallback=img('images/fallback.jpg');fallback.visible=false;
-context.VivaImageLoader.mount({querySelectorAll:()=>[fallback]},null,null);
-assert(fallback.src,'Without IntersectionObserver native lazy loading remains usable');
+const fallbackDoc={querySelectorAll:()=>[fallback]};
+const fallbackLoader=context.VivaImageLoader.mount(fallbackDoc,null,null);
+assert(!fallback.src,'The fallback must not request hidden images either');
+fallback.visible=true;fallbackLoader.scan(fallbackDoc);assert(fallback.src);
 const abandoned=[img('images/old-one.jpg'),img('images/old-two.jpg'),img('images/new-view.jpg')];
 context.VivaImageLoader.mount({documentElement:{},querySelectorAll:()=>abandoned},Observer,Mutations);
 intersection(abandoned.map(target=>({target,isIntersecting:true})));
@@ -45,6 +48,18 @@ let timeout=deadlines.get(1);deadlines.delete(1);timeout();assert.equal(timed[0]
 timeout=deadlines.get(3);deadlines.delete(3);timeout();
 assert(failureMessage.textContent.includes('불러오지 못했어요'),'Failed images show an explicit placeholder rather than a broken-image icon');
 assert(timed[2].src,'A timed-out image cannot block the rest of the list');
+const viewport=[img('images/visible-first.jpg'),img('images/visible-second.jpg'),img('images/queued-below.jpg')];
+context.VivaImageLoader.mount({documentElement:{},querySelectorAll:()=>viewport},Observer,Mutations);
+intersection(viewport.map(target=>({target,isIntersecting:true})));
+intersection([{target:viewport[2],isIntersecting:false}]);
+viewport[0].complete();assert(!viewport[2].src,'A queued photo scrolled off screen must not start when a slot becomes free');
+intersection([{target:viewport[1],isIntersecting:false}]);
+assert(!viewport[1].src,'Stop unfinished image requests when their cards leave the screen');
+assert.equal(viewport[1].dataset.photoSrc,'images/visible-second.jpg','A canceled local image retains its relative retry URL');
+intersection([{target:viewport[1],isIntersecting:true}]);assert.equal(viewport[1].src,'images/visible-second.jpg','Returning to the screen resumes the canceled image');
+context.innerHeight=700;context.innerWidth=1000;
+viewport[2].getBoundingClientRect=()=>({top:701,bottom:801,left:0,right:200,width:200,height:100});
+intersection([{target:viewport[2],isIntersecting:true}]);assert(!viewport[2].src,'Recheck actual viewport bounds before assigning an image URL');
 vm.runInNewContext(fs.readFileSync(new URL('../dist/image-previews.js',import.meta.url),'utf8'),context);
 function jpegSize(path){
  const b=fs.readFileSync(path);

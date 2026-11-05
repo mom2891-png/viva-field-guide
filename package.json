@@ -8,6 +8,6 @@
   },
   "scripts": {
     "start": "node scripts/serve.mjs",
-    "check": "node --check dist/app.js && node --check dist/shops.js && node scripts/validate.mjs && node scripts/validate-shops.mjs && node scripts/validate-navigation.mjs && node scripts/validate-catalog-browser.mjs && node scripts/validate-catalog-route.mjs && node scripts/validate-care-sheets.mjs && node scripts/validate-image-loader.mjs"
+    "check": "node --check dist/app.js && node --check dist/shops.js && node scripts/validate.mjs && node scripts/validate-shops.mjs && node scripts/validate-navigation.mjs && node scripts/validate-catalog-browser.mjs && node scripts/validate-catalog-route.mjs && node scripts/validate-care-sheets.mjs && node scripts/validate-image-loader.mjs && node scripts/validate-atlas-layout.mjs"
   }
 }

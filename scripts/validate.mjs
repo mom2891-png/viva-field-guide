@@ -519,3 +519,16 @@ assert.equal(run("photoContext({image:null,photoContext:'Unverified'})"),'','No 
 assert.match(run("photoContext({image:'https://example.org/photo.jpg',photoContext:'판매형 <unverified>'})"),/판매형 &lt;unverified&gt;/);
 assert.match(run("photoContext({image:'https://example.org/photo.jpg',photoContext:'판매형'})"),/role="note"/);
 console.log('PASS: photo identity context remains visible, escaped and separate from image pixels.');
+
+const atlasClasses=new Set();
+element('#catalogMenu').classList.toggle=(name,on)=>{if(on===undefined)on=!atlasClasses.has(name);if(on)atlasClasses.add(name);else atlasClasses.delete(name);return on;};
+run("reset();state.page='plants';species=plants;state.catalogNode=catalogModel.entryNode('plant-1').parentId;render()");
+assert.ok(element('#grid').innerHTML.includes('data-detail="plant-1"'),'Choosing a plant genus immediately shows species cards');
+assert.ok(!element('#grid').innerHTML.includes('data-genus="Fittonia"'),'A genus does not require clicking another genus card');
+run("openDetail('plant-1')");assert(atlasClasses.has('has-selection'),'Species detail takes the main reading surface');
+assert(run("formPicker(plants.find(r=>r.id==='plant-1'))").includes('data-morph-select="variety:plant-1:0"'));
+run('showCatalogList()');assert(!atlasClasses.has('has-selection'),'Returning or changing filters exposes the list again');
+run("state.catalogNode='plants';state.search='';$('#catalogMossHabitat').value='aquatic';$('#catalogMossForm').value='all'");
+assert(run("filtered().every(r=>catalogModel.matchesMoss(r.id,'aquatic','all'))"),'Sidebar moss filters also apply to the photo list');
+run('reset()');assert.equal(element('#catalogMossHabitat').value,'all','Reset clears the sidebar discovery filters');
+console.log('PASS: atlas species list/detail transitions, form chooser and sidebar filter reset.');

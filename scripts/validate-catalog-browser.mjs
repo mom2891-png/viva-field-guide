@@ -108,3 +108,18 @@ discovery.open('animals');assert(elements.get('#catalogMossFilters').hidden);
 discovery.open('plants');assert.match(elements.get('#catalogMenuStatus').textContent,/0개/);
 assert(!elements.get('#catalogColumns').innerHTML.includes('Forest moss'), 'Returning to plants retains the filtered navigation root');
 console.log('PASS: moss habitat/shape intersection, filtered taxonomy counts/search, fern exclusion and animal-page visibility.');
+
+elements.get('#catalogMossHabitat').value='all';elements.get('#catalogMossForm').value='all';
+const atlasSearch=[];
+const atlas=ctx.VivaCatalogBrowser.mount(embeddedRoot,{inline:true,tree:true,onSearch:q=>atlasSearch.push(q),resultPhoto:()=>'<span class="test-preview"></span>'});
+atlas.setModel(model);atlas.open('animals');atlas.setSelected('entry:a');
+let treeHTML=elements.get('#catalogColumns').innerHTML;
+assert.equal((treeHTML.match(/data-nav-column=/g)||[]).length,1,'Atlas has a single taxonomy rail');
+assert(treeHTML.includes('catalog-tree-branch')&&treeHTML.includes('Rare morph'),'The selected path expands to its subordinate forms');
+click('navToggle',model.entryNode('a').parentId);
+assert(!elements.get('#catalogColumns').innerHTML.includes('Rare morph'),'Collapsing a branch removes only its nested rows');
+elements.get('#catalogNavSearch').value='Plant';listeners.input({target:elements.get('#catalogNavSearch')});
+assert.equal(atlasSearch[0],'Plant');
+assert(elements.get('#catalogSearchResults').innerHTML.includes('test-preview'),'Atlas search results include the matching photo slot');
+atlas.setSearch('Rare morph');assert.equal(elements.get('#catalogNavSearch').value,'Rare morph');
+console.log('PASS: single-rail tree, branch collapse, photo search and synchronized query.');

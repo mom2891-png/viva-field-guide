@@ -1,5 +1,5 @@
 'use strict';
-const CATALOG_VERSION = '2026-11-05-progressive-images';
+const CATALOG_VERSION = '2026-11-05-atlas';
 const $ = (selector) => document.querySelector(selector);
 const envNames = {습:'습식',혼:'건습 혼합',건:'건조',수:'반수생·수생',냉:'냉량 관리',대:'대형 사육장',환:'충분한 환기',굴:'깊은 바닥재',해:'담수·해수'};
 const descriptions = {
@@ -11,6 +11,8 @@ const descriptions = {
 let species = [], animals = [], plants = [], morphs = {}, state = {category:'all',environment:'all',search:'',sort:'popular',excludeSpecial:false,savedOnly:false,page:'animals',subgroup:'all',availability:'all',sizeClass:'all',catalogNode:'animals'};
 let catalogModel=null,catalogPanel=null,restoringCatalogRoute=false,currentCatalogEntry=null,currentCatalogSelection=null,catalogReturnView=null,lastCatalogHash=null;
 let careSheets={sources:{},profiles:{},entries:{}};
+const catalogEntries=new Map();
+function catalogEntry(id){return catalogEntries.get(id)||animals.find(row=>row.id===id)||plants.find(row=>row.id===id);}
 function careSection(row){return typeof VivaCareSheets==='undefined'?'':VivaCareSheets.render(careSheets,row,currentCatalogSelection||'');}
 function carePositionOf(row){return row.id?.startsWith('plant-')&&typeof VivaCareSheets!=='undefined'?VivaCareSheets.placementText(careSheets,row.id):'';}
 function carePositionIndex(){return Object.fromEntries(plants.map(row=>[row.id,carePositionOf(row)]));}
@@ -48,6 +50,11 @@ function selectedPhoto(row){
   return form?{...row,name:row.name+' · '+form.name,image:form.image||null,credit:form.image?form.credit:null,imageFile:form.imageFile||null,imageRegion:form.imageRegion||null,photoContext:form.photoContext||null}:row;
 }
 function photoContext(row){return row.image&&row.photoContext?`<p class="photo-context" role="note">${escapeHTML(row.photoContext)}</p>`:'';}
+function formPicker(row){
+  const items=row.id.startsWith('plant-')?(row.varieties||[]).map((v,i)=>{const name=typeof v==='string'?v:v.name;return {id:`variety:${row.id}:${i}`,name,photo:row.varietyPhotos?.[name]||{name}};}):(morphs[row.id]||[]).map((m,i)=>({id:`morph:${row.id}:${i}`,name:m.name,photo:m}));
+  if(!items.length||!catalogModel)return '';
+  return `<section class="form-picker" aria-label="모프·품종 선택"><h3>${row.id.startsWith('plant-')?'품종·유통형':'모프·패턴·지역형'}</h3><div class="form-picker-list"><button type="button" data-morph-select="entry:${row.id}" aria-pressed="${!currentCatalogSelection}">${photo(row)}<span>종 참고</span></button>${items.map(item=>`<button type="button" data-morph-select="${escapeHTML(item.id)}" aria-pressed="${currentCatalogSelection===item.id}">${photo({...item.photo,name:item.name})}<span>${escapeHTML(item.name)}</span></button>`).join('')}</div></section>`;
+}
 function previewImageUrl(row){
   const original=safeImageUrl(row.image);
   if(!original||/\bND\b/.test(row.credit?.license||'')||row.imageRegion)return original;
@@ -124,16 +131,18 @@ function saveFavorite(id){
 let toastTimer;
 function showToast(message){$('#toast').textContent=message;$('#toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),2200);}
 function sizeClass(row){const s=row.sizeInfo;if(row.id?.startsWith('plant-')&&s&&/잎/.test(s.measurement||''))return 'unknown';if(!s||s.kind==='minimum'||s.max==null||!['cm','mm','m'].includes(s.unit))return 'unknown';const cm=s.max*(s.unit==='mm'?.1:s.unit==='m'?100:1);return cm<20?'small':cm<50?'medium':'large';}
-function filtered(){
-  const search=normalized(state.search);
-  const branch=catalogModel&&state.catalogNode?new Set(catalogModel.descendantEntryIds(state.catalogNode)):null;
-  return species.filter(row=>(!branch||branch.has(row.id))&&(state.category==='all'||categoryOf(row)===state.category)
+function matchesEntryFilters(row){return (state.category==='all'||categoryOf(row)===state.category)
     &&(state.subgroup==='all'||(row.middle||row.category)===state.subgroup)
     &&(state.sizeClass==='all'||sizeClass(row)===state.sizeClass)
+    &&(!row.id.startsWith('plant-')||!catalogModel||catalogModel.matchesMoss(row.id,$('#catalogMossHabitat')?.value||'all',$('#catalogMossForm')?.value||'all'))
     &&(state.availability==='all'||(state.availability==='domestic'?row.domesticStatus==='국내 취급 기록':state.availability==='new'?Boolean(row.addedAt):state.availability==='size'?Boolean(row.sizeInfo):state.availability==='priced'?Boolean(row.priceInfo):!row.popularityKnown))
     &&(state.environment==='all'||(row.id.startsWith('plant-')?row.environment===state.environment:row.env.split('·').includes(state.environment)))
     &&(!state.excludeSpecial||(!row.env?.includes('대')&&!row.env?.includes('냉')))
-    &&(!state.savedOnly||favorites.has(row.id))
+    &&(!state.savedOnly||favorites.has(row.id));}
+function filtered(){
+  const search=normalized(state.search);
+  const branch=catalogModel&&state.catalogNode?new Set(catalogModel.descendantEntryIds(state.catalogNode)):null;
+  return species.filter(row=>(!branch||branch.has(row.id))&&matchesEntryFilters(row)
     &&(!search||normalized(`${row.name} ${row.latin} ${genusName(genusOf(row))} ${row.major||row.category} ${carePositionOf(row)} ${row.middle||''} ${(row.aliases||[]).join(' ')} ${(row.varieties||[]).join(' ')} ${(morphs[row.id]||[]).map(m=>[m.name,...m.aliases].join(' ')).join(' ')}`).includes(search)))
     .sort(compareEntries);
 }
@@ -166,7 +175,8 @@ function catalogBreadcrumbHTML(id){
 function updateCatalogBreadcrumb(){
   if(!catalogModel)return;
   $('#catalogBreadcrumb').innerHTML=`<div>${catalogBreadcrumbHTML(state.catalogNode||state.page)}</div><button data-catalog-open-menu="${state.page==='plants'?'plants':'animals'}">목차 펼치기 ▾</button>`;
-  catalogPanel?.setSelected(state.catalogNode);
+  catalogPanel?.setSearch(state.search);
+  catalogPanel?.setSelected(currentCatalogSelection|| (currentCatalogEntry?'entry:'+currentCatalogEntry:state.catalogNode));
 }
 function browseCatalogNode(id,{push=true,scroll=true}={}){
   const node=catalogNode(id);if(!node||!['root','group','genus'].includes(node.kind))return;
@@ -199,6 +209,8 @@ function beginCatalogDetail(id){
 function decorateCatalogDetail(row){
   if(!catalogModel||state.page==='shops')return;
   const info=$('#detailContent .detail-info');if(!info)return;
+  const careBlock=info.querySelector?.('.care-sheet');
+  if(careBlock)careBlock.insertAdjacentHTML('beforebegin',formPicker(row));else info.insertAdjacentHTML('beforeend',formPicker(row));
   info.insertAdjacentHTML('afterbegin',`<nav class="catalog-detail-path" aria-label="도감 경로">${catalogBreadcrumbHTML('entry:'+row.id)}</nav><button class="genus-back" data-catalog-return>← 선택한 목차 목록으로</button>`);
   const selection=catalogNode(currentCatalogSelection);
   if(selection?.entryId===row.id){
@@ -208,6 +220,7 @@ function decorateCatalogDetail(row){
 }
 function closeCatalogDetail(){
   if(!currentCatalogEntry)return;
+  clearInlineDetail();
   if(catalogCanRoute()&&window.history.state?.catalogDetail&&catalogReturnView){window.history.back();return;}
   currentCatalogEntry=null;currentCatalogSelection=null;
   if(catalogReturnView){state={...catalogReturnView.state};species=state.page==='plants'?plants:animals;render();window.scrollTo({top:catalogReturnView.scroll,behavior:'instant'});}
@@ -254,6 +267,9 @@ function browseAnimalGenus(key){
 function renderAnimalCards(list){
   return list.map(row=>`<article class="species-card"><div class="card-image"><button class="open-detail" data-detail="${row.id}" aria-label="${escapeHTML(row.name)} 자세히 보기">${photo(row)}</button><span class="ranking">${row.id.startsWith('plant-')?'BOTANICAL':'FIELD GUIDE'}</span><button class="favorite ${favorites.has(row.id)?'active':''}" data-favorite="${row.id}" aria-pressed="${favorites.has(row.id)}" aria-label="${favorites.has(row.id)?'관심 생물에서 삭제':'관심 생물에 저장'}">${favorites.has(row.id)?'♥':'♡'}</button></div><div class="card-info"><p class="card-meta">${escapeHTML(row.major||'식물')} / ${escapeHTML(animalCategories.find(c=>c[0]===categoryOf(row))[1])}</p><button class="species-title" data-detail="${row.id}">${escapeHTML(row.name)}</button><span class="latin">${escapeHTML(row.latin)}</span>${factsPreview(row)}<div class="card-env">${tags(row)}</div>${morphs[row.id]?.length?`<div class="morph-preview">${morphs[row.id].slice(0,3).map(m=>escapeHTML(m.name)).join(' · ')} <button data-detail="${row.id}">${morphs[row.id].length}개 모프·패턴 보기</button></div>`:''}${!row.popularityKnown?'<span class="catalog-status">확장 후보 · 인기 미집계</span>':''}${row.catalogType!=='종'?`<span class="catalog-status">${escapeHTML(row.catalogType)}</span>`:''}${row.placement?`<p class="plant-placement">${escapeHTML(row.placement)}</p>`:''}</div></article>`).join('');
 }
+function renderPlantCards(list){
+  return list.map(row=>`<article class="species-card"><div class="card-image"><button class="open-detail" data-detail="${row.id}" data-parent-genus="${escapeHTML(genusOf(row))}" aria-label="${escapeHTML(row.name)} 상세 보기">${photo(row)}</button></div><div class="card-info"><p class="card-meta">${escapeHTML(row.category)}</p><button class="species-title" data-detail="${row.id}" data-parent-genus="${escapeHTML(genusOf(row))}">${escapeHTML(row.name)}</button><span class="latin">${escapeHTML(row.latin)}</span>${factsPreview(row)}<div class="card-env">${tags(row)}</div><p class="catalog-status">${escapeHTML(row.catalogType)}</p></div></article>`).join('');
+}
 function renderPlantGroups(groups){return groups.map(group=>{
   const representative=group.rows.find(r=>r.image)||group.rows[0];
   const categories=[...new Set(group.rows.map(r=>r.category))];
@@ -265,24 +281,24 @@ function render(){
   const categories=isPlant?[['all','전체 식물'],...[...new Set(plants.map(r=>r.category))].map(c=>[c,c])]:animalCategories;
   const environments=isPlant?[['all','모든 환경'],...[...new Set(plants.map(r=>r.environment))].map(c=>[c,c])]:animalEnvironments;
   const list=filtered(),plantList=isPlant?plantGroups(list):[];
-  const inAnimalGenus=!isPlant&&catalogNode(state.catalogNode)?.kind==='genus',animalList=isPlant?[]:animalGroups(list);
+  const inAnimalGenus=!isPlant&&catalogNode(state.catalogNode)?.kind==='genus',inPlantGenus=isPlant&&catalogNode(state.catalogNode)?.kind==='genus',animalList=isPlant?[]:animalGroups(list);
   const subgroups=[...new Set(species.filter(r=>state.category==='all'||categoryOf(r)===state.category).map(r=>r.middle||r.category))].sort((a,b)=>a.localeCompare(b,'ko'));
   $('#subgroup').innerHTML='<option value="all">모든 세부 분류</option>'+subgroups.map(g=>`<option value="${escapeHTML(g)}">${escapeHTML(g)}</option>`).join('');$('#subgroup').value=state.subgroup;$('#availability').value=state.availability;$('#sizeClass').value=state.sizeClass;
   $('#sort').innerHTML='<option value="popular">인기순</option><option value="name">이름순</option><option value="recent">최근 추가순</option><option value="saved">관심 생물 먼저</option>';$('#sort').value=state.sort;
   $('#categories').innerHTML=categories.map(([id,name])=>`<button class="category-tab ${state.category===id?'active':''}" data-category="${id}" aria-pressed="${state.category===id}">${name}<span>${id==='all'?species.length:species.filter(r=>categoryOf(r)===id).length}</span></button>`).join('');
   $('#environments').innerHTML=environments.map(([id,name])=>`<button class="env-chip ${state.environment===id?'active':''}" data-environment="${id}" aria-pressed="${state.environment===id}">${name}</button>`).join('');
-  const gridHTML=isPlant?renderPlantGroups(plantList):inAnimalGenus?renderAnimalCards(list):renderAnimalGroups(list);
+  const gridHTML=isPlant?(inPlantGenus?renderPlantCards(list):renderPlantGroups(plantList)):inAnimalGenus?renderAnimalCards(list):renderAnimalGroups(list);
   if(lastGridHTML!==gridHTML){
     lastGridHTML=gridHTML;$('#grid').innerHTML=gridHTML;
   $('#grid').querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{const button=img.closest('button');const row=button.dataset.genus?plantList.find(g=>g.key===button.dataset.genus)?.rows.find(r=>r.image):button.dataset.animalGenus?animalList.find(g=>g.key===button.dataset.animalGenus)?.rows.find(r=>r.image):species.find(r=>r.id===button.dataset.detail);if(row)img.replaceWith(document.createRange().createContextualFragment(placeholder(row)));},{once:true}));
   }
-  $('#resultCount').textContent=`${state.savedOnly?'관심 목록 · ':''}${isPlant?`${plantList.length}개 속 · ${list.length}개 식물 항목`:`${inAnimalGenus?'':`${animalList.length}개 묶음 · `}${list.length}개 동물 항목`}`;
+  $('#resultCount').textContent=`${state.savedOnly?'관심 목록 · ':''}${isPlant?`${inPlantGenus?'':`${plantList.length}개 속 · `}${list.length}개 식물 항목`:`${inAnimalGenus?'':`${animalList.length}개 묶음 · `}${list.length}개 동물 항목`}`;
   $('#empty').hidden=list.length!==0;
   $('#empty h3').textContent=state.savedOnly&&!favorites.size?'마음에 드는 생물을 담아보세요':'조건에 맞는 생물이 없어요';
   $('#empty p').textContent=state.savedOnly&&!favorites.size?'상세 화면의 하트를 누르면 이곳에서 다시 만날 수 있어요.':'검색어나 환경 조건을 조금 바꿔보세요.';
   $('#resetFilters').hidden=state.category==='all'&&state.environment==='all'&&!state.search&&!state.excludeSpecial&&!state.savedOnly&&state.subgroup==='all'&&state.availability==='all'&&state.sizeClass==='all';
   $('#sortNote').hidden=false;$('#sortNote').textContent=isPlant?'속 → 종 → 품종·유통명 순으로 살펴보세요':'같은 속은 함께 묶었어요 · 종을 선택하면 모프·패턴을 볼 수 있어요';$('#excludeSpecial').closest('label').hidden=isPlant;
-  $('#collectionTitle').textContent=state.savedOnly?'마음에 담아둔 생물들':(isPlant?'어떤 식물 속을 만나볼까요?':'어떤 생물과 함께할까요?');
+  $('#collectionTitle').textContent=state.savedOnly?'마음에 담아둔 생물들':(isPlant?'식물 도감':'동물 도감');
   updateSaved();
   updateCatalogBreadcrumb();saveCatalogRoute();
 }
@@ -293,7 +309,8 @@ function openPlantGroup(key){
   $('#detailContent').querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{const row=plants.find(r=>r.id===img.closest('[data-detail]').dataset.detail);img.replaceWith(document.createRange().createContextualFragment(placeholder(row)));},{once:true}));
   if(state.page==='shops'){prepareModalDetail();if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';}else showInlineDetail();
 }
-function reset(){state={...state,category:'all',environment:'all',search:'',excludeSpecial:false,savedOnly:false,subgroup:'all',availability:'all',sizeClass:'all'};$('#search').value='';$('#excludeSpecial').checked=false;render();}
+function showCatalogList(){currentCatalogEntry=null;currentCatalogSelection=null;catalogReturnView=null;clearInlineDetail();}
+function reset(){showCatalogList();state={...state,category:'all',environment:'all',search:'',excludeSpecial:false,savedOnly:false,subgroup:'all',availability:'all',sizeClass:'all'};$('#search').value='';$('#excludeSpecial').checked=false;if(!restoringCatalogRoute){$('#catalogMossHabitat').value='all';$('#catalogMossForm').value='all';$('#catalogSearchScope').checked=false;}render();}
 function photoCredit(row){
   if(!row.image)return '';
   const c=row.credit||{}, file=row.imageFile;
@@ -301,7 +318,9 @@ function photoCredit(row){
   const url=safeUrl(c.url)||(file?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(file):'');
   return `<details class="photo-credit"><summary>사진 정보</summary><div>${escapeHTML(c.author||'Wikimedia Commons')}${c.note?' · '+escapeHTML(c.note):''} ${c.license?'· '+(licenseUrl?`<a href="${escapeHTML(licenseUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(c.license)}</a>`:escapeHTML(c.license)):''} ${url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">원본·라이선스 ↗</a>`:''}</div></details>`;
 }
+function closeCatalogDrawer(){const root=$('#catalogMenu');root?.classList.toggle('drawer-open',false);$('#catalogDrawerButton')?.setAttribute('aria-expanded','false');}
 function showInlineDetail(){
+  $('#catalogMenu')?.classList.toggle('has-selection',true);closeCatalogDrawer();
   const host=$('#catalogDetail');
   if(host?.appendChild){host.querySelector('.catalog-detail-empty')?.remove();host.appendChild($('#detailContent'));}
   if($('#detailDialog').open){const wasRestoring=restoringCatalogRoute;restoringCatalogRoute=true;$('#detailDialog').close();restoringCatalogRoute=wasRestoring;}
@@ -312,6 +331,7 @@ function prepareModalDetail(){
   $('#detailDialog').appendChild?.($('#detailContent'));
 }
 function clearInlineDetail(){
+  $('#catalogMenu')?.classList.toggle('has-selection',false);
   if($('#detailContent').parentElement===$('#catalogDetail'))prepareModalDetail();
   if($('#catalogDetail'))$('#catalogDetail').innerHTML='<p class="catalog-detail-empty">목차에서 생물을 선택하면 사진과 상세 정보를 여기서 볼 수 있어요.</p>';
 }
@@ -396,29 +416,34 @@ document.addEventListener('click',event=>{
     return;
   }
   const favorite=event.target.closest('[data-favorite]');if(favorite){saveFavorite(favorite.dataset.favorite);return;}
-  const genus=event.target.closest('[data-genus]');if(genus){openPlantGroup(genus.dataset.genus);return;}
+  const genus=event.target.closest('[data-genus]');if(genus){const row=plants.find(r=>genusOf(r)===genus.dataset.genus);const parent=row&&catalogModel?.entryNode(row.id)?.parentId;if(state.page!=='shops'&&parent)browseCatalogNode(parent,{scroll:false});else openPlantGroup(genus.dataset.genus);return;}
   const detail=event.target.closest('[data-detail]');if(detail){openDetail(detail.dataset.detail,detail.dataset.parentGenus);return;}
-  const category=event.target.closest('[data-category]');if(category){state.category=category.dataset.category;state.subgroup='all';render();return;}
-  const environment=event.target.closest('[data-environment]');if(environment){state.environment=environment.dataset.environment;render();return;}
+  const category=event.target.closest('[data-category]');if(category){showCatalogList();state.category=category.dataset.category;state.subgroup='all';render();return;}
+  const environment=event.target.closest('[data-environment]');if(environment){showCatalogList();state.environment=environment.dataset.environment;render();return;}
   const page=event.target.closest('[data-page]');if(page){setPage(page.dataset.page);}
 });
-$('#search').addEventListener('input',event=>{state.search=event.target.value;render();});
-$('#sort').addEventListener('change',event=>{state.sort=event.target.value;render();});
-$('#excludeSpecial').addEventListener('change',event=>{state.excludeSpecial=event.target.checked;render();});
-for(const key of ['subgroup','availability','sizeClass'])$('#'+key).addEventListener('change',event=>{state[key]=event.target.value;render();});
+$('#search').addEventListener('input',event=>{showCatalogList();state.search=event.target.value;render();});
+$('#sort').addEventListener('change',event=>{showCatalogList();state.sort=event.target.value;render();});
+$('#excludeSpecial').addEventListener('change',event=>{showCatalogList();state.excludeSpecial=event.target.checked;render();});
+for(const key of ['subgroup','availability','sizeClass'])$('#'+key).addEventListener('change',event=>{showCatalogList();state[key]=event.target.value;render();});
 $('#resetFilters').addEventListener('click',reset);$('#emptyReset').addEventListener('click',reset);
-$('#savedButton').addEventListener('click',()=>{if(state.page==='shops')setPage('animals');state.savedOnly=!state.savedOnly;render();$('#collection').scrollIntoView({behavior:'smooth'});});
+$('#savedButton').addEventListener('click',()=>{if(state.page==='shops')setPage('animals');showCatalogList();state.savedOnly=!state.savedOnly;render();$('#collection').scrollIntoView({behavior:'smooth'});});
 $('#heroDetail').addEventListener('click',()=>openDetail('species-1'));
 $('#closeDialog').addEventListener('click',()=>$('#detailDialog').close());
 $('#detailDialog').addEventListener('close',()=>{if($('#detailDialog').open)return;document.body.style.overflow='';if(!restoringCatalogRoute)closeCatalogDetail();});
 $('#detailDialog').addEventListener('click',event=>{if(event.target===$('#detailDialog')){const rect=event.target.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)event.target.close();}});
 $('#aboutButton').addEventListener('click',()=>{prepareModalDetail();$('#detailContent').innerHTML=`<div class="about"><div class="eyebrow">ABOUT THE FIELD GUIDE</div><h2>나만의 작은 세계를 위한 도감</h2><p>동물 ${animals.length}개와 식물·이끼 ${plants.length}개 항목을 분류·환경별로 탐색할 수 있어요. 동물 ${Object.keys(morphs).length}개 항목의 모프·패턴·지역형 ${Object.values(morphs).flat().length}개는 해당 종 아래에 연결했으며 별도 종으로 세지 않았어요.</p><p>인기순은 국내 판매처의 취급 범위를 참고한 추정 순서이며 실제 판매량 순위는 아니에요. 확인된 인기 자료가 있는 항목을 먼저 정렬하고, 미집계 항목은 그 뒤에서 이름순으로 보여줘요. 미집계는 희귀하거나 인기가 없다는 뜻이 아니에요. 새 확장 후보의 국내 유통과 종별 조건은 계속 확인하고 있어요.</p><p>습식·건조·반수생 등 환경을 구별해 골라 주세요. 열대 습식뿐 아니라 건조형·냉량형·수역 전용 후보도 포함하므로 환경과 성체 크기를 먼저 확인해 주세요. 같은 환경 표시는 합사 가능을 뜻하지 않아요. 학명·유통명과 사진의 개체가 다를 수 있으며 사진 저작자와 라이선스는 각 항목의 ‘사진 정보’에서 확인할 수 있어요.</p><p>관심 목록은 현재 브라우저에 저장되며, 동물과 식물 도감 각각에서 볼 수 있어요. 식물은 속 카드에서 종 목록을 열고, 종 상세에서 품종·유통명을 살펴볼 수 있어요. 환경 필터와 검색은 해당 조건에 맞는 종만 속 안에 보여줘요.</p></div>`;if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';});
-document.addEventListener('keydown',event=>{handlePurchaseShortcut(event);if(event.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#detailDialog').open){event.preventDefault();if(state.page==='shops')$('#shopSearch').focus();else {setPage('animals');$('#search').focus();}}});
+document.addEventListener('keydown',event=>{handlePurchaseShortcut(event);if(event.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#detailDialog').open){event.preventDefault();if(state.page==='shops')$('#shopSearch').focus();else {setPage('animals');$('#catalogNavSearch').focus();}}});
 const shopDirectory=VivaShops.mount($('#shopsPage'),{version:CATALOG_VERSION,onRelated:openShopRelated,onMenu:openShopMenu});
-if($('#catalogMenu').querySelector('#catalogNavSearch'))catalogPanel=VivaCatalogBrowser.mount($('#catalogMenu'),{inline:true,onNavigate:id=>browseCatalogNode(id,{scroll:false}),onBrowse:id=>browseCatalogNode(id,{scroll:false}),onOpen:openCatalogNode});
+if($('#catalogMenu').querySelector('#catalogNavSearch'))catalogPanel=VivaCatalogBrowser.mount($('#catalogMenu'),{inline:true,tree:true,onNavigate:id=>browseCatalogNode(id,{scroll:false}),onBrowse:id=>browseCatalogNode(id,{scroll:false}),onOpen:openCatalogNode,onClose:closeCatalogDrawer,
+  resultFilter:node=>{const row=catalogEntry(node.entryId);return Boolean(row&&matchesEntryFilters(row));},
+  sortResults:found=>found.sort((a,b)=>compareEntries(catalogEntry(a.entryId),catalogEntry(b.entryId))),
+  resultPhoto:node=>{const row=catalogEntry(node.entryId);if(!row)return '';const form=node.kind==='morph'?morphs[row.id]?.[node.morphIndex]:node.kind==='variety'?row.varietyPhotos?.[node.label]:row;return photo(form||{name:node.label});},
+  onSearch:query=>{showCatalogList();state.search=query;$('#search').value=query;render();},onFilter:()=>{showCatalogList();render();}});
+$('#catalogDrawerButton')?.addEventListener('click',()=>{const open=$('#catalogMenu').classList.toggle('drawer-open');$('#catalogDrawerButton').setAttribute('aria-expanded',String(open));});
 if(typeof window.addEventListener==='function'){window.addEventListener('popstate',restoreCatalogRoute);window.addEventListener('hashchange',restoreCatalogRoute);}
 Promise.all(['species.json','plants.json','morphs.json','care-sheets.json'].map(path=>fetch(`${path}?v=${CATALOG_VERSION}`).then(response=>{if(!response.ok)throw new Error(path);return response.json();}).catch(error=>{if(path==='care-sheets.json')return {loadState:'error',sources:{},profiles:{},entries:{}};throw error;}))).then(([a,p,m,c])=>{
-  animals=a;plants=p;morphs=m;careSheets=c;species=state.page==='plants'?plants:animals;catalogModel=VivaCatalog.createModel(animals,plants,morphs,genusNames,carePositionIndex());catalogPanel?.setModel(catalogModel);catalogPanel?.open(state.page==='plants'?'plants':'animals');shopDirectory?.setCatalog([...animals,...plants]);$('#animalTotal').textContent=animals.length;document.querySelectorAll('[data-plant-total]').forEach(e=>e.textContent=plants.length);$('#footerTotal').textContent=`동물 ${animals.length} · 식물·이끼 ${plants.length} 항목`;
+  animals=a;plants=p;morphs=m;careSheets=c;catalogEntries.clear();[...a,...p].forEach(row=>catalogEntries.set(row.id,row));species=state.page==='plants'?plants:animals;catalogModel=VivaCatalog.createModel(animals,plants,morphs,genusNames,carePositionIndex());catalogPanel?.setModel(catalogModel);catalogPanel?.open(state.page==='plants'?'plants':'animals');shopDirectory?.setCatalog([...animals,...plants]);$('#animalTotal').textContent=animals.length;document.querySelectorAll('[data-plant-total]').forEach(e=>e.textContent=plants.length);$('#footerTotal').textContent=`동물 ${animals.length} · 식물·이끼 ${plants.length} 항목`;
   restoringCatalogRoute=true;if(state.page!=='shops')render();restoringCatalogRoute=false;restoreCatalogRoute();
   // The legacy hero is hidden; do not request its full-resolution background photo.
 }).catch(()=>{$('#resultCount').textContent='도감을 불러오지 못했어요. 새로고침해 주세요.';});

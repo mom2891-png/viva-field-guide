@@ -67,7 +67,7 @@ assert.ok(element('#detailContent').innerHTML.includes(`현재 조건에 맞는 
 assert.ok(element('#detailContent').innerHTML.includes('data-parent-genus="Begonia"'));
 run("state.search='화이트스타';render();openPlantGroup('Fittonia');openDetail('plant-1','Fittonia')");
 assert.ok(element('#detailContent').innerHTML.includes('화이트스타'),'Cultivar remains in species detail');
-assert.ok(element('#detailContent').innerHTML.includes('data-genus="Fittonia"'),'Back navigation to genus');
+assert.ok(!element('#detailContent').innerHTML.includes('속의 종 목록'),'Redundant genus-back text is removed; the shared taxonomy remains available');
 run("state.search='베고니아';render()");
 assert.equal(run("plantGroups(filtered()).find(g=>g.key==='Begonia').rows.length"),plants.filter(r=>r.latin.startsWith('Begonia ')).length,'Korean genus search');
 assert.ok(run("plantGroups(filtered()).find(g=>g.key==='Cissus').rows.every(r=>genusOf(r)==='Cissus')"),'Common-name alias does not change botanical genus');
@@ -120,7 +120,7 @@ assert.ok(element('#resultCount').textContent.includes(String(plants.length)),'P
 vm.runInContext("openDetail('species-1')",startupContext);
 assert.ok(element('#detailContent').innerHTML.includes('케어시트')&&element('#detailContent').innerHTML.includes('ReptiFiles'),'Loaded specialist care appears in the real detail panel');
 vm.runInContext("openDetail('plant-6')",startupContext);
-assert.ok(element('#detailContent').innerHTML.includes('비바리움 식재 위치')&&element('#detailContent').innerHTML.includes('Glass Box Tropicals'),'Loaded plant care includes grower and planting position');
+assert.ok(element('#detailContent').innerHTML.includes('care-placement')&&element('#detailContent').innerHTML.includes('Glass Box Tropicals'),'Loaded plant care includes grower and planting position');
 console.log('PASS: complete app startup, versioned data fetch and page navigation.');
 
 run("reset();state.page='animals';species=animals;state.sort='recent';render()");
@@ -153,7 +153,8 @@ run("state.availability='size';render()");
 assert.equal(run('filtered().length'),animals.filter(r=>r.sizeInfo).length,'Size filter independent of popularity');
 assert.ok(run("sizeText(animals.find(r=>r.latin==='Folsomia candida'))").includes('3 mm'),'Tiny sizes rendered in millimetres');
 run("openDetail('species-1')");
-assert.ok(element('#detailContent').innerHTML.includes('크기와 참고 가격'));
+assert.ok(element('#detailContent').innerHTML.includes('facts-compact'));
+assert.ok(!element('#detailContent').innerHTML.includes('크기와 참고 가격'));
 assert.ok(element('#detailContent').innerHTML.includes('전체길이·꼬리 포함'));
 assert.ok(element('#detailContent').innerHTML.includes('2026.11.03'));
 run("reset();state.page='plants';species=plants;openPlantGroup('Fittonia')");
@@ -161,7 +162,7 @@ assert.ok(element('#detailContent').innerHTML.includes('facts-preview'),'Individ
 assert.ok(!run('renderPlantGroups(plantGroups(plants))').includes('facts-preview'),'Genus card does not pretend to have a single species size');
 const moss=plants.find(r=>r.id==='plant-124');
 assert.ok(moss.priceInfo.offers.some(o=>o.unit==='1촉'&&o.min===o.max),'Single-shoot price not mixed with bulk pack');
-assert.ok(run('factsSection({id:"unverified"})').includes('국내 가격 확인 중'),'Missing prices remain unknown');
+assert.equal((run('factsSection({id:"unverified"})').match(/<dd>-<\/dd>/g)||[]).length,2,'Unknown size and price use dashes');
 assert.ok(!run('factsSection({id:"unverified"})').includes('0원'),'Unknown does not become free');
 const singleOffer={min:7000,max:7000};
 assert.equal(run('priceText({min:7000,max:7000})'),'7,000원','Single observed amount is not a fabricated range');
@@ -532,3 +533,9 @@ run("state.catalogNode='plants';state.search='';$('#catalogMossHabitat').value='
 assert(run("filtered().every(r=>catalogModel.matchesMoss(r.id,'aquatic','all'))"),'Sidebar moss filters also apply to the photo list');
 run('reset()');assert.equal(element('#catalogMossHabitat').value,'all','Reset clears the sidebar discovery filters');
 console.log('PASS: atlas species list/detail transitions, form chooser and sidebar filter reset.');
+
+run("state.page='plants';openDetail('plant-189')");
+for(const removed of ['BOTANICAL FIELD GUIDE','크기와 참고 가격','크기 정보 확인 중','국내 가격 확인 중','자랄 자리','선택한 목차 목록으로','속의 종 목록','class="taxonomy"','catalog-detail-path'])assert(!element('#detailContent').innerHTML.includes(removed),'Compact species detail removes '+removed);
+assert(element('#detailContent').innerHTML.includes('photo-credit'),'Required photo attribution is retained');
+assert(element('#detailContent').innerHTML.includes('entry-record'),'Classification records remain accessible');
+console.log('PASS: Mister Han detail keeps names, compact facts and credits without duplicate navigation or filler.');

@@ -1,5 +1,5 @@
 'use strict';
-const CATALOG_VERSION = '2026-11-05-visible-only';
+const CATALOG_VERSION = '2026-11-05-han-compact';
 const $ = (selector) => document.querySelector(selector);
 const envNames = {습:'습식',혼:'건습 혼합',건:'건조',수:'반수생·수생',냉:'냉량 관리',대:'대형 사육장',환:'충분한 환기',굴:'깊은 바닥재',해:'담수·해수'};
 const descriptions = {
@@ -52,7 +52,7 @@ function selectedPhoto(row){
 function photoContext(row){return row.image&&row.photoContext?`<p class="photo-context" role="note">${escapeHTML(row.photoContext)}</p>`:'';}
 function formPicker(row){
   const items=row.id.startsWith('plant-')?(row.varieties||[]).map((v,i)=>{const name=typeof v==='string'?v:v.name;return {id:`variety:${row.id}:${i}`,name,photo:row.varietyPhotos?.[name]||{name}};}):(morphs[row.id]||[]).map((m,i)=>({id:`morph:${row.id}:${i}`,name:m.name,photo:m}));
-  if(!items.length||!catalogModel)return '';
+  if(!items.length)return '';
   return `<section class="form-picker" aria-label="모프·품종 선택"><h3>${row.id.startsWith('plant-')?'품종·유통형':'모프·패턴·지역형'}</h3><div class="form-picker-list"><button type="button" data-morph-select="entry:${row.id}" aria-pressed="${!currentCatalogSelection}">${photo(row)}<span>종 참고</span></button>${items.map(item=>`<button type="button" data-morph-select="${escapeHTML(item.id)}" aria-pressed="${currentCatalogSelection===item.id}">${photo({...item.photo,name:item.name})}<span>${escapeHTML(item.name)}</span></button>`).join('')}</div></section>`;
 }
 function previewImageUrl(row){
@@ -75,21 +75,21 @@ function photo(row, className='') {
 }
 function formatMeasure(value){return new Intl.NumberFormat('ko-KR',{maximumFractionDigits:2}).format(value);}
 function sizeText(row){
-  const s=row.sizeInfo;if(!s)return '크기 정보 확인 중';
+  const s=row.sizeInfo;if(!s)return '-';
   const toMM=s.unit==='cm'&&(s.max??s.min)<1,scale=toMM?10:1,unit=toMM?'mm':s.unit;
   const low=s.min==null?null:formatMeasure(s.min*scale),high=s.max==null?null:formatMeasure(s.max*scale);
   if(s.kind==='maximum')return `최대 약 ${high} ${unit}`;
   if(s.kind==='minimum')return `약 ${low} ${unit} 이상`;
   return `약 ${low===high?low:`${low}~${high}`} ${unit}`;
 }
-function priceText(offer){if(!offer)return '국내 가격 확인 중';const money=v=>new Intl.NumberFormat('ko-KR').format(v);return offer.min===offer.max?`${money(offer.min)}원`:`${money(offer.min)}~${money(offer.max)}원`;}
+function priceText(offer){if(!offer)return '-';const money=v=>new Intl.NumberFormat('ko-KR').format(v);return offer.min===offer.max?`${money(offer.min)}원`:`${money(offer.min)}~${money(offer.max)}원`;}
 function factsPreview(row){
   const s=row.sizeInfo,p=row.priceInfo,offer=p?.offers?.[0];if(!s&&!offer)return '';
   return `<dl class="facts-preview">${s?`<div><dt>${escapeHTML(s.measurement)}</dt><dd>${escapeHTML(sizeText(row))}</dd></div>`:''}${offer?`<div><dt>국내 표시가</dt><dd>${escapeHTML(priceText(offer))}</dd></div><div class="facts-unit"><dt>판매 단위</dt><dd>${escapeHTML(offer.unit)}</dd></div>`:''}</dl>`;
 }
 function factsSection(row){
   const s=row.sizeInfo,p=row.priceInfo;
-  return `<section class="entry-facts" data-purchase-entry="${escapeHTML(row.id)}"><h3>크기와 참고 가격</h3><dl class="facts-detail"><div><dt>${s?escapeHTML(s.basis):row.id.startsWith('plant-')?'성숙':'성체'} 크기</dt><dd>${escapeHTML(sizeText(row))}${s?`<small>${escapeHTML(s.measurement)}</small>`:''}</dd></div></dl>${s?.note?`<p class="facts-note">${escapeHTML(s.note)}</p>`:''}${p?`<dl class="price-offers">${p.offers.map(offer=>`<div><dt>${escapeHTML(offer.unit)}</dt><dd>${escapeHTML(priceText(offer))}</dd></div>`).join('')}</dl><p class="facts-note">${escapeHTML(p.basis)} · ${escapeHTML(p.checkedAt.replaceAll('-','.'))} 확인</p><p class="facts-note">${escapeHTML(p.note)}</p>${purchaseSection(row)}`:'<p class="facts-pending">국내 가격 확인 중</p>'}</section>`;
+  return `<section class="entry-facts" data-purchase-entry="${escapeHTML(row.id)}"><dl class="facts-compact"><div><dt>크기</dt><dd>${escapeHTML(sizeText(row))}${s?` <small>${escapeHTML(s.measurement)}</small>`:''}</dd></div><div><dt>가격</dt><dd>${p?.offers?.length?p.offers.map(offer=>`<span>${escapeHTML(priceText(offer))} <small>/${escapeHTML(offer.unit)}</small></span>`).join(''):'-'}</dd></div></dl>${s||p?`<details class="fact-reference"><summary>측정·가격 기준</summary>${s?`<p>${escapeHTML(s.basis)}${s.checkedAt?' · '+escapeHTML(s.checkedAt):''}</p>${s.note?`<p>${escapeHTML(s.note)}</p>`:''}`:''}${p?`<p>${escapeHTML(p.basis)} · ${escapeHTML(p.checkedAt.replaceAll('-','.'))}</p><p>${escapeHTML(p.note||'')}</p>`:''}</details>`:''}${p?purchaseSection(row):''}</section>`;
 }
 function purchaseSection(row){
   if(!purchaseAccessUnlocked)return '';
@@ -209,9 +209,8 @@ function beginCatalogDetail(id){
 function decorateCatalogDetail(row){
   if(!catalogModel||state.page==='shops')return;
   const info=$('#detailContent .detail-info');if(!info)return;
-  const careBlock=info.querySelector?.('.care-sheet');
-  if(careBlock)careBlock.insertAdjacentHTML('beforebegin',formPicker(row));else info.insertAdjacentHTML('beforeend',formPicker(row));
-  info.insertAdjacentHTML('afterbegin',`<nav class="catalog-detail-path" aria-label="도감 경로">${catalogBreadcrumbHTML('entry:'+row.id)}</nav><button class="genus-back" data-catalog-return>← 선택한 목차 목록으로</button>`);
+
+
   const selection=catalogNode(currentCatalogSelection);
   if(selection?.entryId===row.id){
     info.insertAdjacentHTML('afterbegin',`<p class="catalog-selection">선택한 ${selection.kind==='variety'?'품종':'모프·패턴'} · <strong>${escapeHTML(selection.label)}</strong><br>${selection.kind==='morph'?(morphs[row.id]?.[selection.morphIndex]?.image?'선택한 형태의 참고 사진이에요. 사진만으로 혈통·유전형을 확정하지 않아요.':'이 형태의 사진은 준비 중이에요.'):(selectedPhoto(row).image?'선택한 품종의 참고 사진이에요.':'이 품종의 사진은 준비 중이에요.')}</p>`);
@@ -298,7 +297,7 @@ function render(){
   $('#empty p').textContent=state.savedOnly&&!favorites.size?'상세 화면의 하트를 누르면 이곳에서 다시 만날 수 있어요.':'검색어나 환경 조건을 조금 바꿔보세요.';
   $('#resetFilters').hidden=state.category==='all'&&state.environment==='all'&&!state.search&&!state.excludeSpecial&&!state.savedOnly&&state.subgroup==='all'&&state.availability==='all'&&state.sizeClass==='all';
   $('#sortNote').hidden=false;$('#sortNote').textContent=isPlant?'속 → 종 → 품종·유통명 순으로 살펴보세요':'같은 속은 함께 묶었어요 · 종을 선택하면 모프·패턴을 볼 수 있어요';$('#excludeSpecial').closest('label').hidden=isPlant;
-  $('#collectionTitle').textContent=state.savedOnly?'마음에 담아둔 생물들':(isPlant?'식물 도감':'동물 도감');
+  $('#collectionTitle').textContent=state.savedOnly?'관심 목록':(isPlant?'식물 도감':'동물 도감');
   updateSaved();
   updateCatalogBreadcrumb();saveCatalogRoute();
 }
@@ -347,19 +346,20 @@ function openDetail(id,parentGenus=null){
   if(row.env.includes('환'))extras.push('공기가 정체되지 않도록 충분한 통풍을 계획해 주세요.');
   if(row.env.includes('굴'))extras.push('굴을 파고 몸을 숨길 수 있는 깊은 바닥재가 중요해요.');
   if(row.env.includes('해'))extras.push('담수와 해수를 따로 제공하고, 물에서 스스로 나올 수 있는 구조를 마련해 주세요.');
-  $('#detailContent').innerHTML=`<div class="detail-layout"><div class="detail-image-wrap">${photo(displayRow,'detail-image')}</div><div class="detail-info">${photoContext(displayRow)}<div class="eyebrow">FIELD GUIDE · ANIMALS</div><h2>${escapeHTML(row.name)}</h2><span class="latin">${escapeHTML(row.latin)}</span><div class="taxonomy"><span>${escapeHTML(row.major||'식물')}</span><span>${escapeHTML(row.middle)}</span><span>${escapeHTML(row.name)}</span></div>${statusSection(row)}${factsSection(row)}${careSection(row)}${morphSection(row)}<h3>함께할 환경</h3><div class="card-env">${tags(row)}</div><p>${escapeHTML(row.careNote||descriptions[row.env[0]]||descriptions['습'])}</p>${extras.length?`<p>${extras.join(' ')}</p>`:''}<button class="outline-button detail-save ${favorites.has(row.id)?'active':''}" data-favorite="${row.id}" aria-pressed="${favorites.has(row.id)}">${favorites.has(row.id)?'♥ 관심 생물에 저장됨':'♡ 관심 생물로 저장'}</button><p class="note-small">환경 표시는 후보를 고르는 참고 정보예요. 같은 환경 표시는 합사 가능을 뜻하지 않아요. 입양 전 정확한 종명과 종별 사육 조건을 확인해 주세요.</p>${photoCredit(displayRow)}</div></div>`;
+  $('#detailContent').innerHTML=`<div class="detail-layout"><div class="detail-image-wrap">${photo(displayRow,'detail-image')}</div><div class="detail-info">${photoContext(displayRow)}<h2>${escapeHTML(row.name)}</h2><span class="latin">${escapeHTML(row.latin)}</span>${statusSection(row)}${factsSection(row)}${formPicker(row)}${careSection(row)}${morphSection(row)}${!careSheets.entries?.[row.id]?.profileId?`<div class="card-env">${tags(row)}</div><p>${escapeHTML(row.careNote||descriptions[row.env[0]]||descriptions['습'])}</p>`:''}${extras.length?`<p class="care-alert">${extras.join(' ')}</p>`:''}<button class="outline-button detail-save ${favorites.has(row.id)?'active':''}" data-favorite="${row.id}" aria-pressed="${favorites.has(row.id)}">${favorites.has(row.id)?'♥ 관심 생물에 저장됨':'♡ 관심 생물로 저장'}</button>${recordSection(row)}${photoCredit(displayRow)}</div></div>`;
   const img=$('#detailContent img');if(img)img.addEventListener('error',()=>img.replaceWith(document.createRange().createContextualFragment(placeholder(displayRow))),{once:true});
   if(state.page==='shops'){prepareModalDetail();if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';}else showInlineDetail();
   decorateCatalogDetail(row);
 }
-function statusSection(row){return `<div class="entry-status"><span>${escapeHTML(row.domesticStatus)}</span><span>${escapeHTML(row.verification)}</span>${row.catalogType!=='종'?`<span>${escapeHTML(row.catalogType)}</span>`:''}</div>`;}
+function statusSection(row){return row.catalogType!=='종'?`<span class="care-limit">${escapeHTML(row.catalogType)}</span>`:/미확정/.test(row.domesticStatus||'')?'<span class="care-limit">유통 개체의 종 일치 미확정</span>':'';}
+function recordSection(row){return `<details class="entry-record"><summary>분류·유통 기록</summary><p>${escapeHTML(row.domesticStatus||'-')}</p><p>${escapeHTML(row.verification||'-')}</p>${row.care||row.careNote?`<p>${escapeHTML(row.care||row.careNote)}</p>`:''}</details>`;}
 function morphSection(row){
   const items=morphs[row.id]||[];if(!items.length)return '';
   return `<section class="morph-section"><h3>모프·패턴·지역형 <span>${items.length}</span></h3><p class="note-small">같은 종 안에서 구별하는 이름이에요. 형태를 선택하면 확보된 참고 사진을 보여줘요. 사진만으로 혈통·유전형을 확정하지 않아요.</p><div class="morph-list">${items.map((m,i)=>`<details><summary data-morph-select="morph:${row.id}:${i}">${escapeHTML(m.name)} <span>${escapeHTML(m.type)}</span></summary><p>${escapeHTML(m.description)}</p>${m.image?`<div class="morph-photo">${photo(m)}${photoContext(m)}${photoCredit(m)}</div>`:'<p class="note-small">이 형태의 사진은 준비 중이에요.</p>'}</details>`).join('')}</div></section>`;
 }
 function openPlantDetail(row,parentGenus=null){
   const displayRow=selectedPhoto(row);
-  $('#detailContent').innerHTML=`<div class="detail-layout"><div class="detail-image-wrap">${photo(displayRow,'detail-image')}</div><div class="detail-info">${photoContext(displayRow)}<button class="genus-back" data-genus="${escapeHTML(parentGenus||genusOf(row))}">← ${escapeHTML(genusName(parentGenus||genusOf(row)))} 속의 종 목록</button><div class="eyebrow">BOTANICAL FIELD GUIDE</div><h2>${escapeHTML(row.name)}</h2><span class="latin">${escapeHTML(row.latin)}</span><div class="taxonomy"><span>식물</span><span>${escapeHTML(row.category)}</span><span>${escapeHTML(genusName(genusOf(row)))}</span><span>${escapeHTML(row.name)}</span></div>${statusSection(row)}${factsSection(row)}${careSection(row)}${row.varieties?.length?`<h3>품종·유통명</h3><div class="card-env">${row.varieties.map(v=>`<span class="env-tag">${escapeHTML(v)}</span>`).join('')}</div><p class="note-small">종의 참고 사진이에요. 특정 품종의 모습을 뜻하지 않아요.</p>`:''}<h3>자랄 자리</h3><div class="card-env">${tags(row)}</div><p><strong>배치</strong> · ${escapeHTML(row.placement)}</p><p>${escapeHTML(row.care)}</p><button class="outline-button detail-save" data-favorite="${row.id}" aria-pressed="${favorites.has(row.id)}">${favorites.has(row.id)?'♥ 관심 생물에 저장됨':'♡ 관심 생물로 저장'}</button><p class="note-small">식물별 빛과 통풍 조건을 함께 확인해 주세요. 식재 후보 목록은 모든 동물에게 섭취해도 안전하다는 뜻이 아니에요. 수변 식물은 설명에 맞게 뿌리와 잎의 위치를 구분해 주세요.</p>${photoCredit(displayRow)}</div></div>`;
+  $('#detailContent').innerHTML=`<div class="detail-layout"><div class="detail-image-wrap">${photo(displayRow,'detail-image')}</div><div class="detail-info">${photoContext(displayRow)}<h2>${escapeHTML(row.name)}</h2><span class="latin">${escapeHTML(row.latin)}</span>${statusSection(row)}${factsSection(row)}${formPicker(row)}${careSection(row)}<button class="outline-button detail-save" data-favorite="${row.id}" aria-pressed="${favorites.has(row.id)}">${favorites.has(row.id)?'♥ 관심 생물에 저장됨':'♡ 관심 생물로 저장'}</button>${recordSection(row)}${photoCredit(displayRow)}</div></div>`;
   const img=$('#detailContent img');if(img)img.addEventListener('error',()=>img.replaceWith(document.createRange().createContextualFragment(placeholder(displayRow))),{once:true});
   if(state.page==='shops'){prepareModalDetail();if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';}else showInlineDetail();
   decorateCatalogDetail(row);

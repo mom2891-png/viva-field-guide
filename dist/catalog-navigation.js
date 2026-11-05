@@ -92,10 +92,12 @@ var VivaCatalog = (function () {
     (plants || []).forEach(function (r) { addEntry(r, plantParent(r)); });
     function children(id) { return (childMap.get(id) || []).slice(); }
     function path(id) { var result = [], n = byId.get(id); while (n) { result.unshift(n); n = byId.get(n.parentId); } return result; }
+    var descendantCache = new Map();
     function descendantEntryIds(id) {
+      if (descendantCache.has(id)) return descendantCache.get(id).slice();
       var n = byId.get(id); if (!n) return [];
-      if (n.entryId) return [n.entryId];
-      return children(id).reduce(function (out, c) { return out.concat(descendantEntryIds(c.id)); }, []);
+      var ids = n.entryId ? [n.entryId] : children(id).reduce(function (out, c) { return out.concat(descendantEntryIds(c.id)); }, []);
+      descendantCache.set(id, ids); return ids.slice();
     }
     nodes.forEach(function (n) { n.count = new Set(descendantEntryIds(n.id)).size; });
     return {nodes:nodes, children:children, path:path, entryNode:function (id) { return entries.get(id); }, descendantEntryIds:descendantEntryIds,

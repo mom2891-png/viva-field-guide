@@ -5,7 +5,7 @@ var VivaCatalogBrowser = (function () {
   function button(action, id, label, attrs) { return '<button type="button" data-nav-' + action + '="' + escape(id) + '"' + (attrs || '') + '>' + escape(label) + '</button>'; }
   function mount(root, callbacks) {
     callbacks = callbacks || {};
-    var model = null, selected = null, rootId = 'animals', remembered = {}, opener = null;
+    var model = null, selected = null, rootId = 'animals', remembered = {}, opener = null, columnScroll = {}, lastColumnsHTML = null;
     var title = root.querySelector('#catalogMenuTitle'), search = root.querySelector('#catalogNavSearch'), scope = root.querySelector('#catalogSearchScope'), trail = root.querySelector('#catalogTrail'), columns = root.querySelector('#catalogColumns'), results = root.querySelector('#catalogSearchResults'), status = root.querySelector('#catalogMenuStatus');
     var mossFilters = root.querySelector('#catalogMossFilters'), habitat = root.querySelector('#catalogMossHabitat'), form = root.querySelector('#catalogMossForm');
     function matching(id) { return model.descendantEntryIds(id).filter(function(entryId){ return rootId !== 'plants' || model.matchesMoss(entryId, habitat && habitat.value, form && form.value); }); }
@@ -24,16 +24,29 @@ var VivaCatalogBrowser = (function () {
     }
     function render() {
       if (!model) { status.textContent = '도감을 불러오는 중입니다.'; return; }
+      // Rebuilding the path must not reset the columns the user is browsing.
+      var horizontalScroll = columns.scrollLeft || 0;
+      if (typeof columns.querySelectorAll === 'function') {
+        Array.from(columns.querySelectorAll('[data-nav-column]')).forEach(function(column){
+          columnScroll[column.dataset.navColumn] = column.scrollTop;
+        });
+      }
       var current = node(selected) || node(rootId), path = model.path(current.id), ids = path.map(function(n){return n.id;});
       title.textContent = path[0].label + ' 목차';
       if (mossFilters) mossFilters.hidden = rootId !== 'plants';
       trail.innerHTML = path.map(function(n){return button('node',n.id,n.label);}).join('<span aria-hidden="true"> › </span>');
       var levels = path.filter(function(n){return model.children(n.id).length || n.kind === 'root';});
-      columns.innerHTML = levels.map(function(n,i){
+      var columnsHTML = levels.map(function(n,i){
         var back = n.parentId ? button('node',n.parentId,'← 상위 분류') : '';
         var browse = (n.kind === 'root' || n.kind === 'group' || n.kind === 'genus') ? button('browse',n.id,'이 분류 전체 보기') : button('open',n.id,n.label + ' 상세 보기');
-        return '<section class="catalog-column' + (i === levels.length-1 ? ' current' : '') + '" aria-label="' + escape(n.label) + '">' + back + '<h3>' + escape(n.label) + '</h3>' + browse + '<ul>' + visibleChildren(n.id).map(function(c){return row(c,ids);}).join('') + '</ul></section>';
+        return '<section class="catalog-column' + (i === levels.length-1 ? ' current' : '') + '" data-nav-column="' + escape(n.id) + '" aria-label="' + escape(n.label) + '">' + back + '<h3>' + escape(n.label) + '</h3>' + browse + '<ul>' + visibleChildren(n.id).map(function(c){return row(c,ids);}).join('') + '</ul></section>';
       }).join('');
+      if (lastColumnsHTML !== columnsHTML) {
+        lastColumnsHTML = columnsHTML;
+        columns.innerHTML = columnsHTML;
+        if (typeof columns.querySelectorAll === 'function') Array.from(columns.querySelectorAll('[data-nav-column]')).forEach(function(column){column.scrollTop = columnScroll[column.dataset.navColumn] || 0;});
+        columns.scrollLeft = horizontalScroll;
+      }
       var query = search.value.trim();
       results.hidden = !query; columns.hidden = !!query;
       if (query) {

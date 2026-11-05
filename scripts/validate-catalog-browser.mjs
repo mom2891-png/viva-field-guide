@@ -63,6 +63,31 @@ assert.match(elements.get('#catalogTrail').innerHTML,/&lt;Animal&gt;/,'Selected 
 embedded.close();assert(embedded.isOpen(),'Inline guide has no dismiss overlay');
 console.log('PASS: inline guide remains visible and keeps species selection.');
 
+// Model actual DOM replacement: new column elements start at scrollTop=0.
+let scrollColumns=[],columnReplacements=0;
+const scrollingHost={scrollLeft:0,querySelectorAll:()=>scrollColumns};
+Object.defineProperty(scrollingHost,'innerHTML',{
+ set(html){columnReplacements++;this.html=html;this.scrollLeft=0;scrollColumns=[...html.matchAll(/data-nav-column="([^"]+)"/g)].map(m=>({dataset:{navColumn:m[1]},scrollTop:0}));},
+ get(){return this.html||'';}
+});
+const scrollingRoot={...embeddedRoot,querySelector:s=>s==='#catalogColumns'?scrollingHost:elements.get(s)};
+const scrolling=ctx.VivaCatalogBrowser.mount(scrollingRoot,{inline:true});
+scrolling.setModel(model);scrolling.open('animals');scrolling.setSelected('entry:a');
+const genusColumn=scrollColumns.find(c=>c.dataset.navColumn===model.entryNode('a').parentId);
+assert(genusColumn);
+genusColumn.scrollTop=240;scrollingHost.scrollLeft=125;
+click('navOpen','entry:a');
+const replacementCount=columnReplacements;scrolling.setSelected('entry:a');
+assert.equal(columnReplacements,replacementCount,'Selecting the same path does not rebuild the columns');
+assert.equal(scrollColumns.find(c=>c.dataset.navColumn===genusColumn.dataset.navColumn).scrollTop,240,'Clicking a species keeps its column position');
+assert.equal(scrollingHost.scrollLeft,125,'Clicking keeps the horizontal path position');
+assert.match(scrollingHost.innerHTML,/catalog-node selected[^]*data-nav-open="entry:a"/,'Clicked species remains selected');
+scrolling.setSelected('animals');scrolling.setSelected('entry:a');
+assert.equal(scrollColumns.find(c=>c.dataset.navColumn===genusColumn.dataset.navColumn).scrollTop,240,'Returning to a branch restores its own column position');
+scrolling.setSelected('plants');scrolling.setSelected('entry:p');
+assert.equal(scrollColumns.find(c=>c.dataset.navColumn===model.entryNode('p').parentId).scrollTop,0,'Different branches do not inherit another column position');
+console.log('PASS: selected path, vertical column offsets and horizontal scroll survive navigation rerenders.');
+
 // Habitat and shape are independent discovery filters; they do not add duplicate taxonomy rows.
 for (const id of ['catalogMossFilters','catalogMossHabitat','catalogMossForm']) elements.set('#'+id,{value:'all',hidden:false});
 const mossModel=ctx.VivaCatalog.createModel([], [

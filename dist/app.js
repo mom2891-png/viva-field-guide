@@ -1,5 +1,5 @@
 'use strict';
-const CATALOG_VERSION = '2026-11-05-care-followup1';
+const CATALOG_VERSION = '2026-11-05-progressive-images';
 const $ = (selector) => document.querySelector(selector);
 const envNames = {습:'습식',혼:'건습 혼합',건:'건조',수:'반수생·수생',냉:'냉량 관리',대:'대형 사육장',환:'충분한 환기',굴:'깊은 바닥재',해:'담수·해수'};
 const descriptions = {
@@ -14,6 +14,7 @@ let careSheets={sources:{},profiles:{},entries:{}};
 function careSection(row){return typeof VivaCareSheets==='undefined'?'':VivaCareSheets.render(careSheets,row,currentCatalogSelection||'');}
 function carePositionOf(row){return row.id?.startsWith('plant-')&&typeof VivaCareSheets!=='undefined'?VivaCareSheets.placementText(careSheets,row.id):'';}
 function carePositionIndex(){return Object.fromEntries(plants.map(row=>[row.id,carePositionOf(row)]));}
+let lastGridHTML = null;
 let favorites = new Set();
 let purchaseAccessUnlocked=false,purchaseUnlockCount=0;
 try { favorites = new Set(JSON.parse(localStorage.getItem('viva-favorites-v1') || '[]')); } catch {}
@@ -47,13 +48,23 @@ function selectedPhoto(row){
   return form?{...row,name:row.name+' · '+form.name,image:form.image||null,credit:form.image?form.credit:null,imageFile:form.imageFile||null,imageRegion:form.imageRegion||null,photoContext:form.photoContext||null}:row;
 }
 function photoContext(row){return row.image&&row.photoContext?`<p class="photo-context" role="note">${escapeHTML(row.photoContext)}</p>`:'';}
+function previewImageUrl(row){
+  const original=safeImageUrl(row.image);
+  if(!original||/\bND\b/.test(row.credit?.license||'')||row.imageRegion)return original;
+  const local=typeof VivaImagePreviews==='undefined'?null:VivaImagePreviews[original];
+  if(local)return safeImageUrl(local);
+  if(/^https:\/\/(?:inaturalist-open-data\.s3\.amazonaws\.com|static\.inaturalist\.org)\/photos\//.test(original))return original.replace(/\/(?:large|original)\./,'/medium.');
+  if(/^https:\/\/(?:upload|thumb)\.wikimedia\.org\/.*\/thumb\//.test(original))return original.replace(/\/(\d+)px-([^/]+)$/,(_,width,file)=>`/${Math.min(Number(width),640)}px-${file}`);
+  return original;
+}
 function photo(row, className='') {
   const r=row.imageRegion;
   if(row.image&&r&&['x','y','width','height','sourceWidth','sourceHeight'].every(k=>Number.isFinite(r[k]))&&r.x>=0&&r.y>=0&&r.width>0&&r.height>0&&r.sourceWidth>=r.x+r.width&&r.sourceHeight>=r.y+r.height){
-    return `<span class="photo-region ${escapeHTML(className)}" style="aspect-ratio:${r.width}/${r.height}"><img src="${escapeHTML(safeUrl(row.image))}" alt="${escapeHTML(row.name)}" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="width:${r.sourceWidth/r.width*100}%;height:${r.sourceHeight/r.height*100}%;left:-${r.x/r.width*100}%;top:-${r.y/r.height*100}%"></span>`;
+    return `<span class="photo-region ${escapeHTML(className)}" style="aspect-ratio:${r.width}/${r.height}"><img data-photo-src="${escapeHTML(safeUrl(row.image))}" alt="${escapeHTML(row.name)}" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="width:${r.sourceWidth/r.width*100}%;height:${r.sourceHeight/r.height*100}%;left:-${r.x/r.width*100}%;top:-${r.y/r.height*100}%"></span>`;
   }
 
-  return safeImageUrl(row.image)?`<img class="${className}" src="${escapeHTML(safeImageUrl(row.image))}" alt="${escapeHTML(row.name)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:placeholder(row);
+  const imageUrl=className==='detail-image'?safeImageUrl(row.image):previewImageUrl(row);
+  return imageUrl?`<img class="${className}" data-photo-src="${escapeHTML(imageUrl)}"${imageUrl!==safeImageUrl(row.image)?` data-photo-fallback="${escapeHTML(safeImageUrl(row.image))}"`:''} alt="${escapeHTML(row.name)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:placeholder(row);
 }
 function formatMeasure(value){return new Intl.NumberFormat('ko-KR',{maximumFractionDigits:2}).format(value);}
 function sizeText(row){
@@ -260,8 +271,11 @@ function render(){
   $('#sort').innerHTML='<option value="popular">인기순</option><option value="name">이름순</option><option value="recent">최근 추가순</option><option value="saved">관심 생물 먼저</option>';$('#sort').value=state.sort;
   $('#categories').innerHTML=categories.map(([id,name])=>`<button class="category-tab ${state.category===id?'active':''}" data-category="${id}" aria-pressed="${state.category===id}">${name}<span>${id==='all'?species.length:species.filter(r=>categoryOf(r)===id).length}</span></button>`).join('');
   $('#environments').innerHTML=environments.map(([id,name])=>`<button class="env-chip ${state.environment===id?'active':''}" data-environment="${id}" aria-pressed="${state.environment===id}">${name}</button>`).join('');
-  $('#grid').innerHTML=isPlant?renderPlantGroups(plantList):inAnimalGenus?renderAnimalCards(list):renderAnimalGroups(list);
+  const gridHTML=isPlant?renderPlantGroups(plantList):inAnimalGenus?renderAnimalCards(list):renderAnimalGroups(list);
+  if(lastGridHTML!==gridHTML){
+    lastGridHTML=gridHTML;$('#grid').innerHTML=gridHTML;
   $('#grid').querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{const button=img.closest('button');const row=button.dataset.genus?plantList.find(g=>g.key===button.dataset.genus)?.rows.find(r=>r.image):button.dataset.animalGenus?animalList.find(g=>g.key===button.dataset.animalGenus)?.rows.find(r=>r.image):species.find(r=>r.id===button.dataset.detail);if(row)img.replaceWith(document.createRange().createContextualFragment(placeholder(row)));},{once:true}));
+  }
   $('#resultCount').textContent=`${state.savedOnly?'관심 목록 · ':''}${isPlant?`${plantList.length}개 속 · ${list.length}개 식물 항목`:`${inAnimalGenus?'':`${animalList.length}개 묶음 · `}${list.length}개 동물 항목`}`;
   $('#empty').hidden=list.length!==0;
   $('#empty h3').textContent=state.savedOnly&&!favorites.size?'마음에 드는 생물을 담아보세요':'조건에 맞는 생물이 없어요';
@@ -406,6 +420,6 @@ if(typeof window.addEventListener==='function'){window.addEventListener('popstat
 Promise.all(['species.json','plants.json','morphs.json','care-sheets.json'].map(path=>fetch(`${path}?v=${CATALOG_VERSION}`).then(response=>{if(!response.ok)throw new Error(path);return response.json();}).catch(error=>{if(path==='care-sheets.json')return {loadState:'error',sources:{},profiles:{},entries:{}};throw error;}))).then(([a,p,m,c])=>{
   animals=a;plants=p;morphs=m;careSheets=c;species=state.page==='plants'?plants:animals;catalogModel=VivaCatalog.createModel(animals,plants,morphs,genusNames,carePositionIndex());catalogPanel?.setModel(catalogModel);catalogPanel?.open(state.page==='plants'?'plants':'animals');shopDirectory?.setCatalog([...animals,...plants]);$('#animalTotal').textContent=animals.length;document.querySelectorAll('[data-plant-total]').forEach(e=>e.textContent=plants.length);$('#footerTotal').textContent=`동물 ${animals.length} · 식물·이끼 ${plants.length} 항목`;
   restoringCatalogRoute=true;if(state.page!=='shops')render();restoringCatalogRoute=false;restoreCatalogRoute();
-  const hero=animals.find(r=>r.n===1);if(hero?.image)$('#heroPhoto').style.backgroundImage=`url("${safeUrl(hero.image)}")`;
+  // The legacy hero is hidden; do not request its full-resolution background photo.
 }).catch(()=>{$('#resultCount').textContent='도감을 불러오지 못했어요. 새로고침해 주세요.';});
 

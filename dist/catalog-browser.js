@@ -5,7 +5,11 @@ var VivaCatalogBrowser = (function () {
   function button(action, id, label, attrs) { return '<button type="button" data-nav-' + action + '="' + escape(id) + '"' + (attrs || '') + '>' + escape(label) + '</button>'; }
   function mount(root, callbacks) {
     callbacks = callbacks || {};
-    var model = null, selected = null, rootId = 'animals', remembered = {}, opener = null, columnScroll = {}, lastColumnsHTML = null;
+    var model = null, selected = null, rootId = 'animals', remembered = {}, opener = null, columnScroll = {}, lastColumnsHTML = null, lastResultsHTML = null, searchTimer = null;
+    function cancelSearch(){if(searchTimer!==null){clearTimeout(searchTimer);searchTimer=null;}}
+    function runSearch(){searchTimer=null;if(!callbacks.managedSearch)render();if(callbacks.onSearch)callbacks.onSearch(search.value);}
+    function scheduleSearch(){cancelSearch();if(callbacks.searchDelay&&typeof setTimeout==='function')searchTimer=setTimeout(runSearch,callbacks.searchDelay);else runSearch();}
+    function flushSearch(){if(searchTimer!==null){cancelSearch();runSearch();}}
     var title = root.querySelector('#catalogMenuTitle'), search = root.querySelector('#catalogNavSearch'), scope = root.querySelector('#catalogSearchScope'), trail = root.querySelector('#catalogTrail'), columns = root.querySelector('#catalogColumns'), results = root.querySelector('#catalogSearchResults'), status = root.querySelector('#catalogMenuStatus');
     var mossFilters = root.querySelector('#catalogMossFilters'), habitat = root.querySelector('#catalogMossHabitat'), form = root.querySelector('#catalogMossForm');
     function matching(id) { return model.descendantEntryIds(id).filter(function(entryId){ return rootId !== 'plants' || model.matchesMoss(entryId, habitat && habitat.value, form && form.value); }); }
@@ -57,33 +61,35 @@ var VivaCatalogBrowser = (function () {
         var found = model.search(query, scope.checked ? current.id : undefined).filter(function(n){return rootId !== 'plants' || model.matchesMoss(n.entryId, habitat && habitat.value, form && form.value);});
         if(callbacks.resultFilter)found=found.filter(callbacks.resultFilter);
         if(callbacks.sortResults)found=callbacks.sortResults(found);
-        results.innerHTML = found.map(function(n){
+        var resultsHTML = found.map(function(n){
           var context = model.path(n.id).slice(0,-1).map(function(p){return p.label;}).join(' › ');
           var type = {entry:'도감 항목',morph:'모프·패턴',variety:'품종'}[n.kind] || n.kind;
           if(callbacks.resultPhoto)return '<article class="catalog-search-result photo-result"><button type="button" data-nav-open="'+escape(n.id)+'">'+callbacks.resultPhoto(n)+'<strong>'+escape(n.label)+'</strong><small>'+escape(context)+'</small><span>'+escape(type)+'</span></button></article>';
           return '<div class="catalog-search-result"><small>' + escape(context) + '</small>' + button('open',n.id,n.label) + '<span>' + escape(type) + '</span></div>';
         }).join('') || '<p>검색 결과가 없습니다.</p>' + button('reset','','검색 초기화');
+        if(lastResultsHTML!==resultsHTML){lastResultsHTML=resultsHTML;results.innerHTML=resultsHTML;}
         status.textContent = found.length + '개 검색 결과';
-      } else { results.innerHTML = ''; status.textContent = matching(current.id).length + '개 도감 항목'; }
+      } else { if(lastResultsHTML!==''){lastResultsHTML='';results.innerHTML='';} status.textContent = matching(current.id).length + '개 도감 항목'; }
     }
     root.addEventListener('click', function(event) {
       var target = event.target && typeof event.target.closest === 'function' ? event.target.closest('button') : null;
       if (!target || !root.contains(target)) return;
       var data = target.dataset || {};
+      flushSearch();
       if (target.id === 'catalogMenuClose') { close(); return; }
-      if (Object.prototype.hasOwnProperty.call(data,'navReset')) { search.value = ''; render(); return; }
+      if (Object.prototype.hasOwnProperty.call(data,'navReset')) { search.value = ''; runSearch(); return; }
       if (!model) return;
       if(data.navToggle){var toggled=node(data.navToggle);if(toggled)select(model.path(selected).some(function(n){return n.id===toggled.id;})?toggled.parentId:toggled.id);return;}
       if (data.navNode) { select(data.navNode); if(callbacks.inline) { var chosen=node(data.navNode); if(chosen && ['entry','morph','variety'].indexOf(chosen.kind)>=0) { if(callbacks.onOpen) callbacks.onOpen(chosen); } else if(callbacks.onNavigate) callbacks.onNavigate(data.navNode); } }
       if (data.navBrowse && node(data.navBrowse)) { close(); if (callbacks.onBrowse) callbacks.onBrowse(data.navBrowse); }
       if (data.navOpen && node(data.navOpen)) { var n = node(data.navOpen); if(callbacks.inline) select(n.id); close(); if (callbacks.onOpen) callbacks.onOpen(n); }
     });
-    root.addEventListener('input', function(event) { if(event.target === search) {render();if(callbacks.onSearch)callbacks.onSearch(search.value);} });
-    root.addEventListener('change', function(event) { if(event.target === scope) render(); if(event.target === habitat || event.target === form) { if (!matching(selected || rootId).length) selected = rootId; remembered[rootId] = selected; render();if(callbacks.onFilter)callbacks.onFilter(); } });
+    root.addEventListener('input', function(event) { if(event.target === search) scheduleSearch(); });
+    root.addEventListener('change', function(event) { flushSearch();if(event.target === scope) render(); if(event.target === habitat || event.target === form) { if (!matching(selected || rootId).length) selected = rootId; remembered[rootId] = selected; render();if(callbacks.onFilter)callbacks.onFilter(); } });
     root.addEventListener('keydown', function(event) { if(event.key === 'Escape' && !root.hidden) { event.preventDefault(); close(); } });
     return {
       setModel:function(value) { model = value; if (selected && !node(selected)) selected = null; render(); },
-      open:function(id) { if(root.hidden) opener = root.ownerDocument && root.ownerDocument.activeElement; rootId = id || rootId; selected = remembered[rootId] || rootId; search.value = ''; scope.checked = false; root.hidden = false; render(); if(typeof search.focus === 'function') search.focus(); },
+      open:function(id) { cancelSearch();if(root.hidden) opener = root.ownerDocument && root.ownerDocument.activeElement; rootId = id || rootId; selected = remembered[rootId] || rootId; search.value = ''; scope.checked = false; root.hidden = false; render(); if(typeof search.focus === 'function') search.focus(); },
       close:close, setSelected:select, setSearch:function(value){if(search.value!==value){search.value=value;render();}}, isOpen:function(){return !root.hidden;}
     };
   }

@@ -1,5 +1,5 @@
 'use strict';
-const CATALOG_VERSION = '2026-11-05-atlas';
+const CATALOG_VERSION = '2026-11-05-photo-recovery';
 const $ = (selector) => document.querySelector(selector);
 const envNames = {습:'습식',혼:'건습 혼합',건:'건조',수:'반수생·수생',냉:'냉량 관리',대:'대형 사육장',환:'충분한 환기',굴:'깊은 바닥재',해:'담수·해수'};
 const descriptions = {
@@ -435,7 +435,7 @@ $('#detailDialog').addEventListener('click',event=>{if(event.target===$('#detail
 $('#aboutButton').addEventListener('click',()=>{prepareModalDetail();$('#detailContent').innerHTML=`<div class="about"><div class="eyebrow">ABOUT THE FIELD GUIDE</div><h2>나만의 작은 세계를 위한 도감</h2><p>동물 ${animals.length}개와 식물·이끼 ${plants.length}개 항목을 분류·환경별로 탐색할 수 있어요. 동물 ${Object.keys(morphs).length}개 항목의 모프·패턴·지역형 ${Object.values(morphs).flat().length}개는 해당 종 아래에 연결했으며 별도 종으로 세지 않았어요.</p><p>인기순은 국내 판매처의 취급 범위를 참고한 추정 순서이며 실제 판매량 순위는 아니에요. 확인된 인기 자료가 있는 항목을 먼저 정렬하고, 미집계 항목은 그 뒤에서 이름순으로 보여줘요. 미집계는 희귀하거나 인기가 없다는 뜻이 아니에요. 새 확장 후보의 국내 유통과 종별 조건은 계속 확인하고 있어요.</p><p>습식·건조·반수생 등 환경을 구별해 골라 주세요. 열대 습식뿐 아니라 건조형·냉량형·수역 전용 후보도 포함하므로 환경과 성체 크기를 먼저 확인해 주세요. 같은 환경 표시는 합사 가능을 뜻하지 않아요. 학명·유통명과 사진의 개체가 다를 수 있으며 사진 저작자와 라이선스는 각 항목의 ‘사진 정보’에서 확인할 수 있어요.</p><p>관심 목록은 현재 브라우저에 저장되며, 동물과 식물 도감 각각에서 볼 수 있어요. 식물은 속 카드에서 종 목록을 열고, 종 상세에서 품종·유통명을 살펴볼 수 있어요. 환경 필터와 검색은 해당 조건에 맞는 종만 속 안에 보여줘요.</p></div>`;if(!$('#detailDialog').open)$('#detailDialog').showModal();$('#detailDialog').scrollTop=0;document.body.style.overflow='hidden';});
 document.addEventListener('keydown',event=>{handlePurchaseShortcut(event);if(event.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#detailDialog').open){event.preventDefault();if(state.page==='shops')$('#shopSearch').focus();else {setPage('animals');$('#catalogNavSearch').focus();}}});
 const shopDirectory=VivaShops.mount($('#shopsPage'),{version:CATALOG_VERSION,onRelated:openShopRelated,onMenu:openShopMenu});
-if($('#catalogMenu').querySelector('#catalogNavSearch'))catalogPanel=VivaCatalogBrowser.mount($('#catalogMenu'),{inline:true,tree:true,onNavigate:id=>browseCatalogNode(id,{scroll:false}),onBrowse:id=>browseCatalogNode(id,{scroll:false}),onOpen:openCatalogNode,onClose:closeCatalogDrawer,
+if($('#catalogMenu').querySelector('#catalogNavSearch'))catalogPanel=VivaCatalogBrowser.mount($('#catalogMenu'),{inline:true,tree:true,managedSearch:true,searchDelay:120,onNavigate:id=>browseCatalogNode(id,{scroll:false}),onBrowse:id=>browseCatalogNode(id,{scroll:false}),onOpen:openCatalogNode,onClose:closeCatalogDrawer,
   resultFilter:node=>{const row=catalogEntry(node.entryId);return Boolean(row&&matchesEntryFilters(row));},
   sortResults:found=>found.sort((a,b)=>compareEntries(catalogEntry(a.entryId),catalogEntry(b.entryId))),
   resultPhoto:node=>{const row=catalogEntry(node.entryId);if(!row)return '';const form=node.kind==='morph'?morphs[row.id]?.[node.morphIndex]:node.kind==='variety'?row.varietyPhotos?.[node.label]:row;return photo(form||{name:node.label});},

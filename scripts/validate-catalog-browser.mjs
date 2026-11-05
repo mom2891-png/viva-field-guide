@@ -121,5 +121,20 @@ assert(!elements.get('#catalogColumns').innerHTML.includes('Rare morph'),'Collap
 elements.get('#catalogNavSearch').value='Plant';listeners.input({target:elements.get('#catalogNavSearch')});
 assert.equal(atlasSearch[0],'Plant');
 assert(elements.get('#catalogSearchResults').innerHTML.includes('test-preview'),'Atlas search results include the matching photo slot');
+const loadedResults=elements.get('#catalogSearchResults').innerHTML+'<!-- loaded image state -->';
+elements.get('#catalogSearchResults').innerHTML=loadedResults;atlas.setSelected('entry:a');
+assert.equal(elements.get('#catalogSearchResults').innerHTML,loadedResults,'Selecting a result reuses its existing photo DOM');
 atlas.setSearch('Rare morph');assert.equal(elements.get('#catalogNavSearch').value,'Rare morph');
 console.log('PASS: single-rail tree, branch collapse, photo search and synchronized query.');
+
+const searchTasks=new Map();let taskId=0;
+ctx.setTimeout=fn=>{searchTasks.set(++taskId,fn);return taskId;};ctx.clearTimeout=id=>searchTasks.delete(id);
+const queries=[];
+const delayed=ctx.VivaCatalogBrowser.mount(embeddedRoot,{inline:true,tree:true,managedSearch:true,searchDelay:120,onSearch:q=>queries.push(q)});
+delayed.setModel(model);delayed.open('animals');
+for(const q of ['P','Pl','Plant']){elements.get('#catalogNavSearch').value=q;listeners.input({target:elements.get('#catalogNavSearch')});}
+assert.equal(queries.length,0);assert.equal(searchTasks.size,1,'Rapid typing keeps only the last scheduled render');
+const nextTask=searchTasks.values().next().value;searchTasks.clear();nextTask();
+assert.deepEqual(queries,['Plant']);
+click('navReset','');assert.deepEqual(queries,['Plant',''],'Search reset updates both the panel and application state');
+console.log('PASS: repeated search selections reuse photo nodes and rapid input triggers one search update.');
